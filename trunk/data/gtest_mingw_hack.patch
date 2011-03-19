@@ -1,0 +1,6 @@
+59c59,61
+< find_package(Threads)
+---
+> #find_package(Threads)
+> set(CMAKE_USE_PTHREADS_INIT false)
+> set(CMAKE_THREAD_LIBS_INIT false)
