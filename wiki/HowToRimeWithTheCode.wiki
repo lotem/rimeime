@@ -1,9 +1,9 @@
-﻿#summary La Rime Howto for Developers
+﻿#summary La Rime HowTo for Developers
 #labels Phase-Implementation
 
-= HOWTO RIME THE CODE =
+= HOWTO RIME WITH THE CODE =
 
-== Howto Rime the Code under Windows ==
+== How to Rime with the Code under Windows ==
 
 === 怎样以 MinGW 编译 Google Test ===
 
