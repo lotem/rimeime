@@ -1,9 +1,64 @@
 #summary Howto rime it
-#labels Phase-Deploy
+#labels Phase-Implementation
 
 = HOWTO RIME IT =
 
 == Windows 开发入门 ==
+
+=== 怎样以 MinGW 编译 Google Test ===
+
+  * 安装 MinGW
+    设安装到 `C:\MinGW`
+
+  * 安装 CMake
+    * 下载一份 `cmake-2.8.4-win32-x86.zip`
+    * 解压缩到 `%ProgramFiles%\gnuwin32`
+
+  * 下载源码 `gtest-1.5.0.tar.bz2` ，解压缩到某工作目录，如 `D:\code`
+
+  * 为了敲命令方便，我造了一个小小的批处理 `shell.bat` ，内容类似于这个样子：
+    {{{
+    set PATH=C:\MinGW\bin;%ProgramFiles%\gnuwin32\bin;C:\Python27;%PATH%
+    cd /d D:\code
+    cmd
+    }}}
+
+  * 为下文引述方便，定义：
+    {{{
+    set GTEST_ROOT=D:\code\gtest-1.5.0
+    }}}
+
+  * 读一读 `%GTEST_ROOT%\README` ，发现 MinGW 并不在支持的编译环境之列；Google 到墙外，终得一法（感谢！）：
+    * 对准 `%GTEST_ROOT%\CMakefileList.txt` 打这个 [http://rimeime.googlecode.com/svn/trunk/data/gtest_mingw_hack.patch patch] ：
+      {{{
+      59c59,61
+      < find_package(Threads)
+      ---
+      > #find_package(Threads)
+      > set(CMAKE_USE_PTHREADS_INIT false)
+      > set(CMAKE_THREAD_LIBS_INIT false)
+      }}}
+
+  * 运用刚才写的 `shell.bat`
+      {{{
+      cd /d "%GTEST_ROOT%"
+      mkdir mybuild
+      cd mybuild
+      cmake -G "MinGW Makefiles" ..
+      }}}
+    * 若一切正常，已产生了 `Makefile` ；继续编译
+      {{{
+      make
+      }}}
+
+  * 忽略许多警告，得到.a及.exe文件
+    * 运行 `gtest_unittest.exe` 测试编译成果
+
+  * 将 gtest 配置到 rime 开发环境
+    * 设 `RIME_ROOT` 为 rimeime 的顶层代码目录：
+    * 将 `libgtest.a` 复制到 `%RIME_ROOT%\thirdparty\lib` 内备用
+    * 将 `%GTEST_ROOT%\include\gtest` 目录复制为 `%RIME_ROOT%\thirdparty\include\gtest` 备用
+    * 完成
 
 === 怎样以 MinGW 编译 D-Bus ===
 
@@ -20,28 +75,28 @@
 
   * 下载源码 `dbus-1.4.1.tar.gz` ，解压缩到某工作目录，如 `D:\code`
 
-  * 为了方便使用，我造了一个小小的批处理 `shell.bat` ，内容类似于这个样子：
+  * 为了敲命令方便，我造了一个小小的批处理 `shell.bat` ，内容类似于这个样子：
     {{{
     set PATH=C:\MinGW\bin;%ProgramFiles%\gnuwin32\bin;C:\Python27;%PATH%
     cd /d D:\code
     cmd
     }}}
 
-  * 读一读 `%DBUS_SRC%\cmake\readme-cmake.txt` ，你就会了。接下来我再重复一遍：
+  * 为下文引述方便，定义：
+    {{{
+    set DBUS_ROOT=D:\code\dbus-1.4.1
+    }}}
+
+  * 读一读 `%DBUS_ROOT%\cmake\readme-cmake.txt` ，你就会了。接下来我再重复一遍：
 
   * 运用刚才写的 `shell.bat`
-    * 为下文引述方便：
-      {{{
-      set DBUS_ROOT=D:\code\dbus-1.4.1
-      }}}
-    * 于是：
       {{{
       cd /d "%DBUS_ROOT%"
       mkdir mybuild
       cd mybuild
       cmake -G "MinGW Makefiles" ..\cmake
       }}}
-    * 若一切正常，已产生了 `Makefile` ；编译、安装到默认的位置 `%ProgramFiles%\dbus`
+    * 若一切正常，已产生了 `Makefile` ；继续编译、安装到默认的位置 `%ProgramFiles%\dbus`
       {{{
       make
       make install
@@ -50,4 +105,5 @@
       {{{
       cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX="%ProgramFiles%\gnuwin32" ..\cmake
       }}}
+
   * 完成
