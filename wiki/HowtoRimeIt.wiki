@@ -1,0 +1,53 @@
+#summary Howto rime it
+#labels Phase-Deploy
+
+= HOWTO RIME IT =
+
+== Windows 开发入门 ==
+
+=== 怎样以 MinGW 编译 D-Bus ===
+
+  * 安装 MinGW
+    设安装到 `C:\MinGW`
+
+  * 安装 CMake
+    * 下载一份 `cmake-2.8.4-win32-x86.zip`
+    * 解压缩到 `%ProgramFiles%\gnuwin32`
+
+  * 安装一份 libxml2
+    * 这里我用预编译好的二进制 `libxml2-2.7.7.win32.zip`
+    * 解压缩到 `%ProgramFiles%\gnuwin32` (GNU的工具都放一处好统一设置PATH)
+
+  * 下载源码 `dbus-1.4.1.tar.gz` ，解压缩到某工作目录，如 `D:\code`
+
+  * 为了方便使用，我造了一个小小的批处理 `shell.bat` ，内容类似于这个样子：
+    {{{
+    set PATH=C:\MinGW\bin;%ProgramFiles%\gnuwin32\bin;C:\Python27;%PATH%
+    cd /d D:\code
+    cmd
+    }}}
+
+  * 读一读 `%DBUS_SRC%\cmake\readme-cmake.txt` ，你就会了。接下来我再重复一遍：
+
+  * 运用刚才写的 `shell.bat`
+    * 为下文引述方便：
+      {{{
+      set DBUS_ROOT=D:\code\dbus-1.4.1
+      }}}
+    * 于是：
+      {{{
+      cd /d "%DBUS_ROOT%"
+      mkdir mybuild
+      cd mybuild
+      cmake -G "MinGW Makefiles" ..\cmake
+      }}}
+    * 若一切正常，已产生了 `Makefile` ；编译、安装到默认的位置 `%ProgramFiles%\dbus`
+      {{{
+      make
+      make install
+      }}}
+    * 若要指定安装位置：如安装到 `%ProgramFiles%\gnuwin32` ，须在以上步骤中为 `cmake` 多传入一个参数：
+      {{{
+      cmake -G "MinGW Makefiles" -DCMAKE_INSTALL_PREFIX="%ProgramFiles%\gnuwin32" ..\cmake
+      }}}
+  * 完成
