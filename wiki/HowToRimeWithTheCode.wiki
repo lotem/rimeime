@@ -5,6 +5,31 @@
 
 == How to Rime with the Code under Windows ==
 
+=== 怎样以 MinGW 编译 librime ===
+
+  * 安装 MinGW
+    * 设安装到 `C:\MinGW`
+	* 注意，要安裝上 mingw32-make 這個軟件包
+	* 若 bin 目錄無有 make.exe，將 mingw32-make.exe 另存一份命名為 make.exe
+
+  * 安装 CMake
+    * 下载一份 `cmake-2.8.4-win32-x86.zip`
+    * 解压缩到 `%ProgramFiles%\gnuwin32`
+
+  * 下載一份Boost庫，解壓縮到一處備用，譬如 `D:\code\boost_1_43_0`
+  
+  * 請按下文另一篇指南下載編譯 Google Test 備用
+
+  * 安裝SVN客戶端，按此[http://code.google.com/p/rimeime/source/checkout 說明]取得源碼至一處工作目錄
+    * 簽出的源碼路徑好比是 `D:\code\rimeime`；下文均以 `%RIME_ROOT%` 表示此位置
+
+  * 造一個小小的批處理 `build.bat`
+    * 請用文本編輯工程中的模板 `%RIME_ROOT%\data\build.bat.template`，修改TODO內容後另存為 `%RIME_ROOT%\build.bat`
+
+  * 執行 `build.bat` ，由 CMake 生成 `Makefile` 、編譯、測試
+    * 得到靜態庫 `lib\librime.a` 及測試程序 `src\rime_test.exe`
+    * 完成
+  
 === 怎样以 MinGW 编译 Google Test ===
 
   * 安装 MinGW
@@ -56,7 +81,7 @@
 
   * 将 gtest 配置到 rime 开发环境
     * 设 `RIME_ROOT` 为 rimeime 的顶层代码目录：
-    * 将 `libgtest.a` 复制到 `%RIME_ROOT%\thirdparty\lib` 内备用
+    * 将 `libgtest.a` 和 `libgtest_main.a` 复制到 `%RIME_ROOT%\thirdparty\lib` 内备用
     * 将 `%GTEST_ROOT%\include\gtest` 目录复制为 `%RIME_ROOT%\thirdparty\include\gtest` 备用
     * 完成
 
