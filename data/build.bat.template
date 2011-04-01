@@ -1,0 +1,34 @@
+@echo off
+
+rem TODO: set path to build tools
+set PATH=C:\MinGW\bin;C:\cmake\bin;C:\svn-win32\bin;C:\Python27;%PATH%
+
+rem TODO: set path to libraries
+set BOOST_ROOT=D:\code\boost_1_43_0
+
+set CMAKE_INCLUDE_PATH=..\thirdparty\include
+set CMAKE_LIBRARY_PATH=..\thirdparty\lib
+
+rem TODO: set cmake generator
+set CMAKE_GENERATOR="MinGW Makefiles"
+
+if exist build goto BUILD
+mkdir build
+
+:BUILD
+cd build
+cmake -G %CMAKE_GENERATOR% ..\librime
+if %ERRORLEVEL% NEQ 0 goto ERROR
+make
+if %ERRORLEVEL% NEQ 0 goto ERROR
+make test
+if %ERRORLEVEL% NEQ 0 goto ERROR
+
+goto EXIT
+
+:ERROR
+echo "ERROR."
+
+:EXIT
+cd ..
+pause
