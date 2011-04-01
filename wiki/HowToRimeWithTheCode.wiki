@@ -9,8 +9,8 @@
 
   * 安装 MinGW
     * 设安装到 `C:\MinGW`
-	* 注意，要安裝上 mingw32-make 這個軟件包
-	* 若 bin 目錄無有 make.exe，將 mingw32-make.exe 另存一份命名為 make.exe
+    * 注意，要安裝上 mingw32-make 這個軟件包
+    * 若 bin 目錄無有 make.exe，將 mingw32-make.exe 另存一份命名為 make.exe
 
   * 安装 CMake
     * 下载一份 `cmake-2.8.4-win32-x86.zip`
