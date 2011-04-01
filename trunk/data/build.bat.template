@@ -1,11 +1,14 @@
 @echo off
+rem 2011-04-01 <chen.sst@gmail.com>
+rem see HowToRimeWithTheCode wiki for explanations.
 
 rem TODO: set path to build tools
-set PATH=C:\MinGW\bin;C:\cmake\bin;C:\svn-win32\bin;C:\Python27;%PATH%
+set PATH=C:\MinGW\bin;%ProgramFiles%\gnuwin32\bin;C:\Python27;%PATH%
 
-rem TODO: set path to libraries
+rem TODO: set path to boost libraries
 set BOOST_ROOT=D:\code\boost_1_43_0
 
+rem place the headers and the output of your gtest compilation here.
 set CMAKE_INCLUDE_PATH=..\thirdparty\include
 set CMAKE_LIBRARY_PATH=..\thirdparty\lib
 
