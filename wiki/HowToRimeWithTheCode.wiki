@@ -38,7 +38,7 @@
 
   * 下載一份Boost庫，解壓縮到一處備用，譬如 `D:\code\boost_1_43_0`
   
-  * 請按下文另一篇指南下載編譯 Google Test 備用
+  * 請按下文另一篇指南下載編譯 Google Test 備用，【注意】要做「将 gtest 配置到 rime 开发环境」這個步驟
 
   * 安裝SVN客戶端，按此[http://code.google.com/p/rimeime/source/checkout 說明]取得源碼至一處工作目錄
     * 簽出的源碼路徑好比是 `D:\code\rimeime`；下文均以 `%RIME_ROOT%` 表示此位置
