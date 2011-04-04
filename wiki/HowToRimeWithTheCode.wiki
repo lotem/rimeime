@@ -5,6 +5,26 @@
 
 == How to Rime with the Code under Windows ==
 
+自己動手來編譯。
+請參考以下資源：
+
+【程序庫】
+
+  * http://www.boost.org/
+
+  * http://code.google.com/p/googletest/
+
+【工具】
+
+  * Subversion客戶端
+    * [http://tortoisesvn.net/downloads.html TortoiseSVN]
+    * [http://sourceforge.net/projects/win32svn/ 或者用命令行工具]
+
+  * http://www.mingw.org/
+
+  * http://www.cmake.org/
+    * [http://sewm.pku.edu.cn/src/paradise/reference/CMake%20Practice.pdf 好教材《CMake實踐》]
+
 === 怎样以 MinGW 编译 librime ===
 
   * 安装 MinGW
@@ -86,6 +106,8 @@
     * 完成
 
 === 怎样以 MinGW 编译 D-Bus ===
+
+這篇指南為【小狼毫】構建所需的編譯依賴。
 
   * 安装 MinGW
     设安装到 `C:\MinGW`
