@@ -16,7 +16,8 @@ set CMAKE_INCLUDE_PATH=%RIME_ROOT%\thirdparty\include
 set CMAKE_LIBRARY_PATH=%RIME_ROOT%\thirdparty\lib
 
 rem TODO: set cmake generator
-set CMAKE_GENERATOR="MinGW Makefiles"
+rem set CMAKE_GENERATOR="MinGW Makefiles"
+set CMAKE_GENERATOR="Eclipse CDT4 - MinGW Makefiles"
 
 set BUILD_DIR=%RIME_ROOT%\build
 if exist %BUILD_DIR% goto BUILD
