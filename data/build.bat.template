@@ -25,7 +25,7 @@ mkdir %BUILD_DIR%
 
 :BUILD
 cd %BUILD_DIR%
-cmake -G %CMAKE_GENERATOR% %RIME_ROOT%\librime
+cmake -G %CMAKE_GENERATOR% %RIME_ROOT%
 if %ERRORLEVEL% NEQ 0 goto ERROR
 make
 if %ERRORLEVEL% NEQ 0 goto ERROR
