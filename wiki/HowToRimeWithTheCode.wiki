@@ -25,7 +25,7 @@
   * http://www.cmake.org/
     * [http://sewm.pku.edu.cn/src/paradise/reference/CMake%20Practice.pdf 好教材《CMake實踐》]
 
-=== 怎样以 MinGW 编译 librime ===
+=== 如何以 MinGW 編譯 la rime ===
 
   * 安装 MinGW
     * 设安装到 `C:\MinGW`
@@ -44,10 +44,10 @@
     * 簽出的源碼路徑好比是 `D:\code\rimeime`；下文均以 `%RIME_ROOT%` 表示此位置
 
   * 造一個小小的批處理 `build.bat`
-    * 請用文本編輯工程中的模板 `%RIME_ROOT%\data\build.bat.template`，修改TODO內容後另存為 `%RIME_ROOT%\build.bat`
+    * 請以文本編輯工程中的模板 `%RIME_ROOT%\build.bat`，修改TODO內容
 
   * 執行 `build.bat` ，由 CMake 生成 `Makefile` 、編譯、測試
-    * 得到靜態庫 `lib\librime.a` 及測試程序 `src\rime_test.exe`
+    * 於 `%RIME_ROOT%\build` 中得到靜態庫 `lib\librime.a` 及測試程序 `bin\rime_test.exe`
     * 完成
   
 === 怎样以 MinGW 编译 Google Test ===
