@@ -5,14 +5,16 @@ rem
 rem 2011-04-04 <chen.sst@gmail.com>
 rem 2011-04-07 <chen.sst@gmail.com>  this should work
 
-set RIME_ROOT=%CD%
-echo RIME_ROOT=%RIME_ROOT%
+if defined RIME_ROOT goto CHECK
+echo TODO: set appropriate path to mingw and cmake
+set PATH=C:\Python27;C:\MinGW\bin;%ProgramFiles%\gnuwin32\bin;%PATH%
+echo PATH=%PATH%
 
 echo.
 
-echo TODO: set appropriate path to mingw and cmake
-set PATH=C:\Python27;C:\MinGW\bin;%ProgramFiles%\gnuwin32\bin
-echo PATH=%PATH%
+:CHECK
+set RIME_ROOT=%CD%
+echo RIME_ROOT=%RIME_ROOT%
 
 echo.
 
