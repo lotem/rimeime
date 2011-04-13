@@ -28,6 +28,8 @@ if(YamlCpp_FOUND)
 endif(YamlCpp_FOUND)
 
 include_directories(${PROJECT_SOURCE_DIR}/librime/include) 
+include_directories(${PROJECT_SOURCE_DIR}/thirdparty/include) 
+link_directories(${PROJECT_SOURCE_DIR}/thirdparty/lib) 
 
 enable_testing()
 
