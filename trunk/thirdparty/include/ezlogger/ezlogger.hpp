@@ -60,6 +60,7 @@ inserted into the logging.
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <stdarg.h>
 #include <stdio.h>
 
 #include "ezlogger_misc.hpp"
@@ -288,13 +289,13 @@ namespace axter
 /*! @page  Revision_History Revision History
 @section RevisionHistorySection History
 \verbatim
-$Date: 4/14/11 0:00a $	(Last Update)
+$Date: 4/15/11 0:00a $	(Last Update)
 $Revision: 7 $			(Last Revision)
 $Log : $
 $History: ezlogger.hpp $
  * 
  * *****************  Version 7  *****************
- * User: lotem        Date: 4/14/11    Time: 0:00a
+ * User: lotem        Date: 4/15/11    Time: 0:00a
  * Updated in $/Logger.root/Logger_1
  * Work-around gcc 4.2.1 on mac.
  * 
