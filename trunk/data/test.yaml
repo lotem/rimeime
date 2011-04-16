@@ -1,0 +1,17 @@
+# Rime test settings
+
+root:
+  bool: false
+  int: 1234
+  double: 3.1415926
+  string: IOU 
+  
+root2:
+  high:
+    bool: true
+  mid:
+    int: 28
+  low:
+    double: 10.111
+    string: ABC
+  
