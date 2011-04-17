@@ -8,6 +8,10 @@
 #include <stdio.h>
 #include <time.h>
 
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 namespace axter
 {
 	/*! @class ezlogger_output_policy
