@@ -27,14 +27,15 @@ namespace axter
 			int LineNo, const char*FunctionName, ext_data levels_format_usage_data)
 		{
 			std::string FileNameOnly = FileName;
-			size_t pos = FileNameOnly.rfind('\\');
+			size_t pos = FileNameOnly.find_last_of("/\\");
 			if (pos != std::string::npos)
 			{
 				FileNameOnly = FileNameOnly.substr(pos+1);
 			}
 			char FileNameFormat[999] = {0};
-			sprintf(FileNameFormat, "%-32s(%5.5i): , [%-16s], [s_%i] [%s, ", 
-				FileNameOnly.c_str(), LineNo, FunctionName, levels_format_usage_data.m_severity_level, get_current_time_str().c_str());
+			// the riming log style ~~
+			sprintf(FileNameFormat, "[s_%i] [%s] %-24s(%5.5i) %16s():  ", 
+				levels_format_usage_data.m_severity_level, get_current_time_str().c_str(), FileNameOnly.c_str(), LineNo, FunctionName);
 			return FileNameFormat;
 		}
 	private:
@@ -42,7 +43,7 @@ namespace axter
 		{
 			time_t t = time(0) ;
 			std::string tmp = ctime(&t);
-			if (tmp.size()) tmp[tmp.size() -1] = ']';
+			if (tmp.size()) tmp[tmp.size() -1] = '\0';
 			return tmp;
 		}
 	};
