@@ -1,4 +1,4 @@
-#summary 認識Rime
+#summary 認識 La Rime
 #labels Featured,Phase-Support
 
 == 自序 ==
