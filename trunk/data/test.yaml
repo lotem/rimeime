@@ -1,17 +1,30 @@
-# Rime test settings
+# Rime config test data
 
-root:
-  bool: false
-  int: 1234
-  double: 3.1415926
-  string: IOU 
+terrans:
+  tank:
+    seiged: false
+    cost:
+      mineral: 150
+      gas: 100
+      time: 30 seconds
+  supply:
+    produced: 28
+  math:
+    pi: 3.1415926
   
-root2:
-  high:
-    bool: true
-  mid:
-    int: 28
-  low:
-    double: 10.111
-    string: ABC
+protoss:
+  battery:
+    energy: 10.111
+  residence: Aiur
+  air_force:
+  - scout
+  - cossair
+  - carrier
+  - arbiter
   
+zerg:
+  lurker:
+    burrowed: true
+  zergling:
+    lost: 1234
+  queen: Kerrigan
