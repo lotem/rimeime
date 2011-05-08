@@ -60,4 +60,4 @@ echo.
 :EXIT
 set PATH=%OLD_PATH%
 cd %RIME_ROOT%
-pause
+rem pause
