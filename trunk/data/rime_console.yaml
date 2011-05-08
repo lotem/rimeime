@@ -2,76 +2,10 @@
 # vim: set sw=2 sts=2 et:
 # encoding: utf-8
 
-rime_info:
-  version: "0.1"
-  rime_tick: 0  # number of commits
+schema:
+  schema_id: rime_console
+  name: Rime 控制台
 
-switcher:
-  hotkey: Control+grave
-  schema_list:
-  - id: luna_pinyin
-    last_access: ~
-
-menu:
-  page_size: 5
-
-punctuation:
-  mappings:
-    "," : [ ，, "," ]
-    "." : [ 。, ".", ．, · ]
-    "<" : [ 《, 〈, "<", «, ‹ ]
-    ">" : [ 》, 〉, ">", », › ]
-    "/" : [ 、, "/", ／, ⧸, ÷ ]
-    "?" : [ ？, "?" ]
-    ";" : [ ；, ";" ]
-    ":" : [ ：, ":" ]
-    "'" : [ alternate, "‘", "’" ]
-    "\"" : [ alternate, "“", "”" ]
-    "\\" : [ "\\", 、, ＼, ⧹ ]
-    "|" : [ "|", ｜ ]
-    "`" : [ "`", ｀ ]
-    "~" : [ "~", ～ ]
-    "!" : [ ！, "!" ]
-    "@" : [ "@", ＠, ❂, ☯ ]
-    "#" : [ "#", ＃, ⌘, ⌨ ]
-    "%" : [ "%", ％, ° ]
-    "$" : [ "$", ￥ ]
-    "^" : [ ……, …, "^" ]
-    "&" : [ "&", ＆ ]
-    "*" : [ "*", ×, ＊, ※ ]
-    "(" : [ （, "(" ]
-    ")" : [ ）, ")" ]
-    "-" : [ "-", － ]
-    "_" : [ ——, "_" ]
-    "+" : [ "+", ＋ ]
-    "=" : [ "=", ＝ ]
-    "[" : [ 「, 【, 〔, ［, "[" ]
-    "]" : [ 」, 】, 〕, ］, "]" ]
-    "{" : [ 『, 〗, ｛, "{" ]
-    "}" : [ 』, 〖, ｝, "}" ]
-
-editor:
-  shortcuts:
-    Up:
-      - Control+k
-      - minus
-    Down:
-      - Control+j
-      - equal
-    Left:
-      - Control+h
-    Right:
-      - Control+l
-    Page_Up:
-      - Control+p
-      - bracketleft
-    Page_Down:
-      - "Control+n"
-      - bracketright
-    Home:
-      - Control+a
-    End:
-      - Control+e
-      - Tab
-    Escape:
-      - Control+q
+engine:
+  processors:
+  - trivial_processor
