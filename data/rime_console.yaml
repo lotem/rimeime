@@ -9,3 +9,5 @@ schema:
 engine:
   processors:
   - trivial_processor
+  dictionaries:
+  - trivial_dictionary
