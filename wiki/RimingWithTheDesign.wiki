@@ -1,4 +1,4 @@
-﻿#summary Rime架構設計解讀
+﻿#summary La Rime 架構設計解讀
 #labels Phase-Design
 
 = 概念解讀 =
@@ -80,7 +80,7 @@ class ToUpperCase : public Processor {
   }
 };
 
-RegisterRimeComponents() {
+void RegisterRimeComponents() {
   Registry.instance().Register("upper", new Component<ToUpperCase>);
   // 所有組件都註冊到Registry...
 }
@@ -101,6 +101,16 @@ void UsingAProcessor() {
   delete processor;
 }
 }}}
-將這個例子改造成Engine持有Processor對象，並轉發輸入按鍵給Processor，就接近於實際的做法。
+實際的代碼中，會將這個例子改造成Engine持有Processor對象，並轉發輸入按鍵給Processor。
 
-== TODO ==
+== 框架級組件和基礎組件 ==
+
+以Engine的視角，可以把各種組件分為框架級組件和基礎組件。前者會由Engine創建並直接調用，故需要為每一類組件定義明確的接口。後者作為實現具體功能的積木，由框架級組件的實現類使用。
+
+目前設計中規劃了三類框架級組件：
+
+  * Processor，處理按鍵，編輯輸入串
+  * Segmentor，解釋輸入串「是什麼」，將輸入串分段，標記輸入內容的可能類型
+  * Dictionary，翻譯一段輸入，給出一組可能的結果
+
+對於每一類組件，Engine將根據Schema中的配置，創建若干實例，並按一定規則調度，從而將複雜的輸入法邏輯分散在組件的各種實現裡，按輸入方案的需求組合。
