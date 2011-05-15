@@ -49,7 +49,7 @@ Engine 對象，便是 Session 需要直接操作的介面。
 為有好的擴展能力，定義一個接口來表示具有某種能力的一類組件；
 為了達到可在運行時動態配置的目的，採取抽象工廠的設計模式。
 
-`boost::factory` 有用，但要求較高版本的Boost庫，所以我還是用了自家釀造的一套設施來做組件的包裝。
+`boost::factory`要求較高版本的Boost庫，所以我還是用了自家釀造的一套設施來做組件的包裝。
 
 原則是，Rime中完成特定功能的對象，若只有一種實現方法，就寫個C++類／class；若有多種實現方法，就寫個「Rime類」／`rime::Class`。示意：
 {{{
@@ -73,10 +73,10 @@ class ToUpperCase : public Processor {
   virtual bool ProcessKeyEvent(const KeyEvent &ke) {
     char ch = ke.ToAscii();
     if (islower(ch)) {
-	  engine_->CommitChar(ch - 'a' + 'A');
-	  return true;
-	}
-	return false;
+      engine_->CommitChar(ch - 'a' + 'A');
+      return true;
+    }
+    return false;
   }
 };
 
@@ -113,4 +113,7 @@ void UsingAProcessor() {
   * Segmentor，解釋輸入串「是什麼」，將輸入串分段，標記輸入內容的可能類型
   * Dictionary，翻譯一段輸入，給出一組可能的結果
 
-對於每一類組件，Engine將根據Schema中的配置，創建若干實例，並按一定規則調度，從而將複雜的輸入法邏輯分散在組件的各種實現裡，按輸入方案的需求組合。
+對於每一類組件，Engine將根據Schema中的配置，創建若干實例，並按一定規則調度，從而將複雜的輸入法邏輯分解到組件的各種實現裡，按輸入方案的需求組合。
+
+當Engine接到前端傳來的按鍵消息，會順次調用一組Processor的ProcessKeyEvent()方法。
+在這方法裡，每個Processor可決定是接受並處理該按鍵，還是放棄該按鍵還給系統做默認處理，還是留給其他的Processor來決定。
