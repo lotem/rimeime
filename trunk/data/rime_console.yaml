@@ -9,5 +9,7 @@ schema:
 engine:
   processors:
   - trivial_processor
-  dictionaries:
-  - trivial_dictionary
+  segmentors:
+  - abc_segmentor
+  translators:
+  - trivial_translator
