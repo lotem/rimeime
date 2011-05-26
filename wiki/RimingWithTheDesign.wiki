@@ -111,9 +111,9 @@ void UsingAProcessor() {
 
   * Processor，處理按鍵，編輯輸入串
   * Segmentor，解釋輸入串「是什麼」，將輸入串分段，標記輸入內容的可能類型
-  * Dictionary，翻譯一段輸入，給出一組可能的結果
+  * Translator，翻譯一段輸入，給出一組可能的結果
 
 對於每一類組件，Engine將根據Schema中的配置，創建若干實例，並按一定規則調度，從而將複雜的輸入法邏輯分解到組件的各種實現裡，按輸入方案的需求組合。
 
-當Engine接到前端傳來的按鍵消息，會順次調用一組Processor的ProcessKeyEvent()方法。
+當Engine接到前端傳來的按鍵消息，會順次調用一組Processor的`ProcessKeyEvent()`方法。
 在這方法裡，每個Processor可決定是接受並處理該按鍵，還是放棄該按鍵還給系統做默認處理，還是留給其他的Processor來決定。
