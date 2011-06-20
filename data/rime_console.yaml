@@ -11,5 +11,7 @@ engine:
   - trivial_processor
   segmentors:
   - abc_segmentor
+  - fallback_segmentor
   translators:
   - trivial_translator
+  - echo_translator
