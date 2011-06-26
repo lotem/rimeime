@@ -82,7 +82,7 @@ class ToUpperCase : public Processor {
 
 void RegisterRimeComponents() {
   Registry.instance().Register("upper", new Component<ToUpperCase>);
-  // 所有組件都註冊到Registry...
+  // 註冊各種組件到Registry...
 }
 }}}
 
@@ -107,6 +107,8 @@ void UsingAProcessor() {
 
 以Engine的視角，可以把各種組件分為框架級組件和基礎組件。前者會由Engine創建並直接調用，故需要為每一類組件定義明確的接口。後者作為實現具體功能的積木，由框架級組件的實現類使用。
 
+=== 框架級組件 ===
+
 目前設計中規劃了三類框架級組件：
 
   * Processor，處理按鍵，編輯輸入串
@@ -118,3 +120,24 @@ void UsingAProcessor() {
 當Engine接到前端傳來的按鍵消息，會順次調用一組Processor的ProcessKeyEvent()方法。
 在這方法裡，每個Processor可決定是接受並處理該按鍵，放棄該按鍵還給系統做默認處理，還是留給其他的Processor來決定。
 
+Processor的處理結果表現為對Context的修改。當某個Processor修改了Context的編碼串時，Engine獲得信號通知，開始切分和翻譯的流程。
+
+首先按次序由各Segmentor嘗試對編碼串分段。通過N個回合，將編碼串分為N個編碼段。每一回合中，各Segmentor給出從編碼串指定位置開始可識別的最長編碼序列，及對應的編碼類型標籤。回合中最長的分段將被採納，將該編碼段的始末位置及一組編碼類型標籤記入Context中的分段信息。優先級較高的Segmentor也可以中止當前回合從而跳過優先級較低的Segmentor。
+
+接下來，對每一個編碼段，調用各Translator做翻譯。Translator可憑藉編碼類型標籤來判斷本Translator能否完成該編碼段的翻譯。
+
+每個Translator針對一個編碼段的翻譯結果為Translation對象，是用來取得一組候選結果的迭代器。同一編碼段由不同Translator給出的Translations，存入Menu對象。為了在有大量候選結果的情況下保持效率，Menu僅在需要時，譬如向後翻頁時，才會從Translation中取得一定數目的候選結果。
+Translation有和其他Translation比較的方法，用於根據下一個候選結果的內容、或某種預定的策略來決定候選結果的排序。
+
+Context中的Composition，匯總了分段信息、使用者在各代碼段對應的Menu中所選結果等信息。經過使用者手動確認結果、且未發生編輯動作的編碼段，將不再做重新分段的處理。
+
+=== 基礎組件 ===
+
+目前需求明確的基礎組件包括：
+
+  * Dictionary, 詞典，由編碼序列檢索候選結果
+    * StaticDictionary, 靜態詞典的實現
+    * DynamicDictionary, 動態詞典的實現
+  * Prism, 音節拼寫至詞典編碼的映射
+  * Algebra, 拼寫運算規則
+  * Syllablizer, 音節切分算法
