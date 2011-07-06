@@ -7,7 +7,7 @@
 
 寫文檔是件頭疼的事，這可好了，如今有了接近於一鍵全自動配置MinGW開發環境的腳本工具！
 
-[http://code.google.com/p/rimeime/downloads/detail?name=mingw_workspace_setup.zip 由此下載工具包]
+[http://code.google.com/p/rimeime/downloads/detail?name=mingw_workspace_setup_r166.zip 由此下載工具包]
 
 拿到他，解壓縮後只需編輯其中的`setup.bat`改動幾項配置，再一執行，通過簡單的幾步即可聯網安裝所需的軟件和第三方庫、拉代碼，將一份完整的開發環境配置齊全。
 
