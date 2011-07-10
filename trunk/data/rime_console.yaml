@@ -8,10 +8,14 @@ schema:
 
 engine:
   processors:
-  - trivial_processor
+    - trivial_processor
   segmentors:
-  - abc_segmentor
-  - fallback_segmentor
+    - abc_segmentor
+    - fallback_segmentor
   translators:
-  - trivial_translator
-  - echo_translator
+    - table_translator
+    - trivial_translator
+    - echo_translator
+
+table_translator:
+  dictionary: luna_pinyin
