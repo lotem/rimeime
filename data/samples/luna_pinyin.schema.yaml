@@ -3,7 +3,7 @@
 # encoding: utf-8
 
 schema:
-  id: luna_pinyin
+  schema_id: luna_pinyin
   name: 朙月拼音
   version: "0.1"
   author:
@@ -14,14 +14,13 @@ schema:
 
 engine:
   processors: 
-    - r10n_composer
-    - numeric_composer
-    - echo_composer
-    - editor
-  dictionaries:
-    - abc_dict
-    - parrot
-    - number_formatter
+    - trivial_processor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+    - echo_translator
 
 r10n_composer:
   alphabet: "abcdefghijklmnopqrstuvwxyz"
@@ -39,8 +38,8 @@ editor:
     - [ xlit, "abcdefg", "日月金木水火土" ]  # 显示形码键名用
     - [ xform, "dang1", "da-ng" ]  # 注意：在整個輸入串內做全局替換！
 
-abc_dict:
-  vocabulary: luna_pinyin
+table_translator:
+  dictionary: luna_pinyin
   spelling_algebra:
     - [ xlit,     "ABCDEFG",        "abcdefg" ]            # 字符轉寫    
     - [ xlit,     "abcdefg",        [ a, be, ce, de, e, ef, ge ] ]
