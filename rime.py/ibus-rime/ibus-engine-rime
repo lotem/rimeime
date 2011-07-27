@@ -1,0 +1,8 @@
+#!/bin/sh
+# vim:set et sts=4 sw=4
+
+prefix=/usr
+rimedir=${prefix}/share/ibus-rime
+export IBUS_RIME_LOCATION=${rimedir}
+exec python ${rimedir}/engine/main.py $@
+

@@ -1,0 +1,86 @@
+# ZIME Schema v3
+Schema = Pinyin
+DisplayName = 拼音
+Dict = pinyin
+Parser = roman
+AutoPrompt = yes
+AutoDelimit = yes
+Delimiter = [ ']
+MaxKeywordLength = 6
+# 不標聲調
+MappingRule = ^(.+)\d$ \1
+# 模糊音
+#FuzzyRule = ^([zcs])h \1
+#FuzzyRule = ^([zcs])([^h]) \1h\2
+#FuzzyRule = ^l n
+#FuzzyRule = ^n l
+#FuzzyRule = ([ei])ng$ \1n
+#FuzzyRule = ([ei])n$ \1ng
+# 簡拼
+FuzzyRule = ^([bcdfghjklmnpqrstvwxyz]).+$ \1
+FuzzyRule = ^([zcs]h).+$ \1
+SpellingRule = ^([nl])v \1ü
+# 方音校正
+AlternativeRule = ^([fw])ei$ \1i
+AlternativeRule = ^([nl])ei$ \1ui
+AlternativeRule = ([^nl])ue$ \1uo
+AlternativeRule = ^([nl])ong$ \1iong
+AlternativeRule = ^([bpmfw])eng$ \1ong
+# 拼式糾錯
+AlternativeRule = ui$ uei
+AlternativeRule = iu$ iou
+AlternativeRule = ^([jqx])i([aoe]) \1\2
+AlternativeRule = ^([nl])ue$ \1üe
+AlternativeRule = ^([nl])ü \1yu
+AlternativeRule = ([aeiou])ng$ \1gn
+AlternativeRule = ([iu])(a)([ion]|ng)$ \2\1\3
+AlternativeRule = ao$ oa$
+AlternativeRule = (.)([aeiou])ng$ \1n\2g
+AlternativeRule = ong$ on
+# 音節切分
+SplitRule = n$ ^yu
+SplitRule = [ng]$ ^[aeiou]
+SplitRule = [aeiou]$ ^g$
+SplitRule = o$ ^a$
+#DivideRule = ^.*[iu]([aoe].*)$ \1
+TransformRule = (?<=[jqxynlzcs])v ü
+# 標點
+Punct = , ，
+Punct = . 。
+Punct = < 《 〈
+Punct = > 》 〉
+Punct = / / ／
+Punct = ? ？
+Punct = ; ；
+Punct = : ：
+Punct = ' ‘~’
+Punct = " “~”
+Punct = \ 、
+Punct = | | ｜
+Punct = ` ` ｀
+Punct = ~ ~ ～
+Punct = ! ！
+Punct = @ @ ＠
+Punct = # # ＃
+Punct = % % ％
+Punct = $ $ ￥
+Punct = ^ ……
+Punct = & & ＆
+Punct = * * ＊
+Punct = ( （
+Punct = ) ）
+Punct = - - －
+Punct = _ ——
+Punct = + + ＋
+Punct = = = ＝
+Punct = [ 「 【 ［
+Punct = ] 」 】 ］
+Punct = { 『 ｛
+Punct = } 』 ｝
+# 編輯鍵
+EditKey = bracketleft Left
+EditKey = bracketright Right
+EditKey = minus Page_Up
+EditKey = equal Page_Down
+EditKey = comma Page_Up
+EditKey = period Page_Down

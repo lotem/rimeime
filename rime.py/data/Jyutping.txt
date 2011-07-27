@@ -1,0 +1,70 @@
+# ZIME Schema v3
+Schema = Jyutping
+DisplayName = 粵拼
+Dict = jyutping
+Parser = roman
+AutoPrompt = yes
+AutoDelimit = yes
+#Alphabet = abcdefghijklmnopqrstuvwxyz !@#$%^
+Alphabet = abcdefghijklmnopqrstuvwxyz
+Delimiter = [ ']
+MaxKeywordLength = 7
+#SplitRule = [ptkmng]$ ^[aeiou]
+#SplitRule = [gk]$ ^w
+# 可省略聲調
+#FuzzyRule = ^(.+)\d$ \1
+# y替代j,jy
+FuzzyRule = ^jy?([aeiou]) y\1
+# 簡拼
+#FuzzyRule = ^([^aeioum]).+$ \1
+# 拼式糾錯
+AlternativeRule = ^jyu ju
+AlternativeRule = ([aeiou])ng$ \1gn
+AlternativeRule = oe(k|ng)$ eo\1
+# 聲調
+#TransformRule = ([a-z]+)[!] \g<1>1
+#TransformRule = ([a-z]+)[@] \g<1>2
+#TransformRule = ([a-z]+)[#] \g<1>3
+#TransformRule = ([a-z]+)[$] \g<1>4
+#TransformRule = ([a-z]+)[%] \g<1>5
+#TransformRule = ([a-z]+)[\^] \g<1>6
+# 標點
+Punct = , ，
+Punct = . 。
+Punct = < 《 〈
+Punct = > 》 〉
+Punct = / / ／
+Punct = ? ？
+Punct = ; ；
+Punct = : ：
+Punct = ' ‘~’
+Punct = " “~”
+Punct = \ 、
+Punct = | | ｜
+Punct = ` ` ｀
+Punct = ~ ~ ～
+Punct = ! ！
+Punct = @ @ ＠
+Punct = # # ＃
+Punct = % % ％
+Punct = $ $ ￥
+Punct = ^ ……
+Punct = & & ＆
+Punct = * * ＊
+Punct = ( （
+Punct = ) ）
+Punct = - - －
+Punct = _ ——
+Punct = + + ＋
+Punct = = = ＝
+Punct = [ 「 【 ［
+Punct = ] 」 】 ］
+Punct = { 『 ｛
+Punct = } 』 ｝
+# 編輯鍵
+EditKey = bracketleft Left
+EditKey = bracketright Right
+EditKey = minus Page_Up
+EditKey = equal Page_Down
+EditKey = comma Page_Up
+EditKey = period Page_Down

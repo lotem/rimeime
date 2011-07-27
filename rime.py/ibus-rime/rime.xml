@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- filename: rime.xml -->
+<component>
+	<name>cn.zzsst.Rime</name>
+	<description>Rime Component</description>
+	<exec>/usr/lib/ibus-rime/ibus-engine-rime --ibus</exec>
+	<version>0.1.0.20110212</version>
+	<author>GONG Chen &lt;chen.sst@gmail.com&gt;</author>
+	<license>GPL</license>
+	<homepage>http://github.com/lotem/rime</homepage>
+	<textdomain>ibus-rime</textdomain>
+
+	<!-- for static engines -->
+	<engines>
+		<engine>
+			<name>rime</name>
+			<language>zh_CN</language>
+			<license>GPL</license>
+			<author>GONG Chen &lt;chen.sst@gmail.com&gt;</author>
+			<icon>/usr/share/ibus-rime/icons/zhung.png</icon>
+			<layout>us</layout>
+			<longname>Rime</longname>
+			<description>ibus-rime, powered by Rime Input Method Engine</description>
+		</engine>
+	</engines>
+</component>
