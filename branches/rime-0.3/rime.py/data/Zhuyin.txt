@@ -1,0 +1,51 @@
+# ZIME Schema v3
+Schema = Zhuyin
+DisplayName = 注音
+Dict = zhuyin
+Parser = grouping
+KeyGroups = 1qaz2wsxedcrfv5tgbyhn ujm 8ik,9ol.0p;/- 6347
+CodeGroups = ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙ ㄧㄨㄩ ㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ ˊˇˋ˙
+# 不標聲調
+FuzzyRule = ^(.+)[ˊˇˋ˙]$ \1
+# 簡拼
+#FuzzyRule = ^([ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒ]).+$ \1
+# 標點
+Punct = , ，
+Punct = . 。
+Punct = < ， 《 〈
+Punct = > 。 》 〉
+Punct = / / ／
+Punct = ? ？
+Punct = ; ；
+Punct = : ：
+Punct = ' 、 ‘ ’
+Punct = " ； “ ”
+Punct = \ 、
+Punct = | | ｜
+Punct = ` ` ｀
+Punct = ~ ~ ～
+Punct = ! ！
+Punct = @ @ ＠
+Punct = # # ＃
+Punct = % % ％
+Punct = $ $ ￥
+Punct = ^ ……
+Punct = & & ＆
+Punct = * * ＊
+Punct = ( （
+Punct = ) ）
+Punct = - - －
+Punct = _ ——
+Punct = + + ＋
+Punct = = = ＝
+Punct = [ 「 【 ［
+Punct = ] 」 】 ］
+Punct = { 『 ｛
+Punct = } 』 ｝
+# 編輯鍵
+EditKey = bracketleft Left
+EditKey = bracketright Right
+EditKey = minus Page_Up
+EditKey = equal Page_Down
+EditKey = comma Page_Up
+EditKey = period Page_Down

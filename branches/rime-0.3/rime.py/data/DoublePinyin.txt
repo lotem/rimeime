@@ -1,0 +1,97 @@
+# ZIME Schema v3
+Schema = DoublePinyin
+DisplayName = 雙拼
+Dict = pinyin
+Parser = table
+AutoPrompt = yes
+Delimiter = [ ']
+Alphabet = abcdefghijklmnopqrstuvwxyz ;
+MaxKeywordLength = 6
+AutoCommitKeywordLength = 2
+# 不要聲調
+MappingRule = ^(.+)\d$ \1
+# 模糊音
+#FuzzyRule = ^([zcs])h \1
+#FuzzyRule = ^([zcs])([^h]) \1h\2
+#FuzzyRule = ^l n
+#FuzzyRule = ^n l
+#FuzzyRule = ([ei])ng$ \1n
+#FuzzyRule = ([ei])n$ \1ng
+# 簡拼
+FuzzyRule = ^([a-z]).+$ \1
+FuzzyRule = ^([a-z]h).+$ \1
+# 雙拼
+TransformRule = ^(.)g$ \1eng
+TransformRule = ^(.)n$ \1in
+TransformRule = ^([jqxynl])v$ \1ue
+TransformRule = ^(.)v$ \1ui
+TransformRule = ^(.)q$ \1iu
+TransformRule = ^([zcsuivgkh])w$ \1ua
+TransformRule = ^(.)w$ \1ia
+TransformRule = ^([^o])r$ \1uan
+TransformRule = ^or$ er
+TransformRule = ^(.)t$ \1ue
+TransformRule = ^([jqxy])y$ \1u
+TransformRule = ^([nl])y$ \1v
+TransformRule = ^(.)y$ \1uai
+TransformRule = ^([^bpmfwo])o$ \1uo
+TransformRule = ^(.)p$ \1un
+TransformRule = ^([jqx])s$ \1iong
+TransformRule = ^(.)s$ \1ong
+TransformRule = ^([jqxnl])d$ \1iang
+TransformRule = ^(.)d$ \1uang
+TransformRule = ^(.)f$ \1en
+TransformRule = ^(.)h$ \1ang
+TransformRule = ^(.)j$ \1an
+TransformRule = ^(.)k$ \1ao
+TransformRule = ^(.)l$ \1ai
+TransformRule = ^(.);$ \1ing
+TransformRule = ^(.)z$ \1ei
+TransformRule = ^(.)x$ \1ie
+TransformRule = ^(.)c$ \1iao
+TransformRule = ^(.)b$ \1ou
+TransformRule = ^(.)m$ \1ian
+TransformRule = ^u sh
+TransformRule = ^i ch
+TransformRule = ^v zh
+TransformRule = ^o([aoe]) \1
+# 標點
+Punct = , ，
+Punct = . 。
+Punct = < 《 〈
+Punct = > 》 〉
+Punct = / / ／
+Punct = ? ？
+Punct = ; ；
+Punct = : ：
+Punct = ' ‘~’
+Punct = " “~”
+Punct = \ 、
+Punct = | | ｜
+Punct = ` ` ｀
+Punct = ~ ~ ～
+Punct = ! ！
+Punct = @ @ ＠
+Punct = # # ＃
+Punct = % % ％
+Punct = $ $ ￥
+Punct = ^ ……
+Punct = & & ＆
+Punct = * * ＊
+Punct = ( （
+Punct = ) ）
+Punct = - - －
+Punct = _ ——
+Punct = + + ＋
+Punct = = = ＝
+Punct = [ 「 【 ［
+Punct = ] 」 】 ］
+Punct = { 『 ｛
+Punct = } 』 ｝
+# 編輯鍵
+EditKey = bracketleft Left
+EditKey = bracketright Right
+EditKey = minus Page_Up
+EditKey = equal Page_Down
+EditKey = comma Page_Up
+EditKey = period Page_Down

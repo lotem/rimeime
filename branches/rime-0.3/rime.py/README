@@ -1,0 +1,76 @@
+# README
+
+RIME: Rime Input Method Engine, riming with your keystrokes.
+
+Usage:
+
+- install ibus-rime:
+
+    $ sudo make install
+
+- install schemas, take Pinyin as an example:
+
+    $ make schema_pinyin
+
+- restart ibus after installation, and before installing new schemas:
+
+    $ make restart_ibus
+
+- uninstall ibus-rime, but why :-(
+
+    $ sudo make uninstall
+
+- clear zime database, YOU DON'T WANT TO DO THIS:
+
+    $ make clear_db
+
+- save and restore user dictionary for a specific schema:
+
+    $ cd data; python zimedb-admin.py --save Pinyin
+    $ cd data; python zimedb-admin.py --restore Pinyin
+
+Features:
+- interchangeable schemas with a ubiquitous algorithm base
+- major functionalities from modern input method stereotypes
+- introduction of avant-guarde (sometimes PQliar) design
+- tweakability++
+- open-source 
+- cross-platform
+
+Sub-projects:
+
+- rime.py   : experimental Python version of la rime library
+- rime.cc   : C++ version of la rime library
+- ibus-rime : Linux/ibus client
+- weasel    : Windows client
+- squirrel  : planned Mac OS X client
+- plume.js  : web-based input method
+- brise     : rime schema repository
+- essay     : vocabulary and language model
+
+Related projects:
+
+- combopy   : an innovative chord-typing practice
+- zhung     : an romanization scheme of Zhungyuan Mandarin phonology
+
+L'alphabet de la rime: |
+    zed wy ex,
+    double-u vee u,
+    tee ess ar,
+    cue pee o,
+    en em el kay jay i aitch,
+    gee ef e dee cee bee a.
+
+Epilogue: |
+
+    Sorry for the temporary short of documentation. Feel free to explore.
+
+    For lastest news, visit la rime project home page; we have moved to:
+    http://code.google.com/p/rimeime/
+
+    Lastest experimental version of rime.py:
+    http://github.com/lotem/rime/
+
+    Questions go to <rime-devel@googlegroups.com>
+
+    Thanks.

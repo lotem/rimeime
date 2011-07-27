@@ -1,0 +1,139 @@
+# ZIME Schema v3
+Schema = TonalPinyin
+DisplayName = 標調拼音
+Dict = tonal_pinyin
+Parser = roman
+AutoPrompt = yes
+AutoDelimit = yes
+Alphabet = abcdefghijklmnopqrstuvwxyz -;/<^>\
+Delimiter = [ ']
+MaxKeywordLength = 6
+# 輕聲不標
+MappingRule = ^(.+)5$ \1
+# 無調號兼表四聲
+FuzzyRule = ^(.+)\d$ \1
+# 簡拼
+#FuzzyRule = ^([bcdfghjklmnpqrstvwxyz]).+$ \1
+#FuzzyRule = ^([zcs]h).+$ \1
+# 將聲調移動到主要元音後
+SpellingRule = ([aoeiuv])([rn]|ng)([1234]) \1\3\2
+SpellingRule = ([aoe])([iou])([1234]) \1\3\2
+# āáǎàaēéěèeīíǐìiōóǒòoūúǔùuǖǘǚǜüê
+SpellingRule = ([nl])ue \1üe
+SpellingRule = eh ê
+SpellingRule = a1 ā
+SpellingRule = a2 á
+SpellingRule = a3 ǎ
+SpellingRule = a4 à
+SpellingRule = e1 ē
+SpellingRule = e2 é
+SpellingRule = e3 ě
+SpellingRule = e4 è
+SpellingRule = i1 ī
+SpellingRule = i2 í
+SpellingRule = i3 ǐ
+SpellingRule = i4 ì
+SpellingRule = o1 ō
+SpellingRule = o2 ó
+SpellingRule = o3 ǒ
+SpellingRule = o4 ò
+SpellingRule = u1 ū
+SpellingRule = u2 ú
+SpellingRule = u3 ǔ
+SpellingRule = u4 ù
+SpellingRule = v1 ǖ
+SpellingRule = v2 ǘ
+SpellingRule = v3 ǚ
+SpellingRule = v4 ǜ
+SpellingRule = v ü
+# 拼式糾錯
+AlternativeRule = ([aeiou])ng$ \1gn
+AlternativeRule = ([iu])(a)([ion]|ng)$ \2\1\3
+AlternativeRule = ao$ oa$
+AlternativeRule = (.)([aeiou])ng$ \1n\2g
+AlternativeRule = ong$ on
+# 音節切分
+SplitRule = [ng]$ ^[aeiou]
+SplitRule = [aeiou]$ ^g$
+SplitRule = o$ ^a$
+#DivideRule = ^.*[iu]([āáǎàaēéěèeōóǒòo].*)$ \1
+TransformRule = ([aeio])gn \1ng
+TransformRule = ([aoeiuv])([rn]|ng)([-;/<^>\\1-5]) \1\3\2
+TransformRule = ([aoe])([iou])([-;/^<\\>1-5]) \1\3\2
+TransformRule = (?<=[aeiouv])[-;] 1
+TransformRule = (?<=[aeiouv])/ 2
+TransformRule = (?<=[aeiouv])[<^] 3
+TransformRule = (?<=[aeiouv])[>\\] 4
+TransformRule = ([nl])ue \1üe
+TransformRule = eh(?![aoeiuv])[1-5]? ê
+TransformRule = a1 ā
+TransformRule = a2 á
+TransformRule = a3 ǎ
+TransformRule = a4 à
+TransformRule = a5 a
+TransformRule = e1 ē
+TransformRule = e2 é
+TransformRule = e3 ě
+TransformRule = e4 è
+TransformRule = e5 e
+TransformRule = i1 ī
+TransformRule = i2 í
+TransformRule = i3 ǐ
+TransformRule = i4 ì
+TransformRule = i5 i
+TransformRule = o1 ō
+TransformRule = o2 ó
+TransformRule = o3 ǒ
+TransformRule = o4 ò
+TransformRule = o5 o
+TransformRule = u1 ū
+TransformRule = u2 ú
+TransformRule = u3 ǔ
+TransformRule = u4 ù
+TransformRule = u5 u
+TransformRule = v1 ǖ
+TransformRule = v2 ǘ
+TransformRule = v3 ǚ
+TransformRule = v4 ǜ
+TransformRule = v5 ü
+TransformRule = (?<=[jqxynlzcs])v ü
+# 標點
+Punct = , ，
+Punct = . 。
+Punct = < 《 〈
+Punct = > 》 〉
+Punct = / / ／
+Punct = ? ？
+Punct = ; ；
+Punct = : ：
+Punct = ' ‘~’
+Punct = " “~”
+Punct = \ 、
+Punct = | | ｜
+Punct = ` ` ｀
+Punct = ~ ~ ～
+Punct = ! ！
+Punct = @ @ ＠
+Punct = # # ＃
+Punct = % % ％
+Punct = $ $ ￥
+Punct = ^ ……
+Punct = & & ＆
+Punct = * * ＊
+Punct = ( （
+Punct = ) ）
+Punct = - - －
+Punct = _ ——
+Punct = + + ＋
+Punct = = = ＝
+Punct = [ 「 【 ［
+Punct = ] 」 】 ］
+Punct = { 『 ｛
+Punct = } 』 ｝
+# 編輯鍵
+EditKey = bracketleft Left
+EditKey = bracketright Right
+EditKey = minus Page_Up
+EditKey = equal Page_Down
+EditKey = comma Page_Up
+EditKey = period Page_Down

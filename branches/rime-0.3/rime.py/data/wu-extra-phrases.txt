@@ -1,0 +1,5038 @@
+# 上海閒話ABC整理
+阿屈死	1	aq chiuq xi
+挨肩擦背	1	a ci tsaq pe
+阿舅	1	a djioe
+掗求苦腦	1	au djioe khu no
+鴨頭綠	1	aq doe loq
+櫻桃嘴	1	an do tzy
+壓臺戲	1	aq de xi
+櫻桃	1	an do
+鸚哥	1	an ku
+阿娘	1	a gnian
+盎裏盎三	1	an li an se
+阿片	1	a phi
+阿拉個	1	aq laq req
+阿拉勿來	1	aq laq veq le
+掗拉勿出	1	au lha veq tseq
+搲龍船	1	au lon zeu
+阿貓阿狗	1	aq mho aq koe
+阿木靈	1	aq moq lin
+盎三	1	an se
+矮北落托	1	a poq loq thoq
+矮不倫敦	1	a peq len ten
+阿婆	1	aq bu
+阿婆	1	a bu
+鴨蛋	1	aq de
+阿弟	1	aq di
+阿舅	1	aq djioe
+押頭	1	aq doe
+阿飛	1	aq fi
+阿戇	1	aq gan
+阿公	1	aq kon
+阿哥	1	aq ku
+阿拉	1	aq laq
+阿妹	1	aq me
+壓末	1	aq meq
+阿奶	1	aq na
+阿囡	1	aq nheu
+鴨膀	1	aq pan
+阿爸	1	aq paq
+阿嫂	1	aq so
+阿姐	1	aq cia
+阿姨	1	aq yi
+壓場	1	aq zan
+阿侄	1	aq zeq
+壓歲鈿	1	aq seu di
+掗死空	1	au xi khon
+鴨屎臭	1	aq sy tsoe
+丫叉頭	1	au tsau doe
+掗杈頭	1	au tsau doe
+矮凳	1	a ten
+阿爹拉娘	1	aq tia lha gnian
+阿土生	1	aq thu san
+矮子	1	a tzy
+搲稻	1	au do
+搲空	1	au khon
+椏杈	1	au tsau
+丫叉	1	au tsau
+啞嘴	1	au tzy
+啞子	1	au tzy
+堊壅	1	au ion
+挨勿	1	a veq
+壓勿殺	1	aq veq saq
+阿鬍子	1	aq wu tzy
+阿爺	1	a ya
+阿姨婆婆	1	a yi bu bu
+阿姨	1	a yi
+壓場子	1	aq zan tzy
+牌九	1	ba cioe
+牌鬼	1	ba ciu
+排隊	1	ba de
+牌頭	1	ba doe
+碰碰	1	ban ban
+蟛蜞	1	ban dji
+碰頭	1	ban doe
+碰着	1	ban zaq
+排骨	1	ba kueq
+排卵	1	ba lu
+棒頭	1	ban doe
+旁人	1	ban gnin
+膀胱	1	ban kuan
+旁邊	1	ban pi
+棒冰	1	ban pin
+白糖	1	baq dan
+白花	1	baq hau
+白果	1	baq ku
+白蝨	1	baq seq
+白湯	1	baq than
+白天	1	baq thi
+白菜	1	baq tse
+白酒	1	baq cioe
+拔河	1	baq wu
+白護居	1	baq wu ciu
+白食	1	baq zeq
+白事	1	baq zy
+排檔	1	ba tan
+扒手	1	bau soe
+白白胖胖	1	baq baq phan phan
+平彭三響	1	bin ban se xian
+排排座	1	ba ba zu
+蹩腳貨	1	biq ciaq hu
+排頭排腳	1	ba doe ba ciaq
+拌淘氣	1	beu do chi
+被頭筒	1	bi doe don
+鼻頭洞	1	biq doe don
+別地方	1	biq di fan
+爬檯擱腳	1	bau de koq ciaq
+孵頭芽	1	bu doe nga
+牌頭硬	1	ba doe ngan
+皮大王	1	bi da wan
+背暗	1	be eu
+辦法	1	be faq
+陪嫁	1	be ka
+坌地	1	ben di
+体夫	1	ben fu
+盆菜	1	ben tse
+盆子	1	ben tzy
+葡萄	1	beq do
+孛相	1	beq xian
+孛薺	1	beq ji
+扒兒手	1	bau el soe
+背書	1	be sy
+盤鈿	1	beu di
+伴嫁	1	beu ka
+盤子	1	beu tzy
+盤纏	1	beu zeu
+培養	1	be yan
+避風頭	1	bi fon doe
+被風洞	1	bi fon don
+別人家	1	biq gnin ka
+白玉蘭	1	baq gnioq le
+跑一埭	1	bo iq da
+皮蛋	1	bi de
+被頭	1	bi doe
+皮膚	1	bi fu
+蘋果	1	bin ku
+評話	1	bin rau
+瓶子	1	bin tzy
+平常	1	bin zan
+枇杷	1	biq bau
+蹩腳	1	biq ciaq
+擗筋	1	biq cin
+鼻頭	1	biq doe
+別人	1	biq gnin
+蹩腰	1	biq io
+鼻樑	1	biq lian
+別個	1	biq req
+別墶	1	biq taq
+鼻涕	1	biq thi
+別針	1	biq tzen
+鼻屙	1	biq u
+鼻污	1	biq u
+皮鞋	1	bi ra
+便當	1	bi tan
+被單	1	bi te
+疲塌	1	bi thaq
+疲脫	1	bi theq
+鐾脫	1	bi theq
+啤酒	1	bi cioe
+辮子	1	bi tzy
+皮匠	1	bi jian
+肥皂	1	bi zo
+辦家家	1	be ka ka
+蘋果綠	1	bin ku loq
+蚌殼棉鞋	1	ban khoq mi ra
+白開水	1	baq khe sy
+辦公室	1	be kon seq
+皮夾子	1	bi kaq tzy
+白瓜子	1	baq kau tzy
+碰哭精	1	ban khoq cin
+勃倫頭	1	beq len doe
+皮老虎	1	bi lo hu
+白梨瓜	1	baq li kau
+鼻樑骨	1	biq lian kueq
+別苗頭	1	biq mio doe
+白米花	1	baq mi hau
+排門板	1	ba men pe
+碰額骨頭	1	ban ngaq kueq doe
+白眼睛	1	baq nge cin
+抱裙	1	bo djiun
+刨花	1	bo hau
+蓬鬆	1	bon son
+塳塵	1	bon zen
+薄脆	1	boq tseu
+跑鞋	1	bo ra
+蒲包爿	1	bu po be
+旁邊頭	1	ban pi doe
+寶貝囝	1	po pe neu
+寶貝心乾	1	po pe xin keu
+爬死爬活	1	bau xi bau weq
+白相人	1	baq xian gnin
+白相乾	1	baq xian keu
+白相相	1	baq xian xian
+白相心	1	baq xian xin
+排三和土	1	ba se wu thu
+蹩進蹩出	1	biq cin biq tseq
+白劗雞	1	baq tze ci
+盤出去	1	beu tseq chi
+別墶裏	1	biq taq li
+鼻涕水	1	biq thi sy
+辮子梢	1	bi tzy so
+皮拆天	1	bi tsaq thi
+碰得點啥	1	ban teq ti sa
+鼻涕蟲	1	biq thi zon
+婆婆	1	bu bu
+葡萄	1	bu do
+鼻污乾	1	biq u keu
+蒲包	1	bu po
+蒲扇	1	bu seu
+孵小雞	1	bu xio ci
+伏小雞	1	bu xio ci
+簿子	1	bu tzy
+碰勿碰	1	ban veq ban
+抱佛腳	1	bo veq ciaq
+病房間	1	bin van ke
+別勿轉	1	biq veq tzeu
+辦勿到	1	be veq to
+別勿着	1	biq veq zaq
+被橫頭	1	bi wan doe
+朋友道理	1	ban yoe do li
+蟠野貓	1	beu ya mho
+白嚼蛆	1	baq jiaq chiu
+白煠蛋	1	baq zaq de
+盤纏銅鈿	1	beu zeu don di
+爬牆摸壁	1	bau jian moq piq
+蟠腸曲節	1	beu zan chioq ciq
+腳枒枒	1	ciaq au au
+吃鴨蛋	1	chiq aq de
+腳碰腳	1	ciaq ban ciaq
+吃牌頭	1	chiq ba doe
+翹辮子	1	chio bi tzy
+吃賠帳	1	chiq be tzan
+吃白食	1	chiq baq zeq
+氣急夯夯	1	chi ciq han han
+筋緊拉拉	1	cin cin lha lha
+吃吃我	1	chiq chiq ngu
+腳丘彎	1	ciaq chioe ue
+牽頭皮	1	chi doe bi
+鬼頭風	1	ciu doe fon
+交桃花運	1	ko do hau yun
+吃定心丸	1	chiq din xin weu
+腳踏車	1	ciaq daq tsau
+吃頭塔	1	chiq doe thaq
+吃頭腐	1	chiq doe vu
+幾分鐘	1	ci fen tzon
+牽風引頭	1	chi fon yin doe
+家翻宅亂	1	cia fe zaq leu
+牽牛鼻頭	1	chi gnioe biq doe
+吃軋頭	1	chiq gaq doe
+吃耳光	1	chiq gni kuan
+吃軋帳	1	chiq gaq tzan
+檢驗員	1	ci gni yeu
+羌餅	1	chian pin
+腔勢	1	chian sy
+牽記	1	chi ci
+契機	1	chi ci
+起勁	1	chi cin
+起九	1	chi cioe
+氣球	1	chi djioe
+牽頭	1	chi doe
+去年	1	chi gni
+起來	1	chi le
+氣力	1	chi liq
+牽礱	1	chi lon
+氣悶	1	chi mhen
+撳鈕	1	chin gnioe
+傾空	1	chin khon
+撳釘	1	chin tin
+蹺腳	1	chio ciaq
+蚯蚓	1	chioe yin
+龜兹	1	chioe zy
+巧果	1	chio ku
+巧妙	1	chio mio
+曲蟮	1	chioq zeu
+吃吃	1	chiq chiq
+契丹	1	chiq te
+吃價	1	chiq ka
+吃口	1	chiq khoe
+吃虧	1	chiq khue
+吃力	1	chiq liq
+齕牢	1	chiq lo
+吃沒	1	chiq meq
+吃奶	1	chiq na
+吃癟	1	chiq piq
+吃酸	1	chiq seu
+吃准	1	chiq tzen
+吃進	1	chiq cin
+吃飯	1	chiq ve
+吃香	1	chiq xian
+吃藥	1	chiq yaq
+吃茶	1	chiq zau
+起先	1	chi xi
+氣數	1	chi su
+汽水	1	chi sy
+汽車	1	chi tsau
+欠債	1	chi tza
+缺蕩	1	chiuq dan
+缺口	1	chiuq khoe
+屈死	1	chiuq xi
+缺嘴	1	chiuq tzy
+虧得	1	chiu teq
+欺侮	1	chi vu
+起霧	1	chi vu
+起潮	1	chi zo
+腳花亂	1	ciaq hau leu
+吃火車	1	chiq hu tsau
+薑黃	1	cian wan
+腳桶	1	ciaq don
+腳花	1	ciaq hau
+腳跟	1	ciaq ken
+甲魚	1	ciaq ng
+腳背	1	ciaq pe
+腳髈	1	ciaq phan
+腳匾	1	ciaq pi
+腳底	1	ciaq ti
+腳爪	1	ciaq tzo
+假如	1	cia zy
+機器	1	ci chi
+雞蛋	1	ci de
+季度	1	ci du
+絹頭	1	cieu doe
+寄娘	1	ci gnian
+記認	1	ci gnin
+搛鑷	1	ci gniq
+幾化	1	ci hau
+肩胛	1	ci kaq
+機關	1	ci kue
+金糰	1	cin deu
+勁道	1	cin do
+今年	1	cin gni
+經理	1	cin li
+經歷	1	cin liq
+警察	1	cin tsaq
+金針	1	cin tzen
+今朝	1	cin tzo
+景致	1	cin tzy
+鏡子	1	cin tzy
+經用	1	cin yon
+叫應	1	cio in
+膠捲	1	cio cieu
+澆頭	1	cio doe
+九件	1	cioe dji
+九年	1	cioe gni
+句嬰	1	cioe in
+九個	1	cioe req
+叫饒	1	cio gnio
+交關	1	cio kue
+叫扁	1	cio pi
+菊花	1	cioq hau
+桔紅	1	cioq ron
+橘紅	1	ciuq ron
+桔子	1	cioq tzy
+橘子	1	ciuq tzy
+橘黃	1	ciuq wan
+桔黃	1	cioq wan
+教室	1	cio seq
+教訓	1	cio xiun
+教材	1	cio ze
+肩膀	1	ci pan
+結婚	1	ciq huen
+結棍	1	ciq kuen
+結冰	1	ciq pin
+結紮	1	ciq tzaq
+結足	1	ciq tzoq
+結蛛	1	ciq tzy
+記號	1	ci ro
+記性	1	ci xin
+寄爹	1	ci tia
+搛菜	1	ci tse
+鬼老	1	ciu lo
+軍艦	1	ciun khe
+菌痢	1	ciun li
+決定	1	ciuq din
+決斷	1	ciuq teu
+厥倒	1	ciuq to
+枸櫞	1	ciu yeu
+機會	1	ci we
+檢查	1	ci zau
+幾時	1	ci zy
+腳高腳低	1	ciaq ko ciaq ti
+輕骨頭	1	chin kueq doe
+叫哥哥	1	cio ku ku
+腳骷骨	1	ciaq khu kueq
+巧克力	1	chio kheq liq
+吃官司	1	chiq kueu sy
+吃官司人	1	chiq kueu sy gnin
+吃夾檔	1	chiq kaq tan
+腳盔子	1	ciaq khue tzy
+金光鋥亮	1	cin kuan zan lian
+吃辣火醬	1	chiq laq hu cian
+吃老本	1	chiq lo pen
+翹老三	1	chio lo se
+吃老酒	1	chiq lo cioe
+金蛉子	1	cin lin tzy
+鑒貌辨色	1	ci mo bi seq
+鬼眉鬼眼	1	ciu mi ciu nge
+叫名叫姓	1	cio min cio xin
+腳饅頭	1	ciaq meu doe
+吃麻蘭頭	1	chiq mau le doe
+吃麻栗子	1	chiq mau liq tzy
+救命車	1	cioe min tsau
+寄賣店	1	ci ma ti
+雞毛菜	1	ci mo tse
+雞毛撢帚	1	ci mo te tzoe
+金魚眼	1	cin ng nge
+腳坳坳	1	ciaq o o
+捲鋪蓋	1	cieu phu ke
+吃屁股	1	chiq phi ku
+舉壁架子	1	ciu piq ka tzy
+恘癟三	1	chioe piq se
+鬼畫冊	1	ciu rau tsaq
+吃辛吃苦	1	chiq xin chiq khu
+今生今世	1	cin san cin sy
+氣死氣活	1	chi xi chi weq
+金線路	1	cin xi lu
+牽絲扳藤	1	chi sy pe den
+吃西北風	1	chiq xi poq fon
+氣傷心	1	chi san xin
+卷心菜	1	cieu xin tse
+勸相打	1	chieu xian tan
+吃生活	1	chiq san weq
+腳節頭	1	ciaq ciq doe
+腳指頭	1	ciaq tzy doe
+雞爪瘋	1	ci tzo fon
+腳節甲	1	ciaq ciq khaq
+腳指甲	1	ciaq tzy khaq
+吃得開	1	chiq teq khe
+起早落夜	1	chi tzo loq ya
+金睛魚	1	cin cin ng
+金鯽魚	1	cin ci ng
+腳底板	1	ciaq ti pe
+翹嘴巴	1	chio tzy pau
+鬼觸臂把	1	ciu tsoq pi pau
+橘子水	1	ciuq tzy sy
+桔子水	1	cioq tzy sy
+吃酒水	1	chiq cioe sy
+幾次三番	1	ci tsy se fe
+吃着受用	1	chiq tzaq zoe yon
+今朝仔	1	cin tzo tzy
+氣勿過	1	chi veq ku
+吃飯間	1	chiq ve ke
+吃飯家生	1	chiq ve ka san
+吃勿牢	1	chiq veq lo
+吃勿落	1	chiq veq loq
+吃勿消	1	chiq veq xio
+吃勿識頭	1	chiq veq seq doe
+吃勿脫	1	chiq veq theq
+金飯碗	1	cin ve ueu
+吃飯辰光	1	chiq ve zen kuan
+吃回頭草	1	chiq we doe tso
+救護車	1	cioe wu tsau
+金胡蟲	1	cin wu zon
+金黃鋥亮	1	cin wan zan lian
+吃香煙	1	chiq xian i
+吃喜酒	1	chiq xi cioe
+水餃	1	sy cio
+吃野食	1	chiq ya zeq
+起陣頭	1	chi zen doe
+金石瓜	1	cin zaq kau
+家長裏短	1	cia zan li teu
+吃壽酒	1	chiq zoe cioe
+家常飯	1	cia zan ve
+大便	1	da bi
+汏頭	1	da doe
+大阿福	1	du aq foq
+大絞	1	da go
+大亨	1	da han
+大家	1	da ka
+大概	1	da ke
+大路	1	da lu
+大路貨	1	da lu hu
+堂鑼	1	dan lu
+宕帳	1	dan tzan
+大伯	1	da paq
+大餅	1	da pin
+大學	1	da roq
+大蒜	1	da seu
+汏手	1	da soe
+大腿	1	da the
+大菜	1	da tse
+大喜	1	da xi
+汏浴	1	da yoq
+掮牌頭	1	dji ba doe
+窮碰極	1	djion ban djiq
+踱方步	1	doq fan bu
+迭牌人	1	diq ba gnin
+大被告	1	da bi ko
+大排骨	1	du ba kueq
+銅盆帽	1	don ben mo
+肚皮眼	1	du bi nge
+肚皮痛	1	du bi thon
+大白天亮	1	du baq thi lian
+談朋友	1	de ban yoe
+肚皮射	1	du bi za
+大腳瘋	1	du ciaq fon
+肚臍眼	1	du ji nge
+獨腳蟹	1	doq ciaq ha
+大襟衣裳	1	du cin i zan
+淡潔刮辣	1	de ciq kuaq laq
+大腳髈	1	du ciaq phan
+大圈子	1	du chieu tzy
+頭頸套	1	doe cin tho
+填肚皮	1	di du bi
+大肚皮	1	du du bi
+地頭腳跟	1	di doe ciaq ken
+大頭大腦	1	du doe du no
+鬈頭髮	1	djieu doe faq
+銅鈿銀子	1	don di gnin tzy
+大勤共	1	du djin gon
+條頭糕	1	dio doe ko
+強頭倔腦	1	djian doe djiuq no
+洞洞眼	1	don don nge
+強盜坯	1	djian do phe
+踱頭把戲	1	doq doe pau xi
+喬奇紗	1	djio dji sau
+踡頭縮頸	1	djieu doe soq cin
+頭頭轉	1	doe doe tzeu
+團團轉	1	deu deu tzeu
+大舅子	1	du djioe tzy
+停停歇歇	1	din din xiq xiq
+田頭宅基	1	di doe zaq ci
+大大前日	1	du du ji gniq
+臺硬	1	de ngan
+檯球	1	de djioe
+臺頭	1	de doe
+痰吼	1	de hoe
+蛋肓	1	de huan
+蛋糕	1	de ko
+怠慢	1	de me
+藤椅	1	den i
+臀疘	1	den kon
+藤榻	1	den thaq
+檯板	1	de pe
+特別	1	deq biq
+奪脫	1	deq theq
+特為	1	deq we
+苔蘚	1	de xi
+蛋青	1	de chin
+檯子	1	de tzy
+斷氣	1	deu chi
+團几	1	deu ci
+斷根	1	deu ken
+毈命	1	deu min
+斷奶	1	deu na
+斷檔	1	deu tan
+斷脫	1	deu theq
+糰子	1	deu tzy
+蛋黃	1	de wan
+痰盂	1	de yu
+頭髮團	1	doe faq deu
+電風扇	1	di fon seu
+頭髮簪	1	doe faq tzeu
+毒日頭	1	doq gniq doe
+大人道理	1	du gnin do li
+投人身	1	doe gnin sen
+大年三十	1	du gni se seq
+大年三十	1	da gni se zeq
+舊年仔	1	djioe gni tzy
+大年初一	1	du gni tsu iq
+大年夜	1	du gni ya
+大好佬	1	da ho lo
+調花槍	1	dio hau chian
+電影	1	di in
+墊被	1	di bi
+地皮	1	di bi
+地氣	1	di chi
+田雞	1	di ci
+電臺	1	di de
+弟弟	1	di di
+甜頭	1	di doe
+地動	1	di don
+提桶	1	di don
+地方	1	di fan
+地浪	1	di lan
+地梨	1	di li
+田裏	1	di li
+地栗	1	di liq
+大約摸	1	da iaq moq
+題目	1	di moq
+定金	1	din cin
+定規	1	din kue
+電腦	1	di no
+定當	1	din tan
+定洋	1	din yan
+調排	1	dio ba
+調頭	1	dio doe
+調羹	1	dio kan
+條子	1	dio tzy
+地板	1	di pe
+迭頭	1	diq doe
+糴米	1	diq mi
+迭眼	1	diq nge
+迭個	1	diq req
+迭墶	1	diq taq
+碟子	1	diq tzy
+迪為	1	diq we
+迭歇	1	diq xiq
+電線	1	di xi
+提倡	1	di tsan
+電車	1	di tsau
+地震	1	di tzen
+地主	1	di tzy
+填房	1	di van
+電影院	1	di in yeu
+地陽	1	di yan
+茄克衫	1	djia kheq se
+勁道	1	djin do
+舊年	1	djioe gni
+求饒	1	djioe gnio
+舅媽	1	djioe mha
+撟軋	1	djio gaq
+窮禍	1	djion wu
+軸承	1	djioq zen
+轎車	1	djio tsau
+極酷	1	djiq khoq
+揵手	1	dji soe
+棋子	1	dji tzy
+忌嘴	1	dji tzy
+距離	1	djiu li
+裙褲	1	djiun khu
+裙子	1	djiun tzy
+騎縫	1	dji von
+極殼皮	1	djiq khoq bi
+大家大當	1	du ka du tan
+大姑娘	1	du ku gnian
+藤靠椅	1	den kho i
+藤交椅	1	den ko i
+盪口杯	1	dan khoe pe
+電烤箱	1	di kho xian
+窮開心	1	djion khe xin
+盜隔山	1	do kaq se
+獨乾子	1	doq keu tzy
+俱樂部	1	djiu loq bu
+極裏極呴	1	djiq li djiq hoe
+談戀愛	1	de li e
+大路貨	1	da lu hu
+地力糕	1	di liq ko
+田螺眼	1	di lu nge
+抬老三	1	de lo se
+斷六親	1	deu loq chin
+調龍燈	1	dio lon ten
+肚裏痛	1	du li thon
+肚裏射	1	du li za
+獨門獨戶	1	doq men doq wu
+趤馬路	1	dan mau lu
+淘米籮	1	do mi lu
+大媽媽	1	du mha mha
+獨門心思	1	doq men xin sy
+動腦筋	1	don no cin
+投五投六	1	doe ng doe loq
+獨眼龍	1	doq nge lon
+彈眼落睛	1	de nge loq cin
+頭腦子	1	doe no tzy
+彈眼睛	1	de nge cin
+彈眼烏珠	1	de nge u tzy
+道伴	1	do beu
+道地	1	do di
+頭腡	1	doe lu
+頭皮	1	doe bi
+頭頸	1	doe cin
+頭巾	1	doe cin
+頭大	1	doe du
+頭髮	1	doe faq
+頭浪	1	doe lan
+頭面	1	doe mi
+投命	1	doe min
+頭板	1	doe pe
+頭生	1	doe san
+頭塔	1	doe thaq
+頭胎	1	doe the
+頭挑	1	doe thio
+豆青	1	doe chin
+骰子	1	doe tzy
+頭子	1	doe tzy
+豆腐	1	doe vu
+頭渾	1	doe wen
+稻穀	1	do koq
+道理	1	do li
+淘籮	1	do lu
+淘米	1	do mi
+洞眼	1	don nge
+動氣	1	don chi
+銅鈿	1	don di
+洞疘	1	don kon
+動問	1	don men
+銅板	1	don pe
+同學	1	don roq
+動得	1	don teq
+銅銚	1	don tio
+銅匠	1	don jian
+同事	1	don zy
+桃板	1	do pe
+踱頭	1	doq doe
+獨幅	1	doq foq
+讀書	1	doq sy
+獨多	1	doq tu
+道行	1	do ran
+淘湯	1	do than
+稻穧	1	do ci
+桃子	1	do tzy
+稻穗	1	do zeu
+道是	1	do zy
+大伯伯	1	du paq paq
+電冰箱	1	di pin xian
+大胖子	1	du phan tzy
+大餅攤	1	da pin the
+踏扁青	1	daq pi chin
+大後日	1	du roe gniq
+宕下來	1	dan rau le
+蕩河船	1	dan wu zeu
+提心旌	1	di xin cin
+窮死極想	1	djion xi djiq xian
+度死日	1	du xi gniq
+談山海經	1	de se he cin
+定勝糕	1	din sen ko
+電線木頭	1	di xi moq doe
+豆沙色	1	doe sau seq
+弟新婦	1	di xin vu
+談舒齊	1	de sy ji
+彈子盤	1	de tzy beu
+童子雞	1	don tzy ci
+墊刀頭	1	di to doe
+調轉頭	1	dio tzeu doe
+大推大扳	1	du the du pe
+投七投八	1	doe chiq doe paq
+徒子徒孫	1	du tzy du sen
+凸進凸出	1	deq cin deq tseq
+調槍花	1	dio chian hau
+頭珠瞎眼	1	doe tzy haq nge
+亭子間	1	din tzy ke
+大菜間	1	da tse ke
+奇出怪樣	1	dji tseq kua yan
+迭墶裏	1	diq taq li
+頭初裏	1	doe tsu li
+電車路	1	di tsau lu
+大清老早	1	du chin lo tzo
+盪嘴巴	1	dan tzy pau
+大嘴巴	1	du tzy pau
+大推扳	1	du the pe
+踏穿鑊蓋	1	daq tseu roq ke
+大清早	1	du chin tzo
+盪鞦韆	1	dan chioe chi
+頭頂倒三	1	doe tin to se
+杜做主張	1	du tzu tzy tzan
+極出烏拉	1	djiq tseq u lha
+蛋炒飯	1	de tso ve
+淘漿糊	1	do cian wu
+大排	1	du ba
+肚皮	1	du bi
+杜鵑	1	du cieu
+杜鵑花	1	du cieu hau
+徒弟	1	du di
+大骱	1	du ga
+大年	1	du gni
+大月	1	du gniuq
+大米	1	du mi
+大髈	1	du phan
+駝背	1	du pe
+度死	1	du xi
+大細	1	du xi
+大汛	1	du xin
+大水	1	du sy
+圖書	1	du sy
+大腿	1	du the
+大菜	1	du tse
+圖章	1	du tzan
+大姐	1	du cia
+大姐	1	da ci
+駝子	1	du tzy
+大月	1	du yuq
+肚腸	1	du zan
+大廚	1	du zy
+豆腐肩胛	1	doe vu ci kaq
+豆腐花	1	doe vu hau
+豆腐衣	1	doe vu i
+豆腐乾	1	doe vu keu
+豆腐漿	1	doe vu cian
+大勿對頭	1	du veq te doe
+豆腐漿攤	1	doe vu cian the
+豆腐飯	1	doe vu ve
+動物園	1	don veq yeu
+投黃浦	1	doe wan phu
+強兇極惡	1	djian xion djiq oq
+窮興窮下	1	djion xin djion rau
+檀香橄欖	1	de xian ke le
+迭歇裏	1	diq xiq li
+迭歇辰光	1	diq xiq zen kuan
+極形極狀	1	djiq yin djiq zan
+獨養兒子	1	doq yan gni tzy
+汏浴間	1	da yoq ke
+痰盂罐	1	de yu kueu
+大姨姆媽	1	du yi mh mha
+電視機	1	di zy ci
+騎牆頭	1	dji jian doe
+大舌頭	1	du zeq doe
+大前日	1	du ji gniq
+大煠蟹	1	du zaq ha
+肚腸根	1	du zan ken
+肚臍眼	1	du ji nge
+大潮汛	1	du zo xin
+疊柴垛	1	deq za tu
+陶情作樂	1	do jin tzoq loq
+肚腸癢	1	du zan yan
+闇頭裏	1	eu doe li
+闇裏摸索	1	eu li moq soq
+二郎腿	1	el lan the
+闇裏向	1	eu li xian
+哀面	1	e mi
+哀面墶	1	e mi taq
+哀個	1	e req
+哀個辰光	1	e req zen kuan
+安心樂意	1	eu xin loq i
+哀墶	1	e taq
+哀點	1	e ti
+哀墶裏	1	e taq li
+安慰	1	eu ue
+安排	1	eu ba
+安定	1	eu din
+安生	1	eu san
+晏歇	1	e xiq
+晏歇點	1	e xiq ti
+晏歇會	1	e xiq we
+哀歇辰光	1	e xiq zen kuan
+放生	1	fan san
+方凳	1	fan ten
+方腿	1	fan the
+放刁	1	fan tio
+發條	1	faq dio
+發極	1	faq djiq
+發踱	1	faq doq
+發呴	1	faq hoe
+發格	1	faq kaq
+發呆	1	faq nge
+發瘧子	1	faq ngoq tzy
+發痧	1	faq sau
+發身	1	faq sen
+發騷	1	faq so
+發嗲	1	faq tia
+發痴	1	faq tsy
+發噱	1	faq xiuq
+發育	1	faq yoq
+發情	1	faq jin
+發脾氣	1	faq bi chi
+粉皮耳朵	1	fen bi gni tu
+放白鴿	1	fan baq keq
+翻白眼	1	fe baq nge
+翻腳底	1	fe ciaq ti
+風頭哴	1	fon doe lan
+番茄	1	fe ga
+分頭	1	fen doe
+分開	1	fen khe
+分鐘	1	fen tzon
+翻脫	1	fe theq
+反倒	1	fe to
+飛蛾	1	fi ngu
+肺病	1	fi bin
+飛機	1	fi ci
+翻跟頭	1	fe ken doe
+發酵粉	1	faq ko fen
+放過門	1	fan ku men
+法國梧桐	1	faq kueq ngu don
+法國冬青	1	faq kueq ton chin
+發冷頭	1	faq lan doe
+翻來碌去	1	fe le loq chi
+風涼言話	1	fon lian re rau
+風涼鞋子	1	fon lian ra tzy
+發冷訊	1	faq lan xin
+翻老底	1	fe lo ti
+翻老帳	1	fe lo tzan
+翻毛腔	1	fe mo chian
+風景	1	fon cin
+豐年	1	fon gni
+風涼	1	fon lian
+風色	1	fon seq
+風癱	1	fon the
+風箏	1	fon tzen
+瘋子	1	fon tzy
+風潮	1	fon zo
+福氣	1	foq chi
+複印	1	foq in
+福份	1	foq ven
+複習	1	foq jiq
+風報頭	1	fon po doe
+翻行頭	1	fe ran doe
+發寒熱	1	faq reu gniq
+發西風	1	faq xi fon
+放心托膽	1	fan xin thoq te
+紡織娘	1	fan tzeq gnian
+反抄耳光	1	fe tso gni kuan
+風疹塊	1	fon tzen khue
+斧頭	1	fu doe
+夫人	1	fu gnin
+放飯學	1	fan ve roq
+發橫材	1	faq wan ze
+放伊一碼	1	fan yi iq mau
+放夜學	1	fan ya roq
+風雨雪落	1	fon yu xiq loq
+發神經	1	faq zen cin
+懈門	1	ga men
+戇大	1	gan du
+軋道	1	gaq do
+軋牢	1	gaq lo
+軋叉	1	gaq tsau
+夾子	1	gaq tzy
+骱節	1	ga ciq
+鋸子	1	ga tzy
+茄子	1	ga tzy
+隑牌頭	1	ge ba doe
+牛皮糖	1	gnioe bi dan
+泥菩薩	1	gni bu saq
+軋朋友	1	gaq ban yoe
+泥塳塵	1	gni bon zen
+年紀月生	1	gni ci gniuq san
+軟腳蟹	1	gnieu ciaq ha
+年腳邊頭	1	gni ciaq pi doe
+年紀月生	1	gni ci yuq san
+搞頭勁	1	go doe cin
+軋稻機	1	gaq do ci
+泥潭潭	1	gni de de
+熱大頭昏	1	gniq du doe huen
+耿頭耿腦	1	gen doe gen no
+日頭裏	1	gniq doe li
+年頭浪	1	gni doe lan
+月洞門	1	gniuq don men
+娘大囡大	1	gnian du neu du
+牛踏扁	1	gnioe daq pi
+搞頭勢	1	go doe sy
+跔頭縮頸	1	goe doe soq cin
+箇記	1	geq ci
+搿記	1	geq ci
+箇頭	1	geq doe
+搿頭	1	geq doe
+搿腰	1	geq io
+箇面	1	geq mi
+搿面	1	geq mi
+箇能	1	geq nen
+搿能	1	geq nen
+箇個	1	geq req
+搿個	1	geq req
+箇手	1	geq soe
+搿手	1	geq soe
+箇墶	1	geq taq
+搿墶	1	geq taq
+箇點	1	geq ti
+搿點	1	geq ti
+箇歇	1	geq xiq
+搿歇	1	geq xiq
+隑身	1	ge sen
+娘娘腔	1	gnian gnian chian
+解鈕頭	1	ga gnioe doe
+牛軋糖	1	gnioe gaq dan
+女人家	1	gniu gnin ka
+軟耳朵	1	gnieu gni tu
+二婚頭	1	gni huen doe
+熱昏顛倒	1	gniq huen ti to
+搞七搞八	1	go chiq go paq
+軋一腳	1	gaq iq ciaq
+年糕糰	1	gni ko deu
+日改日	1	gniq ke gniq
+摜家摜生	1	gue ka gue san
+摜家生	1	gue ka san
+人來風	1	gnin le fon
+肉裏眼	1	gnioq li nge
+擱落三姆	1	goq loq se m
+日裏向	1	gniq li xian
+軋苗頭	1	gaq mio doe
+懈門相	1	ga men xian
+箇面墶	1	geq mi taq
+搿面墶	1	geq mi taq
+讓我	1	gnian ngu
+娘娘	1	gnian gnian
+娘姨	1	gnian yi
+年紀	1	gni ci
+年腳	1	gni ciaq
+硯臺	1	gni de
+年頭	1	gni doe
+念頭	1	gni doe
+軟盤	1	gnieu beu
+元氣	1	gnieu chi
+軟片	1	gnieu phi
+原先	1	gnieu xi
+軟熟	1	gnieu zoq
+罱泥	1	gnie gni
+尼姑	1	gni ku
+耳光	1	gni kuan
+耳馬	1	gni mau
+仍舊	1	gnin djioe
+人道	1	gnin do
+人頭	1	gnin doe
+人家	1	gnin ka
+人客	1	gnin khaq
+檸檬	1	gnin mon
+銀行	1	gnin ran
+人中	1	gnin tzon
+任何	1	gnin wu
+人緣	1	gnin yeu
+饒頭	1	gnio doe
+鈕頭	1	gnioe doe
+牛奶	1	gnioe na
+牛肚	1	gnioe tu
+鈕子	1	gnioe tzy
+繞軋	1	gnio gaq
+絨線	1	gnion xi
+濃湯	1	gnion than
+肉段	1	gnioq deu
+肉麻	1	gnioq mau
+肉脯	1	gnioq phu
+肉鬆	1	gnioq son
+肉絲	1	gnioq sy
+肉痛	1	gnioq thon
+肉丁	1	gnioq tin
+肉凍	1	gnioq ton
+肉莊	1	gnioq tzan
+肉漿	1	gnioq cian
+肉癢	1	gnioq yan
+肉圓	1	gnioq yeu
+尾巴	1	gni pau
+年把	1	gni pau
+日腳	1	gniq ciaq
+熱昏	1	gniq huen
+日影	1	gniq in
+日裏	1	gniq li
+熱絡	1	gniq loq
+熱水	1	gniq sy
+日短	1	gniq teu
+熱炒	1	gniq tso
+日朝	1	gniq tzo
+日長	1	gniq zan
+疑心	1	gni xin
+膩心	1	gni xin
+泥墩	1	gni ten
+年底	1	gni ti
+年初	1	gni tsu
+耳朵	1	gni tu
+泥漿	1	gni cian
+年中	1	gni tzon
+兒子	1	gni tzy
+義子	1	gni tzy
+蕊頭	1	gniu doe
+女人	1	gniu gnin
+女家	1	gniu ka
+月白	1	gniuq baq
+月季	1	gniuq ci
+月頭	1	gniuq doe
+月洞	1	gniuq don
+月大	1	gniuq du
+月亮	1	gniuq lian
+月曆	1	gniuq liq
+月半	1	gniuq peu
+月餅	1	gniuq pin
+月生	1	gniuq san
+月小	1	gniuq xio
+月中	1	gniuq tzon
+月蝕	1	gniuq zeq
+女婿	1	gniu xiu
+箇能介	1	geq nen ka
+搿能介	1	geq nen ka
+軋鬧猛	1	gaq no man
+搞頭	1	go doe
+軋姘頭	1	gaq phin doe
+摜包裹	1	gue po ku
+尾巴官司	1	gni pau kueu sy
+元寶籃	1	gnieu po le
+寧波灘黃	1	gnin poq the wan
+霓虹燈	1	gni ron ten
+熱水瓶	1	gniq sy bin
+繞山頭	1	gnio se doe
+疑心疑惑	1	gni xin gni weq
+熱銷貨	1	gniq xio hu
+摜紗帽	1	gue sau mo
+女小囝	1	gniu xio neu
+絨線衫	1	gnion xi se
+元宵節	1	gnieu xio ciq
+乾爽天氣	1	keu san thi chi
+解山河	1	ga se wu
+日思夜想	1	gniq sy ya xian
+泥水匠	1	gni sy jian
+耳朵圈	1	gni tu chieu
+耳朵洞	1	gni tu don
+鑷子鉗	1	gniq tzy dji
+熱癤頭	1	gniq ciq doe
+耳朵環	1	gni tu gue
+人千人萬	1	gnin chi gnin ve
+繞七繞八	1	gnio chiq gnio paq
+搞七搞八	1	go chiq go paq
+搞七廿三	1	go chiq gnie se
+熱天熱色	1	gniq thi gniq seq
+年初一	1	gni tsu iq
+女當家	1	gniu tan ka
+牛仔	1	gnioe tze
+箇墶裏	1	geq taq li
+搿墶裏	1	geq taq li
+箇檔碼子	1	geq tan mau tzy
+搿檔碼子	1	geq tan mau tzy
+捏鰨魚	1	gniaq thaq ng
+熱吹潽燙	1	gniq tsy phu than
+年中心	1	gni tzon xin
+日中心	1	gniq tzon xin
+疑准足	1	gni tzen tzoq
+軋車子	1	gaq tsau tzy
+人丹鬍蘇	1	gnin te wu su
+日長夜大	1	gniq tzan ya du
+摜稻	1	gue do
+摜跤	1	gue ko
+摜炮	1	gue pho
+軋勿攏	1	gaq veq lon
+軋勿和	1	gaq veq wu
+箇歇裏	1	geq xiq li
+搿歇裏	1	geq xiq li
+箇歇點	1	geq xiq ti
+搿歇點	1	geq xiq ti
+箇歇歇	1	geq xiq xiq
+搿歇歇	1	geq xiq xiq
+箇歇辰光	1	geq xiq zen kuan
+搿歇辰光	1	geq xiq zen kuan
+年夜腳邊	1	gni ya ciaq pi
+年夜頭	1	gni ya doe
+銀洋鈿	1	gnin yan di
+年夜快	1	gni ya khua
+箇辰光	1	geq zen kuan
+搿辰光	1	geq zen kuan
+日長世久	1	gniq zan sy cioe
+乾淨天氣	1	keu jin thi chi
+蟹粉	1	ha fen
+瞎講	1	haq kan
+瞎眼	1	haq nge
+瞎話	1	haq rau
+瞎扯	1	haq tsa
+瞎子	1	haq tzy
+蟹青	1	ha chin
+花捲	1	hau cieu
+花袋	1	hau de
+花筒	1	hau don
+花呢	1	hau gni
+蝦乾	1	hau keu
+蝦米	1	hau mi
+蝦仁	1	hau gnin
+花紅	1	hau ron
+花俏	1	hau chio
+花痴	1	hau tsy
+花險	1	hau xi
+蟹黃	1	ha wan
+好白話	1	ho baq rau
+好白相	1	ho baq xian
+好吃吃	1	ho chiq chiq
+好幾日	1	ho ci gniq
+好吃懶做	1	ho chiq le tzu
+好吃飯	1	ho chiq ve
+花頭景	1	hau doe cin
+花頭勁	1	hau doe cin
+花頭花腦	1	hau doe hau no
+海派	1	he pha
+黑色	1	heq seq
+黑心	1	heq xin
+黑碳	1	heq the
+顑腫	1	he tzon
+海洋	1	he yan
+海蜇	1	he zeq
+嚇人倒怪	1	haq gnin to kua
+好好較	1	ho ho cio
+花花公子	1	hau hau kon tzy
+好貨色	1	ho hu seq
+好好先生	1	ho ho xi san
+豁虎跳	1	huaq hu thio
+好意思	1	ho i sy
+花功道地	1	hau kon do di
+黑瓜子	1	heq kau tzy
+蟹殼黃	1	ha khoq wan
+瞎來來	1	haq le le
+花鯉魚	1	hau li ng
+花露水	1	hau lu sy
+黑良心	1	heq lian xin
+甩翎子	1	huaq lin tzy
+好料作	1	ho lio tzoq
+黑裏俏	1	heq li chio
+豁眼梢	1	huaq nge so
+豁牙齒	1	huaq nga tsy
+黑眼烏珠	1	heq nge u tzy
+好恘	1	ho chioe
+好吃	1	ho chiq
+佝背	1	hoe pe
+呴勢	1	hoe sy
+好日	1	ho gniq
+好貨	1	ho hu
+好過	1	ho ku
+霍險	1	hoq xi
+淴浴	1	hoq yoq
+好天	1	ho thi
+好戲	1	ho xi
+哈巴狗	1	ha pa koe
+亨八冷打	1	han paq lan tan
+好手腳	1	ho soe ciaq
+蟹手蟹腳	1	ha soe ha ciaq
+好商好量	1	ho san ho lian
+好說好話	1	ho seq ho rau
+狠三狠四	1	hen se hen sy
+好生意經	1	ho san i cin
+花生米	1	hau sen mi
+火燒木頭	1	hu so moq doe
+瞎三話四	1	haq se rau sy
+好算算	1	ho seu seu
+葷小菜	1	huen xio tse
+火燒雲	1	hu so yun
+花嘴花臉	1	hau tzy hau li
+歪垛裏	1	hua tu li
+灰拓拓	1	hue thoq thoq
+瞎七搭八	1	haq chiq taq paq
+瞎子擋秤	1	haq tzy tan tsen
+火赤焰焰	1	hu tsaq yi yi
+豁腳	1	huaq ciaq
+豁拳	1	huaq djieu
+豁豁	1	huaq huaq
+甩乾	1	huaq keu
+豁牙	1	huaq nga
+豁邊	1	huaq pi
+豁鑊	1	huaq roq
+甩水	1	huaq sy
+豁嘴	1	huaq tzy
+晦氣	1	hue chi
+昏塗	1	huen du
+葷腥	1	huen xin
+葷菜	1	huen tse
+歡喜	1	hueu xi
+灰塵	1	hue zen
+瞎唩搞	1	haq u go
+火夾	1	hu gaq
+貨色	1	hu seq
+火車	1	hu tsau
+火燭	1	hu tzoq
+火油	1	hu yoe
+火着	1	hu zaq
+瞎和調	1	haq wu dio
+花癢欠欠	1	hau yan chi chi
+好爺好娘	1	ho ya ho gnian
+淴浴間	1	hoq yoq ke
+呵癢嬉嬉	1	hau yan xi xi
+海蜇皮	1	he zeq bi
+海蜇皮子	1	he zeq bi tzy
+海蜇頭	1	he zeq doe
+一盆漿糊	1	iq ben cian wu
+一記頭	1	iq ci doe
+懨氣	1	i chi
+已經	1	i cin
+一腳一手	1	iq ciaq iq soe
+要緊關子	1	io cin kue tzy
+一腳落手	1	iq ciaq loq soe
+一句言話	1	iq ciu re rau
+一腳去	1	iq ciaq chi
+要緊勿煞	1	io cin veq saq
+一頭一腦	1	iq doe iq no
+陰頭裏	1	in doe li
+咿頭	1	i doe
+一期歲	1	iq dji seu
+因頭勿起	1	in doe veq chi
+幼兒園	1	ioe el yeu
+幺二角甪	1	io gni koq loq
+一年四季	1	iq gni sy ci
+一日到夜	1	iq gniq to ya
+一家頭	1	iq ka doe
+陰溝洞	1	in koe don
+一家一當	1	iq ka iq tan
+一刮兩響	1	iq kuaq lian xian
+一家門	1	iq ka men
+一乾子	1	iq keu tzy
+一刻勿停	1	iq kheq veq din
+一路貨	1	iq lu hu
+一路浪	1	iq lu lan
+陰涼天氣	1	in lian thi chi
+煙冷清清	1	i lan chin chin
+咿面	1	i mi
+一模一樣	1	iq mu iq yan
+一門心思	1	iq men xin sy
+因頭	1	in doe
+一五一十	1	iq ng iq zeq
+應該	1	in ke
+印糕	1	in ko
+陰溝	1	in koe
+蔭涼	1	in lian
+一眼眼	1	iq nge nge
+陰損	1	in sen
+陰世	1	in sy
+陰天	1	in thi
+陰刁	1	in tio
+英俊	1	in cin
+影子	1	in tzy
+因為	1	in we
+腰眼	1	io nge
+幽默	1	ioe meq
+要好	1	io ho
+要嚜	1	io meq
+要命	1	io min
+甬劇	1	ion djiq
+要乃	1	io ne
+腰子	1	io tzy
+要是	1	io zy
+一包氣	1	iq po chi
+一票貨色	1	iq phio hu seq
+一本書	1	iq pen sy
+一把紮	1	iq pau tzaq
+一步	1	iq bu
+一圈	1	iq chieu
+一記	1	iq ci
+一腳	1	iq ciaq
+一徑	1	iq cin
+一斤	1	iq cin
+一級	1	iq ciq
+一句	1	iq ciu
+一段	1	iq deu
+一地	1	iq di
+一定	1	iq din
+一件	1	iq dji
+一道	1	iq do
+一封	1	iq fon
+一付	1	iq fu
+一年	1	iq gni
+一日	1	iq gniq
+一根	1	iq ken
+一口	1	iq khoe
+一棵	1	iq khu
+一塊	1	iq khue
+一股	1	iq ku
+一路	1	iq lu
+一門	1	iq men
+一眼	1	iq nge
+一把	1	iq pau
+一本	1	iq pen
+一片	1	iq phi
+一遍	1	iq pi
+一包	1	iq po
+一個	1	iq req
+一身	1	iq sen
+一搭	1	iq taq
+一等	1	iq ten
+一跳	1	iq thio
+一套	1	iq tho
+一點	1	iq ti
+一到	1	iq to
+一寸	1	iq tsen
+一槍	1	iq chian
+一張	1	iq tzan
+一隻	1	iq tzaq
+一桌	1	iq tzoq
+一碗	1	iq ueu
+一房	1	iq van
+一歇	1	iq xiq
+一夜	1	iq ya
+一直	1	iq zeq
+咿個	1	i req
+一個人	1	iq req gnin
+以後	1	i roe
+淹殺	1	i saq
+陰司鬼	1	in sy ciu
+一手一腳	1	iq soe iq ciaq
+一生一世	1	iq san iq sy
+一式一樣	1	iq seq iq yan
+陰司刮搭	1	in sy kuaq taq
+陰勢天	1	in sy thi
+影息無蹤	1	in xiq vu tzon
+一聲勿響	1	iq sen veq xian
+咿墶	1	i taq
+腰子病	1	io tzy bin
+鷹爪鼻頭	1	in tzo biq doe
+一搭一檔	1	iq taq iq tan
+一點一劃	1	iq ti iq waq
+一搨括子	1	iq thaq kuaq tzy
+咿墶裏	1	i taq li
+煙斗	1	i toe
+胭脂紅	1	i tzy ron
+一天世界	1	iq thi sy ka
+一清早	1	iq chin tzo
+煙紙店	1	i tzy ti
+一塌糊塗	1	iq thaq wu du
+一帖藥	1	iq thiq yaq
+一進宅	1	iq cin zaq
+一沰涎唾	1	iq toq ze thu
+燕子	1	i tzy
+椅子	1	i tzy
+冤枉鬼叫	1	ieu uan ciu cio
+意勿過	1	i veq ku
+演戲	1	i xi
+咿歇	1	i xiq
+咿歇裏	1	i xiq li
+一歇勿停	1	iq xiq veq din
+一歇歇	1	iq xiq xiq
+咿歇辰光	1	i xiq zen kuan
+陰陽頭	1	in yan doe
+醫院	1	i yeu
+陰陽面	1	in yan mi
+要樣嘸樣	1	io yan m yan
+一樣生	1	iq yan san
+衣裳	1	i zan
+一時頭哴	1	iq zy doe lan
+要長要短	1	io zan io teu
+一時三刻	1	iq zy se kheq
+傢具	1	ka djiu
+家長裏短	1	ka zan li teu
+耕田	1	kan di
+粳米	1	kan mi
+更飯	1	kan ve
+家坊	1	ka fan
+解剛	1	ka kan
+剛剛	1	kan kan
+肛門	1	kan men
+鋼板	1	kan pe
+鋼筆	1	kan piq
+講張	1	kan tzan
+江湖	1	kan wu
+夾裏	1	kaq li
+夾弄	1	kaq lon
+格嚜	1	kaq meq
+隔奶	1	kaq na
+隔壁	1	kaq piq
+夾心	1	kaq xin
+家生	1	ka san
+假手	1	ka soe
+公阿爹	1	kon aq tia
+家當	1	ka tan
+蝸牛	1	kau gnioe
+階沿	1	ka yi
+家常飯	1	ka zan ve
+庎廚	1	ka zy
+刮皮鬼	1	kuaq bi ciu
+狗皮膏藥	1	koe bi ko yaq
+瓜皮帽	1	kau bi mo
+講白相	1	kan baq xian
+看白戲	1	kheu baq xi
+講斤頭	1	kan cin doe
+褲腳管	1	khu ciaq kueu
+泔腳缸	1	keu ciaq kan
+看腳路	1	kheu ciaq lu
+泔腳缽頭	1	keu ciaq peq doe
+寬緊帶	1	khueu cin ta
+勾肩搭背	1	koe ci taq pe
+空銅鈿	1	khon don di
+客堂間	1	khaq dan ke
+課堂間	1	khu dan ke
+箍頭官腳	1	ku doe kueu ciaq
+夾頭夾腦	1	kaq doe kaq no
+骨頭骨腦	1	kueq doe kueq no
+光頭裏	1	kuan doe li
+扭頭齾頸	1	knioe doe ngaq cin
+開頭砲	1	khe doe pho
+古銅色	1	ku don seq
+跨頭勢	1	khau doe sy
+開頭刀	1	khe doe to
+扭頭厾頸	1	knioe doe toq cin
+箍頭紮腳	1	ku doe tzaq ciaq
+空頭支票	1	khon doe tzy phio
+瞌頭蟲	1	kheq doe zon
+開頭辰光	1	khe doe zen kuan
+尷僵	1	ke cian
+蓋頭	1	ke doe
+改日	1	ke gniq
+睏晏覺	1	khuen e ko
+尷尬	1	ke ka
+橄欖	1	ke le
+跟腳	1	ken ciaq
+更加	1	ken ka
+割稻	1	keq do
+佮夥	1	keq hu
+蛤蜢	1	keq man
+割麥	1	keq maq
+合腮	1	keq se
+合算	1	keq seu
+疙瘩	1	keq taq
+鴿多	1	keq tu
+鴿子	1	keq tzy
+鴿嘴	1	keq tzy
+該個	1	ke req
+該死	1	ke xi
+睏晏早	1	khuen e tzo
+賅刁	1	ke tio
+奸刁	1	ke tio
+感動	1	keu don
+乾麵	1	keu mi
+甘蔗	1	keu tzau
+開方子	1	khe fan tzy
+過念頭	1	ku gni doe
+怪人頭	1	kua gnin doe
+摑耳光	1	kuaq gni kuan
+夾年夾節	1	kaq gni kaq ciq
+開年仔	1	khe gni tzy
+摳耳朵	1	khoe gni tu
+隔日會	1	kaq gniq we
+改日會	1	ke gniq we
+咖啡	1	kha fi
+揩面	1	kha mi
+卡片	1	kha phi
+揩布	1	kha pu
+客堂	1	khaq dan
+客人	1	khaq gnin
+揢扣	1	khaq khoe
+掐塊	1	khaq khue
+客滿	1	khaq meu
+揩脫	1	kha theq
+卡車	1	kha tsau
+揩油	1	kha yoe
+鉛皮	1	khe bi
+開步	1	khe bu
+鉛球	1	khe djioe
+開頭	1	khe doe
+鉛桶	1	khe don
+開年	1	khe gni
+開化	1	khe hau
+開葷	1	khe huen
+開價	1	khe ka
+開間	1	khe ke
+開關	1	khe kue
+鉛筆	1	khe piq
+栲栳	1	kheq lo
+咳嗽	1	kheq soe
+開衫	1	khe se
+開心	1	khe xin
+開銷	1	khe xio
+開水	1	khe sy
+開始	1	khe sy
+開尺	1	khe tsaq
+開坼	1	khe tsaq
+開春	1	khe tsen
+開秤	1	khe tsen
+開皴	1	khe tsen
+開初	1	khe tsu
+看病	1	kheu bin
+看法	1	kheu faq
+看相	1	kheu xian
+看承	1	kheu zen
+開洋	1	khe yan
+開烊	1	khe yan
+開場	1	khe zan
+開晴	1	khe jin
+考究	1	kho cioe
+敲定	1	kho din
+佝瞀	1	khoe moe
+烤麩	1	kho fu
+空調	1	khon dio
+空檔	1	khon tan
+拷浜	1	kho pan
+拷邊	1	kho pi
+考試	1	kho sy
+叫化子	1	ko hau tzy
+開伙倉	1	khe hu tsan
+可以	1	khu i
+褲腰	1	khu io
+呵叻	1	khu leq
+快樂	1	khua loq
+快點	1	khua ti
+筷子	1	khua tzy
+快活	1	khua weq
+褲腳	1	khu ciaq
+課堂	1	khu dan
+苦頭	1	khu doe
+塊頭	1	khue doe
+睏衣	1	khuen i
+睏覺	1	khuen ko
+睏話	1	khuen rau
+虧本	1	khue pen
+闊背	1	khueq pe
+寬舒	1	khueu sy
+可樂	1	khu loq
+苦腦	1	khu no
+褲衩	1	khu tsa
+褲子	1	khu tzy
+課程	1	khu zen
+解懨氣	1	ka i chi
+趕要趕緊	1	keu io keu cin
+揩一浦	1	kha iq phu
+看醫生	1	kheu i san
+過意勿去	1	ku i veq chi
+孃孃婆婆	1	knian knian bu bu
+尷尬頭	1	ke ka doe
+扣揢扣	1	khoe khaq khoe
+看看	1	kheu kheu
+看看看	1	kheu kheu kheu
+過街樓	1	ku ka loe
+角角甪甪	1	koq koq loq loq
+攪家精	1	ko ka cin
+開口飯	1	khe khoe ve
+絞捩棒	1	ko li ban
+角甪頭	1	koq loq doe
+骷顱頭	1	khu lu doe
+骷郎頭	1	khu lan doe
+光郎頭	1	kuan lan doe
+趕浪頭	1	keu lan doe
+假領頭	1	ka lin doe
+孤老頭子	1	ku lo doe tzy
+窠裏反	1	khu li fe
+睏落寣	1	khuen loq hueq
+怪裏怪氣	1	kua li kua chi
+骨輪輪圓	1	kueq len len yeu
+克羅米	1	kheq lu mi
+橄欖帽	1	ke le mo
+看冷眼	1	kheu lan nge
+括辣鬆脆	1	kuaq laq son tseu
+胳落竹	1	keq loq tzoq
+孤老太婆	1	ku lo tha bu
+看老黃曆	1	kheu lo wan liq
+姑母阿姐	1	ku mhu aq cia
+看毛病	1	kheu mo bin
+睏夢頭裏	1	khuen man doe li
+葛末好唻	1	keq meq ho le
+夾忙夾裏	1	kaq man kaq li
+敲木魚	1	kho moq yu
+嫁男人	1	ka neu gnin
+孃孃	1	knian knian
+捻鑿	1	kni zoq
+嫁囡兒	1	ka neu ng
+看顏色	1	kheu nge seq
+苦腦子	1	khu no tzy
+摳牙齒	1	khoe nga tsy
+開眼烏龜	1	khe nge u ciu
+勾勒	1	koe leq
+佝僂	1	koe loe
+鉤子	1	koe tzy
+夠事	1	koe zy
+工鈿	1	kon di
+工頭	1	kon doe
+功課	1	kon khu
+公公	1	kon kon
+公司	1	kon sy
+工廠	1	kon tsan
+工作	1	kon tzoq
+工資	1	kon tzy
+角頭	1	koq doe
+擱樓	1	koq loe
+角索	1	koq soq
+角鐵	1	koq thiq
+角子	1	koq tzy
+漷嘴	1	koq tzy
+覺着	1	koq zaq
+高陞	1	ko sen
+告訴	1	ko su
+高墩	1	ko ten
+交帳	1	ko tzan
+告運	1	ko yun
+告塮	1	ko jia
+睏扁頭	1	khuen pi doe
+客邊人	1	khaq pi gnin
+客邦人	1	khaq pan gnin
+靠背椅	1	kho pe i
+靠背椅子	1	kho pe i tzy
+蓋屁股	1	ke phi ku
+敲癟橄欖	1	kho piq ke le
+敲扁橄欖	1	kho pi ke le
+更班落班	1	kan pe loq pe
+狗屄倒糟	1	koe pi to tzo
+江北戲	1	kan poq xi
+跟屁蟲	1	ken phi zon
+講言話	1	kan re rau
+開紅燈	1	khe ron ten
+快手腳	1	khua soe ciaq
+隔宿氣	1	kaq soq chi
+滾繡球	1	kuen xioe djioe
+空心肚裏	1	khon xin du li
+睏失寣	1	khuen seq hueq
+乖心乾	1	kua xin keu
+開司米	1	khe sy mi
+教書先生	1	ko sy xi san
+隔手帳	1	kaq soe tzan
+空心湯糰	1	khon xin than deu
+摳心挖膽	1	khoe xin uaq te
+看西洋景	1	kheu xi yan cin
+家主婆	1	ka tzy bu
+講斥頭	1	kan tsaq doe
+滾鐵環	1	kuen thiq gue
+敲竹槓	1	kho tzoq kan
+開襠褲	1	khe tan khu
+假痴假呆	1	ka tsy ka nge
+夾七夾八	1	kaq chiq kaq paq
+攪七攪八	1	ko chiq ko paq
+漷湯漷水	1	koq than koq sy
+掯支掯支	1	khen tzy khen tzy
+唊嘴唊舌	1	kaq tzy kaq zeq
+跟嘴跟舌	1	ken tzy ken zeq
+隔槍籬	1	kaq chian li
+瓜子臉	1	kau tzy li
+更轉落轉	1	kan tzeu loq tzeu
+睏痴夢懂	1	khuen tsy mon ton
+烤子魚	1	kho tzy ng
+漷嘴巴	1	koq tzy pau
+哭作臂把	1	khoq tzoq pi pau
+開天鎖	1	khe thi su
+刮積瀉	1	kuaq ciq xia
+開天窗	1	khe thi tsan
+睏痴脫	1	khuen tsy theq
+敲釘轉腳	1	kho tin tzeu ciaq
+哭出烏拉	1	khoq tseq u lha
+胳肢窩	1	keq tzy
+膏滋藥	1	ko tzy yaq
+開初辰光	1	khe tsu zen kuan
+光火	1	kuan hu
+光足	1	kuan tzoq
+怪人	1	kua gnin
+乖囝	1	kua neu
+光景	1	kuan cin
+光頭	1	kuan doe
+光棍	1	kuan kuen
+光麵	1	kuan mi
+光明	1	kuan min
+光生	1	kuan san
+光線	1	kuan xi
+光張	1	kuan tzan
+刮皮	1	kuaq bi
+颳風	1	kuaq fon
+怪胎	1	kua the
+拐子	1	kua tzy
+拐杖	1	kua zan
+果皮	1	ku bi
+過去	1	ku chi
+過頭	1	ku doe
+會計	1	kue ci
+滾條	1	kuen dio
+滾邊	1	kuen pi
+骨頭	1	kueq doe
+關節	1	kue ciq
+關照	1	kue tzo
+關子	1	kue tzy
+罐頭	1	kueu doe
+管帳	1	kueu tzan
+管子	1	kueu tzy
+桂圓	1	kue yeu
+關係	1	kue yi
+姑夫	1	ku fu
+姑娘	1	ku gnian
+哥哥	1	ku ku
+過來	1	ku le
+故勒	1	ku leq
+鼓勵	1	ku li
+過門	1	ku men
+孤孀	1	ku san
+顧惜	1	ku xiq
+鍋貼	1	ku thiq
+過飯	1	ku ve
+過戶	1	ku wu
+過夜	1	ku ya
+故事	1	ku zy
+過房兒子	1	ku van gni tzy
+關飯學	1	kue ve roq
+揀佛燒香	1	ke veq so xian
+怪勿得	1	kua veq teq
+過房爺	1	ku van ya
+睏勿着	1	khuen veq zaq
+開胃口	1	khe we khoe
+開荷蘭水	1	khe wu le sy
+高血壓	1	ko xiuq aq
+磕響頭	1	kheq xian doe
+假佯頭	1	ka yan doe
+假爺頭	1	ka ya doe
+開藥方	1	khe yaq fan
+看野眼	1	kheu ya nge
+關夜學	1	kue ya roq
+階沿石	1	ka yi zaq
+空陣頭	1	khon zen doe
+改前日	1	ke ji gniq
+棺材戶頭	1	kueu ze wu doe
+開場戲	1	khe zan xi
+癩團	1	la deu
+冷盆	1	lan ben
+冷熱	1	lan gniq
+冷嗝	1	lan keq
+冷水	1	lan sy
+廊棚	1	lan ban
+鎯頭	1	lan doe
+浪頭	1	lan doe
+浪費	1	lan fi
+郎中	1	lan tzon
+浪向	1	lan xian
+廊簷	1	lan yi
+垃壗	1	laq he
+辣火	1	laq hu
+垃拉	1	laq la
+攔牢	1	laq lo
+垃末	1	laq meq
+臘八	1	laq paq
+辣柵	1	laq saq
+垃圾	1	laq seq
+辣手	1	laq soe
+辣椒	1	laq cio
+蠟燭	1	laq tzoq
+賴學	1	la roq
+賴三	1	la se
+垃圾	1	la xi
+老阿爹	1	lo aq tia
+賴柴	1	la za
+老婆婆	1	lo bu bu
+賴伏雞	1	la bu ci
+蓮蓬頭	1	li bon doe
+肋棚骨	1	leq ban kueq
+兩旁邊	1	lian ban pi
+老白蝨	1	lo baq seq
+連皮搭骨	1	li bi taq kueq
+羅圈腳	1	lu chieu ciaq
+龍捲風	1	lon cieu fon
+落腳貨	1	loq ciaq hu
+蹗起來	1	loq chi le
+老吃老做	1	lo chiq lo tzu
+兩氣生	1	lian chi san
+老鬼失撇	1	lo ciu seq phiq
+量地皮	1	lian di bi
+賴極皮	1	la djiq bi
+兩頭爿	1	lian doe be
+懶惰鬼	1	le du ciu
+勞動大姐	1	lo don da cia
+亂頭髮	1	leu doe faq
+量大福大	1	lian du foq du
+爛大塊頭	1	le du khue doe
+落地開花	1	loq di khe hau
+落地雷	1	loq di le
+老頭浜	1	lo doe pan
+懶惰坯	1	le du phe
+老頭子	1	lo doe tzy
+連頭搭腦	1	li doe taq no
+領頭羊	1	lin doe yan
+來去	1	le chi
+懶鬼	1	le ciu
+籃頭	1	le doe
+老愛人	1	lo e gnin
+爛泥	1	le gni
+懶人	1	le gnin
+蘭花	1	le hau
+懶料	1	le lio
+來路	1	le lu
+輪盤	1	len beu
+楞嘓	1	len goq
+楞嘴	1	len tzy
+楞子	1	len tzy
+輪船	1	len zeu
+懶扑	1	le phoq
+垃該	1	laq ke
+來三	1	le se
+來得	1	le teq
+懶得	1	le teq
+雷響	1	le xian
+來事	1	le zy
+老虎腳爪	1	lo hu ciaq tzo
+爛泥菩薩	1	le gni bu saq
+老牛屄	1	lo gnioe pi
+老牛三	1	lo gnioe se
+老茄三千	1	lo ga se chi
+爛泥墩	1	le gni ten
+拉平	1	lha bin
+誏聲	1	lhan san
+拉倒	1	lha to
+老虎鉗	1	lo hu dji
+冷夯頭	1	lan han doe
+老好人	1	lo ho gnin
+連花拉花	1	li hau lha hau
+老花眼	1	lo hau nge
+辣火醬	1	laq hu cian
+老虎灶	1	lo hu tzo
+蘭花節頭	1	le hau ciq doe
+老虎天窗	1	lo hu thi tsan
+老虎榻車	1	lo hu thaq tsau
+兩碗	1	lian ueu
+兩步	1	lian bu
+兩圈	1	lian chieu
+兩記	1	lian ci
+兩斤	1	lian cin
+兩句	1	lian ciu
+兩件	1	lian dji
+兩封	1	lian fon
+兩年	1	lian gni
+兩根	1	lian ken
+兩口	1	lian khoe
+兩塊	1	lian khue
+亮光	1	lian kuan
+兩門	1	lian men
+兩片	1	lian phi
+兩遍	1	lian pi
+兩個	1	lian req
+兩搭	1	lian taq
+糧店	1	lian ti
+兩張	1	lian tzan
+兩隻	1	lian tzaq
+兩樣	1	lian yan
+連襟	1	li cin
+練條	1	li dio
+裏頭	1	li doe
+蓮花	1	li hau
+綠蔭蔭	1	loq in in
+離開	1	li khe
+攔腰隔壁	1	le io kaq piq
+連牢	1	li lo
+領笨	1	lin ben
+臨盆	1	lin ben
+靈臺	1	lin de
+零件	1	lin dji
+領頭	1	lin doe
+零頭	1	lin doe
+零分	1	lin fen
+靈光	1	lin kuan
+零碎	1	lin se
+吝惜	1	lin xiq
+領套	1	lin tho
+零拆	1	lin tsaq
+靈清	1	lin chin
+翎子	1	lin tzy
+靈魂	1	lin wen
+淋雨	1	lin yu
+零食	1	lin zeq
+流飛	1	lioe fi
+流氓	1	lioe man
+流星	1	lioe xin
+料作	1	lio tzoq
+禮拜	1	li pa
+力氣	1	liq chi
+立囤	1	liq den
+力道	1	liq do
+立垃	1	liq laq
+曆本	1	liq pen
+粒屑	1	liq xiq
+栗子	1	liq tzy
+荔枝	1	liq tzy
+裂縫	1	liq von
+聯通	1	li thon
+鐮刀	1	li to
+李子	1	li tzy
+旅費	1	liu fi
+旅館	1	liu kueu
+旅社	1	liu zau
+裏向	1	li xian
+利潤	1	li zen
+兩家頭	1	lian ka doe
+梨膏糖	1	li ko dan
+漏口風	1	loe khoe fon
+老姑娘	1	lo ku gnian
+老公公	1	lo kon kon
+鑼鼓家生	1	lu ku ka san
+冷角甪	1	lan koq loq
+癩蛤霸	1	la keq pau
+癩疥霸	1	la ka pau
+老古板氣	1	lo ku pe chi
+癩蛤霸車	1	la keq pau tsau
+亮光下	1	lian kuan rau
+老古言話	1	lo ku re rau
+冷開水	1	lan khe sy
+老刮鏟	1	lo kuaq tse
+老古董	1	lo ku ton
+癩疥瘡	1	la ka tsan
+礱糠搓繩	1	lon khan tsu zen
+老老頭	1	lo lo doe
+癗癗頭	1	le le doe
+冷冷熱熱	1	lan lan gniq gniq
+爛料貨	1	le lio hu
+囉裏囉蘇	1	lhu li lhu su
+老裏老早	1	lo li lo tzo
+懶料坯	1	le lio phe
+囉裏八蘇	1	lhu li paq su
+老裏八早	1	lo li paq tzo
+老來少	1	lo le so
+碌亂三千	1	loq leu se chi
+蠟蠟黃	1	laq laq wan
+爛麻皮	1	le mau bi
+老面皮	1	lo mi bi
+露馬腳	1	lu mau ciaq
+冷門貨	1	lan men hu
+老門檻	1	lo men khe
+老門老檻	1	lo men lo khe
+落門落檻	1	loq men loq khe
+垃陌生頭	1	laq maq san doe
+老母豬	1	lo mhu tzy
+兩面黃	1	lian mi wan
+立馬造橋	1	liq mau zo djio
+老男人	1	lo neu gnin
+撈外快	1	lho nga khua
+鯉魚斑	1	li ng pe
+老鴨	1	lo aq
+老衣	1	lo i
+老鷹	1	lo in
+老屋	1	lo oq
+癆病	1	lo bin
+蘿蔔	1	lo boq
+老婆	1	lo bu
+老交	1	lo cio
+老鬼	1	lo ciu
+老頭	1	lo doe
+漏涎	1	loe ze
+老茄	1	lo ga
+老虎	1	lo hu
+牢監	1	lo ke
+老黕	1	lo khen
+老奎	1	lo khue
+老公	1	lo kon
+老辣	1	lo laq
+弄堂	1	lon dan
+龍頭	1	lon doe
+攏共	1	lon gon
+礱糠	1	lon khan
+弄慫	1	lon son
+聾子	1	lon tzy
+老本	1	lo pen
+老鴇	1	lo po
+老布	1	lo pu
+落彈	1	loq de
+六件	1	loq dji
+綠豆	1	loq doe
+碌碡	1	loq zoq
+六年	1	loq gni
+樂開	1	loq khe
+絡亂	1	loq leu
+落班	1	loq pe
+落魄	1	loq phaq
+落北	1	loq poq
+六個	1	loq req
+落雪	1	loq xiq
+落蘇	1	loq su
+落水	1	loq sy
+落脫	1	loq theq
+落拓	1	loq thoq
+落葬	1	loq tzan
+樂惠	1	loq we
+落鄉	1	loq xian
+落樣	1	loq yan
+落雨	1	loq yu
+綠茶	1	loq zau
+老鴉	1	lo au
+老手	1	lo soe
+老師	1	lo sy
+老太	1	lo tha
+老湯	1	lo than
+老爹	1	lo tia
+老槍	1	lo chian
+老嗆	1	lo chian
+老鼠	1	lo tsy
+老酒	1	lo cioe
+老早	1	lo tzo
+老兄	1	lo xion
+老爺	1	lo ya
+老洋	1	lo yan
+老蟲	1	lo zon
+老是	1	lo zy
+喇叭腔	1	la pa chian
+兩邊頭	1	lian pi doe
+禮拜日	1	li pa gniq
+喇叭花	1	la pa hau
+爛屁股	1	le phi ku
+捋把汗	1	leq pau reu
+爛鋪絮	1	le phu xi
+喇叭箱	1	la pa xian
+禮拜天	1	li pa thi
+亂話三千	1	leu rau se chi
+賴學精	1	la roq cin
+撈錫箔灰	1	lho xiq boq hue
+連衫裙	1	li se djiun
+連衫褲	1	li se khu
+鄰舍隔壁	1	lin sau kaq piq
+攋手攋腳	1	la soe la ciaq
+辣手辣腳	1	laq soe laq ciaq
+亂說亂話	1	leu seq leu rau
+老三老四	1	lo se lo sy
+垃圾癟三	1	laq xi piq se
+勒殺吊死	1	leq saq tio xi
+老太婆	1	lo tha bu
+落湯雞	1	loq than ci
+栗子頸	1	liq tzy cin
+練出道	1	li tseq do
+六節頭	1	loq ciq doe
+老處女	1	lo tsy gniu
+亂搨一泡	1	leu thaq iq pho
+連襠褲	1	li tan khu
+老七老八	1	lo chiq lo paq
+冷粥面孔	1	lan tzoq mi khon
+連襠碼子	1	li tan mau tzy
+蠟燭包	1	laq tzoq po
+亂七八糟	1	leu chiq paq tzo
+龍出水	1	lon tseq sy
+老早底	1	lo tzo ti
+老底子	1	lo ti tzy
+老太太	1	lo tha tha
+邋遢天氣	1	laq thaq thi chi
+來得正好	1	le teq tzen ho
+攋帶鬍子	1	la ta wu tzy
+露臺	1	lu de
+路道	1	lu do
+露頭	1	lu doe
+蘆頭	1	lu doe
+爛污泥	1	le u gni
+鑼鼓	1	lu ku
+路浪	1	lu lan
+螺絲	1	lu sy
+螺螄	1	lu sy
+露水	1	lu sy
+露梯	1	lu thi
+蘆葦	1	lu we
+卵細胞	1	lu xi po
+冷飯頭	1	lan ve doe
+老戶頭	1	lo wu doe
+爛糊泥	1	le wu gni
+老黃牛	1	lo wan gnioe
+爛糊麵	1	le wu mi
+裏向頭	1	li xian doe
+龍吸水	1	lon xiq sy
+老油瓶	1	lo yoe bin
+老洋鈿	1	lo yan di
+老油條	1	lo yoe dio
+老爺貨	1	lo ya hu
+另有一功	1	lin yoe iq kon
+落雨天	1	loq yu thi
+藍盈盈	1	le yin yin
+老實頭	1	lo zeq doe
+老實人	1	lo zeq gnin
+擼順毛	1	lhu zen mo
+領市面	1	lin zy mi
+臨時末結	1	lin zy meq ciq
+捋舌八哥	1	leq zeq paq ku
+落場勢	1	loq zan sy
+老十三	1	lo zeq se
+老壽星	1	lo zoe xin
+立時三刻	1	liq zy se kheq
+賴惹天	1	la za thi
+臨時佛腳	1	lin zy veq ciaq
+猛門	1	man men
+買客	1	ma khaq
+賣力	1	ma liq
+賣老	1	ma lo
+蠻門	1	ma men
+買米	1	ma mi
+賣命	1	ma min
+忘記	1	man ci
+望人	1	man gnin
+望望	1	man man
+夢話	1	man rau
+望後	1	man roe
+忙上	1	man zan
+麥稈	1	maq keu
+襪子	1	maq tzy
+賣相	1	ma xian
+賣出	1	ma tseq
+買賬	1	ma tzan
+買進	1	ma cin
+麻皮	1	mau bi
+馬達	1	mau daq
+麻袋	1	mau de
+麻球	1	mau djioe
+馬桶	1	mau don
+螞蟻	1	mau gni
+馬夾	1	mau kaq
+馬路	1	mau lu
+馬屁	1	mau phi
+麻雀	1	mau ciaq
+麻子	1	mau tzy
+麻煩	1	mau ve
+麻腐	1	mau vu
+馬上	1	mau zan
+賣樣	1	ma yan
+明白人	1	min baq gnin
+冒牌貨	1	mo ba hu
+門牌號頭	1	men ba ro doe
+毛腳女婿	1	mo ciaq gniu xiu
+嘸腳蟹	1	m ciaq ha
+咪牽眼	1	mi chi nge
+忘記心	1	man ci xin
+霉鬼星	1	me ciu xin
+馬桶頭	1	mau don doe
+賣拳頭	1	ma djieu doe
+門拳拳	1	men djieu djieu
+煤球店	1	me djioe ti
+煤球風爐	1	me djioe fon lu
+木頭人	1	moq doe gnin
+馬桶豁筅	1	mau don huaq xi
+貓頭鷹	1	mho doe in
+面顴骨	1	mi djieu kueq
+馬桶間	1	mau don ke
+彌陀芥菜	1	mi du ka tse
+煤球爐	1	me djioe lu
+木頭木腦	1	moq doe moq no
+嘸頭嘸腦	1	m doe m no
+嘸大嘸小	1	m du m xio
+嘸頭嘸緒	1	m doe m jiu
+毛頭囝	1	mo doe neu
+木屐板	1	moq djiq pe
+毛頭霜	1	mo doe san
+門宕子	1	men dan tzy
+饅頭雲	1	meu doe yun
+霉氣	1	me chi
+煤氣	1	me chi
+妹夫	1	me fu
+霉夫	1	me fu
+晚娘	1	me gnian
+媒人	1	me gnin
+梅花	1	me hau
+木而覺之	1	moq el koq tzy
+玫瑰	1	me kue
+梅裏	1	me li
+煤爐	1	me lu
+妹妹	1	me me
+謎謎子	1	me me tzy
+門牙	1	men nga
+門腔	1	men chian
+門拳	1	men djieu
+門風	1	men fon
+門檻	1	men khe
+門框	1	men khuan
+門路	1	men lu
+門面	1	men mi
+門票	1	men phio
+門煞	1	men saq
+門閂	1	men seu
+蚊子	1	men tzy
+門房	1	men van
+末結	1	meq ciq
+墨綠	1	meq loq
+抹布	1	meq pu
+墨水	1	meq sy
+冒頓	1	meq teq
+物事	1	meq zy
+慢走	1	me tzoe
+滿意	1	meu i
+瞞緊	1	meu cin
+饅頭	1	meu doe
+滿話	1	meu rau
+晚爺	1	me ya
+煤油	1	me yoe
+慢用	1	me yon
+木人頭戲	1	moq gnin doe xi
+嘸日嘸夜	1	m gniq m ya
+米韌湯	1	mi gnin than
+買人情	1	ma gnin jin
+媽媽	1	mha mha
+嬤嬤	1	mhau mhau
+嘸花頭	1	m hau doe
+每日	1	mhe gniq
+悶氣	1	mhen chi
+姆媽	1	mh mha
+貓咪	1	mho mi
+棉花胎	1	mi hau the
+麻花雨	1	mau hau yu
+棉襖	1	mi o
+面盆	1	mi ben
+麵條	1	mi dio
+面顴	1	mi djieu
+味道	1	mi do
+麵粉	1	mi fen
+面孔	1	mi khon
+嘸要嘸緊	1	m io m cin
+眉毛	1	mi mo
+名堂	1	min dan
+明年	1	min gni
+明蝦	1	min hau
+明朝	1	min tzo
+名字	1	min zy
+尾巴	1	mi pau
+麵餅	1	mi pin
+麵包	1	mi po
+蜜蜂	1	miq fon
+密探	1	miq theu
+篾蓆	1	miq jiq
+米紅	1	mi ron
+麵店	1	mi ti
+面子	1	mi tzy
+迷霧	1	mi vu
+米黃	1	mi wan
+面前	1	mi ji
+面熟	1	mi zoq
+木已成舟	1	moq i zen tzoe
+麥克風	1	maq kheq fon
+門檻高	1	men khe ko
+滿口言話	1	meu khoe re rau
+霉乾菜	1	me keu tse
+面架子	1	mi ka tzy
+買關子	1	ma kue tzy
+買關節	1	ma kue ciq
+門檻精	1	men khe cin
+麵疙瘩	1	mi keq taq
+嘸介事	1	m ka zy
+茉莉花	1	meq li hau
+馬鈴浜瓜	1	mau lin pan kau
+麻荔枝	1	mau liq tzy
+摸老底	1	moq lo ti
+麻荔子	1	mau liq tzy
+明明較	1	min min cio
+嘸沒	1	m meq
+猛門人	1	man men gnin
+墨墨黑	1	meq meq heq
+嘸沒關係	1	m meq kue yi
+嘸沒勒	1	m meq leq
+密密稝稝	1	miq miq man man
+門面屋	1	men mi oq
+嘸沒言話	1	m meq re rau
+買面子	1	ma mi tzy
+明明仔	1	min min tzy
+門楣清正	1	men me chin tzen
+毛毛雨	1	mo mo yu
+毛毛蟲	1	mo mo zon
+摸魚公	1	moq ng kon
+木偶戲	1	moq ngoe xi
+卯眼	1	mo nge
+毛病	1	mo bin
+毛巾	1	mo cin
+毛豆	1	mo doe
+牡丹	1	moe te
+毛貨	1	mo hu
+夢話	1	mon rau
+懵沖	1	mon tson
+毛邊	1	mo pi
+毛筆	1	mo piq
+木頭	1	moq doe
+木耳	1	moq el
+木嘓	1	moq goq
+木花	1	moq hau
+木工	1	moq kon
+木料	1	moq lio
+木太	1	moq tha
+木兄	1	moq xion
+木匠	1	moq jian
+毛竹	1	mo tzoq
+帽子	1	mo tzy
+尾巴官司	1	mi pau kueu sy
+明擺垃個	1	min pa laq req
+馬屁精	1	mau phi cin
+麵包車	1	mi po tsau
+沒不通風	1	meq peq thon fon
+賣票員	1	ma phio yeu
+面紅堂堂	1	mi ron dan dan
+嘸啥	1	m sa
+嘸啥幾時	1	m sa ci zy
+麻酥糖	1	mau su dan
+陌生人	1	maq san gnin
+馬賽克	1	mau se kheq
+嘸啥關係	1	m sa kue yi
+罵山門	1	mau se men
+忙手忙腳	1	man soe man ciaq
+麥粞眼	1	maq xi nge
+嘸啥話頭	1	m sa rau doe
+嘸啥啥	1	m sa sa
+嘸心想	1	m xin xian
+棉紗線	1	mi sau xi
+米燒粥	1	mi so tzoq
+麻將牌	1	mau cian ba
+墨晶鏡	1	meq cin cin
+嘸搭頭	1	m taq doe
+嘸清頭	1	m chin doe
+滿襠褲	1	meu tan khu
+面對面	1	mi te mi
+明打明	1	min tan min
+木知木覺	1	moq tzy moq koq
+嘸千嘸萬	1	m chi m ve
+木拖板	1	moq thu pe
+木拖鞋	1	moq thu ra
+面湯水	1	mi than sy
+摩托車	1	mu thoq tsau
+明朝會	1	min tzo we
+蘑菇	1	mu ku
+模子	1	mu tzy
+麻煩一記	1	mau ve iq ci
+麥蝴蝶	1	maq wu diq
+嘸戲唱	1	m xi tsan
+望遠鏡	1	man yeu cin
+賣野人頭	1	ma ya gnin doe
+磨洋工	1	mu yan kon
+煤油爐	1	me yoe lu
+望野眼	1	man ya nge
+煤油燈	1	me yoe ten
+賣樣勿煞	1	ma yan veq saq
+嘸纏頭	1	m zeu doe
+門前頭	1	men ji doe
+面熟陌生	1	mi zoq maq san
+面長面短	1	mi zan mi teu
+麵杖魚	1	mi zan ng
+木材店	1	moq ze ti
+盲腸炎	1	man zan yi
+奶頭	1	na doe
+奶娘	1	na gnian
+奶塊	1	na khue
+奶媽	1	na mha
+奶奶	1	na na
+哪能	1	na nen
+吶亨	1	naq han
+奶臭	1	na tsoe
+拿手	1	nau soe
+奶香	1	na xian
+硬碰硬	1	ngan ban ngan
+弄白相	1	lon baq xian
+鶴起頭	1	ngoq chi doe
+昂起頭	1	ngan chi doe
+硬吃硬做	1	ngan chiq ngan tzu
+外頭人	1	nga doe gnin
+外地人	1	nga di gnin
+鵝蛋臉	1	ngu de li
+內人	1	ne gnin
+難過	1	ne ku
+難般	1	ne pe
+難行	1	ne ran
+內行	1	ne ran
+囡兒	1	neu ng
+男人	1	neu gnin
+暖熱	1	neu gniq
+南壗	1	neu he
+男家	1	neu ka
+南瓜	1	neu kau
+暖鍋	1	neu ku
+南面	1	neu mi
+難為	1	ne we
+內容	1	ne yon
+牙污	1	nga u
+外婆	1	nga bu
+外地	1	nga di
+外頭	1	nga doe
+硬勁	1	ngan cin
+硬強	1	ngan djian
+硬頭	1	ngan doe
+硬繃	1	ngan pan
+硬傷	1	ngan san
+硬撐	1	ngan tsan
+硬襯	1	ngan tsen
+硬張	1	ngan tzan
+硬紮	1	ngan tzaq
+硬橫	1	ngan wan
+牙齦	1	nga gnin
+牙肉	1	nga gnioq
+外快	1	nga khua
+牙膏	1	nga ko
+外公	1	nga kon
+外面	1	nga mi
+齾口	1	ngaq khoe
+齾脫	1	ngaq theq
+外甥	1	nga san
+牙刷	1	nga seq
+牙鬚	1	nga su
+外套	1	nga tho
+牙齒	1	nga tsy
+牙子	1	nga tzy
+瓦爿	1	ngau be
+瓦片	1	ngau phi
+熬日腳	1	ngo gniq ciaq
+五件	1	ng dji
+眼眼	1	nge nge
+眼污	1	nge u
+眼白	1	nge baq
+眼皮	1	nge bi
+眼圈	1	nge chieu
+眼堂	1	nge dan
+眼潭	1	nge de
+眼風	1	nge fon
+眼熱	1	nge gniq
+眼火	1	nge hu
+礙口	1	nge khoe
+眼眶	1	nge khuan
+眼光	1	nge kuan
+顏色	1	nge seq
+眼眵	1	nge tsy
+眼睛	1	nge cin
+眼癢	1	nge yan
+礙事	1	nge zy
+五年	1	ng gni
+男人家	1	neu gnin ka
+藕色	1	ngoe seq
+偶然	1	ngoe zeu
+咬口	1	ngo khoe
+鱷魚	1	ngoq ng
+五個	1	ng req
+魚鮮	1	ng xi
+咬耳朵	1	ngo gni tu
+忤逆種	1	ng gniq tzon
+魚子	1	ng tzy
+我伲	1	ngu gni
+我個	1	ngu req
+魚圓	1	ng yeu
+囡囡	1	nheu nheu
+眼花綠花	1	nge hau loq hau
+五顑六腫	1	ng he loq tzon
+唔奶	1	nh na
+額骨頭	1	ngaq kueq doe
+額骨頭高	1	ngaq kueq doe ko
+眼界高	1	nge ka ko
+外國紅	1	nga kueq ron
+難看相	1	ne kheu xian
+外路人	1	nga lu gnin
+瓦楞花	1	ngau len hau
+魚鱗天	1	ng lin thi
+眼淚出	1	nge li tseq
+瓦老爺	1	ngau lo ya
+糯米糰	1	nu mi deu
+呆木大	1	nge moq du
+呆木頭	1	nge moq doe
+奶末頭	1	na meq doe
+外碼頭	1	nga mau doe
+乃末好勒	1	ne meq ho leq
+外面光	1	nga mi kuan
+眼眉毛	1	nge mi mo
+糯米心腸	1	nu mi xin zan
+礙面子	1	nge mi tzy
+拿摩溫	1	na mu uen
+眼面前	1	nge mi ji
+眼門前	1	nge men ji
+啱啱較	1	nge nge cio
+奶奶頭	1	na na doe
+男囝頭	1	neu neu doe
+硬硬頭皮	1	ngan ngan doe bi
+哪能話頭	1	na nen rau doe
+囡兒小姐	1	neu ng xio cia
+腦筋	1	no cin
+腦袋	1	no de
+鬧熱	1	no gniq
+鬧猛	1	no man
+儂好	1	non ho
+弄火	1	lon hu
+農民	1	non min
+儂個	1	non req
+弄鬆	1	lon son
+儂早	1	non tzo
+鬧鐘	1	no tzon
+腦子	1	no tzy
+眼泡皮	1	nge pho bi
+魚片乾	1	ng phi keu
+呆北落厾	1	nge poq loq toq
+硬掽硬	1	ngan phan ngan
+呆板數	1	nge pe su
+外八字	1	nga paq zy
+內八字	1	ne paq zy
+外行	1	nga ran
+外行搭煞	1	nga ran taq saq
+礙手腳	1	nge soe ciaq
+眼仙人	1	nge xi gnin
+男小囝	1	neu xio neu
+外甥囡	1	nga san neu
+礙手礙腳	1	nge soe nge ciaq
+奶嬸嬸	1	na sen sen
+男小惠	1	neu xio we
+外底頭	1	nga ti doe
+硬出頭	1	ngan tseq doe
+男當家	1	neu tan ka
+硬節骨答	1	ngan ciq kueq taq
+呆脫了	1	nge theq lheq
+硬裝榫頭	1	ngan tzan sen doe
+外拆生意	1	nga tsaq san i
+硬作主張	1	ngan tzoq tzy tzan
+五斗廚	1	ng toe zy
+糯米	1	nu mi
+眼烏珠	1	nge u tzy
+熬勿牢	1	ngo veq lo
+熬勿得	1	ngo veq teq
+外鄉人	1	nga xian gnin
+奶油色	1	na yoe seq
+奶油小生	1	na yoe xio san
+挨辰光	1	nga zen kuan
+眼睫毛	1	nge jiq mo
+能長能大	1	nen zan nen du
+乃朝後	1	ne zo roe
+乃朝後起	1	ne zo roe chi
+乃朝後頭	1	ne zo roe doe
+齆鼻頭	1	on biq doe
+奧竅	1	o chio
+坳塘	1	o dan
+凹撟	1	o djio
+奧撟	1	o djio
+懊悔	1	o hue
+傴腰曲背	1	oe io chioq pe
+懊憦	1	o lo
+凹門痛	1	o men thon
+瞈臭	1	on tsoe
+坳坳	1	o o
+坳坳塘塘	1	o o dan dan
+惡揢	1	oq khaq
+惡掐	1	oq khaq
+握手	1	oq soe
+齷齪	1	oq tsoq
+噁形	1	oq yin
+懊喪	1	o san
+拗手勁	1	o soe cin
+噢聲能	1	o san nen
+拗手	1	o soe
+惡死做	1	oq xi tzu
+凹檔	1	o tan
+瞈凍氣	1	on ton chi
+齷齪八臘	1	oq tsoq paq laq
+噁形噁狀	1	oq yin oq zan
+擺平	1	pa bin
+浜瓜	1	pan kau
+浜灘	1	pan the
+迸坼	1	pan tsaq
+拜望	1	pa man
+幫手	1	pan soe
+幫襯	1	pan tsen
+爸爸	1	pa pa
+百腳	1	paq ciaq
+八件	1	paq dji
+八年	1	paq gni
+擘開	1	paq khe
+伯母	1	paq mhu
+伯伯	1	paq paq
+八個	1	paq req
+百搭	1	paq taq
+柏子	1	paq tzy
+伯父	1	paq vu
+百頁	1	paq yiq
+柏油	1	paq yoe
+把穩	1	pau uen
+巴結	1	pau ciq
+壩頭	1	pau doe
+把家	1	pau ka
+巴望	1	pau man
+把柄	1	pau pin
+把細	1	pau xi
+扁蒲臉	1	pi bu li
+半爿天	1	peu be thi
+攀朋搭友	1	phe ban taq yoe
+派頭一六	1	pha doe iq loq
+擺渡口	1	pa du khoe
+冰淇淋	1	pin dji lin
+報頭浪	1	po doe lan
+掽檯落凳	1	phan de loq ten
+胖頭魚	1	phan doe ng
+包頭布	1	po doe pu
+畢鈿生絲	1	piq di sen sy
+掽檯子	1	phan de tzy
+板魚	1	pe ng
+扳平	1	pe bin
+班級	1	pe ciq
+板結	1	pe ciq
+板定	1	pe din
+扳頭	1	pe doe
+班頭	1	pe doe
+畚箕	1	pen ci
+本地	1	pen di
+本鈿	1	pen di
+本生	1	pen san
+本色	1	pen seq
+本事	1	pen zy
+缽頭	1	peq doe
+撥我	1	peq ngu
+撥儂	1	peq non
+撥伊	1	peq yi
+背後	1	pe roe
+板刷	1	pe seq
+背心	1	pe xin
+扳手	1	pe soe
+板數	1	pe su
+板脫	1	pe theq
+班長	1	pe tzan
+背脊	1	pe ciq
+半日	1	peu gniq
+搬場	1	peu zan
+板是	1	pe zy
+半發郎當	1	peu faq lan tan
+批分數	1	phi fen su
+半日天	1	peu gniq thi
+派頭	1	pha doe
+掽僵	1	phan cian
+掽杯	1	phan pe
+掽頂	1	phan tin
+閛上	1	phan zan
+拍板	1	phaq pe
+扳談	1	phe de
+潑皮	1	pheq bi
+攀親	1	phe chin
+屁眼	1	phi nge
+批評	1	phi bin
+披風	1	phi fon
+屁股	1	phi ku
+拼盆	1	phin ben
+姘頭	1	phin doe
+漂亮	1	phio lian
+票子	1	phio tzy
+偏生	1	phi san
+泡沫	1	pho meq
+拋脫	1	pho theq
+泡飯	1	pho ve
+炮仗	1	pho zan
+陂陀	1	phu du
+破壞	1	phu wa
+蓖箕	1	pi ci
+板煙筒	1	pe i don
+邊頭	1	pi doe
+扁頭	1	pi doe
+比分	1	pi fen
+蝙蝠	1	pi foq
+鬢腳	1	pin ciaq
+餅乾	1	pin keu
+冰膠	1	pin ko
+鬢角	1	pin koq
+賓館	1	pin kueu
+冰霜	1	pin san
+冰箱	1	pin xian
+儐相	1	pin xian
+冰水	1	pin sy
+冰凍	1	pin ton
+標槍	1	pio chian
+標致	1	pio tzy
+表情	1	pio jin
+臂把	1	pi pau
+臂膊	1	pi poq
+筆記	1	piq ci
+筆頭	1	piq doe
+畢業	1	piq gniq
+壁虎	1	piq hu
+碧綠	1	piq loq
+癟三	1	piq se
+筆套	1	piq tho
+癟嘴	1	piq tzy
+變死	1	pi xi
+扁尖	1	pi ci
+擺奎勁	1	pa khue cin
+繃價鈿	1	pan ka di
+百襉裙	1	paq ke djiun
+百家衣	1	paq ka i
+壁角甪	1	piq koq loq
+畢工畢正	1	piq kon piq tzen
+報告單	1	po ko te
+拼攏來	1	phin lon le
+泡立水	1	pho liq sy
+碧綠生青	1	piq loq san chin
+碧綠生清	1	piq loq san chin
+筆立勢直	1	piq liq sy zeq
+邊浪向	1	pi lan xian
+爆米花	1	po mi hau
+板面孔	1	pe mi khon
+擺明垃個	1	pa min laq req
+拍馬屁	1	phaq mau phi
+繃面子	1	pan mi tzy
+板硬襯	1	pe ngan tsen
+爆魚	1	po ng
+包貨	1	po hu
+包管	1	po kueu
+包瞞	1	po meu
+保姆	1	po mu
+北壗	1	poq he
+包涵	1	po reu
+保鮮	1	po xi
+包梢	1	po so
+報紙	1	po tzy
+乒乓器	1	phin phan chi
+乒乓球	1	phin phan djioe
+半邊風	1	peu pi fon
+半半日日	1	peu peu gniq gniq
+碧碧綠	1	piq piq loq
+拍拍屁股	1	phaq phaq phi ku
+泡泡紗	1	pho pho sau
+乓乓響	1	phan phan xian
+背後頭	1	pe roe doe
+百合花	1	paq req hau
+幫個忙	1	pan req man
+髈痠腳軟	1	phan seu ciaq gnieu
+冰生激骨	1	pin san ciq kueq
+板刷頭	1	pe seq doe
+擺煞垃壗	1	pa saq laq he
+拍手拍腳	1	phaq soe phaq ciaq
+擺三擺四	1	pa se pa sy
+半死半活	1	peu xi peu weq
+八仙桌	1	paq xi tzoq
+半山勿尬	1	peu se veq ka
+拍紙簿	1	phaq tzy bu
+屁照鏡	1	phi tzo cin
+擺攤頭	1	pa the doe
+癟嘴糰	1	piq tzy deu
+筆套管	1	piq tho kueu
+扁塌臉	1	pi thaq li
+破子落宿	1	phu tzy loq soq
+不倒翁	1	peq to on
+搬嘴搬舌	1	peu tzy peu zeq
+拍照相	1	phaq tzo xian
+擺酒水	1	pa cioe sy
+扳皵絲	1	pe chiaq sy
+冰清水冷	1	pin chin sy lan
+浦東說書	1	phu ton seq sy
+筆篤生青	1	piq toq san chin
+筆篤勢直	1	piq toq sy zeq
+半當中	1	peu tan tzon
+臂撐子	1	pi tsan tzy
+半吊子	1	peu tio tzy
+怕坍寵	1	phau the tson
+補膏	1	pu ko
+波浪	1	pu lan
+玻璃	1	pu li
+布衫	1	pu se
+布丁	1	pu tin
+補藥	1	pu yaq
+百無一能	1	paq vu iq nen
+繃勿牢	1	pan veq lo
+掽勿攏	1	phan veq lon
+擺噱頭	1	pa xiuq doe
+變戲法	1	pi xi faq
+拚血本	1	phin xiuq pen
+柏油筒	1	paq yoe don
+怕現世	1	phau yi sy
+半夜三更	1	peu ya se kan
+擺樣子	1	pa yan tzy
+百頁窗	1	paq yiq tsan
+百有份	1	paq yoe ven
+半夜飯	1	peu ya ve
+派用場	1	pha yon zan
+八字腳	1	paq zy ciaq
+繃場面	1	pan zan mi
+搬場星	1	peu zan xin
+八字蘇	1	paq zy su
+譬是勿是	1	phi zy veq zy
+行頭	1	ran doe
+嚡裏	1	ra li
+蝦蟆	1	ra mau
+項圈	1	ran chieu
+行家	1	ran ka
+項練	1	ran li
+行情	1	ran jin
+匣頭	1	raq doe
+鞋帶	1	ra ta
+鞋子	1	ra tzy
+下顎	1	rau ngoq
+下巴	1	rau bau
+下去	1	rau chi
+下頭	1	rau doe
+下來	1	rau le
+下流	1	rau lioe
+話梅	1	rau me
+下面	1	rau mi
+下班	1	rau pe
+夏布	1	rau pu
+下車	1	rau tsau
+下作	1	rau tzoq
+下飯	1	rau ve
+畫鏡線	1	rau cin xi
+還要	1	re io
+鹹蛋	1	re de
+餡頭	1	re doe
+害人	1	re gnin
+還好	1	re ho
+盒子	1	req tzy
+言話	1	re rau
+閒話	1	re rau
+鹹菜	1	re tse
+餡子	1	re tzy
+寒豆	1	reu doe
+汗毛	1	reu mo
+寒毛	1	reu mo
+汗衫	1	reu se
+下風頭	1	rau fon doe
+下風官司	1	rau fon kueu sy
+候分候數	1	roe fen roe su
+後日仔	1	roe gniq tzy
+後日天	1	roe gniq thi
+行過去	1	ran ku chi
+嚡裏面	1	ra li mi
+嚡裏個	1	ra li req
+嚡裏墶	1	ra li taq
+汗馬夾	1	reu mau kaq
+汗毛淋淋	1	reu mo lin lin
+寒毛凜凜	1	reu mo lin lin
+紅男綠女	1	ron neu loq gniu
+紅眼睛	1	ron nge cin
+號頭	1	ro doe
+厚皮	1	roe bi
+後極	1	roe djiq
+後頭	1	roe doe
+後福	1	roe foq
+後年	1	roe gni
+後日	1	roe gniq
+候口	1	roe khoe
+後來	1	roe le
+喉嚨	1	roe lon
+後生	1	roe san
+紅糖	1	ron dan
+紅蛋	1	ron de
+紅燈	1	ron ten
+紅腸	1	ron zan
+學堂	1	roq dan
+鑊蓋	1	roq ke
+學生	1	roq san
+鑊鏟	1	roq tse
+鑊焦	1	roq cio
+鑊子	1	roq tzy
+下半年	1	rau peu gni
+下半日	1	rau peu gniq
+後半年	1	roe peu gni
+後半日	1	roe peu gniq
+合扑睏	1	req phoq khuen
+後背心	1	roe pe xin
+汗背心	1	reu pe xin
+下半天	1	rau peu thi
+下把戲	1	rau pau xi
+紅幫裁縫	1	ron pan ze von
+寒酸氣	1	reu seu chi
+學生意	1	roq san i
+後生家	1	roe san ka
+後首來	1	roe soe le
+恨性命	1	ren xin min
+寒暑表	1	reu sy pio
+寒酸相	1	reu seu xian
+汗酸臭	1	reu seu tsoe
+學生子	1	roq san tzy
+鹹酸飯	1	re seu ve
+下底頭	1	rau ti doe
+話搭頭	1	rau taq doe
+下作坯	1	rau tzoq phe
+學嘴學舌	1	roq tzy roq zeq
+紅通通	1	ron thon thon
+鑊子底	1	roq tzy ti
+後天井	1	roe thi cin
+行勿落	1	ran veq loq
+恨勿得	1	ren veq teq
+行勿住	1	ran veq zy
+寒場裏	1	reu zan li
+號腸拍肚	1	ro zan phaq du
+行情行事	1	ran jin ran zy
+曬臺	1	sa de
+衰瘏	1	sa du
+生意	1	san i
+聲氣	1	san chi
+省輕	1	san chin
+生薑	1	san cian
+生日	1	san gniq
+生客	1	san khaq
+生梨	1	san li
+省省	1	san san
+生活	1	san weq
+啥人	1	sa gnin
+爽氣	1	san chi
+雙腳	1	san ciaq
+雙方	1	san fan
+傷風	1	san fon
+爽快	1	san khua
+桑果	1	san ku
+商店	1	san ti
+桑葉	1	san yiq
+喪事	1	san zy
+煞口	1	saq khoe
+剎枯	1	saq khu
+殺辣	1	saq laq
+殺坯	1	saq phe
+殺博	1	saq poq
+啥體	1	sa thi
+灑酒	1	sa cioe
+篩子	1	sa tzy
+沙發	1	sau faq
+沙蟹	1	sau ha
+痧子	1	sau tzy
+小蒲桃	1	xio bu do
+小排骨	1	xio ba kueq
+雪白滾壯	1	xiq baq kuen tzan
+小白臉	1	xio baq li
+生病天	1	san bin thi
+算盤珠	1	seu beu tzy
+小朋友	1	xio ban yoe
+小鬼丫頭	1	xio ciu au doe
+小鬼頭	1	xio ciu doe
+四季豆	1	sy ci doe
+三缺一	1	se chiuq iq
+小腳褲	1	xio ciaq khu
+傷筋膏藥	1	san cin ko yaq
+三腳兩步	1	se ciaq lian bu
+三腳貓	1	se ciaq mho
+小結帽子	1	xio ciq mo tzy
+小腳髈	1	xio ciaq phan
+說鬼話	1	seq ciu rau
+生薑紅	1	san cian ron
+小鬼三	1	xio ciu se
+四腳蛇	1	sy ciaq zau
+小肚皮	1	xio du bi
+鎖頭縛頸	1	su doe boq cin
+手頭緊	1	soe doe cin
+手電筒	1	soe di don
+書踱頭	1	sy doq doe
+水潭潭	1	sy de de
+水蕩蕩	1	sy dan dan
+啥地方	1	sa di fan
+消地光	1	xio di kuan
+梳頭家生	1	sy doe ka san
+三拳兩腳	1	se djieu lian ciaq
+三頭六面	1	se doe loq mi
+上檯面	1	zan de mi
+說大書	1	seq du sy
+衰瘏煞儂	1	sa du saq non
+小舅子	1	xio djioe tzy
+手條子	1	soe dio tzy
+小塘菜	1	xio dan tse
+縮頭烏龜	1	soq doe u ciu
+三步	1	se bu
+三圈	1	se chieu
+三句	1	se ciu
+三件	1	se dji
+三年	1	se gni
+小兒科	1	xio el khu
+三口	1	se khoe
+聲音	1	sen in
+損腰	1	sen io
+身段	1	sen deu
+聲調	1	sen dio
+榫頭	1	sen doe
+嬸娘	1	sen gnian
+孫女	1	sen gniu
+生火	1	sen hu
+身浪	1	sen lan
+孫囡	1	sen neu
+身板	1	sen pe
+身胚	1	sen phe
+嬸嬸	1	sen sen
+身體	1	sen thi
+孫子	1	sen tzy
+三遍	1	se pi
+濕氣	1	seq chi
+塞頭	1	seq doe
+識貨	1	seq hu
+適意	1	seq i
+色拉	1	seq laq
+識相	1	seq xian
+說書	1	seq sy
+三個	1	se req
+三張	1	se tzan
+三隻	1	se tzaq
+歲數	1	seu su
+算得	1	seu teq
+扇子	1	seu tzy
+雖然	1	seu zeu
+散戲	1	se xi
+山芋	1	se yu
+散場	1	se zan
+煞風景	1	saq fon cin
+小分頭	1	xio fen doe
+三翻四復	1	se fe sy voq
+雙釀糰	1	san gnian deu
+小人道理	1	xio gnin do li
+新娘娘	1	xin gnian gnian
+小熱昏	1	xio gniq huen
+生日蠟燭	1	san gniq laq tzoq
+新娘子	1	xin gnian tzy
+仙人跳	1	xi gnin thio
+捎耳朵	1	so gni tu
+死人勿關	1	xi gnin veq kue
+小年夜	1	xio gni ya
+送人情	1	son gnin jin
+識貨朋友	1	seq hu ban yoe
+三夯頭	1	se han doe
+三嚇頭	1	se haq doe
+死蟹一隻	1	xi ha iq tzaq
+小伙子	1	xio hu tzy
+繡花枕頭	1	xioe hau tzen doe
+仙鶴	1	xi ngoq
+寫意	1	xia i
+想頭	1	xian doe
+相好	1	xian ho
+相攏	1	xian lon
+相罵	1	xian mau
+相幫	1	xian pan
+相打	1	xian tan
+相親	1	xian chin
+箱子	1	xian tzy
+廂房	1	xian van
+洗衣機	1	xi i ci
+生意經	1	san i cin
+收音機	1	soe in ci
+死腔	1	xi chian
+線腳	1	xi ciaq
+先頭	1	xi doe
+線粉	1	xi fen
+西風	1	xi fon
+西瓜	1	xi kau
+線褲	1	xi khu
+籼米	1	xi mi
+新娘	1	xin gnian
+心乾	1	xin keu
+心口	1	xin khoe
+信殼	1	xin khoq
+新郎	1	xin lan
+心裏	1	xin li
+心想	1	xin xian
+星星	1	xin xin
+心思	1	xin sy
+新邨	1	xin tsen
+心旌	1	xin cin
+信紙	1	xin tzy
+芯子	1	xin tzy
+性子	1	xin tzy
+薪俸	1	xin von
+新婦	1	xin vu
+心情	1	xin jin
+心緒	1	xin jiu
+心潮	1	xin zo
+小排	1	xio ba
+小便	1	xio bi
+小氣	1	xio chi
+硝鏹水	1	xio chian sy
+小鬼	1	xio ciu
+小洞	1	xio don
+修女	1	xioe gniu
+小年	1	xio gni
+小月	1	xio gniuq
+小火	1	xio hu
+小囝	1	xio neu
+小輩	1	xio pe
+小髈	1	xio phan
+小學	1	xio roq
+小汛	1	xio xin
+小叔	1	xio soq
+小書	1	xio sy
+小腿	1	xio the
+小菜	1	xio tse
+小姐	1	xio cia
+小惠	1	xio we
+小河	1	xio wu
+消夜	1	xio ya
+小樣	1	xio yan
+笑容	1	xio yon
+小月	1	xio yuq
+小賊	1	xio zeq
+雪糕	1	xiq ko
+先生	1	xi san
+死屍	1	xi sy
+傷陰積	1	san in ciq
+細節	1	xi ciq
+需要	1	xiu io
+先前	1	xi ji
+小家敗氣	1	xio ka ba chi
+死規矩	1	xi kue ciu
+絲瓜筋	1	sy kau cin
+心口頭	1	xin khoe doe
+收骨頭	1	soe kueq doe
+塞狗洞	1	seq koe don
+小姑娘	1	xio ku gnian
+新官人	1	xin kueu gnin
+小乖人	1	xio kua gnin
+水果羹	1	sy ku kan
+三角褲	1	se koq khu
+沙角菱	1	sau koq lin
+三角眼	1	se koq nge
+三夾板	1	se kaq pe
+深更半夜	1	sen ken peu ya
+三更半夜	1	se ken peu ya
+三角身胚	1	se koq sen phe
+燒夾生飯	1	so kaq san ve
+生光的滑	1	san kuan tiq waq
+小棺材	1	xio kueu ze
+心甘情願	1	xin keu jin gnieu
+塞漏洞	1	seq loe don
+新郎官	1	xin lan kueu
+生梨瓜	1	san li kau
+修理工	1	xioe li kon
+水落管子	1	sy loq kueu tzy
+少來來	1	so le le
+小籠饅頭	1	xio lon meu doe
+雪裏蕻	1	xiq li ron
+掃垃圾	1	so laq xi
+煞辣勢平	1	saq laq sy bin
+煞辣勢清	1	saq laq sy chin
+煞辣勢齊	1	saq laq sy ji
+燒爛脫	1	so le theq
+三輪車	1	se len tsau
+少淋溚渧	1	so lin taq ti
+鮮龍活跳	1	xi lon weq thio
+死賴活纏	1	xi la weq zeu
+生毛病	1	san mo bin
+水麵筋	1	sy mi cin
+性命交關	1	xin min cio kue
+小毛頭	1	xio mo doe
+舍姆娘	1	sau mh gnian
+水門汀	1	sy men thin
+酸梅湯	1	seu me than
+啥物事	1	sa meq zy
+三明治	1	se min zy
+小毛賊	1	xio mo zeq
+四眼狗	1	sy nge koe
+孫囡兒	1	sen neu ng
+筲箕	1	so ci
+手勁	1	soe cin
+手巾	1	soe cin
+手背	1	soe pe
+手錶	1	soe pio
+手飾	1	soe seq
+手心	1	soe xin
+收燥	1	soe so
+餿脫	1	soe theq
+手套	1	soe tho
+收作	1	soe tzoq
+收場	1	soe zan
+收入	1	soe zeq
+燒賣	1	so ma
+鬆動	1	son don
+縮貨	1	soq hu
+索加	1	soq ka
+索性	1	soq xin
+叔叔	1	soq soq
+叔父	1	soq vu
+掃帚	1	so tzoe
+燒飯	1	so ve
+稍為	1	so we
+稍許	1	so xiu
+少爺	1	so ya
+酸胖氣	1	seu phan chi
+水潽蛋	1	sy phu de
+小八辣子	1	xio paq laq tzy
+水泡泡	1	sy pho pho
+手臂把	1	soe pi pau
+小癟三	1	xio piq se
+申報紙	1	sen po tzy
+三班倒	1	se pe to
+小寒豆	1	xio reu doe
+啥個地方	1	sa req di fan
+笑話奇談	1	xio rau dji de
+啥個路道	1	sa req lu do
+啥個場化	1	sa req zan hau
+雪雪白	1	xiq xiq baq
+四四方方	1	sy sy fan fan
+西曬日頭	1	xi sau gniq doe
+小小囝	1	xio xio neu
+心思閒	1	xin sy re
+適心適意	1	seq xin seq i
+手心底	1	soe xin ti
+私生子	1	sy san tzy
+素小菜	1	su xio tse
+小搨皮	1	xio thaq bi
+手節頭	1	soe ciq doe
+小攤頭	1	xio the doe
+手指頭	1	soe tzy doe
+水赤痘	1	sy tsaq doe
+小青年	1	xio chin gni
+梭子蟹	1	su tzy ha
+餿主意	1	soe tzy i
+手節甲	1	soe ciq khaq
+手指甲	1	soe tzy khaq
+獅子狗	1	sy tzy koe
+三叉路	1	se tsau lu
+小赤佬	1	xio tsaq lo
+小即零丁	1	xio ciq lin tin
+生煎饅頭	1	san ci meu doe
+小姐妹道	1	xio cia me do
+小刁碼子	1	xio tio mau tzy
+四處八路	1	sy tsy paq lu
+掃帚星	1	so tzoe xin
+手底心	1	soe ti xin
+叔接嫂	1	soq ciq so
+三隻手	1	se tzaq soe
+三朝四日	1	se tzo sy gniq
+三青四綠	1	se chin sy loq
+三等四樣	1	se ten sy yan
+小祖宗	1	xio tzu tzon
+手撐子	1	soe tsan tzy
+殺千刀	1	saq chi to
+燒焦脫	1	so cio theq
+小菜場	1	xio tse zan
+所以	1	su i
+蘇頭	1	su doe
+蔬菜	1	su tse
+素菜	1	su tse
+素淨	1	su jin
+斯文一脈	1	sy ven iq maq
+死勿倫吞	1	sy veq len then
+燒飯師傅	1	so ve sy vu
+舍勿得	1	sau veq teq
+啥犯着	1	sa ve zaq
+三勿常	1	se veq zan
+小滑頭	1	xio waq doe
+生活勢勁	1	san weq sy cin
+燒糊脫	1	so wu theq
+三和土	1	se wu thu
+四步	1	sy bu
+西洋鏡	1	xi yan cin
+水塘	1	sy dan
+水蕩	1	sy dan
+水潭	1	sy de
+四件	1	sy dji
+水橋	1	sy djio
+水桶	1	sy don
+水泥	1	sy gni
+四年	1	sy gni
+世界	1	sy ka
+暑假	1	sy ka
+死樣怪氣	1	xi yan kua chi
+思考	1	sy kho
+水果	1	sy ku
+水裏	1	sy li
+水綠	1	sy loq
+水沒	1	sy meq
+師母	1	sy mhu
+水面	1	sy mi
+私囝	1	sy neu
+四眼	1	sy nge
+水泡	1	sy pho
+尿脬	1	sy pho
+尿布	1	sy pu
+西洋紅	1	xi yan ron
+四個	1	sy req
+少有少見	1	so yoe so ci
+水仙	1	sy xi
+小陽春	1	xio yan tsen
+小姨子	1	xio yi tzy
+獅子	1	sy tzy
+私房	1	sy van
+師傅	1	sy vu
+師父	1	sy vu
+師務	1	sy vu
+山羊鬍蘇	1	se yan wu su
+輸贏	1	sy yin
+書頁	1	sy yiq
+舒齊	1	sy ji
+小腸氣	1	xio zan chi
+寫字檯	1	xia zy de
+小舌頭	1	xio zeq doe
+啥場化	1	sa zan hau
+寫字間	1	xia zy ke
+掃場刮地	1	so zan kuaq di
+四時八節	1	sy zy paq ciq
+小潮汛	1	xio zo xin
+撐矮棒	1	tsan a ban
+打噎	1	tan iq
+打棚	1	tan ban
+打餩	1	tan ge
+打襉	1	tan ke
+打雷	1	tan le
+打頓	1	tan ten
+打底	1	tan ti
+打槍	1	tan chian
+打針	1	tan tzen
+打橫	1	tan wan
+打烊	1	tan yan
+當年	1	tan gni
+當日	1	tan gniq
+當家	1	tan ka
+當口	1	tan khoe
+當心	1	tan xin
+當勢	1	tan sy
+當中	1	tan tzon
+當仔	1	tan tzy
+檔子	1	tan tzy
+抵押品	1	ti aq phin
+搭腔	1	taq chian
+搭僵	1	taq cian
+搭腳	1	taq ciaq
+搭橋	1	taq djio
+搭道	1	taq do
+搭頭	1	taq doe
+搭界	1	taq ka
+搭牢	1	taq lo
+搭買	1	taq ma
+搭賣	1	taq ma
+搭班	1	taq pe
+搭話	1	taq rau
+搭訕	1	taq se
+搭手	1	taq soe
+搭檔	1	taq tan
+搭脫	1	taq theq
+搭底	1	taq ti
+搭酒	1	taq cioe
+搭仔	1	taq tzy
+搭嘴	1	taq tzy
+帶子	1	ta tzy
+草棚棚	1	tso ban ban
+槍斃鬼	1	chian bi ciu
+照牌頭	1	tzo ba doe
+塌鼻頭	1	thaq biq doe
+搨便宜	1	thaq bi gni
+討便宜	1	tho bi gni
+太平一點	1	tha bin iq ti
+打白客	1	tan baq khaq
+搭棚睏	1	taq ban khuen
+睬白眼	1	tse baq nge
+偷蟠仔	1	thoe beu tzy
+湯婆子	1	than bu tzy
+雌伏雄	1	tsy bu yon
+打防疫針	1	tan ban yoq tzen
+寸金地	1	tsen cin di
+出氣筒	1	tseq chi don
+擔肩胛	1	te ci kaq
+坍肩胛	1	the ci kaq
+討吉利	1	tho ciq li
+掂斤兩	1	ti cin lian
+貪吃懶做	1	theu chiq le tzu
+七曲八繞	1	chiq chioq paq gnio
+七翹八裂	1	chiq djio paq liq
+七撟八裂	1	chiq djio paq liq
+七曲八彎	1	chiq chioq paq ue
+紫絳紅	1	tzy cian ron
+兜圈子	1	toe chieu tzy
+轉筋透骨	1	tzeu cin thoe kueq
+搭腳搭手	1	taq ciaq taq soe
+裝腔作死	1	tzan chian tzoq xi
+請吃茶	1	chin chiq zau
+搔頭皮	1	tzo doe bi
+拆檯腳	1	tsaq de ciaq
+搗蛋鬼	1	to de ciu
+脫頭頸	1	theq doe cin
+唱獨腳戲	1	tsan doq ciaq xi
+菜刀頭	1	tse to doe
+做大頭夢	1	tzu du doe man
+做大頭夢	1	tzu du doe mon
+打頭風	1	tan doe fon
+頂頭風	1	tin doe fon
+清道伕	1	chin do fu
+做頭髮	1	tzu doe faq
+頂頭貨	1	tin doe hu
+此地塊	1	tsy di khue
+灶頭間	1	tzo doe ke
+節頭管	1	ciq doe kueu
+當頭灌腳	1	tan doe kueu ciaq
+痴頭怪腦	1	tsy doe kua no
+頂頭雷	1	tin doe le
+春頭浪	1	tsen doe lan
+抄近路	1	tso djin lu
+挑頭路	1	thio doe lu
+脫頭落襻	1	theq doe loq phe
+斬頭瀝血	1	tze doe liq xiuq
+當頭砲	1	tan doe pho
+打地鋪	1	tan di phu
+七停八當	1	chiq din paq tan
+豬頭三	1	tzy doe se
+吞頭勢	1	then doe sy
+燈頭線	1	ten doe xi
+打強心針	1	tan djian xin tzen
+剃頭店	1	thi doe ti
+打彈子	1	tan de tzy
+搭道搭隊	1	taq do taq de
+土頭土腦	1	thu doe thu no
+紙頭紙腦	1	tzy doe tzy no
+篤定泰山	1	toq din tha se
+臭豆腐	1	tsoe doe vu
+臭豆腐乾	1	tsoe doe vu keu
+闖窮禍	1	tsan djion wu
+出頭戲	1	tseq doe xi
+紮臺型	1	tzaq de yin
+脆頭繩	1	tseu doe zen
+單被	1	te bi
+對景	1	te cin
+對頭	1	te doe
+膽大	1	te du
+對蝦	1	te hau
+對過	1	te ku
+擔老	1	te lo
+對面	1	te mi
+登腔	1	ten chian
+鐓雞	1	ten ci
+頓腳	1	ten ciaq
+躉買	1	ten ma
+躉當	1	ten tan
+凳子	1	ten tzy
+登樣	1	ten yan
+膯食	1	ten zeq
+當耳邊風	1	tan el pi fon
+耳邊風	1	el pi fon
+得法	1	teq faq
+單衫	1	te se
+單生	1	te sen
+呆小症	1	te xio tzen
+早晏點	1	tzo e ti
+短褲	1	teu khu
+鍛煉	1	teu li
+短縮	1	teu soq
+端正	1	teu tzen
+短壽	1	teu zoe
+對直	1	te zeq
+出風頭	1	tseq fon doe
+早發頭	1	tzo faq doe
+長發頭裏	1	tzan faq doe li
+長發頭浪	1	tzan faq doe lan
+招風耳朵	1	tzo fon gni tu
+插髮簪	1	tsaq faq tzeu
+拆牛棚	1	tsaq gnioe ban
+討饒頭	1	tho gnio doe
+青泥苔	1	chin gni de
+做人家	1	tzu gnin ka
+走人家	1	tzoe gnin ka
+打耳光	1	tan gni kuan
+主人家	1	tzy gnin ka
+做人客	1	tzu gnin khaq
+千年難般	1	chi gni ne pe
+吹牛屄	1	tsy gnioe pi
+吹牛三	1	tsy gnioe se
+招女婿	1	tzo gniu xiu
+做月子	1	tzu gniuq tzy
+整日天	1	tzen gniq thi
+正月初一	1	tzen gniuq tsu iq
+正月初一	1	tzen yuq tsu iq
+出言無常	1	tseq gni vu zan
+做人情	1	tzu gnin jin
+太平	1	tha bin
+太婆	1	tha bu
+太公	1	tha kon
+湯碗	1	than ueu
+湯糰	1	than deu
+耥頭	1	than doe
+湯罐	1	than kueu
+湯包	1	than po
+湯盅	1	than tzon
+湯藥	1	than yaq
+搨鐾	1	thaq bi
+傝皮	1	thaq bi
+拖鼻涕	1	tha biq thi
+拖舌頭	1	tha zeq doe
+搨粉	1	thaq fen
+搨花	1	thaq hau
+搨累	1	thaq le
+搨草	1	thaq tso
+太太	1	tha tha
+太陽	1	tha yan
+打哈欠	1	tan ha chi
+做花頭	1	tzu hau doe
+打昏塗	1	tan huen du
+坦眼	1	the nge
+炭結	1	the ciq
+坍臺	1	the de
+推頭	1	the doe
+推販	1	the fe
+吞頭	1	then doe
+推扳	1	the pe
+脫腳	1	theq ciaq
+脫骱	1	theq ga
+脫空	1	theq khon
+忒高	1	theq ko
+脫力	1	theq liq
+脫籠	1	theq lon
+脫卯	1	theq mo
+毯子	1	the tzy
+灘簧	1	the wan
+攤為	1	the we
+坦和	1	the wu
+天鵝	1	thi ngu
+天氣	1	thi chi
+剃頭	1	thi doe
+天乾	1	thi keu
+天冷	1	thi lan
+天藍	1	thi le
+天門	1	thi men
+挺括	1	thin kuaq
+跳浜	1	thio pan
+挑痧	1	thio sau
+跳蝨	1	thio seq
+挑剔	1	thio thiq
+鐵條	1	thiq dio
+貼近	1	thiq djin
+貼肉	1	thiq gnioq
+鐵灰	1	thiq hue
+鐵梗	1	thiq kan
+貼邊	1	thiq pi
+鐵鎝	1	thiq taq
+鐵抄	1	thiq tso
+貼鼠	1	thiq tsy
+帖子	1	thiq tzy
+鐵匠	1	thiq jian
+天旱	1	thi reu
+替手	1	thi soe
+天打	1	thi tan
+添太	1	thi tha
+天天	1	thi thi
+天窗	1	thi tsan
+天井	1	thi cin
+打呼嚕	1	tan hu lhu
+正好垃拉	1	tzen ho laq la
+討巧	1	tho chio
+敨開	1	thoe khe
+討饒	1	tho gnio
+討論	1	tho len
+通同	1	thon don
+統統	1	thon thon
+禿頂	1	thoq tin
+套鞋	1	tho ra
+套話	1	tho rau
+套衫	1	tho se
+討打	1	tho tan
+七歪八牽	1	chiq hua paq chi
+七葷八素	1	chiq huen paq su
+天火燒	1	thi hu so
+土白	1	thu baq
+拖堂	1	thu dan
+土地	1	thu di
+土布	1	thu pu
+吐司	1	thu sy
+毻脫	1	thu theq
+兔子	1	thu tzy
+打霍險	1	tan hoq xi
+做好事	1	tzu ho zy
+爹爹	1	tia tia
+叉一腳	1	tsau iq ciaq
+搭一腳	1	taq iq ciaq
+着衣鏡	1	tzaq i cin
+點頭	1	ti doe
+底肚	1	ti du
+店家	1	ti ka
+頂棚	1	tin ban
+釘耙	1	tin bau
+盯梢	1	tin so
+丁倒	1	tin to
+頂真	1	tin tzen
+釘子	1	tin tzy
+銚子	1	tio tzy
+刁嘴	1	tio tzy
+店鋪	1	ti phu
+扚肉	1	tiq gnioq
+跌跤	1	tiq ko
+扚背	1	tiq pe
+底下	1	ti rau
+臭要死	1	tsoe io xi
+點心	1	ti xin
+顛倒	1	ti to
+着衣裳	1	tzaq i zan
+拆家敗	1	tsaq ka ba
+拆家棚	1	tsaq ka ban
+探口氣	1	theu khoe chi
+鐵公雞	1	thiq kon ci
+觸揢	1	tsoq khaq
+觸揢鬼	1	tsoq khaq ciu
+促掐鬼	1	tsoq khaq ciu
+探口風	1	theu khoe fon
+討口風	1	tho khoe fon
+做客人	1	tzu khaq gnin
+親家公	1	chin ka kon
+倒掛臉	1	to kau li
+赤骨落	1	tsaq kueq loq
+赤刮辣新	1	tsaq kuaq laq xin
+親家母	1	chin ka mhu
+戴高帽子	1	ta ko mo tzy
+貼隔壁	1	thiq kaq piq
+對隔壁	1	te kaq piq
+正隔壁	1	tzen kaq piq
+七講八講	1	chiq kan paq kan
+七高八低	1	chiq ko paq ti
+通關手	1	thon kue soe
+的角四方	1	tiq koq sy fan
+討口彩	1	tho khoe tse
+節甲指	1	ciq khaq tzy
+通關節	1	thon kue ciq
+搭架子	1	taq ka tzy
+跌跟斗	1	tiq ken toe
+搶家當	1	chian ka tan
+捉鴿多	1	tzoq keq tu
+打鴿多	1	tan keq tu
+塔棵菜	1	thaq khu tse
+氽江浮屍	1	then kan voe sy
+討價還價	1	tho ka we ka
+節甲油	1	ciq khaq yoe
+吵開場	1	tso khe zan
+討老婆	1	tho lo bu
+接龍牌	1	ciq lon ba
+早浪頭	1	tzo lan doe
+中浪頭	1	tzon lan doe
+燈籠褲	1	ten lon khu
+打菱角	1	tan lin koq
+出籠功夫	1	tseq lon kon fu
+襯裏褲子	1	tsen li khu tzy
+的粒滾圓	1	tiq liq kuen yeu
+紫羅蘭	1	tzy lu le
+出冷門	1	tseq lan men
+出老碼子	1	tseq lo mau tzy
+貼老本	1	thiq lo pen
+處理品	1	tsy li phin
+槍籬笆	1	chian li pau
+七老八十	1	chiq lo paq seq
+襯裏布衫	1	tsen li pu se
+七老八十	1	chiq lo paq zeq
+闖鄰舍	1	tsan lin sau
+插蠟燭	1	tsaq laq tzoq
+錯連錯	1	tsu li tsu
+草簾子	1	tso li tzy
+土裏土氣	1	thu li thu chi
+兜來兜去	1	toe le toe chi
+着連襠褲	1	tzaq li tan khu
+添裏太拉	1	thi li tha lha
+襯裏短衫	1	tsen li teu se
+赤辣焦黃	1	tsaq laq cio wan
+短裏抽長	1	teu li tsoe zan
+斥爛屙	1	tsaq le u
+炒冷飯	1	tso lan ve
+炒冷飯頭	1	tso lan ve doe
+早浪向	1	tzo lan xian
+中浪向	1	tzon lan xian
+天老爺	1	thi lo ya
+出毛病	1	tseq mo bin
+觸霉頭	1	tsoq me doe
+姐妹道理	1	cia me do li
+通名道姓	1	thon min do xin
+炒米花	1	tso mi hau
+採棉花	1	tse mi hau
+摘棉花	1	tzaq mi hau
+裝門面	1	tzan men mi
+猜謎謎子	1	tse me me tzy
+搭脈息	1	taq maq xiq
+紮面子	1	tzaq mi tzy
+搓麻將	1	tsau mau cian
+正門正路	1	tzen men tzen lu
+芝麻糊	1	tzy mau wu
+刺毛蟲	1	tsy mo zon
+睬儂白眼	1	tse non baq nge
+七弄八弄	1	chiq lon paq lon
+端五節	1	teu ng ciq
+抄牙齒	1	tso nga tsy
+端午粽	1	teu ng tzon
+兜風	1	toe fon
+兜兜	1	toe toe
+到家	1	to ka
+搗亂	1	to leu
+懂經	1	ton cin
+東頭	1	ton doe
+東風	1	ton fon
+東壗	1	ton he
+冬瓜	1	ton kau
+東面	1	ton mi
+凍水	1	ton sy
+凍瘡	1	ton tsan
+凍瘃	1	ton tzoq
+到把	1	to pau
+篤定	1	toq din
+篤坦	1	toq the
+涿雨	1	toq yu
+打噁心	1	tan oq xin
+到手	1	to soe
+倒脫	1	to theq
+倒貼	1	to thiq
+倒酒	1	to cioe
+倒灶	1	to tzo
+東半爿	1	ton peu be
+左半爿	1	tzu peu be
+戳壁腳	1	tsoq piq ciaq
+灶壁蟣	1	tzo piq ci
+捉板頭	1	tzoq pe doe
+搨扁頭	1	thaq pi doe
+推扳貨	1	the pe hu
+灶披間	1	tzo phi ke
+醜八怪	1	tsoe paq kua
+打扑克	1	tan phoq kheq
+翅膀硬	1	tsy pan ngan
+笡巴眼	1	chia pa nge
+叉扁魚	1	tsau pi ng
+打包票	1	tan po phio
+捉把柄	1	tzoq pau pin
+挑弸弸	1	thio pan pan
+吊膀子	1	tio pan tzy
+打八折	1	tan paq tzeq
+討扳帳	1	tho pe tzan
+天疱瘡	1	thi po tsan
+鐵板釘釘	1	thiq pe tin tin
+推扳勿起	1	the pe veq chi
+差板	1	tsa pe
+差板	1	tsau pe
+差板勿起	1	tsa pe veq chi
+差板勿起	1	tsau pe veq chi
+抄下巴	1	tso rau bau
+底下頭	1	ti rau doe
+出言話	1	tseq re rau
+天下世界	1	thi rau sy ka
+千話萬話	1	chi rau ve rau
+差眼	1	tsa nge
+廠家	1	tsan ka
+窗盤	1	tsan beu
+唱功	1	tsan kon
+唱歌	1	tsan ku
+窗簾	1	tsan li
+窗門	1	tsan men
+蒼蠅	1	tsan yin
+赤腳	1	tsaq ciaq
+赤豆	1	tsaq doe
+插秧	1	tsaq ian
+拆空	1	tsaq khon
+赤膊	1	tsaq poq
+斥尿	1	tsaq sy
+插檔	1	tsaq tan
+鍤刀	1	tsaq to
+坼坼	1	tsaq tsaq
+尺寸	1	tsaq tsen
+斥屙	1	tsaq u
+差點	1	tsa ti
+叉牙	1	tsau nga
+差扳	1	tsau pe
+車行	1	tsau ran
+叉槍	1	tsau chian
+車子	1	tsau tzy
+車站	1	tsau ze
+紮手縛腳	1	tzaq soe boq ciaq
+討手腳	1	tho soe ciaq
+做手腳	1	tzu soe ciaq
+添手腳	1	thi soe ciaq
+替手腳	1	thi soe ciaq
+觸心旌	1	tsoq xin cin
+搭訕頭	1	taq se doe
+菜豆	1	tse doe
+春捲	1	tsen cieu
+春頭	1	tsen doe
+襯褲	1	tsen khu
+襯布	1	tsen pu
+襯衫	1	tsen se
+稱心	1	tsen xin
+出去	1	tseq chi
+出道	1	tseq do
+出頭	1	tseq doe
+出客	1	tseq khaq
+出來	1	tseq le
+出老	1	tseq lo
+出門	1	tseq men
+出面	1	tseq mi
+出手	1	tseq soe
+出送	1	tseq son
+出鬆	1	tseq son
+出水	1	tseq sy
+出世	1	tseq sy
+出燈	1	tseq ten
+出趟	1	tseq than
+出脫	1	tseq theq
+出差	1	tseq tsa
+出產	1	tseq tse
+出帳	1	tseq tzan
+出精	1	tseq cin
+出場	1	tseq zan
+彩虹	1	tse ron
+攙手	1	tse soe
+菜刀	1	tse to
+穿堂	1	tseu dan
+穿繃	1	tseu pan
+菜飯	1	tse ve
+產婦	1	tse vu
+攙和	1	tse wu
+做生日	1	tzu san gniq
+清水貨	1	chin sy hu
+搨雪花膏	1	thaq xiq hau ko
+兜生意	1	toe san i
+搶生意	1	chian san i
+太師椅	1	tha sy i
+做生意	1	tzu san i
+千魚	1	chi ng
+笡頭	1	chia doe
+搶牙	1	chian nga
+搶白	1	chian baq
+槍笆	1	chian pau
+搶嘴	1	chian tzy
+芍陂	1	chiaq bi
+槧皮	1	chi bi
+青蛙	1	chin au
+青魚	1	chin ng
+親眷	1	chin cieu
+青糰	1	chin deu
+蜻蜓	1	chin din
+親家	1	chin ka
+青蓮	1	chin li
+請問	1	chin men
+清爽	1	chin san
+清湯	1	chin than
+青菜	1	chin tse
+親切	1	chin chiq
+親戚	1	chin chiq
+青草	1	chin tso
+秋天	1	chioe thi
+鞦韆	1	chioe chi
+七件	1	chiq dji
+切近	1	chiq djin
+七年	1	chiq gni
+砌末	1	chiq meq
+七個	1	chiq req
+妻子	1	chi tzy
+唱山歌	1	tsan se ku
+清水光湯	1	chin sy kuan than
+斥尿揩香	1	tsaq sy kha xian
+吵相罵	1	tso xian mau
+做舍姆	1	tzu sau mh
+草棚	1	tso ban
+草頭	1	tso doe
+抽筋	1	tsoe cin
+抽屜	1	tsoe thi
+抽斗	1	tsoe toe
+臭蟲	1	tsoe zon
+吵客	1	tso khaq
+蔥花	1	tson hau
+蔥綠	1	tson loq
+鈔票	1	tso phio
+草包	1	tso po
+觸氣	1	tsoq chi
+促掐	1	tsoq khaq
+畜牲	1	tsoq san
+戳鏟	1	tsoq tse
+觸祭	1	tsoq ci
+戳子	1	tsoq tzy
+抄手	1	tso soe
+抄湯	1	tso than
+草千	1	tso chi
+草房	1	tso van
+七手八腳	1	chiq soe paq ciaq
+出說話	1	tseq seq rau
+擔心思	1	te xin sy
+多心思	1	tu xin sy
+打小算盤	1	tan xio seu beu
+打相打	1	tan xian tan
+短三春	1	teu se tsen
+吊嗓子	1	tio san tzy
+清水湯	1	chin sy than
+爪手爪腳	1	tza soe tza ciaq
+粗手粗腳	1	tsu soe tsu ciaq
+搭手搭腳	1	taq soe taq ciaq
+陰司觸揢	1	in sy tsoq khaq
+陰司促掐	1	in sy tsoq khaq
+多說多話	1	tu seq tu rau
+作死作活	1	tzoq xi tzoq weq
+詐死詐活	1	tzau xi tzau weq
+粗貨	1	tsu hu
+初春	1	tsu tsen
+討新婦	1	tho xin vu
+千算萬計	1	chi seu ve ci
+做生活	1	tzu san weq
+討生活	1	tho san weq
+真生活	1	tzen san weq
+齒耙	1	tsy bau
+此地	1	tsy di
+次貨	1	tsy hu
+齒輪	1	tsy len
+處理	1	tsy li
+翅膀	1	tsy pan
+次品	1	tsy phin
+廁所	1	tsy su
+粢飯	1	tsy ve
+擋箭牌	1	tan ci ba
+攤底牌	1	the ti ba
+兜兜盤盤	1	toe toe beu beu
+酒糟鼻頭	1	cioe tzo biq doe
+討債鬼	1	tho tza ciu
+頂出去	1	tin tseq chi
+親親眷眷	1	chin chin cieu cieu
+扚扚頭	1	tiq tiq doe
+戳節頭	1	tsoq ciq doe
+天差地遣	1	thi tsa di chi
+唱拆臺戲	1	tsan tsaq de xi
+兜底翻	1	toe ti fe
+當中人	1	tan tzon gnin
+紮搭一口	1	tzaq taq iq khoe
+頂針箍	1	tin tzen ku
+搭得夠	1	taq teq koe
+精打光	1	cin tan kuan
+打中覺	1	tan tzon ko
+充得過	1	tson teq ku
+側轉睏	1	tzeq tzeu khuen
+尖嘴姑娘	1	ci tzy ku gnian
+的的呱呱	1	tiq tiq kuaq kuaq
+挑嘴隔舌	1	thio tzy kaq zeq
+脫底棺材	1	theq ti kueu ze
+紫青蓮	1	tzy chin li
+笡對面	1	chia te mi
+貼對面	1	thiq te mi
+珍珠米	1	tzen tzy mi
+清湯麵	1	chin than mi
+做脫儂	1	tzu theq non
+偷針眼	1	thoe tzen nge
+砧墩板	1	tzen ten pe
+拆穿繃	1	tsaq tseu pan
+諸精百怪	1	tzy cin paq kua
+七嘴八搭	1	chiq tzy paq taq
+七丁八倒	1	chiq tin paq to
+七顛八倒	1	chiq ti paq to
+坍招勢	1	the tzo sy
+打出手	1	tan tseq soe
+請酒水	1	chin cioe sy
+打頂心	1	tan tin xin
+東厾西摜	1	ton toq xi gue
+赤嶄勢齊	1	tsaq tze sy ji
+中秋節	1	tzon chioe ciq
+溚溚渧	1	taq taq ti
+貼當中	1	thiq tan tzon
+正當中	1	tzen tan tzon
+兔子燈	1	thu tzy ten
+採冬採	1	tse ton tse
+兜得轉	1	toe teq tzeu
+土墩墩	1	thu ten ten
+戳千刀	1	tsoq chi to
+捉帖子	1	tzoq thiq tzy
+作天作地	1	tzoq thi tzoq di
+刁鑽觸揢	1	tio tzeu tsoq khaq
+叼鑽促掐	1	tio tzeu tsoq khaq
+出精出怪	1	tseq cin tseq kua
+作精作怪	1	tzoq cin tzoq kua
+貼貼當中	1	thiq thiq tan tzon
+抓抓出出	1	tza tza tseq tseq
+點點觸觸	1	ti ti tsoq tsoq
+跌跌蹱蹱	1	tiq tiq tson tson
+戳槍戳箭	1	tsoq chian tsoq ci
+多嘴多舌	1	tu tzy tu zeq
+祇進勿出	1	tzeq cin veq tseq
+酒醉糊塗	1	cioe tzeu wu du
+倒貼戶頭	1	to thiq wu doe
+當中橫裏	1	tan tzon wan li
+搭得着	1	taq teq zaq
+搨嘴脣膏	1	thaq tzy zen ko
+簇嶄全新	1	tsoq tze ji xin
+賭鬼	1	tu ciu
+醬煨蛋	1	cian ue de
+賭客	1	tu khaq
+鐵烏青	1	thiq u chin
+肚子	1	tu tzy
+對勿起	1	te veq chi
+粢飯糰	1	tsy ve deu
+搭勿夠	1	taq veq koe
+粢飯糕	1	tsy ve ko
+掂份量	1	ti ven lian
+七勿老起	1	chiq veq lo chi
+對勿攏頭	1	te veq lon doe
+七勿老三	1	chiq veq lo se
+跌勿倒	1	tiq veq to
+對勿住	1	te veq zy
+焦飯糍	1	cio ve zy
+中飯辰光	1	tzon ve zen kuan
+攤王牌	1	the wan ba
+東橫頭	1	ton wan doe
+中橫頭	1	tzon wan doe
+打滑跶	1	tan waq daq
+吊胃口	1	tio we khoe
+打回票	1	tan we phio
+跳黃浦	1	thio wan phu
+攤為勿起	1	the we veq chi
+裝胡羊	1	tzan wu yan
+討虛頭	1	tho xiu doe
+秋香綠	1	chioe xian loq
+天曉得	1	thi xio teq
+脫雲腳	1	theq yun ciaq
+豬油筋	1	tzy yoe cin
+太陽頭裏	1	tha yan doe li
+斥洋爛屙	1	tsaq yan le u
+捉野貓	1	tzoq ya mho
+太陽眼鏡	1	tha yan nge cin
+蔥油餅	1	tson yoe pin
+千嫌百鄙	1	chi yi paq pi
+出洋相	1	tseq yan xian
+吊鹽水	1	tio yi sy
+整夜天	1	tzen ya thi
+醬油店	1	cian yoe ti
+做夜作	1	tzu ya tzoq
+搭夜作	1	taq ya tzoq
+做月子	1	tzu yuq tzy
+正月初一	1	tzen yuq tsu iq
+打圓場	1	tan yeu zan
+撢簷塵	1	te yi zen
+請用茶	1	chin yon zau
+帳子	1	tzan tzy
+爭嘴	1	tzan tzy
+漲潮	1	tzan zo
+蟑螂	1	tzan lan
+裝佯	1	tzan yan
+裝樣	1	tzan yan
+喳吧	1	tza pa
+揝勁	1	tzaq cin
+着棋	1	tzaq dji
+紮膩	1	tzaq gni
+摘勾	1	tzaq koe
+紮致	1	tzaq tzy
+爪手	1	tza soe
+炸彈	1	tzau de
+詐人	1	tzau gnin
+遮牢	1	tzau lo
+嘴脣皮	1	tzy zen bi
+跳橡皮筋	1	thio jian bi cin
+打字機	1	tan zy ci
+吐舌頭	1	thu zeq doe
+唱重頭戲	1	tsan zon doe xi
+劗肉	1	tze gnioq
+正屋	1	tzen oq
+整日	1	tzen gniq
+正好	1	tzen ho
+尊姓	1	tzen xin
+正手	1	tzen soe
+斟酒	1	tzen cioe
+正宗	1	tzen tzon
+准足	1	tzen tzoq
+整齊	1	tzen ji
+祇要	1	tzeq io
+側睏	1	tzeq khuen
+織布	1	tzeq pu
+轉去	1	tzeu chi
+磚頭	1	tzeu doe
+轉動	1	tzeu don
+轉來	1	tzeu le
+專門	1	tzeu men
+再會	1	tze we
+搶上風	1	chian zan fon
+討惹厭	1	tho za i
+鯽魚	1	ci ng
+獎金	1	cian cin
+漿糊	1	cian wu
+醬油	1	cian yoe
+將如	1	cian zy
+姐夫	1	cia fu
+姐姐	1	cia cia
+進去	1	cin chi
+腈肉	1	cin gnioq
+精怪	1	cin kua
+精光	1	cin kuan
+精刮	1	cin kuaq
+進來	1	cin le
+進深	1	cin sen
+進帳	1	cin tzan
+進城	1	cin zen
+酒靨	1	cioe iq
+酒潭	1	cioe de
+酒家	1	cioe ka
+酒杯	1	cioe pe
+酒水	1	cioe sy
+酒盅	1	cioe tzon
+節頭	1	ciq doe
+漬浞	1	ciq tzoq
+接嘴	1	ciq tzy
+脊柱	1	ciq zy
+剪刀	1	ci to
+淺淺	1	ci ci
+尖嘴	1	ci tzy
+脊柱骨	1	ciq zy kueq
+繰袖捋臂	1	chio jioe leq pi
+做市面	1	tzu zy mi
+撐場面	1	tsan zan mi
+闖市面	1	tsan zy mi
+找頭	1	tzo doe
+走氣	1	tzoe chi
+調飢	1	tzoe ci
+走風	1	tzoe fon
+週年	1	tzoe gni
+走好	1	tzoe ho
+走路	1	tzoe lu
+走味	1	tzoe mi
+走樣	1	tzoe yan
+走油	1	tzoe yoe
+走水	1	tzoe sy
+灶間	1	tzo ke
+罩褲	1	tzo khu
+早浪	1	tzo lan
+罩籃	1	tzo le
+種秧	1	tzon ian
+中氣	1	tzon chi
+種地	1	tzon di
+種田	1	tzon di
+鐘頭	1	tzon doe
+粽箬	1	tzon gniaq
+中人	1	tzon gnin
+中灰	1	tzon hue
+總歸	1	tzon kue
+中浪	1	tzon lan
+中學	1	tzon roq
+忠牲	1	tzon san
+眾牲	1	tzon san
+總算	1	tzon seu
+中暑	1	tzon sy
+粽子	1	tzon tzy
+中飯	1	tzon ve
+照片	1	tzo phi
+竹爿	1	tzoq be
+足球	1	tzoq djioe
+斫稻	1	tzoq do
+作道	1	tzoq do
+竹頭	1	tzoq doe
+竹箬	1	tzoq gniaq
+作孽	1	tzoq gniq
+斫花	1	tzoq hau
+足歸	1	tzoq kue
+斫麥	1	tzoq maq
+捉魚	1	tzoq ng
+竹布	1	tzoq pu
+竹筍	1	tzoq sen
+作死	1	tzoq xi
+竹凳	1	tzoq ten
+竹榻	1	tzoq thaq
+斫刀	1	tzoq to
+作興	1	tzoq xin
+作用	1	tzoq yon
+斫柴	1	tzoq za
+竹床	1	tzoq zan
+罩衫	1	tzo se
+早先	1	tzo xi
+搔手	1	tzo soe
+棗子	1	tzo tzy
+早飯	1	tzo ve
+照會	1	tzo we
+照樣	1	tzo yan
+搔癢	1	tzo yan
+擦上擦下	1	tsaq zan tsaq rau
+做人	1	tzu gnin
+做工	1	tzu kon
+做弄	1	tzu lon
+左面	1	tzu mi
+左邊	1	tzu pi
+做啥	1	tzu sa
+左手	1	tzu soe
+做七	1	tzu chiq
+做作	1	tzu tzoq
+做戲	1	tzu xi
+賭誓罰咒	1	tu zy vaq tzoe
+注意	1	tzy i
+紙筋	1	tzy cin
+紙頭	1	tzy doe
+主人	1	tzy gnin
+豬肉	1	tzy gnioq
+豬肝	1	tzy keu
+知了	1	tzy lio
+豬玀	1	tzy lu
+芝麻	1	tzy mau
+嘴巴	1	tzy pau
+支派	1	tzy pha
+疰夏	1	tzy rau
+紫紅	1	tzy ron
+知識	1	tzy seq
+紫色	1	tzy seq
+仔細	1	tzy xi
+支出	1	tzy tseq
+珠珠	1	tzy tzy
+蜘蛛	1	tzy tzy
+豬油	1	tzy yoe
+嘴脣	1	tzy zen
+滋潤	1	tzy zen
+豬塮	1	tzy jia
+烏鴉	1	u ia
+橫對	1	uan te
+枉空	1	uan khon
+往後	1	uan roe
+挖耳	1	uaq gni
+挖掐	1	uaq khaq
+挖揢	1	uaq khaq
+烏龜抬轎	1	u ciu de djio
+烏龜	1	u ciu
+溫度計	1	uen du ci
+萵苣筍	1	u djiu sen
+碗頭碗腳	1	ueu doe ueu ciaq
+委屈	1	ue chiuq
+溫度	1	uen du
+瘟牲	1	uen sen
+溫吞	1	uen then
+殟塞	1	ueq seq
+歿塞	1	ueq seq
+捂泥搭水	1	u gni taq sy
+於戲	1	u hu
+焐窠	1	u khu
+烏裏買裏	1	u li ma li
+污裏污糟	1	u li u tzo
+兀賴鞋	1	u la ra
+往後起	1	uan roe chi
+捂酥豆	1	u su doe
+焐心	1	u xin
+烏蘇天	1	u su thi
+烏蘇	1	u su
+煨灶貓	1	ue tzo mho
+捂抖	1	u toe
+烏七八糟	1	u chiq paq tzo
+溫暾水	1	uen then sy
+烏千	1	u chi
+彎彎繞	1	ue ue gnio
+烏賊魚	1	u zeq ng
+房間	1	van ke
+房樑	1	van lian
+房子	1	van tzy
+罰咒	1	vaq tzoe
+勿見得	1	veq ci teq
+勿吃香	1	veq chiq xian
+萬金油	1	ve cin yoe
+勿求人	1	veq djioe gnin
+飯碗	1	ve ueu
+犯忌	1	ve dji
+飯桶	1	ve don
+犯人	1	ve gnin
+飯窠	1	ve khu
+犯規	1	ve kue
+飯籃	1	ve le
+飯籮	1	ve lu
+煩難	1	ve ne
+份量	1	ven lian
+文盲	1	ven man
+煩惱	1	ve no
+文旦	1	ven te
+物理	1	veq li
+勿罷	1	veq ba
+勿經	1	veq cin
+勿談	1	veq de
+勿及	1	veq djiq
+勿動	1	veq don
+勿放	1	veq fan
+勿好	1	veq ho
+勿要	1	veq io
+勿快	1	veq khua
+勿來	1	veq le
+勿買	1	veq ma
+勿滿	1	veq meu
+勿撥	1	veq peq
+勿比	1	veq pi
+勿煞	1	veq saq
+勿想	1	veq xian
+勿消	1	veq xio
+勿送	1	veq son
+勿多	1	veq tu
+勿會	1	veq we
+勿響	1	veq xian
+勿許	1	veq xiu
+勿曾	1	veq zen
+勿然	1	veq zeu
+勿是	1	veq zy
+飯單	1	ve te
+飯店	1	ve ti
+飯抄	1	ve tso
+犯着	1	ve zaq
+帆船	1	ve zeu
+飯勺	1	ve zoq
+飯糍	1	ve zy
+勿分開	1	veq fen khe
+勿二勿三	1	veq gni veq se
+勿好勒	1	veq ho leq
+勿歡喜	1	veq hueu xi
+勿要緊	1	veq io cin
+唯獨	1	vi doq
+勿要客氣	1	veq io khaq chi
+勿要話	1	veq io rau
+味精	1	vi cin
+勿管帳	1	veq kueu tzan
+勿尷勿尬	1	veq ke veq ka
+勿靈笨	1	veq lin ben
+勿老氣	1	veq lo chi
+勿連牽	1	veq li chi
+飯蘿頭	1	ve lu doe
+勿來三	1	veq le se
+煩老太婆	1	ve lo tha bu
+勿來事	1	veq le zy
+飯米糝	1	ve mi seu
+勿礙啥	1	veq nge sa
+勿礙事	1	veq nge zy
+浮屍	1	voe sy
+浮惹	1	voe za
+縫縫	1	von von
+鳳凰	1	von wan
+伏裏	1	voq li
+服帖	1	voq thiq
+微波爐	1	vi pu lu
+飯泡粥	1	ve pho tzoq
+勿爽氣	1	veq san chi
+勿識頭	1	veq seq doe
+無線電	1	vu xi di
+勿識貨	1	veq seq hu
+勿適意	1	veq seq i
+浮說亂話	1	voe seq leu rau
+勿生勢	1	veq san sy
+舞獅子	1	vu sy tzy
+勿三勿四	1	veq se veq sy
+勿死勿活	1	veq xi veq weq
+勿多幾時	1	veq tu ci zy
+維他命	1	vi tha min
+勿出門	1	veq tseq men
+味之素	1	vi tzy su
+勿出趟	1	veq tseq than
+墳墩頭	1	ven ten doe
+勿得勿然	1	veq teq veq zeu
+勿作興	1	veq tzoq xin
+無天野地	1	vu thi ya di
+霧露	1	vu lu
+扶梯	1	vu thi
+煩勿清爽	1	ve veq chin san
+勿遠送	1	veq yeu son
+縫紉機	1	von zen ci
+勿入調	1	veq zeq dio
+撫牆摸壁	1	vu jian moq piq
+飯勺子	1	ve zoq tzy
+勿入勿調	1	veq zeq veq dio
+勿着勿落	1	veq zaq veq loq
+淮劇	1	wa djiq
+橫裏	1	wan li
+橫繃	1	wan pan
+橫檔	1	wan tan
+橫豎	1	wan zy
+壞人	1	wa gnin
+黃魚	1	wan ng
+黃豆	1	wan doe
+黃牛	1	wan gnioe
+黃瓜	1	wan kau
+黃狼	1	wan lan
+黃沙	1	wan sau
+黃鱔	1	wan zeu
+滑跶	1	waq daq
+壞脫	1	wa theq
+懷孕	1	wa yun
+黃金瓜	1	wan cin kau
+滑稽戲	1	waq ci xi
+黃道日	1	wan do gniq
+黃道日腳	1	wan do gniq ciaq
+回頭生意	1	we doe san i
+緯紗	1	yu sau
+還要	1	we io
+回頭	1	we doe
+回韌	1	we gnin
+還好	1	we ho
+回門	1	we men
+為滿	1	we meu
+餛飩	1	wen den
+魂靈	1	wen lin
+混帳	1	wen tzan
+活該	1	weq ke
+活絡	1	weq loq
+為啥	1	we sa
+回答	1	we taq
+會得	1	we teq
+還鈔	1	we tso
+彙鈔	1	we tso
+會做	1	we tzu
+為仔	1	we tzy
+還嘴	1	we tzy
+完結	1	weu ciq
+串夷	1	we yi
+回潮	1	we zo
+黃牛肩胛	1	wan gnioe ci kaq
+黃泥螺	1	wan gni lu
+黃昏頭	1	wan huen doe
+黃哈哈	1	wan ha ha
+橫揀豎揀	1	wan ke zy ke
+魂靈頭	1	wen lin doe
+魂靈心	1	wen lin xin
+壞良心	1	wa lian xin
+魂靈三聖	1	wen lin se sen
+囫圇吞	1	weq len then
+為來為去	1	we le we chi
+活裏活絡	1	weq li weq loq
+橫裏向	1	wan li xian
+黃梅天	1	wan me thi
+黃魚肚皮	1	wan ng du bi
+黃魚腦子	1	wan ng no tzy
+黃魚鯗	1	wan ng xian
+黃芽菜	1	wan nga tse
+黃魚車	1	wan ng tsau
+荷包蛋	1	wu po de
+黃胖綠	1	wan phan loq
+回報門	1	we po men
+王伯伯	1	wan paq paq
+活筆剝	1	weq piq poq
+活剝鮮跳	1	weq poq xi thio
+壞坯子	1	wa phe tzy
+護小囝	1	wu xio neu
+衛生衫	1	we sen se
+為啥體	1	we sa thi
+橫豎橫	1	wan zy wan
+會說會話	1	we seq we rau
+橫輸贏	1	wan sy yin
+回轉去	1	we tzeu chi
+會做人家	1	we tzu gnin ka
+黃鼠狼	1	wan tsy lan
+橫垛裏	1	wan tu li
+橫垛裏向	1	wan tu li xian
+河鯽魚	1	wu ci ng
+活脫勢象	1	weq theq sy jian
+混天糊塗	1	wen thi wu du
+回嘴回舌	1	we tzy we zeq
+河塘	1	wu dan
+和調	1	wu dio
+蝴蝶	1	wu diq
+滬劇	1	wu djiq
+胡桃	1	wu do
+喖嚨	1	wu lon
+湖綠	1	wu loq
+河浜	1	wu pan
+河身	1	wu sen
+鬍鬚	1	wu su
+胡梯	1	wu thi
+護叉	1	wu tsau
+胡淆	1	wu yo
+河床	1	wu zan
+和尚	1	wu zan
+護士	1	wu zy
+滑胡梯	1	waq wu thi
+荷葉邊	1	wu yiq pi
+壞事體	1	wa zy thi
+還潮天	1	we zo thi
+橫豎橫	1	wan zy wan
+血壓高	1	xiuq aq ko
+香鼻頭	1	xian biq doe
+嘻皮搨臉	1	xi bi thaq li
+胸堂頭	1	xion dan doe
+兄弟道理	1	xion di do li
+揎拳捋臂	1	xieu djieu leq pi
+噱頭勢	1	xiuq doe sy
+稀奇勿煞	1	xi dji veq saq
+妗格格	1	xi kaq kaq
+香煙	1	xian i
+香菇	1	xian ku
+鄉鄰	1	xian lin
+鄉下	1	xian rau
+香蕉	1	xian cio
+香蕈	1	xian jin
+香煙牌子	1	xian i ba tzy
+喜糖	1	xi dan
+喜蛋	1	xi de
+希奇	1	xi dji
+喜果	1	xi ku
+興趣	1	xin chiu
+休息	1	xioe xiq
+胸脯	1	xion bu
+胸口	1	xion khoe
+曉得	1	xio teq
+顯寶	1	xi po
+歇腳	1	xiq ciaq
+歇力	1	xiq liq
+香煙紗	1	xian i sau
+燻魚	1	xiun ng
+噱頭	1	xiuq doe
+血管	1	xiuq kueu
+許多	1	xiu tu
+喜事	1	xi zy
+胸口頭	1	xion khoe doe
+香瓜子	1	xian kau tzy
+香面孔	1	xian mi khon
+血外紅	1	xiuq nga ron
+鄉下頭	1	xian rau doe
+歇歇腳	1	xiq xiq ciaq
+嘻嘻哈哈	1	xi xi ha ha
+血血紅	1	xiuq xiuq ron
+野雞	1	ya ci
+夜頭	1	ya doe
+洋盤	1	yan beu
+陽臺	1	yan de
+洋鈿	1	yan di
+洋鎬	1	yan ko
+湯谷	1	yan koq
+暘谷	1	yan koq
+楊柳	1	yan lioe
+楊梅	1	yan me
+洋布	1	yan pu
+洋傘	1	yan se
+烊雪	1	yan xiq
+洋釘	1	yan tin
+養子	1	yan tzy
+樣樣	1	yan yan
+爺娘	1	ya gnian
+夜快	1	ya khua
+夜裏	1	ya li
+夜宵	1	ya xio
+爺叔	1	ya soq
+夜到	1	ya to
+夜飯	1	ya ve
+夜壺	1	ya wu
+櫟陽	1	yaq yan
+洋白頭	1	yan baq doe
+洋白眼	1	yan baq nge
+羊氣瘋	1	yan chi fon
+洋涇浜	1	yan cin pan
+有道伴	1	yoe do beu
+圍袋袋	1	yu de de
+雨頭裏	1	yu doe li
+夜啼郎	1	ya di lan
+月洞門	1	yuq don men
+圓檯面	1	yeu de mi
+油豆腐	1	yoe doe vu
+油頭滑腦	1	yoe doe waq no
+郵遞員	1	yoe di yeu
+野頭野腦	1	ya doe ya no
+玄色	1	yeu seq
+圓子	1	yeu tzy
+院子	1	yeu tzy
+洋風爐	1	yan fon lu
+旺日頭	1	yan gniq doe
+搖尾巴	1	yo gni pau
+油灰節甲	1	yoe hue ciq khaq
+螢火蟲	1	yin hu zon
+姨夫	1	yi fu
+伊拉	1	yi lha
+有要嘸緊	1	yoe io m cin
+姨媽	1	yi mha
+引擎	1	yin djin
+幸福	1	yin foq
+幸虧	1	yin khue
+引線	1	yin xi
+嫌鄙	1	yi pi
+伊個	1	yi req
+現世	1	yi sy
+蜒蚰	1	yi yoe
+現在	1	yi ze
+延涎	1	yi ze
+有講究	1	yoe kan cioe
+夜快頭	1	ya khua doe
+夜快同	1	ya khua don
+有講頭	1	yoe kan doe
+洋鉛桶	1	yan khe don
+藥罐頭	1	yaq kueu doe
+雨夾雪	1	yu kaq xiq
+現開銷	1	yi khe xio
+有介事	1	yoe ka zy
+有來頭	1	yoe le doe
+遠來頭	1	yeu le doe
+爺老頭子	1	ya lo doe tzy
+伊拉個	1	yi lha req
+遠來和尚	1	yeu le wu zan
+夜裏向	1	ya li xian
+有老爺	1	yoe lo ya
+楊柳樹	1	yan lioe zy
+油麵筋	1	yoe mi cin
+遊碼頭	1	yoe mau doe
+雨麻花	1	yu mau hau
+搖尾巴	1	yo mi pau
+羊毛衫	1	yan mo se
+野蠻小鬼	1	ya me xio ciu
+野蠻小囝	1	ya me xio neu
+有面子	1	yoe mi tzy
+芋奶頭	1	yu na doe
+有熬頭	1	yoe ngo doe
+有眼光	1	yoe nge kuan
+洋囡囡	1	yan nheu nheu
+有意	1	yoe i
+又要	1	yoe io
+有眼	1	yoe nge
+有勁	1	yoe cin
+油條	1	yoe dio
+有道	1	yoe do
+油肉	1	yoe gnioq
+油鍋	1	yoe ku
+有路	1	yoe lu
+右邊	1	yoe pi
+有啥	1	yoe sa
+有心	1	yoe xin
+右手	1	yoe soe
+有數	1	yoe su
+油燈	1	yoe ten
+有得	1	yoe teq
+有請	1	yoe chin
+油漆	1	yoe chiq
+有種	1	yoe tzon
+有喜	1	yoe xi
+用頭	1	yon doe
+傭人	1	yon gnin
+用空	1	yon khon
+用手	1	yon soe
+用處	1	yon tsy
+用場	1	yon zan
+浴盆	1	yoq ben
+浴室	1	yoq seq
+舀湯	1	yo than
+鷂子	1	yo tzy
+油爆蝦	1	yoe po hau
+懸筆揮揮	1	yeu piq hue hue
+搖卜郎鼓	1	yo poq lan ku
+洋泡泡	1	yan pho pho
+有數脈	1	yoe su maq
+洋籼米	1	yan xi mi
+有寫嘸寫	1	yoe xia m xia
+養小囝	1	yan xio neu
+現世寶	1	yi sy po
+現世報	1	yi sy po
+有心想	1	yoe xin xian
+有心思	1	yoe xin sy
+用心思	1	yon xin sy
+洋山芋	1	yan se yu
+有身孕	1	yoe sen yun
+有數有脈	1	yoe su yoe maq
+有心有想	1	yoe xin yoe xian
+夜到頭	1	ya to doe
+有搭頭	1	yoe taq doe
+有清頭	1	yoe chin doe
+鷂子翻身	1	yo tzy fe sen
+油盞火	1	yoe tze hu
+雨太公	1	yu tha kon
+油滋隔膩	1	yoe tzy kaq gni
+現出怪樣	1	yi tseq kua yan
+陽春麵	1	yan tsen mi
+養刁囡	1	yan tio nheu
+洋裝癟三	1	yan tzan piq se
+野得出	1	ya teq tseq
+夜出世	1	ya tseq sy
+油墩子	1	yoe ten tzy
+陽春天氣	1	yan tsen thi chi
+有種出種	1	yoe tzon tseq tzon
+遠轉彎	1	yeu tzeu ue
+現炒現賣	1	yi tso yi ma
+遠七遠八	1	yeu chiq yeu paq
+雨棚	1	yu ban
+圍巾	1	yu cin
+雨頭	1	yu doe
+雲翳	1	yun i
+芋艿	1	yu na
+運氣	1	yun chi
+運道	1	yun do
+雨披	1	yu phi
+月白	1	yuq baq
+月季	1	yuq ci
+越劇	1	yuq djiq
+月頭	1	yuq doe
+月洞	1	yuq don
+月大	1	yuq du
+月亮	1	yuq lian
+月曆	1	yuq liq
+月半	1	yuq peu
+月餅	1	yuq pin
+月生	1	yuq san
+月小	1	yuq xio
+月中	1	yuq tzon
+月氏	1	yuq tzy
+月蝕	1	yuq zeq
+圍身	1	yu sen
+圍兜	1	yu toe
+餘剩	1	yu zan
+圍涎	1	yu ze
+月份牌	1	yuq ven ba
+也無知	1	ya vu tzy
+有勿有	1	yoe veq yoe
+用勿着	1	yon veq zaq
+有還價	1	yoe we ka
+夜壺臉	1	ya wu li
+夜壺箱	1	ya wu xian
+異樣刮嗒	1	yi yan kuaq taq
+有樣嘸樣	1	yoe yan m yan
+洋油燈	1	yan yoe ten
+形容勿出	1	yin yon veq tseq
+有纏頭	1	yoe zeu doe
+揚樹頭	1	yan zy doe
+油煠燴	1	yoe zaq kue
+遠視眼	1	yeu zy nge
+營造商	1	yin zo san
+有長心	1	yoe zan xin
+夜神仙	1	ya zen xi
+射屙	1	zau
+柴爿	1	za be
+惹氣	1	za chi
+惹勁	1	za cin
+長大	1	zan du
+丈夫	1	zan fu
+丈人	1	zan gnin
+場化	1	zan hau
+長褲	1	zan khu
+丈姆	1	zan mh
+丈母	1	zan mhu
+常怕	1	zan phau
+長凳	1	zan ten
+長短	1	zan teu
+常莊	1	zan tzan
+長子	1	zan tzy
+長遠	1	zan yeu
+剩餘	1	zan yu
+上顎	1	zan ngoq
+上去	1	zan chi
+上勁	1	zan cin
+上緊	1	zan cin
+上級	1	zan ciq
+上頭	1	zan doe
+上海	1	zan he
+上霍	1	zan hoq
+上來	1	zan le
+上路	1	zan lu
+上面	1	zan mi
+上班	1	zan pe
+床鋪	1	zan phu
+上車	1	zan tsau
+藏青	1	zan chin
+上裝	1	zan tzan
+上照	1	zan tzo
+宅基	1	zaq ci
+閘腳	1	zaq ciaq
+宅第	1	zaq di
+石頭	1	zaq doe
+石灰	1	zaq hue
+着港	1	zaq kan
+着冷	1	zaq lan
+着力	1	zaq liq
+石屑	1	zaq xiq
+着實	1	zaq zeq
+射尿	1	za sy
+樹枒杈	1	zy au tsau
+柴穧	1	za ci
+茶坊	1	zau fan
+茶花	1	zau hau
+茶杯	1	zau pe
+茶壺	1	zau wu
+象鼻頭	1	jian biq doe
+橡皮魚	1	jian bi ng
+橡皮飯碗	1	jian bi ve ueu
+神經病	1	zen cin bin
+前幾年	1	ji ci gni
+十幾日	1	zeq ci gniq
+長腳鷺鷥	1	zan ciaq lu sy
+前腳後腳	1	ji ciaq roe ciaq
+上腔勢	1	zan chian sy
+神經搭錯	1	zen cin taq tsu
+長腳雨	1	zan ciaq yu
+纏頭勁	1	zeu doe cin
+陣頭風	1	zen doe fon
+潮頭肉	1	zo doe gnioq
+舌頭根	1	zeq doe ken
+壽桃糕	1	zoe do ko
+賊頭狗腦	1	zeq doe koe no
+着地雷	1	zaq di le
+上檯面	1	zan de mi
+揂藤摸瓜	1	zoe den moq kau
+壽頭碼子	1	zoe doe mau tzy
+兆頭囝	1	zo doe neu
+壽頭板氣	1	zoe doe pe chi
+纏頭勢	1	zeu doe sy
+自動傘	1	zy don se
+賺頭勢足	1	ze doe sy tzoq
+長條子	1	zan dio tzy
+牆頭草	1	jian doe tso
+陣頭雨	1	zen doe yu
+蛅蝍	1	ze ciq
+儕部	1	ze bu
+賺頭	1	ze doe
+站頭	1	ze doe
+罪過	1	ze ku
+財禮	1	ze li
+饞癆	1	ze lo
+神氣	1	zen chi
+仍舊	1	zen djioe
+陳貨	1	zen hu
+辰光	1	zen kuan
+人民	1	zen min
+存心	1	zen xin
+誠心	1	zen xin
+順心	1	zen xin
+順手	1	zen soe
+順當	1	zen tan
+繩子	1	zen tzy
+任何	1	zen wu
+仁兄	1	zen xion
+腎炎	1	zen yi
+陣雨	1	zen yu
+剩餘	1	zan yu
+剩餘	1	zen yu
+饞坯	1	ze phe
+賊腔	1	zeq chian
+直徑	1	zeq cin
+實結	1	zeq ciq
+食堂	1	zeq dan
+十件	1	zeq dji
+舌頭	1	zeq doe
+十年	1	zeq gni
+直裏	1	zeq li
+姪囡	1	zeq neu
+蝕本	1	zeq pen
+折本	1	zeq pen
+賊坯	1	zeq phe
+十個	1	zeq req
+直檔	1	zeq tan
+賊偷	1	zeq thoe
+侄子	1	zeq tzy
+實在	1	zeq ze
+涎唾	1	ze thu
+蛅蝍	1	ze ciq
+纏頭	1	zeu doe
+蠶豆	1	zeu doe
+船伕	1	zeu fu
+罪孽	1	zeu gniq
+船鞋	1	zeu ra
+船廠	1	zeu tsan
+裁縫	1	ze von
+上風頭	1	zan fon doe
+順風耳朵	1	zen fon gni tu
+造反到	1	zo fe to
+順風順水	1	zen fon zen sy
+丈人阿爸	1	zan gnin aq paq
+晴日頭	1	jin gniq doe
+陳年裏	1	zen gni li
+丈人老頭	1	zan gnin lo doe
+十日八夜	1	zeq gniq paq ya
+前年仔	1	ji gni tzy
+昨日仔	1	zoq gniq tzy
+前日仔	1	ji gniq tzy
+尋呴勢	1	jin hoe sy
+尋歡作樂	1	jin hueu tzoq loq
+神昏顛倒	1	zen huen ti to
+邪氣	1	jia chi
+牆頭	1	jian doe
+牆壁	1	jian piq
+像煞	1	jian saq
+謝謝	1	jia jia
+全部	1	ji bu
+齊巧	1	ji chio
+神妖鬼怪	1	zen io ciu kua
+前頭	1	ji doe
+前年	1	ji gni
+前日	1	ji gniq
+全日	1	ji gniq
+直腰懶慣	1	zeq io le kue
+前面	1	ji mi
+餳糖	1	jin dan
+情願	1	jin gnieu
+情人	1	jin gnin
+晴天	1	jin thi
+情節	1	jin ciq
+就快	1	jioe khua
+袖套	1	jioe tho
+就走	1	jioe tzoe
+兆一把	1	zo iq pau
+絕細	1	jiq xi
+蓆子	1	jiq tzy
+成衣店	1	zen i ti
+齊整	1	ji tzen
+全夜	1	ji ya
+賊骨頭	1	zeq kueq doe
+自家道理	1	zy ka do li
+自家人	1	zy ka gnin
+纏夾二	1	zeu kaq gni
+雜格龍冬	1	zaq kaq lon ton
+雜格倫敦	1	zaq kaq len ten
+盡根牙	1	jin ken nga
+坐家囡	1	zu ka nheu
+罪過相	1	ze ku xian
+石刮勢硬	1	zaq kuaq sy ngan
+繩捆束綁	1	zen khuen soq pan
+茶館店	1	zau kueu ti
+尋孔討氣	1	jin khon tho chi
+石刮挺硬	1	zaq kuaq thin ngan
+石刮鐵硬	1	zaq kuaq thiq ngan
+尋快活	1	jin khua weq
+住家戶	1	zy ka wu
+上街沿	1	zan ka yi
+市輪渡	1	zy len du
+前兩年	1	ji lian gni
+前兩日	1	ji lian gniq
+自來火	1	zy le hu
+士林藍	1	zy lin le
+饞癆坯	1	ze lo phe
+石卵子	1	zaq leu tzy
+城裏向	1	zen li xian
+直裏向	1	zeq li xian
+饞癆蟲	1	ze lo zon
+丈母娘	1	zan mhu gnian
+丈姆娘	1	zan mh gnian
+上門女婿	1	zan men gniu xiu
+尋門路	1	jin men lu
+熟門熟路	1	zoq men zoq lu
+象模象樣	1	jian mu jian yan
+賺外快	1	ze nga khua
+鑿眼子	1	zoq nge tzy
+坐南朝北	1	zu neu zo poq
+十惡不赦	1	zeq oq peq sau
+壽衣	1	zoe i
+壽頭	1	zoe doe
+籌碼	1	zoe mau
+壽麵	1	zoe mi
+受傷	1	zoe san
+壽星	1	zoe xin
+壽燭	1	zoe tzoq
+壽材	1	zoe ze
+受潮	1	zoe zo
+造反	1	zo fe
+重新	1	zon xin
+從前	1	zon ji
+朝北	1	zo poq
+鑿頭	1	zoq doe
+鐲頭	1	zoq doe
+昨日	1	zoq gniq
+熟客	1	zoq khaq
+贖藥	1	zoq yaq
+續弦	1	zoq yi
+朝下	1	zo rau
+朝後	1	zo roe
+潮水	1	zo sy
+槽槽	1	zo zo
+十邊地	1	zeq pi di
+上半年	1	zan peu gni
+上半日	1	zan peu gniq
+長波浪	1	zan pu lan
+蠶寶寶	1	zeu po po
+上半天	1	zan peu thi
+坐板瘡	1	zu pe tsan
+售票員	1	zoe phio yeu
+朝後起	1	zo roe chi
+神嘩鬼叫	1	zen rau ciu cio
+朝後頭	1	zo roe doe
+十畫百搭	1	zeq rau paq taq
+壽星頭	1	zoe xin doe
+尋生意	1	jin san i
+前世一劫	1	ji sy iq ciq
+長生果	1	zan sen ku
+尋相罵	1	jin xian mau
+受傷個	1	zoe san req
+長三春	1	zan se tsen
+十三點	1	zeq se ti
+前世作孽	1	ji sy tzoq gniq
+重手重腳	1	zon soe zon ciaq
+自說自話	1	zy seq zy rau
+前生前世	1	ji sen ji sy
+尋死尋活	1	jin xi jin weq
+長春藤	1	zan tsen den
+長竄條	1	zan tseu dio
+捷轉頭	1	jiq tzeu doe
+自作孽	1	zy tzoq gniq
+袖子管	1	jioe tzy kueu
+斜對過	1	jia te ku
+朝天睏	1	zo thi khuen
+貯紙簍	1	zy tzy loe
+直垛裏	1	zeq tu li
+豎垛裏	1	zy tu li
+旋轉碌轉	1	ji tzeu loq tzeu
+斜對面	1	jia te mi
+賺鈔票	1	ze tso phio
+上當學乖	1	zan tan roq kua
+涎唾水	1	ze thu sy
+神志無主	1	zen tzy vu tzy
+神志野舞	1	zen tzy ya vu
+實打實	1	zeq tan zeq
+雜七雜八	1	zaq chiq zaq paq
+成千上萬	1	zen chi zan ve
+座臺	1	zu de
+坐窠	1	zu khu
+廚房間	1	zy van ke
+裁縫店	1	ze von ti
+上勿上	1	zan veq zan
+城隍廟	1	zen wan mio
+紹興師爺	1	zo xin sy ya
+紹興戲	1	zo xin xi
+如意	1	zy i
+蒔秧	1	zy ian
+自便	1	zy bi
+樹皮	1	zy bi
+什樣錦	1	zeq yan cin
+茶葉蛋	1	zau yiq de
+池塘	1	zy dan
+時件	1	zy dji
+鋤頭	1	zy doe
+重陽糕	1	zon yan ko
+齊夜快	1	ji ya khua
+朝陽格	1	zo yan kaq
+自家	1	zy ka
+如果	1	zy ku
+時路	1	zy lu
+市面	1	zy mi
+時髦	1	zy mo
+十樣百景	1	zeq yan paq cin
+事先	1	zy xi
+時鮮	1	zy xi
+櫥師	1	zy sy
+重陽節	1	zon yan ciq
+全夜天	1	ji ya thi
+事體	1	zy thi
+樹枝	1	zy tzy
+柱子	1	zy tzy
+嗣子	1	zy tzy
+廚房	1	zy van
+乳房	1	zy van
+乳腐	1	zy vu
+時興	1	zy xin
+樹葉	1	zy yiq
+住宅	1	zy zaq
+朱提	1	zy zy
+嚼舌頭	1	jiaq zeq doe
+長舌頭	1	zan zeq doe
+鑿着法	1	zoq zaq faq
+上上落落	1	zan zan loq loq
+長壽麵	1	zan zoe mi
+謝謝儂	1	jia jia non
+蛇蟲百腳	1	zau zon paq ciaq
+時辰八字	1	zy zen paq zy
+十十足足	1	zeq zeq tzoq tzoq
+忐忑	1	the theq
+忐忑	1	khan to
+阿拉伯	1	a la paq
+阿拉伯人	1	a la paq gnin
+阿膠	1	u ko
+阿諛逢迎	1	u yu von gnin
+阿諛	1	u yu
+阿片	1	a phi
+膀起來	1	phan chi le
+牛蒡子	1	gnioe pan tzy
+磅礴	1	ban boq
+杷頭	1	pau doe
+杷車	1	pau tsau
+伯氣	1	pau chi
+巴結	1	pa ciq
+被巾	1	phi cin
+被緇	1	phi tzy
+被衣	1	phi i
+被練	1	phi li
+痱子	1	be tzy
+暴虎馮河	1	bo hu bin wu
+炮炙	1	bo tzaq
+炮烙	1	bo loq
+瀑河	1	bo wu
+敲更	1	kho kan
+解釋	1	ka seq
+呆小症	1	te xio tzen
+可汗	1	kheq reu
+醱酵	1	faq ko
+醱醅	1	pheq phe
