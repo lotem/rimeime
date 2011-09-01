@@ -82,7 +82,7 @@ int ServerImpl::Stop()
 {
 	if (m_pHandler)
 	{
-		m_pHandler->Initialize();
+		m_pHandler->Finalize();
 		m_pHandler.reset();
 	}
 	if (m_pSharedMemory)
