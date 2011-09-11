@@ -1,6 +1,6 @@
 @echo off
 
-rem TODO: check your google code account
+rem TODO: replace this with your google code account
 set SVN_ACCOUNT=chen.sst@gmail.com
 
 set CODE=\code
@@ -49,8 +49,8 @@ if not exist gtest-1.6.0.zip (
   set MISSING=%MISSING% http://googletest.googlecode.com/files/gtest-1.6.0.zip
 )
 
-if not exist boost_1_46_1.7z (
-  set MISSING=%MISSING% http://jaist.dl.sourceforge.net/project/boost/boost/1.46.1/boost_1_46_1.7z
+if not exist boost_1_47_0.7z (
+  set MISSING=%MISSING% http://jaist.dl.sourceforge.net/project/boost/boost/1.46.1/boost_1_47_0.7z
 )
 
 if defined MISSING (
@@ -93,6 +93,11 @@ if not exist %CODE%\librime (
   %SVN_CHECKOUT_CMD%
   if not errorlevel 0 goto error
   cd %BACK%
+) else (
+  cd %CODE%
+  svn update
+  if not errorlevel 0 goto error
+  cd %BACK%
 )
 
 echo preparing third party libraries...
@@ -114,6 +119,7 @@ if not exist %CODE%\yaml-cpp\build\libyaml-cpp.a (
   if not errorlevel 0 goto error
   make
   if not errorlevel 0 goto error
+  cd %BACK%
 )
 
 if not exist %CODE%\gtest-1.6.0 (
@@ -130,22 +136,23 @@ if not exist %CODE%\gtest-1.6.0\build\libgtest.a (
   if not errorlevel 0 goto error
   make
   if not errorlevel 0 goto error
+  cd %BACK%
 )
 
-if not exist %CODE%\boost_1_46_1 (
-  7za x -o%CODE% boost_1_46_1.7z
+if not exist %CODE%\boost_1_47_0 (
+  7za x -o%CODE% boost_1_47_0.7z
   if not errorlevel 0 goto error
 )
 
-if not exist %CODE%\boost_1_46_1\bjam.exe (
-  cd %CODE%\boost_1_46_1
+if not exist %CODE%\boost_1_47_0\bjam.exe (
+  cd %CODE%\boost_1_47_0
   bootstrap.bat
   if not errorlevel 0 goto error
   cd %BACK%
 )
 
-if not exist %CODE%\boost_1_46_1\stage\lib (
-  cd %CODE%\boost_1_46_1
+if not exist %CODE%\boost_1_47_0\stage\lib (
+  cd %CODE%\boost_1_47_0
   bjam --toolset=gcc stage
   if not errorlevel 0 goto error
   cd %BACK%
@@ -183,7 +190,7 @@ set ENV_FILE=%CODE%\librime\env.bat
 echo rem generated environment settings > %ENV_FILE%
 echo (set DEV_PATH=%DEV_PATH%) >> %ENV_FILE%
 echo (set RIME_ROOT=%%CD%%) >> %ENV_FILE%
-echo (set BOOST_ROOT=%CODE%\boost_1_46_1) >> %ENV_FILE%
+echo (set BOOST_ROOT=%CODE%\boost_1_47_0) >> %ENV_FILE%
 
 echo.
 echo ready to rime with the code.
