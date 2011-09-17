@@ -5,18 +5,21 @@
 
 == How to Rime with the Code under Windows ==
 
-寫文檔是件頭疼的事，這可好了，如今有了接近於一鍵全自動配置MinGW開發環境的腳本工具！
+用MSVC编译【小狼毫】，需要Visual Studio 2008以上、cmake、svn等工具。
+具体请按照代码库里的这份说明来做！
+http://code.google.com/p/rimeime/source/browse/trunk/weasel/ReadMe.txt
+
+只编译 librime，用 MinGW 也可以，以下是一些总结，但 *不再时时更新* 啦！
+
+=== 配置MinGW開發環境 ===
 
 [http://code.google.com/p/rimeime/downloads/detail?name=mingw_workspace_setup_r166.zip 由此下載工具包]
 
 拿到他，解壓縮後只需編輯其中的`setup.bat`改動幾項配置，再一執行，通過簡單的幾步即可聯網安裝所需的軟件和第三方庫、拉代碼，將一份完整的開發環境配置齊全。
 
-那麼，下面這篇指南，就 _不再時時更新_ 啦。可以作為對腳本的註解，當作參考資料。
+以下说明，解释了脚本为你做了哪些事：
 
-----
-
-自己動手來編譯。
-請參考以下資源：
+倘若自己動手來編譯，請參考以下資源：
 
 【程序庫】
 
@@ -117,7 +120,7 @@
 
 === 怎样以 MinGW 编译 D-Bus ===
 
-這篇指南為【小狼毫】構建所需的編譯依賴。
+這篇指南，已经用不到了，因为【小狼毫】放弃了移植IBus的努力转而用Windows原生的机制来开发。留作参考：
 
   * 安装 MinGW
     设安装到 `C:\MinGW`
