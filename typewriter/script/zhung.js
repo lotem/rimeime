@@ -14,12 +14,12 @@ var Zhung = new Class({
     },
     */
     green: {
-      'q': 'ㄔ<sup>ㄑ</sup>', 'w': 'ㄜ', 'e': 'ㄝ', 'r': 'ㄖ<sup>ˊ</sup>', 't': 'ㄊ<sup>ㄟ</sup>',
-      'y': 'ㄩ', 'u': 'ㄨ', 'i': 'ㄧ', 'o': 'ㄛ', 'p': 'ㄆ<sup>ㄡ</sup>',
-      'a': 'ㄚ', 's': 'ㄙ', 'd': 'ㄉ<sup>ㄞ</sup>', 'f': 'ㄈ<sup>ˆ</sup>', 'g': 'ㄍ<sup>ㄥ</sup>',
-      'h': 'ㄏ<sup>˙</sup>', 'j': 'ㄓ<sup>ㄐ</sup>', 'k': 'ㄎ<sup>ㄤ</sup>', 'l': 'ㄌ<sup>ㄦ</sup>', 
-      'z': 'ㄗ', 'x': 'ㄕ<sup>ㄒ</sup>', 'c': 'ㄘ', 'v': 'ㄪ<sup>ˋ</sup>', 'b': 'ㄅ<sup>ㄠ</sup>',
-      'n': 'ㄋ<sup>ㄣ</sup>', 'm': 'ㄇ<sup>ㄢ</sup>' 
+      'q': 'ㄈ', 'w': 'ㄇ<sub>ㄢ</sub>', 'e': 'ㄆ<sub>ㄡ</sub>', 'r': 'ㄅ<sub>ㄠ</sub>', 't': 'ㄪ',
+      'y': 'ㄩ', 'u': 'ㄉ<sub>ㄞ</sub>', 'i': 'ㄊ<sub>ㄟ</sub>', 'o': 'ㄋ<sub>ㄣ</sub>', 'p': 'ㄌ',
+      'a': 'ㄚ', 's': 'ㄏ<sup>ㄒ</sup><sub>ㄛ</sub>', 'd': 'ㄎ<sup>ㄑ</sup><sub>ㄜ</sub>', 'f': 'ㄍ<sup>ㄐ</sup><sub>ㄝ</sub>', 'g': 'ㄨ',
+      'h': 'ㄧ', 'j': 'ㄓ<sub>ˆ</sub>', 'k': 'ㄔ<sub>ˊ</sub>', 'l': 'ㄕ<sub>ˋ</sub>', 
+      'z': 'ㄦ', 'x': 'ㄙ', 'c': 'ㄘ', 'v': 'ㄗ', 'b': 'ㄤ',
+      'n': 'ㄥ', 'm': 'ㄖ' 
     },
     red: {
       'space': ' '
@@ -66,31 +66,42 @@ var Zhung = new Class({
 
     // shengdiau
     if (!this._slot_is_empty() && 
-        ((key == 'space' || key == 'r' || key == 'f' || key == 'v' || key == 'h'))) {
+        ((key == 'space' || key == 'j' || key == 'k' || key == 'l'))) {
       if (key != 'space')
         this._fill_slot(3, key_name.charAt(key_name.length - 1));
+      if (this._slot[0] && !this._slot[1] && !this._slot[2]) {
+        if (this._slot[0] == 'ㄅ') this._slot[0] = 'ㄠ';
+        else if (this._slot[0] == 'ㄆ') this._slot[0] = 'ㄡ';
+        else if (this._slot[0] == 'ㄇ') this._slot[0] = 'ㄢ';
+        else if (this._slot[0] == 'ㄉ') this._slot[0] = 'ㄞ';
+        else if (this._slot[0] == 'ㄊ') this._slot[0] = 'ㄟ';
+        else if (this._slot[0] == 'ㄋ') this._slot[0] = 'ㄣ';
+        else if (this._slot[0] == 'ㄍ') this._slot[0] = 'ㄝ';
+        else if (this._slot[0] == 'ㄎ') this._slot[0] = 'ㄜ';
+        else if (this._slot[0] == 'ㄏ') this._slot[0] = 'ㄛ';
+      }
       var s = this._slot.join('');
       sink(s);
       this._clear_buffer();
     }
     // jaiyin
-    else if (key == 'i' || key == 'u' || key == 'y') {
+    else if (key == 'h' || key == 'g' || key == 'y') {
       this._fill_slot(1, key_name.charAt(0));
-      if (key == 'i' || key == 'y') {
+      if (key == 'h' || key == 'y') {
         var shengmu = this._slot[0];
-        if (shengmu == 'ㄓ' || shengmu == 'ㄍ') this._fill_slot(0, 'ㄐ');
-        else if (shengmu == 'ㄔ' || shengmu == 'ㄎ') this._fill_slot(0, 'ㄑ');
-        else if (shengmu == 'ㄕ' || shengmu == 'ㄏ') this._fill_slot(0, 'ㄒ');
+        if (shengmu == 'ㄍ') this._fill_slot(0, 'ㄐ');
+        else if (shengmu == 'ㄎ') this._fill_slot(0, 'ㄑ');
+        else if (shengmu == 'ㄏ') this._fill_slot(0, 'ㄒ');
       }
     }
     // shengmu
     else if (this._slot_is_empty() && 
-             key != 'a' && key != 'o' && key != 'w' && key != 'e') {
+             key != 'a' && key != 'b' && key != 'n' && key != 'z') {
       this._fill_slot(0, key_name.charAt(0));
     }
     // yunmu
     else {
-      this._fill_slot(2, key_name.length == 1 ? key_name.charAt(0) : key_name.charAt(1));
+      this._fill_slot(2, key_name.charAt(key_name.length - 1));
     }
       
     this._update_buffer();
