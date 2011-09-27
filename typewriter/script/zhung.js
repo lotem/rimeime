@@ -16,7 +16,7 @@ var Zhung = new Class({
     green: {
       'q': 'ㄈ', 'w': 'ㄇ<sub>ㄢ</sub>', 'e': 'ㄆ<sub>ㄡ</sub>', 'r': 'ㄅ<sub>ㄠ</sub>', 't': 'ㄪ',
       'y': 'ㄩ', 'u': 'ㄉ<sub>ㄞ</sub>', 'i': 'ㄊ<sub>ㄟ</sub>', 'o': 'ㄋ<sub>ㄣ</sub>', 'p': 'ㄌ',
-      'a': 'ㄚ', 's': 'ㄏ<sup>ㄒ</sup><sub>ㄛ</sub>', 'd': 'ㄎ<sup>ㄑ</sup><sub>ㄜ</sub>', 'f': 'ㄍ<sup>ㄐ</sup><sub>ㄝ</sub>', 'g': 'ㄨ',
+      'a': 'ㄚ', 's': '<sup>ㄏㄒ</sup><sub>ㄛ</sub>', 'd': '<sup>ㄎㄑ</sup><sub>ㄜ</sub>', 'f': '<sup>ㄍㄐ</sup><sub>ㄝ</sub>', 'g': 'ㄨ',
       'h': 'ㄧ', 'j': 'ㄓ<sub>ˆ</sub>', 'k': 'ㄔ<sub>ˊ</sub>', 'l': 'ㄕ<sub>ˋ</sub>', 
       'z': 'ㄦ', 'x': 'ㄙ', 'c': 'ㄘ', 'v': 'ㄗ', 'b': 'ㄤ',
       'n': 'ㄥ', 'm': 'ㄖ' 
