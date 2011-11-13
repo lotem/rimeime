@@ -32,6 +32,7 @@ LINK = link
 CLFLAGS = /nologo \
   /I "$(VCPATH)\Include" /I "$(VCPATH)\PlatformSDK\Include" /I "$(SDKPATH)\Include" \
   /I "." \
+  /D_MYZLIB \
   /DNDEBUG /D_CRT_SECURE_NO_WARNINGS \
   /O2 /EHsc /W3 /wd4244 /wd4351 /wd4800 /MT
 LIBFLAGS = /nologo \
@@ -774,71 +775,71 @@ kyotocabinet.lib : $(LIBOBJFILES)
 
 
 kcutiltest.exe : kcutiltest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcutiltest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcutiltest.obj kyotocabinet.lib zlib.lib
 
 
 kcutilmgr.exe : kcutilmgr.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcutilmgr.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcutilmgr.obj kyotocabinet.lib zlib.lib
 
 
 kcprototest.exe : kcprototest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcprototest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcprototest.obj kyotocabinet.lib zlib.lib
 
 
 kcstashtest.exe : kcstashtest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcstashtest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcstashtest.obj kyotocabinet.lib zlib.lib
 
 
 kccachetest.exe : kccachetest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kccachetest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kccachetest.obj kyotocabinet.lib zlib.lib
 
 
 kcgrasstest.exe : kcgrasstest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcgrasstest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcgrasstest.obj kyotocabinet.lib zlib.lib
 
 
 kchashtest.exe : kchashtest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kchashtest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kchashtest.obj kyotocabinet.lib zlib.lib
 
 
 kchashmgr.exe : kchashmgr.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kchashmgr.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kchashmgr.obj kyotocabinet.lib zlib.lib
 
 
 kctreetest.exe : kctreetest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kctreetest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kctreetest.obj kyotocabinet.lib zlib.lib
 
 
 kctreemgr.exe : kctreemgr.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kctreemgr.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kctreemgr.obj kyotocabinet.lib zlib.lib
 
 
 kcdirtest.exe : kcdirtest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcdirtest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcdirtest.obj kyotocabinet.lib zlib.lib
 
 
 kcdirmgr.exe : kcdirmgr.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcdirmgr.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcdirmgr.obj kyotocabinet.lib zlib.lib
 
 
 kcforesttest.exe : kcforesttest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcforesttest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcforesttest.obj kyotocabinet.lib zlib.lib
 
 
 kcforestmgr.exe : kcforestmgr.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcforestmgr.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcforestmgr.obj kyotocabinet.lib zlib.lib
 
 
 kcpolytest.exe : kcpolytest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcpolytest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcpolytest.obj kyotocabinet.lib zlib.lib
 
 
 kcpolymgr.exe : kcpolymgr.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kcpolymgr.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kcpolymgr.obj kyotocabinet.lib zlib.lib
 
 
 kclangctest.exe : kclangctest.obj kyotocabinet.lib
-	$(LINK) $(LINKFLAGS) /OUT:$@ kclangctest.obj kyotocabinet.lib
+	$(LINK) $(LINKFLAGS) /OUT:$@ kclangctest.obj kyotocabinet.lib zlib.lib
 
 
 kcutil.obj : kccommon.h kcutil.h myconf.h
