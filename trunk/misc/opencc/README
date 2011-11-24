@@ -1,0 +1,22 @@
+OpenCC for Windows
+
+Library version: 0.2.0
+Dictionary version: git-20111124
+
+This directory contains files taken from the open-source library for 
+Tranditional/Simplified Chinese text conversion:
+----------------------------------------------------------------------
+Open Chinese Convert
+開放中文轉換
+
+An opensource project for conversion between Traditional Chinese and Simplified Chinese
+
+http://code.google.com/p/open-chinese-convert/
+----------------------------------------------------------------------
+Author:
+BYVoid <byvoid.kcp@gmail.com>
+
+Contributors:
+Peng Huang <shawn.p.huang@gmail.com>
+Kefu Chai <tchaikov@gmail.com>
+----------------------------------------------------------------------
