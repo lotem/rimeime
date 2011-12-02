@@ -5,9 +5,9 @@
 
 == How to Rime with the Code under Windows ==
 
-用MSVC编译【小狼毫】，需要Visual Studio 2008以上、cmake、svn等工具。
+用MSVC编译【小狼毫】，需要Visual Studio 2010或2008、cmake、svn等工具。
 具体请按照代码库里的这份说明来做！
-http://code.google.com/p/rimeime/source/browse/trunk/weasel/ReadMe.txt
+http://code.google.com/p/rimeime/source/browse/trunk/weasel/BuildInstructions.txt
 
 只编译 librime，用 MinGW 也可以，以下是一些总结，但 *不再时时更新* 啦！
 
