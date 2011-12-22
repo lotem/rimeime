@@ -1,0 +1,6 @@
+#summary Rime輸入方案創作指南
+#labels Phase-Deploy
+
+= Rime With Schemata =
+
+TODO:
