@@ -102,12 +102,11 @@
     
     算法：
     記音節表爲A，拼寫運算爲序列[x,y,z]，該投影的結果記爲 P[x,y,z](A -> A)
-    Sa = (A -> A)
-    Sx = P<x>(Sa) = { x(a) -> (A -> A)[a] | for a in A } = (B -> A)
-    Sy = P<y>(Sx) = { y(b) -> (B -> A)[b] | for b in B } = (C -> A)
-    Sz = P<z>(Sy) = { z(c) -> (C -> A)[c] | for c in C } = (D -> A)
+    Sa = { a -> a | for a in A } = (A -> A)
+    Sx = P<x>(Sa) = { x(a) -> a | for (a -> a) in (A -> A) } = (B -> A)
+    Sy = P<y>(Sx) = { y(b) -> a | for (b -> a) in (B -> A) } = (C -> A)
+    Sz = P<z>(Sy) = { z(c) -> a | for (c -> a) in (C -> A) } = (D -> A)
     P[x,y,z](Sa) = Sz
-
 
 ** 在Rime輸入方案中的用法
 
