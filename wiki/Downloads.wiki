@@ -5,17 +5,19 @@
 
   * 中州韻 | ibus-rime
      
-     Linux 發行版，基於 IBus 輸入法框架
+    Linux 發行版，基於 IBus 輸入法框架  〔[IBusRime 編譯安裝方法]〕
 
   * 小狼毫 | Weasel
 
-     Windows 發行版，適用於 Windows XP, 32/64位 Windows 7
+    Windows 發行版，適用於 Windows XP, 32/64位 Windows 7
+
+    下載 〔[http://rimeime.googlecode.com/files/weasel-0.9.7.0-installer.exe 小狼毫 0.9.7]〕 〔[http://rimeime.googlecode.com/files/weasel-0.9.7.0-jyutping-installer.exe 粵拼預發行版]〕 〔[http://rimeime.googlecode.com/files/weasel-0.9.7.0-wugniu-installer.exe 吳語預發行版]〕
 
   * 鼠鬚管 | Squirrel
 
-     Mac OS 發行版（開發進行中）
+    Mac OS 發行版（開發仍在進行）
 
-下載列表：[http://code.google.com/p/rimeime/downloads/list]
+查看全部下載：[http://code.google.com/p/rimeime/downloads/list]
 
 == 敬告 Rime 使用者朋友 ==
 
