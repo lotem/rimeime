@@ -1,0 +1,34 @@
+#summary Building and installing ibus-rime.
+#labels Phase-Deploy
+
+== Prerequisites ==
+
+To build la rime, you need these libraries:
+  * boost
+  * gtest
+  * ibus
+  * kyotocabinet
+  * opencc
+  * yaml-cpp
+
+== Build and install ibus-rime ==
+
+Don't know if it will work for you...
+{{{
+mkdir rimeime
+cd rimeime
+svn checkout http://rimeime.googlecode.com/svn/trunk/brise
+svn checkout http://rimeime.googlecode.com/svn/trunk/ibus-rime
+svn checkout http://rimeime.googlecode.com/svn/trunk/librime
+cd ibus-rime
+chmod +x install.sh
+# this script uses 'sudo' to install ibus-rime; do this as YOU
+./install.sh
+}}}
+
+== Configure IBus ==
+
+Add "Rime" to the input method list in IBus Preferences, and... Voilà !
+
+But it takes a while to prepare preset dictionaries at first start.
+Rime is temporarily disabled during that period for maintenance.
