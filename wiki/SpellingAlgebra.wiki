@@ -1,5 +1,5 @@
 #summary 拼寫運算詳解
-#labels Phase-Design
+#labels Phase-Design,Phase-Support
 
 = 拼寫運算詳解 =
 
