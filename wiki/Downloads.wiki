@@ -11,11 +11,11 @@
 
     Windows 發行版，適用於 Windows XP, 32/64位 Windows 7
 
-    下載 〔[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.8.0-installer.exe 小狼毫 0.9.8]〕 ，預設朙月拼音、倉頡、五筆、雙拼、粵拼、吳語等輸入方案
+    下載 〔[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.9.0-installer.exe 小狼毫 0.9.9]〕 ，預設朙月拼音、倉頡、五筆、注音、地球拼音、雙拼、粵拼、吳語等輸入方案
 
   * 鼠鬚管 | Squirrel
 
-    Mac OS 發行版（開發仍在進行，僅有供開發者體驗的[http://code.google.com/p/rimeime/downloads/detail?name=Squirrel-0.9.pkg 預覽版]）
+    Mac OS 發行版（開發仍在進行，[http://code.google.com/p/rimeime/downloads/detail?name=Squirrel-0.9.pkg 鼠鬚管 0.9 預覽版] 僅供體驗）
 
 查看全部下載：[http://code.google.com/p/rimeime/downloads/list]
 
