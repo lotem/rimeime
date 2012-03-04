@@ -15,7 +15,7 @@
 
   * 鼠鬚管 | Squirrel
 
-    Mac OS 發行版（開發仍在進行，[http://code.google.com/p/rimeime/downloads/detail?name=Squirrel-0.9.pkg 鼠鬚管 0.9 預覽版] 僅供體驗）
+    Mac OS 發行版（開發仍在進行，[http://code.google.com/p/rimeime/downloads/detail?name=Squirrel-0.9.1.pkg 鼠鬚管 0.9.1 預覽版] 僅供體驗）
 
 查看全部下載：[http://code.google.com/p/rimeime/downloads/list]
 
