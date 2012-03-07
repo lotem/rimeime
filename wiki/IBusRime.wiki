@@ -1,10 +1,6 @@
 #summary Building and installing ibus-rime.
 #labels Phase-Deploy
 
-= Archlinux =
-
-AUR package: [http://aur.archlinux.org/packages.php?ID=57273 ibus-rime-svn]
-
 = Manual Installation =
 
 == Prerequisites ==
@@ -37,3 +33,10 @@ chmod +x install.sh
 == Configure IBus ==
 
 Add "Rime" to the input method list in IBus Preferences, and... Voilà !
+
+
+= Archlinux =
+
+AUR package: [http://aur.archlinux.org/packages.php?ID=57273 ibus-rime-svn]
+
+  Thanks to: 网军总司令
