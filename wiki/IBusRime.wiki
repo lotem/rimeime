@@ -1,9 +1,17 @@
 #summary Building and installing ibus-rime.
 #labels Phase-Deploy
 
+= Archlinux =
+
+AUR package: [http://aur.archlinux.org/packages.php?ID=57273 ibus-rime-svn]
+
+= Manual Installation =
+
 == Prerequisites ==
 
-To build la rime, you need these libraries:
+To build la rime, you need these tools and libraries:
+  * cmake
+  * subversion
   * boost
   * gtest
   * ibus
@@ -29,6 +37,3 @@ chmod +x install.sh
 == Configure IBus ==
 
 Add "Rime" to the input method list in IBus Preferences, and... Voilà !
-
-But it takes a while to prepare preset dictionaries at first start.
-Rime is temporarily disabled during that period for maintenance.
