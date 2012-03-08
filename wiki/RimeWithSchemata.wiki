@@ -6,7 +6,7 @@
 
 == 文本爲王 ==
 
-Rime 配置文件、輸入方案定義及詞典文件，均爲特定格式的文本文檔。
+Rime 的配置文件、輸入方案定義及詞典文件，均爲特定格式的文本文檔。
 因此，一款夠專業的 *文本編輯器* ，是設計 Rime 輸入方案的必備工具。
 
 Rime 中所有文本文檔，均要求以 UTF-8 編碼，並建議使用 UNIX 換行符（LF）。
@@ -16,11 +16,9 @@ Rime 中所有文本文檔，均要求以 UTF-8 編碼，並建議使用 UNIX �
 {{{
 # Rime default settings
 }}}
-或：
 {{{
 # Rime schema: My First Cool Schema
 }}}
-或：
 {{{
 # Rime dictionary: Lingua Latina
 }}}
@@ -31,10 +29,16 @@ Rime 中所有文本文檔，均要求以 UTF-8 編碼，並建議使用 UNIX �
 除程序文件以外，Rime 還包括多種數據文件。
 這些數據文件存在於以下位置：
 
-  || *位置* || *中州韻* || *小狼毫* || *鼠鬚管* ||
-  || 共享數據文件夾 || /usr/share/ibus-rime/ || 安裝路徑\data || "/Library/Input Methods/Squirrel.app/Contents/SharedSupport/" ||
-  || 用戶數據文件夾 || ~/.ibus/rime/ || "%APPDATA%\Rime" || ~/Library/Rime/ ||
-    
+共享數據文件夾
+  * 中州韻  `/usr/share/ibus-rime/`
+  * 小狼毫  `"安裝目錄\data"`
+  * 鼠鬚管  `"/Library/Input Methods/Squirrel.app/Contents/SharedSupport/"`
+
+用戶數據文件夾 
+  * 中州韻  `~/.ibus/rime/`
+  * 小狼毫  `"%APPDATA%\Rime"`
+  * 鼠鬚管  `~/Library/Rime/`
+
 TODO:
 
 擴展名爲「.yaml」的文件，是以一種可讀性高的數據描述語言—— YAML 寫成。
@@ -79,7 +83,7 @@ schema:
 
 方案如做升級，通過版本號（schema/version）來區分相互兼容的新舊版本。
 
-版本號是：以「.」分隔的整數（或文字）構成的字符串。
+版本號——以「.」分隔的整數（或文字）構成的字符串。
 
 如下都是版本號常見的形式：
 {{{
@@ -89,10 +93,10 @@ schema:
 "0.9.8.custom.86427531"  # VVV.custom.NNN 是經過用戶自定義的版本
 }}}
 
-然而，若方案變化太大，會導致原有的用戶輸入習慣無法在新的方案中繼續使用，則需要換個新的方案標識。
-比如【倉頡五代】之於【倉頡三代】、【五筆98】之於【五筆86】，其實已是不同的輸入法。
+然而，若對方案的升級會導致原有的用戶輸入習慣無法在新的方案中繼續使用，則需要換個新的方案標識。
+比如【倉頡五代】之於【倉頡三代】、【五筆98】之於【五筆86】，其實已是互不兼容的輸入法。
 
-schema/author 文字列表，列出作者和主要貢獻者。
+schema/author ——文字列表，列出作者和主要貢獻者。
 格式爲：
 {{{
 schema:
@@ -102,7 +106,7 @@ schema:
     - 作者丙
 }}}
 
-schema/description 多行文字，對方案作簡要介紹。
+schema/description ——多行文字，對方案作簡要介紹。
 
 以上 schema/schema_id、schema/version 字段用於在程序中識別輸入方案，
 而 schema/name、schema/author、schema/description 則主要用於展示。
@@ -127,7 +131,6 @@ version: "0.9"
 sort: by_weight
 use_preset_vocabulary: true
 ...
-
 }}}
 
 解釋：
