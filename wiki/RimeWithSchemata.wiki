@@ -5,7 +5,7 @@
 
 Rime 輸入方案創作《指南書》
 
-※ 佛振 <chen.sst@gmail.com> 修訂於 2012-03-09
+※ 佛振 <chen.sst@gmail.com> 修訂於 2012年3月17日
 
 = 準備開工 =
 
@@ -265,11 +265,16 @@ input | tag    | translations
 ------+--------+-------------------------------------
 2012  | number | [ "2012" ], [ "二〇一二" ]
 nian  | abc    | [ "年", "念", "唸",... ], [ "nian" ]
-\     | punct  | [ "、", "\" ]
+\     | punct  | [ "、", '\' ]
 }}}
 輸入串劃分爲多個代碼段、每段代碼又可具有多組翻譯結果；取各代碼段的首選結果連接起來就是預備上屏的文字。
 
 且將以上所示的數據稱爲「作文」。這是一篇未定稿的作文，輸入法介面將顯示預備上屏的文字，並列出最末一個代碼段上的候選以供編輯。
+
+有兩款主力 `translator` 完成主要輸入內容的翻譯，其功能特點與實現的方式很不一樣：
+
+  * `r10n_translator` 修煉羅馬字分析法，以一個固定音節表爲算法的基礎，識別輸入碼的音節構成，推敲排列組合、完成遣詞造句。
+  * `table_translator` 修煉傳承自上世紀的碼表功夫，基於規則的動態碼表，構成編碼空間內一個開放的編碼集合。
 
 === 理解 Filters ===
 
@@ -306,7 +311,7 @@ use_preset_vocabulary: true
   * `name`: 詞典名，內部使用，命名原則同「方案標識」；可以與配套的輸入方案標識一致，也可不同；
   * `version`: 管理詞典的版本，規則同輸入方案定義文件的版本號；
   * `sort`: 詞條排序方式，可選填 `by_weight`（按詞頻高低排序）或 `original`（保持原碼表中的順序）；
-  * `use_preset_vocabulary`: 填 `true` 或 `false`，選擇是否導入預設詞庫【八股文】。
+  * `use_preset_vocabulary`: 填 `true` 或 `false`，選擇是否導入預設詞彙表【八股文】。
 
 
 碼表，定義了輸入法中編碼與文字的對應關係。
@@ -488,7 +493,7 @@ punctuator:
 
 == 一例、定製簡化字輸出 ==
 
-Rime 預設的詞庫使用傳統漢字。
+Rime 預設的詞彙表使用傳統漢字。
 這是因爲傳統漢字較簡化字提供了更多信息，做「繁→簡」轉換能夠保證較高的精度。
 
 Rime 中的過濾器組件 simplifier，完成對候選詞的繁簡轉換。
@@ -660,12 +665,205 @@ patch:
 
 來設計一款【智能ABC雙拼】輸入方案做練習吧！
 
-TODO:
+{{{
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: double_pinyin_abc  # 專有的方案標識
+  name: 智能ABC雙拼
+  version: "0.9"
+  author:
+    - 佛振 <chen.sst@gmail.com>
+  description: |
+    朙月拼音，兼容智能ABC雙拼方案。
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba  # 呃，倒背字母表完全是個人喜好
+  delimiter: " '"  # 隔音符號用「'」；第一位的空白用來自動插入到音節邊界處
+  algebra:  # 拼寫運算規則，這個纔是實現雙拼方案的重點。寫法有很多種，當然也可以把四百多個音節碼一條一條地列舉
+    - erase/^xx$/             # 碼表中有幾個拼音不明的字，編碼成xx了，消滅他
+    - derive/^([jqxy])u$/$1v/
+    - xform/^zh/A/            # 替換聲母鍵，用大寫以防與原有的字母混淆
+    - xform/^ch/E/
+    - xform/^sh/V/
+    - xform/^([aoe].*)$/O$1/  # 添上固定的零聲母o，先標記爲大寫O
+    - xform/ei$/Q/            # 替換韻母鍵
+    - xform/ian$/W/           # ※2
+    - xform/er$|iu$/R/        # 對應兩種韻母的；音節er現在變爲OR了
+    - xform/[iu]ang$/T/       # ※1
+    - xform/ing$/Y/
+    - xform/uo$/O/
+    - xform/uan$/P/           # ※3
+    - xform/i?ong$/S/
+    - xform/[iu]a$/D/
+    - xform/en$/F/
+    - xform/eng$/G/
+    - xform/ang$/H/           # 檢查一下在此之前是否已轉換過了帶界音的ang；好，※1處有了
+    - xform/an$/J/            # 如果※2、※3還無有出現在上文中，應該把他們提到本行之前
+    - xform/iao$/Z/           # 對——像這樣讓iao提前出場
+    - xform/ao$/K/
+    - xform/in$|uai$/C/       # 讓uai提前出場
+    - xform/ai$/L/
+    - xform/ie$/X/
+    - xform/ou$/B/
+    - xform/un$/N/
+    - xform/[uv]e$|ui$/M/
+    - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/  # 最後把雙拼碼全部變小寫
+
+translator:
+  dictionary: luna_pinyin     # 與【朙月拼音】共用詞典
+  prism: double_pinyin_abc    # prism 要以本輸入方案的名稱來命名，以免把朙月拼音的拼寫映射表覆蓋掉
+  preedit_format:             # 這段代碼用來將輸入的雙拼碼反轉爲全拼顯示；待見雙拼碼的可以把這段拿掉
+    - xform/o(\w)/0$1/        # 零聲母先改爲0，以方便後面的轉換
+    - xform/(\w)q/$1ei/       # 雙拼第二碼轉換爲韻母
+    - xform/(\w)n/$1un/       # 提前轉換雙拼碼 n 和 g，因爲轉換後的拼音裏就快要出現這兩個字母了，那時將難以分辨出雙拼碼
+    - xform/(\w)g/$1eng/      # 當然也可以採取事先將雙拼碼變爲大寫的辦法來與轉換過的拼音做區分，可誰讓我是高手呢
+    - xform/(\w)w/$1ian/
+    - xform/([dtnljqx])r/$1iu/  # 對應多種韻母的雙拼碼，按搭配的聲母做區分（最好別用排除式如 [^o]r 容易出狀況）
+    - xform/0r/0er/             # 另一種情況，注意先不消除0，以防後面把e當作聲母轉換爲ch
+    - xform/([nljqx])t/$1iang/
+    - xform/(\w)t/$1uang/       # 上一行已經把對應到 iang 的雙拼碼 t 消滅，於是這裏不用再列舉相配的聲母
+    - xform/(\w)y/$1ing/
+    - xform/([dtnlgkhaevrzcs])o/$1uo/
+    - xform/(\w)p/$1uan/
+    - xform/([jqx])s/$1iong/
+    - xform/(\w)s/$1ong/
+    - xform/([gkhaevrzcs])d/$1ua/
+    - xform/(\w)d/$1ia/
+    - xform/(\w)f/$1en/
+    - xform/(\w)h/$1ang/
+    - xform/(\w)j/$1an/
+    - xform/(\w)k/$1ao/       # 默默檢查：雙拼碼 o 已經轉換過了
+    - xform/(\w)l/$1ai/
+    - xform/(\w)z/$1iao/
+    - xform/(\w)x/$1ie/
+    - xform/(\w)b/$1ou/
+    - xform/([nl])m/$1ve/
+    - xform/([jqxy])m/$1ue/
+    - xform/(\w)m/$1ui/
+    - "xform/(^|[ '])a/$1zh/"  # 復原聲母，音節開始處的雙拼字母a改寫爲zh；其他位置的才真正是a
+    - "xform/(^|[ '])e/$1ch/"
+    - "xform/(^|[ '])v/$1sh/"
+    - xform/0(\w)/$1/          # 好了，現在可以把零聲母拿掉啦
+    - xform/([nljqxy])v/$1ü/   # 這樣纔是漢語拼音 :-)
+
+reverse_lookup:
+  dictionary: cangjie5
+  prefix: "`"
+  tips: 〔倉頡〕
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - xform/([nl])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
+}}}
+
+完畢。
+這是一道大題。通過改造拼寫法而創作出新的輸入方案。
+如此複雜的拼寫運算，很可能需要反覆調試方可達到想要的結果。
+
+請於試驗時及時查看日誌中是否包含錯誤信息（在以下文件中搜索「Error」）：
+
+  * `<用戶資料夾>/deployer.log` 含部署時產生的日誌
+  * `<用戶資料夾>/rime.log` 含使用當中產生的日誌
+
+後續有計劃爲輸入方案創作者開發名爲「拼寫運算調試器」的工具，能夠較直觀地看到每一步運算的效果。
+
 
 = 八股文 =
 
-TODO:
+Rime 有一份名爲【八股文】的預設詞彙表。
+
+希望完全控制詞彙表內容，如【五筆】等輸入方案，直接將詞彙編入碼表即可。
+
+而其他多數輸入方案需要用到一些標準白話文中的通用詞彙。爲免重複在每份碼表中包含這些詞彙，減少輸入方案維護成本，Rime 提供了一份預設詞彙表及自動編碼（註音）的設施。
+
+選擇導入【八股文】的詞典，只要在碼表中給出單字碼、需要分辨多音字的詞組編碼、以及該輸入方案特有的詞彙，其他交給自動註音來做就好啦。
+
+Rime預設輸入方案利用這一功能，在不犧牲使用效果及可維護性的前提下、將詞典文件壓縮到最小的行數。
+
+【八股文】包含從 CC-CEDICT、新酷音等開源項目中整理出來的約二十三萬條詞彙，其用字及詞頻數據針對傳統漢字做過調整。因此基於這份詞彙表產生的輸入結果，比較接近以傳統漢字行文的實際用法。
+
+爲了充分利用【八股文】提供的詞彙，自定義的詞典應保證單字碼表收錄了符合 opencc 字形標準的常用字。特別注意，該標準對以下幾組異體字的取捨，【八股文】將這些字（包括詞組及字頻）統一到左邊一列的字形。
+{{{
+爲	為
+僞	偽
+嬀	媯
+潙	溈
+兇	凶
+啓	啟
+棱	稜
+污	汙
+泄	洩
+涌	湧
+牀	床
+着	著
+竈	灶
+羣	群
+衆	眾
+裏	裡
+踊	踴
+覈	核
+}}}
+
+部署過程中，未能完成自動註音的字、詞會以警告形式出現在日誌文件裏。如果所報告的字爲生僻字、您可以忽略他；如果警告中大量出現某個常用字，那麼應該注意到碼表裏缺失了該字的註音。
 
 = 東風破 =
 
-TODO:
+「東風破早梅，向暖一枝開。」彷彿想要揭示 Rime 的未來。
+構想在 Rime 輸入軟件完善後、能夠連結漢字字形、音韻、輸入法愛好者的共同興趣，形成穩定的使用者社羣，搭建一個分享知識的平臺。
+
+而【東風破】，定義爲 Rime 輸入方案倉庫，則是分享 Rime 輸入方案的平臺。
+
+Rime 是一款強調個性的輸入法。
+Rime 不要定義輸入法應當是哪個樣、而要定義輸入法可以玩出哪些花樣。
+Rime 不可能通過預設更多的輸入方案來滿足玩家的需求；真正的玩家一定有一般人想不到的高招。
+
+未來一定會有【東風破】，讓用家輕鬆地找到最新、最酷、最適合自己的 Rime 輸入方案。
+
+謝謝！
