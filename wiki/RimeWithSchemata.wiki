@@ -764,7 +764,7 @@ speller:
     - xform/[iu]a$/D/
     - xform/en$/F/
     - xform/eng$/G/
-    - xform/ang$/H/           # 檢查一下在此之前是否已轉換過了帶界音的ang；好，※1處有了
+    - xform/ang$/H/           # 檢查一下在此之前是否已轉換過了帶介音的ang；好，※1處有了
     - xform/an$/J/            # 如果※2、※3還無有出現在上文中，應該把他們提到本行之前
     - xform/iao$/Z/           # 對——像這樣讓iao提前出場
     - xform/ao$/K/
