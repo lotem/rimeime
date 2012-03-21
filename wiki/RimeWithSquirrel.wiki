@@ -1,7 +1,9 @@
 #summary Build instructions for Squirrel.
 #labels Phase-Deploy
 
-You should already have installed Xcode.
+== Build Squirrel from Scratch ==
+
+You should already have installed Xcode; of course.
 
 Install dependencies with [http://mxcl.github.com/homebrew/ Homebrew].
 {{{
@@ -12,7 +14,7 @@ brew install kyoto-cabinet
 brew install yaml-cpp
 }}}
 
-If you don't have `git` or `cmake`, `brew install` them.
+If you don't have `git` or `cmake`, "`brew install`" them.
 
 Checkout these code into the same directory.
 {{{
@@ -23,7 +25,7 @@ git clone git@github.com:lotem/brise.git
 git clone git@github.com:lotem/squirrel.git
 }}}
 
-Build Squirrel (Debug).
+Build Squirrel.
 {{{
 cd squirrel
 make librime
@@ -36,7 +38,8 @@ make librime-release
 make release
 }}}
 
-Test it on your Mac:
+== Test it on your Mac ==
+
 {{{
 make install
 }}}
