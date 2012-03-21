@@ -2,7 +2,7 @@
 #labels Phase-Deploy
 
 You should already have installed Xcode.
- 
+
 Install dependencies with [http://mxcl.github.com/homebrew/ Homebrew].
 {{{
 brew install boost
