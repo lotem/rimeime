@@ -1,7 +1,7 @@
 ﻿#summary La Rime HowTo for Developers
 #labels Phase-Implementation
 
-= HOWTO RIME WITH THE CODE =
+= How to Rime with the Code =
 
 == Get the Code ==
 
@@ -22,10 +22,11 @@ Fork me on [http://github.com/lotem GitHub]:
   * Squirrel - Mac OS client
     [http://github.com/lotem/squirrel]
 
-Alternatively, checkout from our SVN repository at Google Code, which is expected to be ... stable, but may not contain the most recent changes.
+Alternatively, checkout from our [http://code.google.com/p/rimeime/source/checkout SVN repository] at Google Code, which is expected to be ... stable, but may not contain the most recent changes.
+
+== How to Rime with the Code under Linux ==
 
 See [IBusRime this guide] for instructions on building and installing ibus-rime.
-
 
 == How to Rime with the Code under Windows ==
 
