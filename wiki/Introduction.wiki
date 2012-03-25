@@ -8,7 +8,7 @@
 
 乃定名為：*中州韻輸入法引擎 / Rime Input Method Engine*
 
-取意於歷史上通行的中州韻，願寫就一部匯集音韻學智慧的輸入法經典之作。
+取意歷史上通行的中州韻，願寫就一部彙集音韻學智慧的輸入法經典之作。
 
 項目網站設在 http://code.google.com/p/rimeime/
 
@@ -81,7 +81,7 @@
 
  * squirrel／鼠鬚管－Mac發行版
 
- * plume／大白雲－網絡服務
+ * plume／大白雲－Web大輸入
 
  * brise／東風破－輸入方案倉庫
 
