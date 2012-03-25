@@ -10,13 +10,13 @@
   * 小狼毫 | Weasel
 
     Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。
-    下載〔[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.9.0-installer.exe 小狼毫 0.9.9]〕
+    下載〔[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.10.0-installer.exe 小狼毫 0.9.10]〕
 
   * 鼠鬚管 | Squirrel
 
     Mac OS 發行版，開發仍在進行，技術好的同學先來體驗〔[http://code.google.com/p/rimeime/downloads/detail?name=Squirrel-0.9.2.1.pkg 鼠鬚管 0.9.2.1]〕
 
-預設輸入方案：朙月拼音、倉頡、注音、地球拼音、五筆、雙拼、粵拼、吳語
+預設輸入方案：朙月拼音、注音、地球拼音、倉頡、速成、五筆、雙拼、粵拼、吳語
 
 查看全部下載：[http://code.google.com/p/rimeime/downloads/list]
 
