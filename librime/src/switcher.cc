@@ -109,10 +109,12 @@ bool Switcher::ProcessKeyEvent(const KeyEvent &key_event) {
   EZDBGONLYLOGGERVAR(key_event);
   BOOST_FOREACH(const KeyEvent &hotkey, hotkeys_) {
     if (key_event == hotkey) {
-      if (!active_ && target_engine_)
+      if (!active_ && target_engine_) {
         Activate();
-      else if (active_)
-        Deactivate(); 
+      }
+      else if (active_) {
+        HighlightNextSchema();
+      }
       return true;
     }
   }
@@ -133,6 +135,30 @@ bool Switcher::ProcessKeyEvent(const KeyEvent &key_event) {
     return true;
   }
   return false;
+}
+
+void Switcher::HighlightNextSchema() {
+  Composition *comp = context_->composition();
+  if (!comp || comp->empty() || !comp->back().menu)
+    return;
+  Segment& seg(comp->back());
+  int index = seg.selected_index;
+  shared_ptr<SwitcherOption> option;
+  do {
+    ++index;  // next
+    int candidate_count = seg.menu->Prepare(index + 1);
+    if (candidate_count <= index) {
+      index = 0;  // passed the end; rewind
+      break;
+    }
+    else {
+      option = As<SwitcherOption>(seg.GetCandidateAt(index));
+    }
+  }
+  while (!option || option->type() != "schema");
+  seg.selected_index = index;
+  seg.tags.insert("paging");
+  return;
 }
 
 Schema* Switcher::CreateSchema() {
