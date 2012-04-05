@@ -1,12 +1,13 @@
-﻿#summary Rime 輸入方案創作指南
+﻿#summary Rime 定製指南
 #labels Phase-Support,Featured
 
 = 必知必會 =
 
 建議您在定製 Rime 輸入法之前瞭解 Rime 輸入方案的概念等基礎知識。
 
-[RimeWithSchemata#必知必會 必知必會]
-[RimeWithSchemata#Rime_中的數據文件分佈及作用 Rime 中的數據文件分佈及作用]
+[RimeWithSchemata#%E5%BF%85%E7%9F%A5%E5%BF%85%E6%9C%83 必知必會]
+
+[RimeWithSchemata#Rime_%E4%B8%AD%E7%9A%84%E6%95%B8%E6%93%9A%E6%96%87%E4%BB%B6%E5%88%86%E4%BD%88%E5%8F%8A%E4%BD%9C%E7%94%A8 Rime 中的數據文件分佈及作用]
 
 = 定製指南 =
 
@@ -299,4 +300,3 @@ patch:
 }}}
 
 效果自己看！
-
