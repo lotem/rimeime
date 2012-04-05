@@ -44,7 +44,7 @@ AUR package: [http://aur.archlinux.org/packages.php?ID=57273 ibus-rime-svn]
 
 今天天氣不錯，我更新了一把Ubuntu，記錄下安裝 ibus-rime 的步驟。
 
-以下新安裝的程序庫都是靜態鏈接上去的，所以只是編譯時依賴而非運行時依賴。
+以下新安裝的程序庫，除libz、libibus以外都是靜態鏈接上去的，所以只是編譯時依賴而非運行時依賴。
 
 {{{
 sudo apt-get install build-essential cmake subversion
