@@ -5,7 +5,7 @@
 schema:
   schema_id: terra_pinyin
   name: 地球拼音
-  version: "0.3"
+  version: "0.4"
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
@@ -57,13 +57,14 @@ speller:
     - abbrev/^([zcs]h).+$/$1/
     - derive/^([nl])ve/$1ue/
     - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
     - derive/ui/uei/
     - derive/iu/iou/
     - derive/ao/oa/
     - derive/([aeiou])ng/$1gn/
     - derive/([iu])a(o|ng?)/a$1$2/
     - derive/^([a-z]+)\d$/$1/
-    - derive/o(u|ng)$/o/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
     - derive/ong$/on/
     - 'erase/^.*5$/'
     - 'xlit 1234 -/<\'
