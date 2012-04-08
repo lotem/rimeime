@@ -121,12 +121,30 @@ punctuator:
 
 通過這種方法，既直接繼承了大多數符號的默認定義，又做到了局部的個性化。
 
+還有一種情況：
+
+有些用戶習慣在中文裏使用ASCII標點，那麼與其一個一個覆寫，不如整套都換掉。
+
+取得這份設定檔——
+[http://gist.github.com/2334409 Rime 別樣設定，使用西文標點、[ ] 鍵換頁]
+
+在用戶資料夾保存爲 `alternative.yaml` ；
+
+再將輸入方案中的 `punctuator/import_preset: default` 通過打 patch 替換爲 `import_preset: alternative' 就換上了自己習慣的一套標點！
+{{{
+# luna_pinyin.custom.yaml
+
+patch:
+  'punctuator/import_preset': alternative
+  'key_binder/import_preset': alternative
+}}}
 
 == 一例、定製簡化字輸出 ==
 
-注意：
-  * 本例所講只爲說明原理和修改預設輸出字形的方法！
+*注意：*
+
   * 如果您只是需要 Rime 輸出簡化字，敲 Ctrl+` 組合鍵、從菜單中選擇「漢字→汉字」即可！
+  * 本例說明了其中原理，以及通過設定檔修改預設輸出字形的方法。
 
 Rime 預設的詞彙表使用傳統漢字。
 這是因爲傳統漢字較簡化字提供了更多信息，做「繁→簡」轉換能夠保證較高的精度。
