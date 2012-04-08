@@ -405,272 +405,46 @@ patch:
 
 就是這樣：`patch` 定義了一組「補靪」，以源文件中的設定爲基礎，寫入新的設定項、或以新的設定值取代現有設定項的值。
 
-不懂？那看我來示範。
+無論是修改已有方案的設定或是添加了新的方案，都需要「重新佈署」成功纔可使用。
 
-
-== 一例、定製每頁候選數 ==
-
-Rime 中，默認每頁顯示至多5個候選項，而允許的範圍是 1〜9（個別 Rime 發行版可支持10個候選）。
-
-若要將每頁候選數設爲9，以【朙月拼音】爲例，建立文檔 `luna_pinyin.custom.yaml` ：
-{{{
-patch:
-  "menu/page_size": 9
-}}}
-
-*重新佈署* 即可生效。
-
-註一：重新佈署的方法：
+重新佈署的方法：
 
   * 【小狼毫】在托盤圖標上右鍵選擇「重新佈署」；
   * 【鼠鬚管】在系統語言文字選單中選擇「重新佈署」；
   * 【中州韻】刪除用戶資料夾的 `default.yaml` 之後、執行 `ibus-daemon -drx` 重載IBus
 
-註二：以上設定，只對該款輸入方案有效，其他輸入方案仍默認每頁5候選。
-
-註三：「方案選單」的頁候選數，則要在 `default.custom.yaml` 裏定製。
+以下這些例子，另載於一篇《定製指南》，其中所介紹的知識和技巧，對於創作新的輸入方案也有用。
 
 
-== 一例、定製標點符號 ==
+=== 一例、定製每頁候選數 ===
 
-有的用家習慣以 `/` 鍵輸入標點「、」。
+[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%AF%8F%E9%A0%81%E5%80%99%E9%81%B8%E6%95%B8 詳解]
 
-仍以【朙月拼音】爲例，輸入方案中有以下設定：
-{{{
-# luna_pinyin.schema.yaml
-# ...
+=== 一例、定製標點符號 ===
 
-punctuator:
-  import_preset: default
-}}}
+[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%A8%99%E9%BB%9E%E7%AC%A6%E8%99%9F 詳解]
 
-解釋：
+=== 一例、定製簡化字輸出 ===
 
-`punctuator` 是 Rime 中負責轉換標點符號的組件。該組件會從設定中讀取符號映射表，而知道該做哪些轉換。
+[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E7%B0%A1%E5%8C%96%E5%AD%97%E8%BC%B8%E5%87%BA 詳解]
 
-`punctuator/import_preset` 是說，本方案要導入一組預設的符號映射表、那張表寫在另一個設定檔 `<本設定項的值>.yaml` 裏；
-本例是要從 `default.yaml` 導入。
+=== 一例、定製方案選單 ===
 
-查看 `default.yaml` ，確有如下符號表：
-{{{
-punctuator:
-  full_shape:
-    # ……其他……
-    "/" : [ ／, "/", ÷ ]
-    # ……其他……
-  half_shape:
-    # ……其他……
-    "/" : [ "/", ／, ÷ ]
-    # ……其他……
-}}}
-可見按鍵 `/` 是被指定到 `"/", ／, ÷` 等一組符號了。
-並且全角和半角狀態下，符號有不同的定義。
+重要！創作了新的輸入方案，最後一步就是在「方案選單」裏啓用他。
 
-欲令 `/` 鍵直接輸出「、」，可如此定製 `luna_pinyin.custom.yaml`:
-{{{
-patch:
-  "punctuator/full_shape":
-    "/" : "、"
-  "punctuator/half_shape":
-    "/" : "、"
-}}}
+[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE 詳解]
 
-以上在輸入方案設定中寫入兩組新值，合併後的輸入方案成爲：
-{{{
-# luna_pinyin.schema.yaml
-# ...
+=== 一例、定製喚出方案選單的快捷鍵 ===
 
-punctuator:
-  import_preset: default
-  full_shape:
-    "/" : "、"
-  half_shape:
-    "/" : "、"
-}}}
-含義是、在由 `default` 導入的符號表之上，覆寫對按鍵 `/` 的定義。
+[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E5%96%9A%E5%87%BA%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%8D%B5 詳解]
 
-通過這種方法，既直接繼承了大多數符號的默認定義，又做到了局部的個性化。
+=== 一例、定製【小狼毫】字體字號 ===
 
+[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E3%80%90%E5%B0%8F%E7%8B%BC%E6%AF%AB%E3%80%91%E5%AD%97%E9%AB%94%E5%AD%97%E8%99%9F 詳解]
 
-== 一例、定製簡化字輸出 ==
+=== 一例、定製【小狼毫】配色方案 ===
 
-Rime 預設的詞彙表使用傳統漢字。
-這是因爲傳統漢字較簡化字提供了更多信息，做「繁→簡」轉換能夠保證較高的精度。
-
-Rime 中的過濾器組件 simplifier，完成對候選詞的繁簡轉換。
-
-{{{
-# luna_pinyin.schema.yaml
-# ...
-
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: simplification    # 轉換開關
-    states: [ 漢字, 汉字 ]
-
-engine:
-  filters:
-    - simplifier  # 必要組件一
-    - uniquifier  # 必要組件二
-}}}
-
-以上是【朙月拼音】中有關繁簡轉換功能的設定。
-
-在 `engine/filters` 中，除了 `simplifier`，還用了一件 `uniquifier`。
-這是因爲有些時候，不同的候選會轉化爲相同的簡化字，例如「鐘→钟」、「鍾→钟」。
-`uniquifier` 的作用是在 `simplifier` 執行轉換之後，將文字相同的候選項合併。
-
-該輸入方案設有三個狀態開關：中／西文、全／半角、繁簡字。即 `switches` 之下三項。
-
-每個開關可在兩種狀態（`states`）之間切換，`simplifier` 依據名爲 `simplification` 的開關狀態來決定是否做簡化：
-  * 初始狀態下、輸出爲傳統漢字、〔方案選單〕中的開關選項顯示爲「漢字→汉字」。
-  * 選擇該項後、輸出爲簡化漢字、〔方案選單〕中顯示「汉字→漢字」。
-  * 狀態開關只控制一組輸入法會話，每次重新開啓輸入法都使開關復位爲初始值。
-  * 可在方案中指定初始值：`reset` 設爲 0 或 1，分別選中 `states` 列表中的兩種狀態。
-
-如果日常應用以簡化字爲主`:-(`，則每每在〔方案選單〕中切換十分不便；
-於是佛振獻上默認輸出簡化字的設定檔：
-{{{
-# luna_pinyin.custom.yaml
-
-patch:
-  switches:                   # 注意縮進
-    - name: ascii_mode
-      reset: 0                # reset 0 的作用是當從其他輸入方案切換到本方案時，
-      states: [ 中文, 西文 ]  # 重設爲指定的狀態，而不保留在前一個方案中設定的狀態。
-    - name: full_shape        # 選擇輸入方案後通常需要立即輸入中文，故重設 ascii_mode = 0；
-      states: [ 半角, 全角 ]  # 而全／半角則可沿用之前方案中的用法。
-    - name: simplification
-      reset: 1                # 增加這一行：默認啓用「繁→簡」轉換。
-      states: [ 漢字, 汉字 ]
-}}}
-
-其實預設輸入方案中就提供了一套【朙月拼音】的簡化字版本，名爲【簡化字】，以應大家“填表”之需。
-看他的代碼如何卻與上篇定製檔寫得不同：
-
-{{{
-# luna_pinyin_simp.schema.yaml
-# ...
-
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: zh_simp           # 注意這裏（※1）
-    reset: 1
-    states: [ 漢字, 汉字 ]
-
-simplifier:
-  option_name: zh_simp      # 和這裏（※2）
-}}}
-
-前文說，`simplifier` 這個組件會檢查名爲 `simplification` 的開關狀態；
-而這款【簡化字】方案卻用了一個不同名的開關 `zh_simp`，即 ※1 處所示；
-並通過在 ※2 行設定 `simplifier/option_name` 告知 `simplifier` 組件所需關注的開關名字。
-
-何故？
-
-還記得否，前文對「全／半角」這個開關的討論——
-當切換方案時，未明確使用 `reset` 重置的開關，會保持之前設定過的狀態。
-
-【朙月拼音】等多數方案，並未重設 `simplification` 這個選項——
-因爲用戶換了一種輸入編碼的方式、並不意味着需要變更輸出的字形。
-
-而【簡化字】這一方案不同，恰恰是表達變更輸出字形的需求；
-用戶再從【簡化字】切回【朙月拼音】時，一定是爲了「回到」繁體輸出模式。
-所以令【簡化字】使用獨立命名的開關、而非方案間共用的 `simplification` 開關，
-以避免影響其他輸入方案的繁簡轉換狀態。
-
-
-== 一例、定製方案選單 ==
-
-在【小狼毫】方案選單設定介面上勾勾選選，就可以如此定製輸入方案列表：
-
-{{{
-# default.custom.yaml
-
-patch:
-  schema_list:  # 對於列表類型，現在無有辦法指定如何添加、消除或單一修改某項，於是要在定製檔中將整個列表替換！
-    - schema: luna_pinyin
-    - schema: cangjie5
-    - schema: luna_pinyin_fluency
-    - schema: luna_pinyin_simp
-    - schema: my_coolest_ever_schema  # 這樣就啓用了未曾有過的高級輸入方案！其實這麼好的方案應該排在最前面哈。
-}}}
-
-無有設定介面時，又想啓用、禁用某個輸入方案，手寫這樣一份定製檔就好啦。
-
-
-== 一例、定製喚出方案選單的快捷鍵 ==
-
-喚出方案選單，當然要用鍵盤。默認的快捷鍵爲 Ctrl+` 或 F4。
-
-不過，有些同學電腦上 Ctrl+` 與其他軟件衝突，F4 甚至本文寫作時在【鼠鬚管】中還不可用。又或者有的玩家切換頻繁，想定義到更好的鍵位。
-
-那麼……
-{{{
-# default.custom.yaml
-
-patch:
-  "switcher/hotkeys":  # 這個列表裏每項定義一個快捷鍵，使哪個都中
-    - "Control+s"      # 添加 Ctrl+s
-    - "Control+grave"  # 你看寫法並不是 Ctrl+` 而是與 IBus 一致的表示法
-    - F4
-}}}
-
-按鍵定義的格式爲「修飾符甲+修飾符乙+…+按鍵名稱」，加號爲分隔符，要寫出。
-
-所謂修飾符，就是以下組合鍵的狀態標誌或是按鍵彈起的標誌：
- * Release——按鍵被放開，而不是按下
- * Shift
- * Control
- * Alt——Windows上 Alt+字母 會被系統優先識別爲程序菜單項的快捷鍵，當然 Alt+Tab 也不可用
- * 嗯，Linux 發行版還支持 Super, Meta 等組合鍵，不過最好選每個平臺都能用的啦
-
-按鍵的名稱，大小寫字母和數字就是用他們自己表示，其他的按鍵名稱，參考這裏的定義 [http://code.google.com/p/rimeime/source/browse/trunk/librime/thirdparty/include/X11/keysymdef.h <X11/keysymdef.h>]。
-
-
-== 一例、定製【小狼毫】字體字號 ==
-
-雖與輸入方案無關，也在此列出以作參考。
-
-{{{
-# weasel.custom.yaml
-
-patch:
-  "style/font_face": "明兰"  # 字體名稱，從記事本等處的系統字體對話框裏能看到
-  "style/font_point": 14     # 字號，只認數字的，不認「五號」、「小五」這樣的
-}}}
-
-
-== 一例、定製【小狼毫】配色方案 ==
-
-{{{
-# weasel.custom.yaml
-
-patch:
-  "style/color_scheme": starcraft    # 這項用於選中下面定義的新方案
-  "preset_color_schemes/starcraft":  # 在配色方案列表裏加入標識爲 starcraft 的新方案
-    name: 星際我爭霸／StarCraft
-    author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
-    text_color: 0xccaa88             # 編碼行文字顏色，24位色值，用十六進制書寫方便些，順序是藍綠紅0xBBGGRR
-    candidate_text_color: 0x30bb55   # 候選項文字顏色，當與文字顏色不同時指定
-    back_color: 0x000000             # 底色
-    border_color: 0x1010a0           # 邊框顏色，與底色相同則爲無邊框的效果
-    hilited_text_color: 0xfecb96     # 高亮文字，即與當前高亮候選對應的那部份輸入碼
-    hilited_back_color: 0x000000     # 設定高亮文字的底色，可起到凸顯高亮部份的作用
-    hilited_candidate_text_color: 0x60ffa8  # 高亮候選項的文字顏色，要醒目！
-    hilited_candidate_back_color: 0x000000  # 高亮候選項的底色，若與背景色不同就會顯出光棒
-}}}
-
-效果自己看！
-
+[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E3%80%90%E5%B0%8F%E7%8B%BC%E6%AF%AB%E3%80%91%E9%85%8D%E8%89%B2%E6%96%B9%E6%A1%88 詳解]
 
 = 拼寫運算 =
 
