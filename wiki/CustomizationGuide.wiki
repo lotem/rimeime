@@ -123,14 +123,15 @@ punctuator:
 
 還有一種情況：
 
-有些用戶習慣在中文裏使用ASCII標點，那麼與其一個一個覆寫，不如整套都換掉。
+有些用戶習慣在中文裏使用ASCII標點，那麼與其一個一個覆寫，不如 *整套都換掉* 。
 
 取得這份設定檔——
-[http://gist.github.com/2334409 Rime 別樣設定，使用西文標點、[ ] 鍵換頁]
-
+[http://gist.github.com/2334409 Rime 別樣設定，使用西文標點]
 在用戶資料夾保存爲 `alternative.yaml` ；
 
-再將輸入方案中的 `punctuator/import_preset: default` 通過打 patch 替換爲 `import_preset: alternative' 就換上了自己習慣的一套標點！
+再將輸入方案中的 `import_preset: default` 
+通過打 patch 替換爲 `import_preset: alternative` 
+
 {{{
 # luna_pinyin.custom.yaml
 
@@ -138,6 +139,9 @@ patch:
   'punctuator/import_preset': alternative
   'key_binder/import_preset': alternative
 }}}
+
+就換上了自己習慣的一套標點！
+
 
 == 一例、定製簡化字輸出 ==
 
