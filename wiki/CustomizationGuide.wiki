@@ -78,8 +78,7 @@ punctuator:
 
 `punctuator` 是 Rime 中負責轉換標點符號的組件。該組件會從設定中讀取符號映射表，而知道該做哪些轉換。
 
-`punctuator/import_preset` 是說，本方案要導入一組預設的符號映射表、那張表寫在另一個設定檔 `<本設定項的值>.yaml` 裏；
-本例是要從 `default.yaml` 導入。
+`punctuator/import_preset` 是說，本方案要繼承一組預設的符號映射表、要從另一個設定檔 `default.yaml` 導入。
 
 查看 `default.yaml` ，確有如下符號表：
 {{{
