@@ -129,15 +129,13 @@ punctuator:
 [http://gist.github.com/2334409 Rime 別樣設定，使用西文標點]
 在用戶資料夾保存爲 `alternative.yaml` ；
 
-再將輸入方案中的 `import_preset: default` 
-通過打 patch 替換爲 `import_preset: alternative` 
+再將輸入方案中的「繼承自 `default` 」通過打 patch 替換爲「繼承自 `alternative` 」
 
 {{{
 # luna_pinyin.custom.yaml
 
 patch:
   'punctuator/import_preset': alternative
-  'key_binder/import_preset': alternative
 }}}
 
 就換上了自己習慣的一套標點！
