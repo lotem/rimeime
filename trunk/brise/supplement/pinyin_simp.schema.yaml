@@ -3,18 +3,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: luna_pinyin
-  name: 朙月拼音
-  version: "0.10"
+  schema_id: pinyin_simp
+  name: 袖珍简化字拼音
+  version: "0.1"
   author:
-    - 佛振 <chen.sst@gmail.com>
+    - 佚名
   description: |
-    Rime 預設的拼音輸入方案。
-    參考以下作品而創作：
-      * CC-CEDICT
-      * Android open source project
-      * Chewing - 新酷音
-      * opencc - 開放中文轉換
+    源自 Android 拼音
 
 switches:
   - name: ascii_mode
@@ -22,8 +17,6 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
 
 engine:
   processors:
@@ -46,18 +39,14 @@ engine:
     - punct_translator
     - r10n_translator
     - reverse_lookup_translator
-  filters:
-    - simplifier
-    - uniquifier
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - erase/^xx$/
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
-    - derive/^([nl])ve$/$1ue/
+    - derive/^([nl])ue$/$1ve/
     - derive/^([jqxy])u/$1v/
     - derive/un$/uen/
     - derive/ui$/uei/
@@ -69,19 +58,17 @@ speller:
     - derive/([iu])a(o|ng?)$/a$1$2/
 
 translator:
-  dictionary: luna_pinyin
+  dictionary: pinyin_simp
   preedit_format:
     - xform/([nljqxy])v/$1ü/
 
 reverse_lookup:
-  dictionary: cangjie5
+  dictionary: stroke_simp
   enable_completion: true
   prefix: "`"
-  tips: 〔倉頡〕
+  tips: 〔笔画〕
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  comment_format:
-    - xform/([nl])v/$1ü/
+    - xlit/hspnz/一丨丿丶乙/
 
 punctuator:
   import_preset: default
