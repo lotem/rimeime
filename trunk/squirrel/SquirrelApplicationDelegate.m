@@ -28,15 +28,15 @@
 -(IBAction)deploy:(id)sender
 {
   NSLog(@"Start maintenace...");
-  RimeConfig config;
-  RimeConfigOpen("default.custom", &config);
-  // schedule a workspace update
-  RimeConfigUpdateSignature(&config, "Squirrel");
-  RimeConfigClose(&config);
   // restart
   RimeFinalize();
   [self startRimeWithFullCheck:TRUE];
   [self loadSquirrelConfig];
+}
+
+-(IBAction)openWiki:(id)sender
+{
+  [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://code.google.com/p/rimeime/w/list"]];
 }
 
 -(void)startRimeWithFullCheck:(BOOL)fullCheck
@@ -46,7 +46,7 @@
   squirrel_traits.user_data_dir = [[@"~/Library/Rime" stringByStandardizingPath] UTF8String];
   squirrel_traits.distribution_code_name = "Squirrel";
   squirrel_traits.distribution_name = "鼠鬚管";
-  squirrel_traits.distribution_version = "0.9.3";
+  squirrel_traits.distribution_version = "0.9.4";
   NSLog(@"Initializing la rime...");
   RimeInitialize(&squirrel_traits);
   if (RimeStartMaintenance((Bool)fullCheck)) {
@@ -87,6 +87,24 @@
   
   [_panel updateUIStyle:&style];
   [style.fontName release];
+}
+
+-(BOOL)problematicLaunchDetected
+{
+  BOOL detected = FALSE;
+  NSString* logfile = [NSTemporaryDirectory() stringByAppendingPathComponent:@"launch.dat"];
+  //NSLog(@"[DEBUG] archive: %@", logfile);
+  NSData* archive = [NSData dataWithContentsOfFile:logfile options:NSDataReadingUncached error:nil];
+  if (archive) {
+    NSDate* previousLaunch = [NSKeyedUnarchiver unarchiveObjectWithData:archive];
+    if (previousLaunch && [previousLaunch timeIntervalSinceNow] >= -2) {
+      detected = TRUE;
+    }
+  }
+  NSDate* now = [NSDate date];
+  NSData* record = [NSKeyedArchiver archivedDataWithRootObject:now];
+  [record writeToFile:logfile atomically:NO];
+  return detected;
 }
 
 //add an awakeFromNib item so that we can set the action method.  Note that 
