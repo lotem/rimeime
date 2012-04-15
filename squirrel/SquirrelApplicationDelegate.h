@@ -19,7 +19,10 @@
 -(BOOL)useUSKeyboardLayout;
 
 -(IBAction)deploy:(id)sender;
+-(IBAction)openWiki:(id)sender;
+
 -(void)startRimeWithFullCheck:(BOOL)fullCheck;
 -(void)loadSquirrelConfig;
+-(BOOL)problematicLaunchDetected;
 
 @end
