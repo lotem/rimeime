@@ -23,7 +23,11 @@ Context::~Context() {
 bool Context::Commit() {
   if (!IsComposing())
     return false;
+  // notify the engine and interesting components
   commit_notifier_(this);
+  // record commit history
+  commit_history_.Push(*composition_, input_);
+  // start over
   Clear();
   return true;
 }
@@ -114,6 +118,20 @@ bool Context::Select(size_t index) {
                          cand->text().c_str(), index);
     select_notifier_(this);
     return true;
+  }
+  return false;
+}
+
+bool Context::DeleteCurrentSelection() {
+  if (composition_->empty())
+    return false;
+  Segment &seg(composition_->back());
+  shared_ptr<Candidate> cand(seg.GetSelectedCandidate());
+  if (cand) {
+    EZDBGONLYLOGGERPRINT("Deleting: '%s', selected_index = %d.",
+                         cand->text().c_str(), seg.selected_index);
+    delete_notifier_(this);
+    return true;  // CAVEAT: this doesn't mean anything is deleted for sure
   }
   return false;
 }
