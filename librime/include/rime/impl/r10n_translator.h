@@ -9,14 +9,13 @@
 #ifndef RIME_R10N_TRANSLATOR_H_
 #define RIME_R10N_TRANSLATOR_H_
 
-#include <vector>
 #include <string>
-#include <boost/regex.hpp>
 #include <boost/signals/connection.hpp>
 #include <rime/common.h>
 #include <rime/translation.h>
 #include <rime/translator.h>
 #include <rime/algo/algebra.h>
+#include <rime/impl/translator_commons.h>
 
 namespace rime {
 
@@ -26,11 +25,6 @@ struct DictEntryCollector;
 class Dictionary;
 class UserDictionary;
 struct SyllableGraph;
-
-class Patterns : public std::vector<boost::regex> {
- public:
-  bool Load(ConfigListPtr patterns);
-};
 
 class R10nTranslator : public Translator {
  public:
@@ -49,6 +43,7 @@ class R10nTranslator : public Translator {
   
  protected:
   void OnCommit(Context *ctx);
+  void OnDeleteEntry(Context *ctx);
   
   scoped_ptr<Dictionary> dict_;
   scoped_ptr<UserDictionary> user_dict_;
@@ -60,7 +55,9 @@ class R10nTranslator : public Translator {
   Projection preedit_formatter_;
   Projection comment_formatter_;
   Patterns user_dict_disabling_patterns_;
-  boost::signals::connection connection_;
+  
+  boost::signals::connection commit_connection_;
+  boost::signals::connection delete_connection_;
 };
 
 }  // namespace rime

@@ -24,6 +24,8 @@
 #include <rime/algo/poet.h>
 #include <rime/algo/syllabifier.h>
 #include <rime/impl/r10n_translator.h>
+#include <rime/impl/translator_commons.h>
+
 
 static const char *quote_left = "\xef\xbc\x88";
 static const char *quote_right = "\xef\xbc\x89";
@@ -75,8 +77,8 @@ bool DelimitSyllablesDfs(DelimitSyllableState *state,
 
 }  // anonymous namespace
 
-class R10nCandidate;
-class R10nSentence;
+typedef ZhCandidate R10nCandidate;
+typedef Sentence R10nSentence;
 
 class R10nTranslation : public Translation {
  public:
@@ -114,80 +116,6 @@ class R10nTranslation : public Translation {
   size_t user_phrase_index_;
   std::set<std::string> candidate_set_;
 };
-
-class R10nCandidate : public Candidate {
- public:
-  R10nCandidate(size_t start, size_t end,
-                const shared_ptr<DictEntry> &entry)
-      : Candidate("zh", start, end),
-        entry_(entry) {
-  }
-  const std::string& text() const { return entry_->text; }
-  const std::string comment() const { return entry_->comment; }
-  const std::string preedit() const { return entry_->preedit; }
-  void set_comment(const std::string &comment) {
-    entry_->comment = comment;
-  }
-  void set_preedit(const std::string &preedit) {
-    entry_->preedit = preedit;
-  }
-  const Code& code() const { return entry_->code; }
-  const DictEntry& entry() const { return *entry_; }
- protected:
-  const shared_ptr<DictEntry> entry_;
-};
-
-class R10nSentence : public Candidate {
- public:
-  R10nSentence() : Candidate("sentence", 0, 0) {
-    entry_.weight = 1.0;
-  }
-  void Extend(const DictEntry& entry, size_t end_pos) {
-    const double kEpsilon = 1e-200;
-    const double kPenalty = 1e-8;
-    entry_.code.insert(entry_.code.end(),
-                       entry.code.begin(), entry.code.end());
-    entry_.text.append(entry.text);
-    entry_.weight *= (std::max)(entry.weight, kEpsilon) * kPenalty;
-    components_.push_back(entry);
-    set_end(end_pos);
-    EZDBGONLYLOGGERPRINT("%d) %s : %g", end_pos,
-                         entry_.text.c_str(), entry_.weight);
-  }
-  void Offset(size_t offset) {
-    set_start(start() + offset);
-    set_end(end() + offset);
-  }
-  const std::string& text() const { return entry_.text; }
-  const std::string comment() const { return entry_.comment; }
-  const std::string preedit() const { return entry_.preedit; }
-  void set_comment(const std::string &comment) {
-    entry_.comment = comment;
-  }
-  void set_preedit(const std::string &preedit) {
-    entry_.preedit = preedit;
-  }
-  const Code& code() const { return entry_.code; }
-  double weight() const { return entry_.weight; }
-  const std::vector<DictEntry>& components() const { return components_; }
-  
- protected:
-  DictEntry entry_;
-  std::vector<DictEntry> components_;
-};
-
-// Patterns
-
-bool Patterns::Load(ConfigListPtr patterns) {
-  clear();
-  if (!patterns) return false;
-  for (ConfigList::Iterator it = patterns->begin(); it != patterns->end(); ++it) {
-    ConfigValuePtr value = As<ConfigValue>(*it);
-    if (!value) continue;
-    push_back(boost::regex(value->str()));
-  }
-  return true;
-}
 
 // R10nTranslator implementation
 
@@ -229,12 +157,15 @@ R10nTranslator::R10nTranslator(Engine *engine)
     }
   }
 
-  connection_ = engine->context()->commit_notifier().connect(
+  commit_connection_ = engine->context()->commit_notifier().connect(
       boost::bind(&R10nTranslator::OnCommit, this, _1));
+  delete_connection_ = engine->context()->delete_notifier().connect(
+      boost::bind(&R10nTranslator::OnDeleteEntry, this, _1));
 }
 
 R10nTranslator::~R10nTranslator() {
-  connection_.disconnect();
+  commit_connection_.disconnect();
+  delete_connection_.disconnect();
 }
 
 Translation* R10nTranslator::Query(const std::string &input,
@@ -334,6 +265,30 @@ void R10nTranslator::OnCommit(Context *ctx) {
       user_dict_->UpdateEntry(commit_entry, 1);
       commit_entry.text.clear();
       commit_entry.code.clear();
+    }
+  }
+}
+
+void R10nTranslator::OnDeleteEntry(Context *ctx) {
+  if (!user_dict_ ||
+      !ctx ||
+      ctx->composition()->empty())
+    return;
+  Segment &seg(ctx->composition()->back());
+  shared_ptr<Candidate> cand(seg.GetSelectedCandidate());
+  if (!cand)
+    return;
+  shared_ptr<UniquifiedCandidate> uniquified = As<UniquifiedCandidate>(cand);
+  if (uniquified) cand = uniquified->items().front();
+  shared_ptr<ShadowCandidate> shadow = As<ShadowCandidate>(cand);
+  if (shadow) cand = shadow->item();
+  shared_ptr<R10nCandidate> r10n_cand = As<R10nCandidate>(cand);
+  if (r10n_cand) {
+    const DictEntry& entry(r10n_cand->entry());
+    if (entry.code.size() >= 2) {
+      EZLOGGERPRINT("Deleting entry: '%s'.", entry.text.c_str());
+      user_dict_->UpdateEntry(entry, -1);  // mark as deleted in user dict
+      ctx->RefreshNonConfirmedComposition();
     }
   }
 }
