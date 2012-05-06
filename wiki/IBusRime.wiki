@@ -7,8 +7,7 @@
 
 To build la rime, you need these tools and libraries:
   * cmake
-  * subversion
-  * boost
+  * boost >= 1.46
   * gtest (optional)
   * ibus
   * kyotocabinet
@@ -17,63 +16,25 @@ To build la rime, you need these tools and libraries:
 
 == Build and install ibus-rime ==
 
-Don't know if it will work for you...
 {{{
-mkdir rimeime
-cd rimeime
-svn checkout http://rimeime.googlecode.com/svn/trunk/brise
-svn checkout http://rimeime.googlecode.com/svn/trunk/ibus-rime
-svn checkout http://rimeime.googlecode.com/svn/trunk/librime
+tar xzvf librime-*.tar.gz
+tar xzvf ibus-rime-*.tar.gz
 cd ibus-rime
-# this script uses 'sudo' to install ibus-rime; do this as YOU
+# do this as normal user
 ./install.sh
 }}}
 
 == Configure IBus ==
 
-Add "Rime" to the input method list in IBus Preferences, and... Voilà !
+  * restart IBus
+  * add "Rime" to the input method list in IBus Preferences
 
+Voilà !
 
 = Archlinux =
 
-AUR package: [http://aur.archlinux.org/packages.php?ID=57273 ibus-rime-svn]
+AUR packages: 
+  * [http://aur.archlinux.org/packages.php?ID=59036 librime]
+  * [http://aur.archlinux.org/packages.php?ID=59037 ibus-rime]
 
   Thanks to: 网军总司令
-
-= ibus-rime on Ubuntu 12.04 安裝手記 =
-
-今天天氣不錯，我更新了一把Ubuntu，記錄下安裝 ibus-rime 的步驟。
-
-以下新安裝的程序庫，除libz、libibus以外都是靜態鏈接上去的，所以只是編譯時依賴而非運行時依賴。
-
-{{{
-sudo apt-get install build-essential cmake subversion
-sudo apt-get install libboost-all-dev libopencc-dev libz-dev libibus-1.0-dev
-
-mkdir ~/rimeime
-cd ~/rimeime
-
-wget http://fallabs.com/kyotocabinet/pkg/kyotocabinet-1.2.74.tar.gz
-tar xzvf kyotocabinet-1.2.74.tar.gz
-cd kyotocabinet-1.2.74
-./configure
-make
-sudo make install
-cd ..
-
-wget http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz
-tar xzvf yaml-cpp-0.3.0.tar.gz
-cd yaml-cpp
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
-cd ../..
-
-svn checkout http://rimeime.googlecode.com/svn/trunk/brise
-svn checkout http://rimeime.googlecode.com/svn/trunk/ibus-rime
-svn checkout http://rimeime.googlecode.com/svn/trunk/librime
-cd ibus-rime
-./install.sh
-}}}
