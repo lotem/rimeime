@@ -5,7 +5,7 @@
 
   * 中州韻 | ibus-rime
      
-    Linux 發行版，基於 IBus 輸入法框架。〔[http://rimeime.googlecode.com/files/librime-0.9.1.tar.gz librime-0.9.1]〕〔[http://rimeime.googlecode.com/files/ibus-rime-0.9.1.tar.gz ibus-rime-0.9.1]〕〔[IBusRime 說明]〕
+    Linux 發行版，基於 IBus 輸入法框架。〔[http://code.google.com/p/rimeime/downloads/detail?name=librime-0.9.1.tar.gz librime-0.9.1]〕〔[http://code.google.com/p/rimeime/downloads/detail?name=ibus-rime-0.9.1.tar.gz ibus-rime-0.9.1]〕〔[IBusRime 說明]〕
 
   * 小狼毫 | Weasel
 
