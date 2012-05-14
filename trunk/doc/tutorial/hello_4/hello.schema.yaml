@@ -1,0 +1,24 @@
+# Rime schema
+# encoding: utf-8
+#
+# 對照詞典來翻譯
+#
+
+schema:
+  schema_id: hello
+  name: 大家好
+  version: "4"
+
+engine:
+  processors:
+    - speller
+    - express_editor
+  segmentors:
+    - abc_segmentor       # 標記輸入碼的類型
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - table_translator    # 碼表式轉換
+
+translator:
+  dictionary: hello       # 設定 table_translator 使用的詞典名

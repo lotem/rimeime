@@ -1,0 +1,21 @@
+# Rime schema
+# encoding: utf-8
+#
+# 改用 speller + express_editor 的組合，
+# 對字母組成的編碼與數字、符號按鍵做不同的處理；
+# 再爲當前編碼生成一個無聊的候選項。
+#
+
+schema:
+  schema_id: hello
+  name: 大家好
+  version: "3"
+
+engine:
+  processors:
+    - speller          # 把字母追加到編碼串
+    - express_editor   # 空格確認當前輸入、其他字符直接上屏
+  segmentors:
+    - fallback_segmentor
+  translators:
+    - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項

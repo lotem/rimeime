@@ -1,0 +1,10 @@
+# Rime schema
+# encoding: utf-8
+#
+# 最簡單的 Rime 輸入方案
+#
+
+schema:
+  schema_id: hello    # 注意此ID與文件名裏 .schema.yaml 之前的部分相同
+  name: 大家好        # 將在〔方案選單〕中顯示
+  version: "1"        # 這是文字類型而非整數或小數，如 "1.2.3"

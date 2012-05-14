@@ -1,0 +1,44 @@
+# Rime schema
+# encoding: utf-8
+#
+# 定義以符號鍵換頁
+#
+
+schema:
+  schema_id: hello
+  name: 大家好
+  version: "7"
+
+engine:
+  processors:
+    - key_binder  # 搶在其他 processor 處理之前判定是否換頁用的符號鍵
+    - speller
+    - punctuator  # 否則「，。」就會由此上屏
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - table_translator
+
+translator:
+  dictionary: hello
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  bindings:             # 每條定義包含條件、接收按鍵（IBus規格的鍵名，可加修飾符，如「Control+Return」）、發送按鍵
+
+    - when:   paging    # 僅當已發生向後換頁時，
+      accept: comma     # 將「逗號」鍵……
+      send:   Page_Up   # 關聯到「向前換頁」；於是 navigator 將收到一發 Page_Up
+
+    - when:   has_menu  # 只要有候選字即滿足條件
+      accept: period
+      send:   Page_Down
