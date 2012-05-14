@@ -1,0 +1,16 @@
+# Rime schema
+# encoding: utf-8
+#
+# 開始添加功能組件，處理輸入碼
+#
+
+schema:
+  schema_id: hello
+  name: 大家好
+  version: "2"
+
+engine:
+  processors:
+    - fluency_editor
+  segmentors:
+    - fallback_segmentor

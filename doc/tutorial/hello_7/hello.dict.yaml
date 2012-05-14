@@ -1,0 +1,31 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 問候語小詞典
+#
+
+---
+name: hello
+version: "2"
+sort: original
+...
+
+大家好	hello
+再見	bye
+再會	bye
+
+星期一	monday
+星期二	tuesday
+星期三	wednesday
+星期四	thursday
+星期五	friday
+星期六	saturday
+星期日	sunday
+
+星期一	weekday
+星期二	weekday
+星期三	weekday
+星期四	weekday
+星期五	weekday
+星期六	weekday
+星期日	weekday

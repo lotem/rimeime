@@ -1,0 +1,28 @@
+# Rime schema
+# encoding: utf-8
+#
+# 用數字鍵選字；響應上下左右、換頁鍵
+#
+# 爲了表演換頁，詞典裏也加入了一些新條目
+#
+
+schema:
+  schema_id: hello
+  name: 大家好
+  version: "5"
+
+engine:
+  processors:
+    - speller
+    - selector         # 選字
+    - navigator        # 移動、換頁
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - table_translator
+
+translator:
+  dictionary: hello
