@@ -644,9 +644,65 @@ engine:
     - echo_translator  # （無有其他結果時，）創建一個與編碼串一個模樣的候選項
 }}}
 
-至此，【大家好】看上去與一個真正的輸入法形似啦。只是還不會打出「大家好」哇。
+至此，【大家好】看上去與一個真正的輸入法形似啦。只是還不會打出「大家好」哇？
 
 === 編寫詞典 ===
+
+那就寫一部詞典，碼表中設定以 `hello` 作爲短語「大家好」的編碼：
+
+{{{
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: hello
+version: "1"
+sort: original
+...
+
+大家好	hello
+再見	bye
+再會	bye
+}}}
+
+同時修改方案定義：
+
+{{{
+#...
+
+schema:
+  # ...
+  version: "4"
+
+engine:
+  #...
+  segmentors:
+    - abc_segmentor       # 標記輸入碼的類型
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - table_translator    # 碼表式轉換
+
+translator:
+  dictionary: hello       # 設定 table_translator 使用的詞典名
+}}}
+
+工作流程是這樣的：
+
+  * `speller` 將字母鍵加入輸入碼序列
+  * `abc_segmentor` 給輸入碼打上標籤 `abc`
+  * `table_translator` 把帶有 `abc` 籤的輸入碼以查表的方式譯爲中文
+  * `table_translator` 所查的碼表在 `translator/dictionary` 所指定的詞典裏
+
+現在可以敲 `hello` 而打出「大家好」。完工！
+
+=== 實現選字及換頁 ===
+
+等一下。
+
+記得 `hello` 詞典裏，還有個編碼叫做 `bye`。敲 `bye`，Rime 給出「再見」、「再會」兩個候選短語。
+
+這時敲空格鍵，就會打出「再見」；那麼怎樣打出「再會」呢？
 
 TODO:
 
