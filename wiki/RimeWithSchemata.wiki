@@ -613,7 +613,7 @@ engine:
 
 現在就好似寫輸入法程序的過程中，將將取得一小點成果，還有很多邏輯未實現。不同的是，在Rime輸入方案裏寫一行代碼，頂 Rime 開發者所寫的上百上千行。因此我可以很快地組合各種邏輯組件、搭建出心裏想的輸入法。
 
-=== 爲編碼創建候選項 ===
+=== 創建候選項 ===
 
 第二版的【大家好】將鍵盤上所有字符都記入輸入碼，這對整句輸入有用，但是時下流行輸入法只處理編碼字符、其他字符直接上屏的形式。爲了對編碼字符做出區分，以下改用 `speller` + `express_editor` 的組合取代 `fluency_editor`：
 
@@ -708,7 +708,150 @@ translator:
 
 這時敲空格鍵，就會打出「再見」；那麼怎樣打出「再會」呢？
 
-TODO:
+大家首先想到的方法，是：打完編碼 `hello`，按 `1` 選「再見」，按 `2` 選「再會」。
+可是現在按下 `2` 去，卻是上屏「再見」和數字「2」。可見並沒有完成數字鍵選字的處理，而是將數字同其他符號一樣做了頂字上屏處理。
+
+增加一部 `selector`，即可實現以數字鍵選字。
+
+{{{
+schema:
+  # ...
+  version: "5"
+
+engine:
+  processors:
+    - speller
+    - selector         # 選字、換頁
+    - navigator        # 移動插入點
+    - express_editor
+  # ...
+}}}
+
+`selector` 除了數字鍵，還響應前次頁、上下方向鍵。因此選擇第二候選「再會」，既可以按數字`2`，又可以按方向鍵「↓」將「再會」高亮、再按空格鍵確認。
+
+`navigator` 處理左右方向鍵、Home、End鍵，實現移動插入點的編輯功能。有兩種情況需要用到他：一是發現輸入碼有誤需要定位修改，二是縮小候選詞對應的輸入碼的範圍、精準地編輯新詞組。
+
+接下來向詞典添加一組重碼，以檢驗換頁的效果：
+
+{{{
+---
+name: hello
+version: "2"
+sort: original
+...
+
+大家好	hello
+再見	bye
+再會	bye
+
+星期一	monday
+星期二	tuesday
+星期三	wednesday
+星期四	thursday
+星期五	friday
+星期六	saturday
+星期日	sunday
+
+星期一	weekday
+星期二	weekday
+星期三	weekday
+星期四	weekday
+星期五	weekday
+星期六	weekday
+星期日	weekday
+}}}
+
+默認每頁候選數爲5，輸入 `weekday`，顯示「星期一」至「星期五」。再敲 Page_Down 顯示第二頁後選詞「星期六、星期日」。
+
+=== 輸出中文標點 ===
+
+{{{
+schema:
+  # ...
+  version: "6"
+
+engine:
+  processors:
+    - speller
+    - punctuator        # 處理符號按鍵
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - punct_segmentor   # 劃界，與前後方的其他編碼區分開
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator  # 轉換
+    - table_translator
+
+# ...
+
+punctuator:             # 設定符號表，這裏直接導入預設的
+  import_preset: default
+}}}
+
+這次的修改，要注意 `punctuator`, `punct_segmentor`, `punct_translator` 相對於其他組件的位置。
+
+`punctuator/import_preset` 告訴 Rime 使用一套預設的符號表。他的值 `default` 可以換成其他名字如 `xxx`，則 Rime 會讀取 `xxx.yaml` 裏面定義的符號表。
+
+好了，如今再敲 `hello.`，就會得到「大家好。」。
+
+=== 用符號鍵換頁 ===
+
+早先流行用 `-` `=` 這一對符號換頁，如今流行用 `,` 和 `.` 。
+在第六版中「，」「。」是會頂字上屏的。現在要做些處理以達到一鍵兩用的效果。
+
+Rime 提供了 `key_binder` 組件，他能夠在一定條件下，將指定按鍵綁定爲另一個按鍵。對於本例就是：
+  * 當展現候選菜單時，句號鍵（period）綁定爲向後換頁（Page_Down）
+  * 當已有（向後）換頁動作時，逗號鍵（comma）綁定爲向前換頁（Page_Up）
+
+逗號鍵向前換頁的條件之所以比句號鍵嚴格，是爲了「，」仍可在未進行換頁的情況下頂字上屏。
+
+經過 `key_binder` 的處理，用來換頁的逗號、句號鍵改頭換面爲前、後換頁鍵，從而繞過 `punctuator`，最終被 `selector` 當作換頁來處理。
+
+最終的代碼如下：
+{{{
+schema:
+  schema_id: hello
+  name: 大家好
+  version: "7"
+
+engine:
+  processors:
+    - key_binder  # 搶在其他 processor 處理之前判定是否換頁用的符號鍵
+    - speller
+    - punctuator  # 否則「，。」就會由此上屏
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - table_translator
+
+translator:
+  dictionary: hello
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  bindings:             # 每條定義包含條件、接收按鍵（IBus規格的鍵名，可加修飾符，如「Control+Return」）、發送按鍵
+
+    - when:   paging    # 僅當已發生向後換頁時，
+      accept: comma     # 將「逗號」鍵……
+      send:   Page_Up   # 關聯到「向前換頁」；於是 navigator 將收到一發 Page_Up
+
+    - when:   has_menu  # 只要有候選字即滿足條件
+      accept: period
+      send:   Page_Down
+}}}
 
 == 修煉之道 ==
 
