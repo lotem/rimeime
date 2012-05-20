@@ -14,8 +14,8 @@ schema:
 engine:
   processors:
     - speller
-    - selector         # 選字
-    - navigator        # 移動、換頁
+    - selector         # 選字、換頁
+    - navigator        # 移動插入點
     - express_editor
   segmentors:
     - abc_segmentor
