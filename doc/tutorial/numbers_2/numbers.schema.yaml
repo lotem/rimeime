@@ -1,0 +1,83 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schem_id: numbers
+  name: 數字之道
+  version: "2"
+
+switches:
+  - name: full_shape
+    states: [ 小寫, 大寫 ]
+
+engine:
+  processors:
+    - punctuator
+    - express_editor
+  segmentors:
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  half_shape:
+    "1" : 一
+    "2" : 二
+    "3" : 三
+    "4" : 四
+    "5" : 五
+    "6" : 六
+    "7" : 七
+    "8" : 八
+    "9" : 九
+    "0" : 〇
+    "s" : 十
+    "b" : 百
+    "q" : 千
+    "w" : 萬
+    "n" : 年
+    "y" : [ 月, 元, 億 ]
+    "r" : 日
+    "j" : 角
+    "f" : 分
+    "z" : [ 之, 整 ]
+    "d" : 第
+    "h" : 號
+    "." : 點
+    "!" : 壹
+    "@" : 貳
+    "#" : 參
+    "$" : [ 肆, ￥, "$", "€", "£" ]
+    "%" : [ 伍, 百分之 ]
+    "^" : 陸
+    "&" : 柒
+    "*" : 捌
+    "(" : 玖
+    ")" : 零
+    "S" : 拾
+    "B" : 佰
+    "Q" : 仟
+  full_shape:
+    "1" : 壹
+    "2" : 貳
+    "3" : 參
+    "4" : 肆
+    "5" : 伍
+    "6" : 陸
+    "7" : 柒
+    "8" : 捌
+    "9" : 玖
+    "0" : 零
+    "s" : 拾
+    "b" : 佰
+    "q" : 仟
+    "w" : 萬
+    "n" : 年
+    "y" : [ 月, 圓, 億 ]
+    "r" : 日
+    "j" : 角
+    "f" : 分
+    "z" : [ 之, 整 ]
+    "d" : 第
+    "h" : 號
+    "." : 點
