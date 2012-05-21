@@ -3,7 +3,7 @@
 
 ---
 name: numbers
-version: "1"
+version: "2"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -40,3 +40,8 @@ use_preset_vocabulary: true
 號	hao
 點	dian
 是	shi
+
+四是四
+十是十
+十四是十四
+四十是四十
