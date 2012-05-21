@@ -1,0 +1,42 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: numbers
+version: "1"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+一	yi
+二	er
+三	san
+四	si
+五	wu
+六	liu
+七	qi
+八	ba
+九	jiu
+〇	ling
+零	ling
+十	shi
+百	bai
+千	qian
+萬	wan
+億	yi
+年	nian
+月	yue
+日	ri
+星	xing
+期	qi
+時	shi
+分	fen
+秒	miao
+元	yuan
+角	jiao
+之	zhi
+整	zheng
+第	di
+號	hao
+點	dian
+是	shi

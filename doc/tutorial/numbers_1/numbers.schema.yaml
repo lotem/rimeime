@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schem_id: numbers
+  schema_id: numbers
   name: 數字之道
   version: "1"
 
@@ -16,7 +16,7 @@ engine:
     - punct_translator
 
 punctuator:
-  half_shape:
+  half_shape: &symtable
     "1" : 一
     "2" : 二
     "3" : 三
@@ -34,9 +34,11 @@ punctuator:
     "n" : 年
     "y" : [ 月, 元, 億 ]
     "r" : 日
+    "x" : 星期
     "j" : 角
     "f" : 分
     "z" : [ 之, 整 ]
     "d" : 第
     "h" : 號
     "." : 點
+  full_shape: *symtable
