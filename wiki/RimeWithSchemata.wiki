@@ -1,11 +1,11 @@
-﻿#summary Rime 輸入方案創作指南
+#summary Rime 輸入方案創作指南
 #labels Phase-Support,Featured
 
 = Rime with Schemata =
 
 Rime 輸入方案創作《指南書》
 
-※ 佛振 <chen.sst@gmail.com> 修訂於 2012年5月12日
+※ 佛振 <chen.sst@gmail.com> 修訂於 2012年5月22日
 
 = Rime 輸入方案 =
 
