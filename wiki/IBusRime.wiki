@@ -8,7 +8,7 @@
 To build la rime, you need these tools and libraries:
   * cmake
   * boost >= 1.46
-  * gtest (optional)
+  * gtest (optional, recommended for developers)
   * ibus
   * kyotocabinet
   * opencc
@@ -16,9 +16,11 @@ To build la rime, you need these tools and libraries:
 
 == Build and install ibus-rime ==
 
+download both `librime` and `ibus-rime` source packages;
+
 {{{
-tar xzvf librime-*.tar.gz
-tar xzvf ibus-rime-*.tar.gz
+tar xzf librime-*.tar.gz
+tar xzf ibus-rime-*.tar.gz
 cd ibus-rime
 # do this as normal user
 ./install.sh
@@ -31,10 +33,14 @@ cd ibus-rime
 
 Voilà !
 
-= Archlinux =
+= Packages for Linux Distributions =
+
+有手藝、有時間、熱心腸的Linux技術高手！ 請幫我把Rime打包到你喜愛的Linux發行版，分享給其他同學吧。 
+
+== Archlinux ==
 
 AUR packages: 
   * [http://aur.archlinux.org/packages.php?ID=59036 librime]
   * [http://aur.archlinux.org/packages.php?ID=59037 ibus-rime]
 
-  Thanks to: 网军总司令
+Thanks to: 网军总司令
