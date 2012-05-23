@@ -43,7 +43,7 @@ sudo apt-get install build-essential cmake
 # 安裝程序庫
 sudo apt-get install libopencc-dev libz-dev libibus-1.0-dev
 sudo apt-get install libboost-dev libboost-filesystem-dev libboost-regex-dev libboost-signals-dev libboost-system-dev libboost-thread-dev
-# 如果不嫌多，也可以安裝整套Boost開發包：
+# 如果不嫌多，也可以安裝整套Boost開發包（敲字少：）
 # sudo apt-get install libboost-all-dev
 
 mkdir ~/rimeime
@@ -55,6 +55,7 @@ cd kyotocabinet-1.2.74
 ./configure
 make
 sudo make install
+
 cd ~/rimeime
 
 wget http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz
@@ -65,6 +66,7 @@ cd build
 cmake ..
 make
 sudo make install
+
 cd ~/rimeime
 
 wget http://rimeime.googlecode.com/files/librime-0.9.1.tar.gz
