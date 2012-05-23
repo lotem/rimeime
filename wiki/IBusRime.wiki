@@ -33,6 +33,48 @@ cd ibus-rime
 
 Voilà !
 
+== ibus-rime on Ubuntu 12.04 安裝手記 ==
+
+今天天氣不錯，我更新了一把Ubuntu，記錄下安裝 ibus-rime 的步驟。
+
+{{{
+# 安裝編譯工具
+sudo apt-get install build-essential cmake
+# 安裝程序庫
+sudo apt-get install libopencc-dev libz-dev libibus-1.0-dev
+sudo apt-get install libboost-dev libboost-filesystem-dev libboost-regex-dev libboost-signals-dev libboost-system-dev libboost-thread-dev
+# 如果不嫌多，也可以安裝整套Boost開發包：
+# sudo apt-get install libboost-all-dev
+
+mkdir ~/rimeime
+cd ~/rimeime
+
+wget http://fallabs.com/kyotocabinet/pkg/kyotocabinet-1.2.74.tar.gz
+tar xzf kyotocabinet-1.2.74.tar.gz
+cd kyotocabinet-1.2.74
+./configure
+make
+sudo make install
+cd ~/rimeime
+
+wget http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz
+tar xzf yaml-cpp-0.3.0.tar.gz
+cd yaml-cpp
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+cd ~/rimeime
+
+wget http://rimeime.googlecode.com/files/librime-0.9.1.tar.gz
+wget http://rimeime.googlecode.com/files/ibus-rime-0.9.1.tar.gz
+tar xzf librime-0.9.1.tar.gz
+tar xzf ibus-rime-0.9.1.tar.gz
+cd ibus-rime
+./install.sh
+}}}
+
 = Packages for Linux Distributions =
 
 有手藝、有時間、熱心腸的Linux技術高手！ 請幫我把Rime打包到你喜愛的Linux發行版，分享給其他同學吧。 
