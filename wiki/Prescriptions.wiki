@@ -13,6 +13,10 @@ https://gist.github.com/2309739
 
 倣此例，可啓用任一預設或自訂輸入方案。（[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE 詳解]）
 
+=== 修改「方案選單」鍵 ===
+
+我說要讀《定製指南》嘛。（[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E5%96%9A%E5%87%BA%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%8D%B5 詳解]）
+
 === 【小狼毫】外觀設定 ===
 
   * [CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E3%80%90%E5%B0%8F%E7%8B%BC%E6%AF%AB%E3%80%91%E5%AD%97%E9%AB%94%E5%AD%97%E8%99%9F 設定字體字號]
