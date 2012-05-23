@@ -56,15 +56,15 @@ patch:
 
 *重新佈署* 即可生效。
 
-註一：重新佈署的方法：
+註一：重新佈署 Rime 的方法（重要★）
 
   * 【小狼毫】在托盤圖標上右鍵選擇「重新佈署」；
   * 【鼠鬚管】在系統語言文字選單中選擇「重新佈署」；
   * 【中州韻】刪除用戶資料夾的 `default.yaml` 之後、執行 `ibus-daemon -drx` 重載IBus
 
-註二：以上設定，只對該款輸入方案有效，其他輸入方案仍是默認每頁 5 個候選。
+註二：以上設定只對該輸入方案有效。每一款輸入方案要單獨設定。（也許將來要改成由 `default` 總控所有方案的默認值）
 
-註三：「方案選單」的頁候選數，在 `default.custom.yaml` 裏設定。
+註三：在 `default.custom.yaml` 裏設定「方案選單」的頁候選數。
 
 
 == 一例、定製標點符號 ==
@@ -292,7 +292,7 @@ patch:
  * Alt——Windows上 Alt+字母 會被系統優先識別爲程序菜單項的快捷鍵，當然 Alt+Tab 也不可用
  * 嗯，Linux 發行版還支持 Super, Meta 等組合鍵，不過最好選每個平臺都能用的啦
 
-按鍵的名稱，大小寫字母和數字就是用他們自己表示，其他的按鍵名稱，參考這裏的定義 [http://code.google.com/p/rimeime/source/browse/trunk/librime/thirdparty/include/X11/keysymdef.h <X11/keysymdef.h>]。
+按鍵的名稱，大小寫字母和數字都用他們自己表示，其他的按鍵名稱參考這裏 [http://rimeime.googlecode.com/svn/trunk/librime/thirdparty/include/X11/keysymdef.h <X11/keysymdef.h>] 的定義，去除代碼前綴 `XK_` 即是。
 
 
 == 一例、定製【小狼毫】字體字號 ==
