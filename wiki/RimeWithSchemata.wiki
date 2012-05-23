@@ -489,39 +489,16 @@ patch:
 
 `patch` 定義了一組「補靪」，以源文件中的設定爲底本，寫入新的設定項、或以新的設定值取代舊有的值。
 
-以下這些例子，另載於一篇《定製指南》，其中所介紹的知識和技巧，對於創作新的輸入方案也有使處。
+以下這些例子，另載於一篇[CustomizationGuide 《定製指南》]，其中所介紹的知識和技巧，覆蓋了不少本文未討論的細節，想必對於創作新的輸入方案會有啓發。
 
+  * [CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%AF%8F%E9%A0%81%E5%80%99%E9%81%B8%E6%95%B8 一例、定製每頁候選數]
 
-=== 一例、定製每頁候選數 ===
+  * [CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%A8%99%E9%BB%9E%E7%AC%A6%E8%99%9F 一例、定製標點符號]
 
-[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%AF%8F%E9%A0%81%E5%80%99%E9%81%B8%E6%95%B8 詳解]
+  * [CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E7%B0%A1%E5%8C%96%E5%AD%97%E8%BC%B8%E5%87%BA 一例、定製簡化字輸出]
 
-=== 一例、定製標點符號 ===
-
-[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%A8%99%E9%BB%9E%E7%AC%A6%E8%99%9F 詳解]
-
-=== 一例、定製簡化字輸出 ===
-
-[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E7%B0%A1%E5%8C%96%E5%AD%97%E8%BC%B8%E5%87%BA 詳解]
-
-=== 一例、定製方案選單 ===
-
-重要！創作了新的輸入方案，最後一步就是在「方案選單」裏啓用他。
-
-[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE 詳解]
-
-=== 一例、定製喚出方案選單的快捷鍵 ===
-
-[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E5%96%9A%E5%87%BA%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%8D%B5 詳解]
-
-=== 一例、定製【小狼毫】字體字號 ===
-
-[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E3%80%90%E5%B0%8F%E7%8B%BC%E6%AF%AB%E3%80%91%E5%AD%97%E9%AB%94%E5%AD%97%E8%99%9F 詳解]
-
-=== 一例、定製【小狼毫】配色方案 ===
-
-[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E3%80%90%E5%B0%8F%E7%8B%BC%E6%AF%AB%E3%80%91%E9%85%8D%E8%89%B2%E6%96%B9%E6%A1%88 詳解]
-
+  * [CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE 一例、定製方案選單]
+    重要！創作了新的輸入方案，最後一步就是在「方案選單」裏啓用他。
 
 = 拼寫運算 =
 
