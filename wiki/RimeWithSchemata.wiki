@@ -81,7 +81,7 @@ Rime 輸入方案亦會用到「正則表達式」實現一些高級功能。
   * 【鼠鬚管】  `"/Library/Input Methods/Squirrel.app/Contents/SharedSupport/"`
 
 用戶資料夾 
-  * 【中州韻】  `~/.ibus/rime/`
+  * 【中州韻】  `~/.config/ibus/rime/` （0.9.1 以下版本爲 `~/.ibus/rime/`）
   * 【小狼毫】  `"%APPDATA%\Rime"`
   * 【鼠鬚管】  `~/Library/Rime/`
 
