@@ -75,6 +75,11 @@ tar xzf librime-0.9.1.tar.gz
 tar xzf ibus-rime-0.9.1.tar.gz
 cd ibus-rime
 ./install.sh
+
+# 不知從啥時候開始 Ubuntu 不去找 /usr/local/lib 裏的共享庫了
+# 要是 rime 報錯說找不到所依賴的 libkyotocabinet，咱就給他添上，然後繼續 insall 即可
+#sudo sed -i '$a/usr/local/lib' /etc/ld.so.conf
+#sudo ldconfig
 }}}
 
 = Packages for Linux Distributions =
