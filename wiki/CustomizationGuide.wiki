@@ -111,8 +111,8 @@ patch:
 
   * 【小狼毫】在托盤圖標上右鍵選擇「重新佈署」；
   * 【鼠鬚管】在系統語言文字選單中選擇「重新佈署」；
-  * 【中州韻】刪除用戶資料夾的 `default.yaml` 之後、執行 `ibus-daemon -drx` 重載IBus
-
+  * 【中州韻】點擊輸入法狀態欄上的 ⟲ (Deploy) 按鈕；
+  * 早於 ibus-rime 0.9.2 的版本：刪除用戶資料夾的 `default.yaml` 之後、執行 `ibus-daemon -drx` 重載 IBus
 註二：以上設定只對指定的輸入方案有效。此法用於修改個別方案的頁候選數。
 
 註三：在 `default.custom.yaml` 裏設定 `menu/page_size` 可總控大多數方案以及「方案選單」使用的默認頁候選數。
