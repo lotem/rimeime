@@ -10,6 +10,7 @@ To build la rime, you need these tools and libraries:
   * boost >= 1.46
   * gtest (optional, recommended for developers)
   * ibus
+  * libnotify (new dependency since ibus-rime 0.9.2)
   * kyotocabinet
   * opencc
   * yaml-cpp
@@ -93,3 +94,7 @@ AUR packages:
   * [http://aur.archlinux.org/packages.php?ID=59037 ibus-rime]
 
 Thanks to: 网军总司令
+
+== Gentoo ==
+
+[http://code.google.com/p/rimeime/issues/detail?id=141 ebuilds] shared by wd@wdicc.com and by NorthStar.D
