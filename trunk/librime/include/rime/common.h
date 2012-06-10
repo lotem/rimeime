@@ -11,15 +11,15 @@
 
 #include <cstdlib>
 #include <string>
-#include <boost/scoped_ptr.hpp>
-#include <boost/shared_ptr.hpp>
-#include <boost/weak_ptr.hpp>
+#include <boost/smart_ptr.hpp>
+#include <boost/make_shared.hpp>
 
 namespace rime {
 
 using boost::scoped_ptr;
 using boost::shared_ptr;
 using boost::weak_ptr;
+using boost::make_shared;
 
 template <class A, class B>
 shared_ptr<A> As(const B &ptr) {

@@ -15,22 +15,18 @@ using namespace rime;
 
 class RimeConfigTest : public ::testing::Test {
  protected:
-  RimeConfigTest() : component_(NULL), config_(NULL) {}
+  RimeConfigTest() {}
 
   virtual void SetUp() {
-    component_ = new ConfigComponent("%s.yaml");
-    config_ = component_->Create("config_test");
+    component_.reset(new ConfigComponent("%s.yaml"));
+    config_.reset(component_->Create("config_test"));
   }
 
   virtual void TearDown() {
-    if (config_)
-      delete config_;
-    if (component_)
-      delete component_;
   }
 
-  Config::Component *component_;
-  Config *config_;
+  scoped_ptr<Config::Component> component_;
+  scoped_ptr<Config> config_;
 };
 
 TEST(RimeConfigComponentTest, RealCreationWorkflow) {
@@ -152,11 +148,11 @@ TEST(RimeConfigWriterTest, Greetings) {
   scoped_ptr<Config> config(new Config);
   ASSERT_TRUE(config);
   // creating contents
-  EXPECT_TRUE(config->SetItem("/", ConfigItemPtr(new ConfigMap)));
-  ConfigItemPtr terran_greetings(new ConfigValue("Greetings, Terrans!"));
-  ConfigItemPtr zerg_greetings(new ConfigValue("Zergsss are coming!"));
-  ConfigItemPtr zergs_coming(new ConfigValue(true));
-  ConfigItemPtr zergs_population(new ConfigValue(1000000));
+  EXPECT_TRUE(config->SetItem("/", make_shared<ConfigMap>()));
+  ConfigItemPtr terran_greetings = make_shared<ConfigValue>("Greetings, Terrans!");
+  ConfigItemPtr zerg_greetings = make_shared<ConfigValue>("Zergsss are coming!");
+  ConfigItemPtr zergs_coming = make_shared<ConfigValue>(true);
+  ConfigItemPtr zergs_population = make_shared<ConfigValue>(1000000);
   EXPECT_TRUE(config->SetItem("greetings", terran_greetings));
   EXPECT_TRUE(config->SetItem("zergs/overmind/greetings", zerg_greetings));
   EXPECT_TRUE(config->SetItem("zergs/going", zergs_coming));

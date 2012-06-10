@@ -37,8 +37,9 @@ class Context {
   bool HasMenu() const;
   
   bool PushInput(char ch);
-  bool PopInput();
-  bool DeleteInput();
+  bool PushInput(const std::string& str);
+  bool PopInput(size_t len = 1);
+  bool DeleteInput(size_t len = 1);
   void Clear();
 
   // return false if there is no candidate at index
@@ -53,10 +54,6 @@ class Context {
   bool ReopenPreviousSelection();
   bool ClearNonConfirmedComposition();
   bool RefreshNonConfirmedComposition();
-
-  void set_prompt(const std::string &value) { prompt_ = value; }
-  void clear_prompt() { prompt_.clear(); }
-  const std::string& prompt() const { return prompt_; }
 
   void set_input(const std::string &value);
   const std::string& input() const { return input_; }
@@ -82,7 +79,6 @@ class Context {
   }
 
  private:
-  std::string prompt_;
   std::string input_;
   size_t caret_pos_;
   scoped_ptr<Composition> composition_;

@@ -121,12 +121,18 @@ bool UserDictManager::Restore(const std::string& snapshot_file) {
   TickCount tick_left = GetTickCount(dest);
   TickCount tick_right = GetTickCount(temp);
   tick_left = (std::max)(tick_left, tick_right);
-  TreeDbAccessor a(temp.Query(""));
+  shared_ptr<TreeDbAccessor> a = temp.Query("");
   std::string key, left, right;
   int num_entries = 0;
-  while (a.GetNextRecord(&key, &right)) {
+  while (a->GetNextRecord(&key, &right)) {
     if (boost::starts_with(key, "\x01/"))  // skip metadata
       continue;
+    size_t tab_pos = key.find('\t');
+    if (tab_pos == 0 || tab_pos == std::string::npos)
+      continue;
+    // fix invalid keys created by a buggy version of Import()
+    if (key[tab_pos - 1] != ' ')
+      key.insert(tab_pos, 1, ' ');
     int c = 0;
     double d = 0.0;
     TickCount t = 0;
@@ -182,8 +188,8 @@ int UserDictManager::Export(const std::string& dict_name,
   std::string key, value;
   std::vector<std::string> row;
   int num_entries = 0;
-  UserDbAccessor a(db.Query(""));
-  while (a.GetNextRecord(&key, &value)) {
+  shared_ptr<UserDbAccessor> a = db.Query("");
+  while (a->GetNextRecord(&key, &value)) {
     if (boost::starts_with(key, "\x01/"))  // skip metadata
       continue;
     boost::algorithm::split(row, key,
@@ -239,7 +245,7 @@ int UserDictManager::Import(const std::string& dict_name,
                               boost::algorithm::token_compress_on);
       row[1] = boost::algorithm::join(syllables, " ");
     }
-    key = row[1] + "\t" + row[0];
+    key = row[1] + " \t" + row[0];
     int commits = 0;
     if (row.size() >= 3 && !row[2].empty()) {
       try {
@@ -265,5 +271,26 @@ int UserDictManager::Import(const std::string& dict_name,
   fin.close();
   return num_entries;
 }
+
+bool UserDictManager::UpgradeUserDict(const std::string& dict_name) {
+  UserDb db(dict_name);
+  if (!db.OpenReadOnly())
+    return false;
+  if (!IsUserDb(db))
+    return false;
+  std::string db_creator_version;
+  db.Fetch("\x01/rime_version", &db_creator_version);
+  if (CompareVersionString(db_creator_version, "0.9.1") <= 0) {
+    // fix invalid keys created by a buggy version of Import()
+    EZLOGGERPRINT("upgrading user dict '%s'.", dict_name.c_str());
+    std::string snapshot_file(db.file_name() + ".snapshot");
+    return db.Backup() &&
+        db.Close() &&
+        db.Remove() &&
+        Restore(snapshot_file);
+  }
+  return true;
+}
+
 
 }  // namespace rime

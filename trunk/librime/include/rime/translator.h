@@ -25,8 +25,9 @@ class Translator : public Class<Translator, Engine*> {
   Translator(Engine *engine) : engine_(engine) {}
   virtual ~Translator() {}
 
-  virtual Translation* Query(const std::string &input,
-                             const Segment &segment) = 0;
+  virtual shared_ptr<Translation> Query(const std::string &input,
+                                        const Segment &segment,
+                                        std::string* prompt = NULL) = 0;
 
  protected:
   Engine *engine_;

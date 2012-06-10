@@ -33,6 +33,8 @@ bool Context::Commit() {
 }
 
 const std::string Context::GetCommitText() const {
+  if (get_option("dumb"))
+    return std::string();
   return composition_->GetCommitText();
 }
 
@@ -41,13 +43,6 @@ const std::string Context::GetScriptText() const {
 }
 
 void Context::GetPreedit(Preedit *preedit) const {
-  if (!prompt_.empty()) {
-    preedit->text = prompt_;
-    preedit->caret_pos = prompt_.length();
-    preedit->sel_start = 0;
-    preedit->sel_end = prompt_.length();
-    return;
-  }
   composition_->GetPreedit(preedit);
   preedit->caret_pos = preedit->text.length();
   if (IsComposing()) {
@@ -81,25 +76,37 @@ bool Context::PushInput(char ch) {
   return true;
 }
 
-bool Context::PopInput() {
-  if (caret_pos_ == 0)
-    return false;
-  --caret_pos_;
-  input_.erase(caret_pos_, 1);
+bool Context::PushInput(const std::string& str) {
+  if (caret_pos_ >= input_.length()) {
+    input_ += str;
+    caret_pos_ = input_.length();
+  }
+  else {
+    input_.insert(caret_pos_, str);
+    caret_pos_ += str.length();
+  }
   update_notifier_(this);
   return true;
 }
 
-bool Context::DeleteInput() {
-  if (caret_pos_ >= input_.length())
+bool Context::PopInput(size_t len) {
+  if (caret_pos_ < len)
     return false;
-  input_.erase(caret_pos_, 1);
+  caret_pos_ -= len;
+  input_.erase(caret_pos_, len);
+  update_notifier_(this);
+  return true;
+}
+
+bool Context::DeleteInput(size_t len) {
+  if (caret_pos_ + len > input_.length())
+    return false;
+  input_.erase(caret_pos_, len);
   update_notifier_(this);
   return true;
 }
 
 void Context::Clear() {
-  prompt_.clear();
   input_.clear();
   caret_pos_ = 0;
   composition_->clear();
@@ -140,15 +147,21 @@ bool Context::ConfirmCurrentSelection() {
   if (composition_->empty())
     return false;
   Segment &seg(composition_->back());
+  seg.status = Segment::kSelected;
   shared_ptr<Candidate> cand(seg.GetSelectedCandidate());
   if (cand) {
-    seg.status = Segment::kSelected;
     EZDBGONLYLOGGERPRINT("Confirmed: '%s', selected_index = %d.",
                          cand->text().c_str(), seg.selected_index);
-    select_notifier_(this);
-    return true;
   }
-  return false;
+  else {
+    if (seg.end == seg.start) {
+      // fluency editor will confirm the whole sentence
+      return false;
+    }
+    // confirm raw input
+  }
+  select_notifier_(this);
+  return true;
 }
 
 bool Context::ConfirmPreviousSelection() {
