@@ -252,14 +252,14 @@ void RimeWithWeaselHandler::_UpdateUI(UINT session_id)
 		{
 			weasel::CandidateInfo &cinfo(weasel_context.cinfo);
 			cinfo.candies.resize(ctx.menu.num_candidates);
+			cinfo.comments.resize(ctx.menu.num_candidates);
 			for (int i = 0; i < ctx.menu.num_candidates; ++i)
 			{
-				std::string text(ctx.menu.candidates[i].text);
+				cinfo.candies[i].str = utf8towcs(ctx.menu.candidates[i].text);
 				if (ctx.menu.candidates[i].comment)
 				{
-					(text += "  ") += ctx.menu.candidates[i].comment;
+					cinfo.comments[i].str = utf8towcs(ctx.menu.candidates[i].comment);
 				}
-				cinfo.candies[i].str = utf8towcs(text.c_str());
 			}
 			cinfo.highlighted = ctx.menu.highlighted_candidate_index;
 			cinfo.currentPage = ctx.menu.page_no;
@@ -339,6 +339,15 @@ bool RimeWithWeaselHandler::_Respond(UINT session_id, LPWSTR buffer)
 	return true;
 }
 
+static inline COLORREF blend_colors(COLORREF fcolor, COLORREF bcolor)
+{
+	return RGB(
+		(GetRValue(fcolor) * 2 + GetRValue(bcolor)) / 3,
+		(GetGValue(fcolor) * 2 + GetGValue(bcolor)) / 3,
+		(GetBValue(fcolor) * 2 + GetBValue(bcolor)) / 3
+		);
+}
+
 void RimeWithWeaselHandler::_UpdateUIStyle()
 {
 	if (!m_ui) return;
@@ -399,6 +408,15 @@ void RimeWithWeaselHandler::_UpdateUIStyle()
 		{
 			style.hilited_candidate_back_color = style.hilited_back_color;
 		}
+		style.label_text_color = blend_colors(style.candidate_text_color, style.back_color);
+		style.hilited_label_text_color = blend_colors(style.hilited_candidate_text_color, style.hilited_candidate_back_color);
+		style.comment_text_color = style.label_text_color;
+		style.hilited_comment_text_color = style.hilited_label_text_color;
+		if (RimeConfigGetInt(&config, (prefix + "/comment_text_color").c_str(), &style.comment_text_color))
+		{
+			style.hilited_comment_text_color = style.comment_text_color;
+		}
+		RimeConfigGetInt(&config, (prefix + "/hilited_comment_text_color").c_str(), &style.hilited_comment_text_color);
 	}
 	RimeConfigClose(&config);
 }
