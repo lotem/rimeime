@@ -34,7 +34,6 @@ void Registry::Clear() {
     delete it->second;
     map_.erase(it++);
   }
-  assert(map_.empty());
 }
 
 ComponentBase* Registry::Find(const std::string &name) {

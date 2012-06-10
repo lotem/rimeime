@@ -78,7 +78,7 @@ Page* Menu::CreatePage(size_t page_size, size_t page_no) {
       return NULL;
     end_pos = (std::min)(start_pos + page_size, end_pos);
   }
-  Page *page = new Page;
+  Page* page = new Page;
   if (!page)
     return NULL;
   page->page_size = page_size;

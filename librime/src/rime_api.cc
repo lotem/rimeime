@@ -49,8 +49,8 @@ RIME_API Bool RimeStartMaintenance(Bool full_check) {
       EZLOGGERPRINT("changes detected; starting maintenance.");
     }
   }
-  rime::shared_ptr<rime::DeploymentTask> task(new rime::WorkspaceUpdate);
-  deployer.ScheduleTask(task);
+  deployer.ScheduleTask(boost::make_shared<rime::WorkspaceUpdate>());
+  deployer.ScheduleTask(boost::make_shared<rime::UserDictUpgration>());
   deployer.StartMaintenance();
   return True;
 }
@@ -94,7 +94,10 @@ RIME_API Bool RimeDeployWorkspace() {
   rime::Deployer &deployer(rime::Service::instance().deployer());
   rime::InstallationUpdate installation;
   rime::WorkspaceUpdate update;
-  return Bool(installation.Run(&deployer) && update.Run(&deployer));
+  rime::UserDictUpgration upgration;
+  return Bool(installation.Run(&deployer) &&
+              update.Run(&deployer) &&
+              upgration.Run(&deployer));
 }
 
 RIME_API Bool RimeDeploySchema(const char *schema_file) {
@@ -135,10 +138,24 @@ RIME_API void RimeCleanupAllSessions() {
 // input
 
 RIME_API Bool RimeProcessKey(RimeSessionId session_id, int keycode, int mask) {
-  rime::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
+  boost::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
   if (!session)
     return False;
   return Bool(session->ProcessKeyEvent(rime::KeyEvent(keycode, mask)));
+}
+
+RIME_API Bool RimeCommitComposition(RimeSessionId session_id) {
+  boost::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
+  if (!session)
+    return False;
+  return Bool(session->CommitComposition());
+}
+
+RIME_API void RimeClearComposition(RimeSessionId session_id) {
+  boost::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
+  if (!session)
+    return;
+  session->ClearComposition();
 }
 
 // output
@@ -147,8 +164,7 @@ RIME_API Bool RimeGetContext(RimeSessionId session_id, RimeContext* context) {
   if (!context || context->data_size <= 0)
     return False;
   std::memset((char*)context + sizeof(context->data_size), 0, context->data_size);
-  rime::shared_ptr<rime::Session> session(
-      rime::Service::instance().GetSession(session_id));
+  boost::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
   if (!session)
     return False;
   rime::Context *ctx = session->context();
@@ -163,6 +179,13 @@ RIME_API Bool RimeGetContext(RimeSessionId session_id, RimeContext* context) {
     context->composition.cursor_pos = preedit.caret_pos;
     context->composition.sel_start = preedit.sel_start;
     context->composition.sel_end = preedit.sel_end;
+    if (RIME_STRUCT_HAS_MEMBER(*context, context->commit_text_preview)) {
+      const std::string commit_text(ctx->GetCommitText());
+      if (!commit_text.empty()) {
+        context->commit_text_preview = new char[commit_text.length() + 1];
+        std::strcpy(context->commit_text_preview, commit_text.c_str());
+      }
+    }
   }
   if (ctx->HasMenu()) {
     rime::Segment &seg(ctx->composition()->back());
@@ -172,16 +195,14 @@ RIME_API Bool RimeGetContext(RimeSessionId session_id, RimeContext* context) {
       page_size = schema->page_size();
     int selected_index = seg.selected_index;
     int page_no = selected_index / page_size;
-    rime::scoped_ptr<rime::Page> page(
-        seg.menu->CreatePage(page_size, page_no));
+    boost::scoped_ptr<rime::Page> page(seg.menu->CreatePage(page_size, page_no));
     if (page) {
       context->menu.page_size = page_size;
       context->menu.page_no = page_no;
       context->menu.is_last_page = Bool(page->is_last_page);
       context->menu.highlighted_candidate_index = selected_index % page_size;
       int i = 0;
-      BOOST_FOREACH(const rime::shared_ptr<rime::Candidate> &cand,
-                    page->candidates) {
+      BOOST_FOREACH(const boost::shared_ptr<rime::Candidate> &cand, page->candidates) {
         RimeCandidate* dest = &context->menu.candidates[i];
         dest->text = new char[cand->text().length() + 1];
         std::strcpy(dest->text, cand->text().c_str());
@@ -194,7 +215,7 @@ RIME_API Bool RimeGetContext(RimeSessionId session_id, RimeContext* context) {
       }
       context->menu.num_candidates = i;
       if (schema) {
-        std::string select_keys(schema->alternative_select_keys());
+        const std::string& select_keys(schema->alternative_select_keys());
         if (!select_keys.empty()) {
           std::strncpy(context->menu.select_keys, select_keys.c_str(),
                        RIME_MAX_NUM_CANDIDATES);
@@ -213,6 +234,9 @@ RIME_API Bool RimeFreeContext(RimeContext* context) {
     delete[] context->menu.candidates[i].text;
     delete[] context->menu.candidates[i].comment;
   }
+  if (RIME_STRUCT_HAS_MEMBER(*context, context->commit_text_preview)) {
+    delete[] context->commit_text_preview;
+  }
   std::memset((char*)context + sizeof(context->data_size), 0, context->data_size);
   return True;
 }
@@ -221,7 +245,7 @@ RIME_API Bool RimeGetCommit(RimeSessionId session_id, RimeCommit* commit) {
   if (!commit)
     return False;
   std::memset(commit, 0, sizeof(RimeCommit));
-  rime::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
+  boost::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
   if (!session)
     return False;
   const std::string& commit_text(session->commit_text());
@@ -246,7 +270,7 @@ RIME_API Bool RimeGetStatus(RimeSessionId session_id, RimeStatus* status) {
   if (!status || status->data_size <= 0)
     return False;
   std::memset((char*)status + sizeof(status->data_size), 0, status->data_size);
-  rime::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
+  boost::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
   if (!session)
     return False;
   rime::Schema *schema = session->schema();
@@ -337,7 +361,7 @@ RIME_API Bool RimeConfigUpdateSignature(RimeConfig *config, const char* signer) 
 
 RIME_API Bool RimeSimulateKeySequence(RimeSessionId session_id, const char *key_sequence) {
     EZLOGGERVAR(key_sequence);
-    rime::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
+    boost::shared_ptr<rime::Session> session(rime::Service::instance().GetSession(session_id));
     if (!session)
       return False;
     rime::KeySequence keys;

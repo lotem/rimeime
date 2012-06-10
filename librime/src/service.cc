@@ -8,6 +8,7 @@
 // 2011-08-08 GONG Chen <chen.sst@gmail.com>
 //
 #include <boost/bind.hpp>
+#include <rime/context.h>
 #include <rime/engine.h>
 #include <rime/schema.h>
 #include <rime/service.h>
@@ -35,6 +36,19 @@ void Session::Activate() {
 
 void Session::ResetCommitText() {
   commit_text_.clear();
+}
+
+bool Session::CommitComposition() {
+  if (!engine_)
+    return false;
+  engine_->context()->Commit();
+  return !commit_text_.empty();
+}
+
+void Session::ClearComposition() {
+  if (!engine_)
+    return;
+  engine_->context()->Clear();
 }
 
 void Session::OnCommit(const std::string &commit_text) {
@@ -75,7 +89,7 @@ SessionId Service::CreateSession() {
   SessionId id = kInvalidSessionId;
   if (disabled()) return id;
   try {
-    shared_ptr<Session> session(new Session);
+    shared_ptr<Session> session = make_shared<Session>();
     session->Activate();
     id = reinterpret_cast<uintptr_t>(session.get());
     sessions_[id] = session;

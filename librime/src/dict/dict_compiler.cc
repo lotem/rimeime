@@ -24,6 +24,7 @@
 #pragma warning(default: 4351)
 #pragma warning(default: 4244)
 #endif
+#include <utf8.h>
 #include <yaml-cpp/yaml.h>
 #include <rime/service.h>
 #include <rime/algo/algebra.h>
@@ -56,25 +57,33 @@ class PresetVocabulary {
   // traversing
   void Reset();
   bool GetNextEntry(std::string *key, std::string *value);
+  bool IsQualifiedPhrase(const std::string& phrase,
+                         const std::string& weight_str);
+  
+  void set_max_phrase_length(int length) { max_phrase_length_ = length; }
+  void set_min_phrase_weight(double weight) { min_phrase_weight_ = weight; }
 
  protected:
-  PresetVocabulary(kyotocabinet::TreeDB *db) : db_(db), cursor_(db->cursor()) {}
+  PresetVocabulary(const shared_ptr<kyotocabinet::TreeDB>& db)
+      : db_(db), cursor_(db->cursor()),
+        max_phrase_length_(0), min_phrase_weight_(0.0) {}
   
-  scoped_ptr<kyotocabinet::TreeDB> db_;
-  kyotocabinet::DB::Cursor *cursor_;
+  shared_ptr<kyotocabinet::TreeDB> db_;
+  scoped_ptr<kyotocabinet::DB::Cursor> cursor_;
+  int max_phrase_length_;
+  double min_phrase_weight_;
 };
 
 PresetVocabulary* PresetVocabulary::Create() {
   boost::filesystem::path path(Service::instance().deployer().shared_data_dir);
   path /= "essay.kct";
-  kyotocabinet::TreeDB *db = new kyotocabinet::TreeDB;
+  shared_ptr<kyotocabinet::TreeDB> db(new kyotocabinet::TreeDB);
   if (!db) return NULL;
   //db->tune_options(kyotocabinet::TreeDB::TLINEAR | kyotocabinet::TreeDB::TCOMPRESS);
   //db->tune_buckets(30LL * 1000);
   db->tune_defrag(8);
   db->tune_page(32768);
   if (!db->open(path.string(), kyotocabinet::TreeDB::OREADER)) {
-    delete db;
     return NULL;
   }
   return new PresetVocabulary(db);
@@ -100,7 +109,28 @@ void PresetVocabulary::Reset() {
 
 bool PresetVocabulary::GetNextEntry(std::string *key, std::string *value) {
   if (!cursor_) return false;
-  return cursor_->get(key, value, true);    
+  bool got = false;
+  do {
+    got = cursor_->get(key, value, true);
+  }
+  while (got && !IsQualifiedPhrase(*key, *value));
+  return got;
+}
+
+bool PresetVocabulary::IsQualifiedPhrase(const std::string& phrase,
+                                         const std::string& weight_str) {
+  if (max_phrase_length_ > 0) {
+    size_t length = utf8::unchecked::distance(phrase.c_str(),
+                                              phrase.c_str() + phrase.length());
+    if (static_cast<int>(length) > max_phrase_length_)
+      return false;
+  }
+  if (min_phrase_weight_ > 0.0) {
+    double weight = boost::lexical_cast<double>(weight_str);
+    if (weight < min_phrase_weight_)
+      return false;
+  }
+  return true;
 }
 
 // EntryCollector
@@ -166,8 +196,7 @@ void EntryCollector::Collect(const std::string &dict_file) {
   dictionary::RawCode code;
   while (!encode_queue.empty()) {
     const std::string &phrase(encode_queue.front().first);
-    std::string weight_str(
-        boost::lexical_cast<std::string>(encode_queue.front().second));
+    const std::string &weight_str(encode_queue.front().second);
     code.clear();
     if (!Encode(phrase, weight_str, 0, &code)) {
       EZLOGGERPRINT("Encode failure: '%s'.", phrase.c_str());
@@ -336,11 +365,15 @@ bool DictCompiler::BuildTable(const std::string &dict_file, uint32_t checksum) {
   std::string dict_version;
   std::string sort_order;
   bool use_preset_vocabulary = false;
+  int max_phrase_length = 0;
+  double min_phrase_weight = 0;
   {
     const YAML::Node *name_node = doc.FindValue("name");
     const YAML::Node *version_node = doc.FindValue("version");
     const YAML::Node *sort_order_node = doc.FindValue("sort");
     const YAML::Node *use_preset_vocabulary_node = doc.FindValue("use_preset_vocabulary");
+    const YAML::Node *max_phrase_length_node = doc.FindValue("max_phrase_length");
+    const YAML::Node *min_phrase_weight_node = doc.FindValue("min_phrase_weight");
     if (!name_node || !version_node) {
       EZLOGGERPRINT("Error: incomplete dict info in '%s'.", dict_file.c_str());
       return false;
@@ -352,6 +385,10 @@ bool DictCompiler::BuildTable(const std::string &dict_file, uint32_t checksum) {
     }
     if (use_preset_vocabulary_node) {
       *use_preset_vocabulary_node >> use_preset_vocabulary;
+      if (max_phrase_length_node)
+        *max_phrase_length_node >> max_phrase_length;
+      if (min_phrase_weight_node)
+        *min_phrase_weight_node >> min_phrase_weight;
     }
   }
   EZLOGGERVAR(dict_name);
@@ -361,6 +398,10 @@ bool DictCompiler::BuildTable(const std::string &dict_file, uint32_t checksum) {
   collector.num_entries = 0;
   if (use_preset_vocabulary) {
     collector.preset_vocabulary.reset(PresetVocabulary::Create());
+    if (max_phrase_length > 0)
+      collector.preset_vocabulary->set_max_phrase_length(max_phrase_length);
+    if (min_phrase_weight > 0)
+      collector.preset_vocabulary->set_min_phrase_weight(min_phrase_weight);
   }
   collector.Collect(dict_file);
   // build table
@@ -381,7 +422,7 @@ bool DictCompiler::BuildTable(const std::string &dict_file, uint32_t checksum) {
         EZLOGGERPRINT("Error locating entries in vocabulary.");
         continue;
       }
-      shared_ptr<DictEntry> e(new DictEntry);
+      shared_ptr<DictEntry> e = make_shared<DictEntry>();
       e->code.swap(code);
       e->text.swap(r.text);
       e->weight = r.weight;

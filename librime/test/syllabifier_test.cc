@@ -35,20 +35,18 @@ class RimeSyllabifierTest : public ::testing::Test {
       syllable_id_[syllables[i]] = i;
     }
 
-    prism_ = new rime::Prism("syllabifier_test.bin");
+    prism_.reset(new rime::Prism("syllabifier_test.bin"));
     std::set<std::string> keyset;
     std::copy(syllables.begin(), syllables.end(), std::inserter(keyset, keyset.begin()));
     prism_->Build(keyset);
   }
 
   virtual void TearDown() {
-    if (prism_)
-      delete prism_;
   }
 
  protected:
   std::map<std::string, int> syllable_id_;
-  rime::Prism *prism_;
+  boost::scoped_ptr<rime::Prism> prism_;
 };
 
 TEST_F(RimeSyllabifierTest, CaseAlpha) {
@@ -151,4 +149,18 @@ TEST_F(RimeSyllabifierTest, CaseChainingAmbiguity) {
   EXPECT_EQ(input.length(), g.input_length);
   EXPECT_EQ(input.length(), g.interpreted_length);
   EXPECT_EQ(input.length() + 1, g.vertices.size());
+}
+
+TEST_F(RimeSyllabifierTest, TransposedSyllableGraph) {
+  rime::Syllabifier s;
+  rime::SyllableGraph g;
+  const std::string input("changan");
+  s.BuildSyllableGraph(input, *prism_, &g);
+  ASSERT_FALSE(g.indices.end() == g.indices.find(0));
+  EXPECT_EQ(2, g.indices[0].size());
+  EXPECT_FALSE(g.indices[0].end() == g.indices[0].find(syllable_id_["chan"]));
+  EXPECT_FALSE(g.indices[0].end() == g.indices[0].find(syllable_id_["chang"]));
+  ASSERT_EQ(1, g.indices[0][syllable_id_["chan"]].size());
+  ASSERT_FALSE(NULL == g.indices[0][syllable_id_["chan"]][0]);
+  EXPECT_EQ(4, g.indices[0][syllable_id_["chan"]][0]->end_pos);
 }

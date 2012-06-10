@@ -31,8 +31,9 @@ class R10nTranslator : public Translator {
   R10nTranslator(Engine *engine);
   virtual ~R10nTranslator();
 
-  virtual Translation* Query(const std::string &input,
-                             const Segment &segment);
+  virtual shared_ptr<Translation> Query(const std::string &input,
+                                        const Segment &segment,
+                                        std::string* prompt);
   const std::string FormatPreedit(const std::string &preedit);
   const std::string Spell(const Code &code);
 

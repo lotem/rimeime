@@ -79,7 +79,7 @@ class MappedFileImpl {
 MappedFile::MappedFile(const std::string &file_name)
     : file_name_(file_name),
       size_(0),
-      file_(NULL) {
+      file_() {
 }
 
 MappedFile::~MappedFile() {

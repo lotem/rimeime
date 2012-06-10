@@ -22,8 +22,9 @@ class TrivialTranslator : public Translator {
   TrivialTranslator(Engine *engine);
   virtual ~TrivialTranslator() {}
 
-  virtual Translation* Query(const std::string &input,
-                             const Segment &segment);
+  virtual shared_ptr<Translation> Query(const std::string &input,
+                                        const Segment &segment,
+                                        std::string* prompt);
 
  private:
   const std::string Translate(const std::string &input);

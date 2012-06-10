@@ -37,7 +37,7 @@ TEST(DISABLED_TrivialTranslatorTest, Query) {
   segment.start = 0;
   segment.end = test_input.length();
   segment.tags.insert("abc");
-  scoped_ptr<Translation> translation(translator->Query(test_input, segment));
+  shared_ptr<Translation> translation(translator->Query(test_input, segment));
   ASSERT_TRUE(translation);
   ASSERT_FALSE(translation->exhausted());
   shared_ptr<Candidate> candidate = translation->Peek();

@@ -30,10 +30,7 @@ TreeDbAccessor::TreeDbAccessor(kyotocabinet::DB::Cursor *cursor,
 }
 
 TreeDbAccessor::~TreeDbAccessor() {
-  if (cursor_) {
-    delete cursor_;
-    cursor_ = NULL;
-  }
+  cursor_.reset();
 }
 
 bool TreeDbAccessor::Reset() {
@@ -79,11 +76,11 @@ TreeDb::~TreeDb() {
     Close();
 }
 
-const TreeDbAccessor TreeDb::Query(const std::string &key) {
+const shared_ptr<TreeDbAccessor> TreeDb::Query(const std::string &key) {
   if (!loaded())
-    return TreeDbAccessor();
-  kyotocabinet::DB::Cursor *cursor = db_->cursor();
-  return TreeDbAccessor(cursor, key);
+    return shared_ptr<TreeDbAccessor>();
+  kyotocabinet::DB::Cursor *cursor = db_->cursor();  // should be freed by us
+  return boost::make_shared<TreeDbAccessor>(cursor, key);
 }
 
 bool TreeDb::Fetch(const std::string &key, std::string *value) {
@@ -105,12 +102,31 @@ bool TreeDb::Erase(const std::string &key) {
 
 bool TreeDb::Backup() {
   if (!loaded()) return false;
-  EZLOGGERPRINT("backup db '%s'.", name_.c_str());
+  EZLOGGERPRINT("backing up db '%s'.", name_.c_str());
   bool success = db_->dump_snapshot(file_name() + ".snapshot");
   if (!success) {
     EZLOGGERPRINT("Error: failed to backup db '%s'.", name_.c_str());
   }
   return success;
+}
+
+bool TreeDb::RecoverFromSnapshot() {
+  std::string snapshot_file(file_name() + ".snapshot");
+  if (!boost::filesystem::exists(snapshot_file))
+    return false;
+  EZLOGGERPRINT("snapshot file exists, trying to recover db '%s'.", name_.c_str());
+  if (loaded()) {
+    Close();
+  }
+  if (Exists()) {
+    boost::system::error_code ec;
+    boost::filesystem::rename(file_name(), file_name() + ".old", ec);
+    if (ec && !Remove()) {
+      EZLOGGERPRINT("Error removing db file '%s'.", file_name().c_str());
+      return false;
+    }
+  }
+  return Open() && Restore(snapshot_file);
 }
 
 bool TreeDb::Restore(const std::string& snapshot_file) {
@@ -146,6 +162,9 @@ bool TreeDb::Open() {
   }
   else {
     EZLOGGERPRINT("Error opening db '%s'.", name_.c_str());
+    if (RecoverFromSnapshot()) {
+      EZLOGGERPRINT("successfully recovered db '%s' from snapshot.", name_.c_str());
+    }
   }
   return loaded_;
 }

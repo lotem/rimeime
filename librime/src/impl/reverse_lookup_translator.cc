@@ -55,13 +55,13 @@ shared_ptr<Candidate> ReverseLookupTranslation::Peek() {
       boost::algorithm::replace_all(tips, " ", separator);
     }
   }
-  shared_ptr<Candidate> cand(new SimpleCandidate(
+  shared_ptr<Candidate> cand = boost::make_shared<SimpleCandidate>(
       "reverse_lookup",
       start_,
       end_,
       e->text,
       !tips.empty() ? (quote_left + tips + quote_right) : e->comment,
-      preedit_));
+      preedit_);
   return cand;
 }
 
@@ -96,22 +96,26 @@ void ReverseLookupTranslator::Initialize() {
     rev_dict_->Load();
 }
 
-Translation* ReverseLookupTranslator::Query(const std::string &input,
-                                            const Segment &segment) {
+shared_ptr<Translation> ReverseLookupTranslator::Query(const std::string &input,
+                                                       const Segment &segment,
+                                                       std::string* prompt) {
   if (!segment.HasTag("reverse_lookup"))
-    return NULL;
+    return shared_ptr<Translation>();
   if (!initialized_) Initialize();  // load reverse dict at first use
   if (!dict_ || !dict_->loaded())
-    return NULL;
+    return shared_ptr<Translation>();
   EZDBGONLYLOGGERPRINT("input = '%s', [%d, %d)",
                        input.c_str(), segment.start, segment.end);
 
+  if (prompt) {
+    *prompt = tips_;
+  }
+  
   size_t start = 0;
   if (boost::starts_with(input, prefix_))
     start = prefix_.length();
   std::string code(input.substr(start));
   
-  Translation *translation = NULL;
   DictEntryIterator iter;
   if (start < input.length()) {
     if (enable_completion_) {
@@ -136,21 +140,15 @@ Translation* ReverseLookupTranslator::Query(const std::string &input,
   if (!iter.exhausted()) {
     std::string preedit(input);
     preedit_formatter_.Apply(&preedit);
-    translation = new ReverseLookupTranslation(iter,
-                                               code,
-                                               segment.start,
-                                               segment.end,
-                                               preedit,
-                                               &comment_formatter_,
-                                               rev_dict_.get());
+    return boost::make_shared<ReverseLookupTranslation>(iter,
+                                                        code,
+                                                        segment.start,
+                                                        segment.end,
+                                                        preedit,
+                                                        &comment_formatter_,
+                                                        rev_dict_.get());
   }
-  else {
-    shared_ptr<Candidate> cand(new SimpleCandidate("raw",
-                                                   segment.start, segment.end,
-                                                   input, tips_));
-    return new UniqueTranslation(cand);
-  }
-  return translation;
+  return shared_ptr<Translation>();
 }
 
 }  // namespace rime

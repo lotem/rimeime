@@ -43,7 +43,8 @@ typedef int Bool;
 
 #define RIME_MAX_NUM_CANDIDATES 10
 
-#define RIME_STRUCT_INIT(Type, var) ((var).data_size = sizeof(Type) - sizeof(int))
+#define RIME_STRUCT_INIT(Type, var) ((var).data_size = sizeof(Type) - sizeof((var).data_size))
+#define RIME_STRUCT_HAS_MEMBER(var, member) (sizeof((var).data_size) + (var).data_size > (char*)&member - (char*)&var)
 
 typedef struct {
   const char* shared_data_dir;
@@ -84,8 +85,12 @@ typedef struct {
 // should be initialized by calling RIME_STRUCT_INIT(Type, var);
 typedef struct {
   int data_size;
+  // v0.9.1
   RimeComposition composition;
   RimeMenu menu;
+  // since v0.9.2
+  char* commit_text_preview;
+  // future technology...
 } RimeContext;
 
 // should be initialized by calling RIME_STRUCT_INIT(Type, var);
@@ -98,6 +103,7 @@ typedef struct {
   Bool is_ascii_mode;
   Bool is_full_shape;
   Bool is_simplified;
+  // ...
 } RimeStatus;
 
 typedef struct {
@@ -133,6 +139,9 @@ RIME_API void RimeCleanupAllSessions();
 // input
 
 RIME_API Bool RimeProcessKey(RimeSessionId session_id, int keycode, int mask);
+// return True if there is unread commit text
+RIME_API Bool RimeCommitComposition(RimeSessionId session_id);
+RIME_API void RimeClearComposition(RimeSessionId session_id);
 
 // output
   

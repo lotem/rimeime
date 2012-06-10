@@ -20,9 +20,9 @@
 #include <rime/switcher.h>
 #include <rime/translation.h>
 
-namespace rime {
+static const char* kRightArrow = " \xe2\x86\x92 ";
 
-static const char *kRightArrow = " \xe2\x86\x92 ";
+namespace rime {
 
 class SwitcherOption : public Candidate {
  public:
@@ -79,6 +79,8 @@ Switcher::Switcher() : Engine(new Schema),
                        target_engine_(NULL),
                        active_(false) {
   EZDBGONLYLOGGERFUNCTRACKER;
+  context_->set_option("dumb", true);  // not going to commit anything
+  
   // receive context notifications
   context_->select_notifier().connect(
       boost::bind(&Switcher::OnSelect, this, _1));
@@ -209,13 +211,12 @@ void Switcher::Activate() {
   ConfigListPtr schema_list = config->GetList("schema_list");
   if (!schema_list) return;
 
-  shared_ptr<FifoTranslation> switcher_options(new FifoTranslation);
+  shared_ptr<FifoTranslation> switcher_options = make_shared<FifoTranslation>();
   Schema *current_schema = NULL;
   // current schema comes first
   if (target_engine_ && target_engine_->schema()) {
     current_schema = target_engine_->schema();
-    switcher_options->Append(
-        shared_ptr<Candidate>(new SwitcherOption(current_schema)));
+    switcher_options->Append(make_shared<SwitcherOption>(current_schema));
     // add custom switches
     Config *custom = current_schema->config();
     if (custom) {
@@ -232,11 +233,12 @@ void Switcher::Activate() {
           bool current_state = context->get_option(name_property->str());
           bool auto_save = (save_options_.find(name_property->str()) != save_options_.end());
           switcher_options->Append(
-              shared_ptr<Candidate>(new SwitcherOption(states->GetValueAt(current_state)->str(),
-                                                       states->GetValueAt(1 - current_state)->str(),
-                                                       name_property->str(),
-                                                       current_state,
-                                                       auto_save)));
+              boost::make_shared<SwitcherOption>(
+                  states->GetValueAt(current_state)->str(),
+                  states->GetValueAt(1 - current_state)->str(),
+                  name_property->str(),
+                  current_state,
+                  auto_save));
         }
       }
     }
@@ -251,18 +253,18 @@ void Switcher::Activate() {
     if (current_schema && schema_id == current_schema->schema_id())
       continue;
     scoped_ptr<Schema> schema(new Schema(schema_id));
-    switcher_options->Append(
-        shared_ptr<Candidate>(new SwitcherOption(schema.get())));
+    // the switcher option doesn't own the schema object
+    switcher_options->Append(make_shared<SwitcherOption>(schema.get()));
   }
   // assign menu to switcher's context
   Composition *comp = context_->composition();
   if (comp->empty()) {
-    context_->set_prompt(caption_);
     context_->set_input(" ");
     Segment seg(0, 0);
+    seg.prompt = caption_;
     comp->AddSegment(seg);
   }
-  shared_ptr<Menu> menu(new Menu);
+  shared_ptr<Menu> menu = make_shared<Menu>();
   comp->back().menu = menu;
   menu->AddTranslation(switcher_options);
   // activated!

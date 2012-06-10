@@ -45,19 +45,17 @@ size_t match_extra_code(const table::Code *extra_code, size_t depth,
     return current_pos;  // success
   if (current_pos >= syll_graph.interpreted_length)
     return 0;  // failure (possibly success for completion in the future)
-  EdgeMap::const_iterator edges = syll_graph.edges.find(current_pos);
-  if (edges == syll_graph.edges.end()) {
+  SpellingIndices::const_iterator index = syll_graph.indices.find(current_pos);
+  if (index == syll_graph.indices.end())
     return 0;
-  }
   table::SyllableId current_syll_id = extra_code->at[depth];
+  SpellingIndex::const_iterator spellings = index->second.find(current_syll_id);
+  if (spellings == index->second.end())
+    return 0;
   size_t best_match = 0;
-  BOOST_FOREACH(const EndVertexMap::value_type &edge, edges->second) {
-    size_t end_vertex_pos = edge.first;
-    const SpellingMap &spellings(edge.second);
-    if (spellings.find(current_syll_id) == spellings.end())
-      continue;
+  BOOST_FOREACH(const SpellingProperties* props, spellings->second) {
     size_t match_end_pos = match_extra_code(extra_code, depth + 1,
-                                            syll_graph, end_vertex_pos);
+                                            syll_graph, props->end_pos);
     if (!match_end_pos) continue;
     if (match_end_pos > best_match) best_match = match_end_pos;
   }
@@ -102,7 +100,7 @@ shared_ptr<DictEntry> DictEntryIterator::Peek() {
   }
   if (!entry_) {
     const dictionary::Chunk &chunk(front());
-    entry_.reset(new DictEntry);
+    entry_ = make_shared<DictEntry>();
     const table::Entry &e(chunk.entries[chunk.cursor]);
     EZDBGONLYLOGGERPRINT("Creating temporary dict entry '%s'.", e.text.c_str());
     entry_->code = chunk.code;
@@ -168,7 +166,7 @@ shared_ptr<DictEntryCollector> Dictionary::Lookup(const SyllableGraph &syllable_
   if (!table_->Query(syllable_graph, start_pos, &result)) {
     return shared_ptr<DictEntryCollector>();
   }
-  shared_ptr<DictEntryCollector> collector(new DictEntryCollector);
+  shared_ptr<DictEntryCollector> collector = make_shared<DictEntryCollector>();
   // copy result
   BOOST_FOREACH(TableQueryResult::value_type &v, result) {
     size_t end_pos = v.first;
@@ -312,12 +310,12 @@ Dictionary* DictionaryComponent::CreateDictionaryWithName(
   boost::filesystem::path path(Service::instance().deployer().user_data_dir);
   shared_ptr<Table> table(table_map_[dict_name].lock());
   if (!table) {
-    table.reset(new Table((path / dict_name).string() + ".table.bin"));
+    table = boost::make_shared<Table>((path / dict_name).string() + ".table.bin");
     table_map_[dict_name] = table;
   }
   shared_ptr<Prism> prism(prism_map_[prism_name].lock());
   if (!prism) {
-    prism.reset(new Prism((path / prism_name).string() + ".prism.bin"));
+    prism = boost::make_shared<Prism>((path / prism_name).string() + ".prism.bin");
     prism_map_[prism_name] = prism;
   }
   return new Dictionary(dict_name, table, prism);

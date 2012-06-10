@@ -141,7 +141,7 @@ bool Punctuator::PairPunct(const ConfigItemPtr &definition) {
   Segment &segment(comp->back());
   if (segment.status > Segment::kVoid && segment.HasTag("punct")) {
     if (!segment.menu || segment.menu->Prepare(2) < 2) {
-      EZLOGGERPRINT("Error: missing candidate for pared punctuation.");
+      EZLOGGERPRINT("Error: missing candidate for paired punctuation.");
       return false;
     }
     EZLOGGERPRINT("Info: alternating paired punctuation.");
@@ -189,42 +189,52 @@ PunctTranslator::PunctTranslator(Engine *engine) : Translator(engine) {
 shared_ptr<Candidate> CreatePunctCandidate(const std::string &punct, const Segment &segment) {
   bool is_ascii = (punct.length() == 1 && punct[0] >= 0x20 && punct[0] <= 0x7f);
   const char half_shape[] = "\xe3\x80\x94\xe5\x8d\x8a\xe8\xa7\x92\xe3\x80\x95";  // 〔半角〕
-  return shared_ptr<Candidate>(new SimpleCandidate(
-      "punct", segment.start, segment.end, punct, (is_ascii ? half_shape : ""), punct));
+  return boost::make_shared<SimpleCandidate>("punct",
+                                             segment.start,
+                                             segment.end,
+                                             punct,
+                                             (is_ascii ? half_shape : ""),
+                                             punct);
 }
 
-Translation* PunctTranslator::Query(const std::string &input, const Segment &segment) {
+shared_ptr<Translation> PunctTranslator::Query(const std::string &input,
+                                               const Segment &segment,
+                                               std::string* prompt) {
   if (!segment.HasTag("punct"))
-    return NULL;
+    return shared_ptr<Translation>();
   config_.LoadConfig(engine_);
   ConfigItemPtr definition(config_.GetPunctDefinition(input));
   if (!definition)
-    return NULL;
+    return shared_ptr<Translation>();
   EZLOGGERPRINT("Info: populating punctuation candidates for '%s'.", input.c_str());
-  Translation *translation = TranslateUniquePunct(input, segment, As<ConfigValue>(definition));
+  shared_ptr<Translation> translation = TranslateUniquePunct(input, segment, As<ConfigValue>(definition));
   if (!translation)
     translation = TranslateAlternatingPunct(input, segment, As<ConfigList>(definition));
   if (!translation)
     translation = TranslateAutoCommitPunct(input, segment, As<ConfigMap>(definition));
   if (!translation)
     translation = TranslatePairedPunct(input, segment, As<ConfigMap>(definition));
+  //if (prompt && translation) {
+  //  const char tips[] = "\xe3\x80\x94\xe7\xac\xa6\xe8\x99\x9f\xe3\x80\x95";  // 〔符號〕
+  //  *prompt = tips;
+  //}
   return translation;
 }
 
-Translation* PunctTranslator::TranslateUniquePunct(const std::string &key,
-                                                   const Segment &segment,
-                                                   const ConfigValuePtr &definition) {
+shared_ptr<Translation> PunctTranslator::TranslateUniquePunct(const std::string &key,
+                                                              const Segment &segment,
+                                                              const ConfigValuePtr &definition) {
   if (!definition)
-    return NULL;
-  return new UniqueTranslation(CreatePunctCandidate(definition->str(), segment));
+    return shared_ptr<Translation>();
+  return make_shared<UniqueTranslation>(CreatePunctCandidate(definition->str(), segment));
 }
 
-Translation* PunctTranslator::TranslateAlternatingPunct(const std::string &key,
-                                                        const Segment &segment,
-                                                        const ConfigListPtr &definition) {
+shared_ptr<Translation> PunctTranslator::TranslateAlternatingPunct(const std::string &key,
+                                                                   const Segment &segment,
+                                                                   const ConfigListPtr &definition) {
   if (!definition)
-    return NULL;
-  FifoTranslation *translation = new FifoTranslation;
+    return shared_ptr<Translation>();
+  shared_ptr<FifoTranslation> translation(new FifoTranslation);
   for (size_t i = 0; i < definition->size(); ++i) {
     ConfigValuePtr value = definition->GetValueAt(i);
     if (!value) {
@@ -235,36 +245,35 @@ Translation* PunctTranslator::TranslateAlternatingPunct(const std::string &key,
   }
   if (!translation->size()) {
     EZLOGGERPRINT("Warning: empty candidate list for alternating punct '%s'.", key.c_str());
-    delete translation;
-    return NULL;
+    translation.reset();
   }
   return translation;
 }
 
-Translation* PunctTranslator::TranslateAutoCommitPunct(const std::string &key,
-                                                       const Segment &segment,
-                                                       const ConfigMapPtr &definition) {
+shared_ptr<Translation> PunctTranslator::TranslateAutoCommitPunct(const std::string &key,
+                                                                  const Segment &segment,
+                                                                  const ConfigMapPtr &definition) {
   if (!definition || !definition->HasKey("commit"))
-    return NULL;
+    return shared_ptr<Translation>();
   ConfigValuePtr value = definition->GetValue("commit");
   if (!value) {
     EZLOGGERPRINT("Warning: unrecognized punct definition for '%s'.", key.c_str());
-    return NULL;
+    return shared_ptr<Translation>();
   }
-  return new UniqueTranslation(CreatePunctCandidate(value->str(), segment));
+  return make_shared<UniqueTranslation>(CreatePunctCandidate(value->str(), segment));
 }
 
-Translation* PunctTranslator::TranslatePairedPunct(const std::string &key,
-                                                   const Segment &segment,
-                                                   const ConfigMapPtr &definition) {
+shared_ptr<Translation> PunctTranslator::TranslatePairedPunct(const std::string &key,
+                                                              const Segment &segment,
+                                                              const ConfigMapPtr &definition) {
   if (!definition || !definition->HasKey("pair"))
-    return NULL;
+    return shared_ptr<Translation>();
   ConfigListPtr list = As<ConfigList>(definition->Get("pair"));
   if (!list || list->size() != 2) {
     EZLOGGERPRINT("Warning: unrecognized pair definition for '%s'.", key.c_str());
-    return NULL;
+    return shared_ptr<Translation>();
   }
-  FifoTranslation *translation = new FifoTranslation;
+  shared_ptr<FifoTranslation> translation(new FifoTranslation);
   for (size_t i = 0; i < list->size(); ++i) {
     ConfigValuePtr value = list->GetValueAt(i);
     if (!value) {
@@ -275,8 +284,7 @@ Translation* PunctTranslator::TranslatePairedPunct(const std::string &key,
   }
   if (translation->size() != 2) {
     EZLOGGERPRINT("Warning: invalid num of candidate for paired punct '%s'.", key.c_str());
-    delete translation;
-    return NULL;
+    translation.reset();
   }
   return translation;
 }
