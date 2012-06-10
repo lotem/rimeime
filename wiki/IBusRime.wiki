@@ -64,7 +64,7 @@ tar xzf yaml-cpp-0.3.0.tar.gz
 cd yaml-cpp
 mkdir build
 cd build
-cmake ..
+cmake -DBUILD_SHARED_LIBS=ON ..
 make
 sudo make install
 
