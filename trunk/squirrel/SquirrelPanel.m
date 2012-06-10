@@ -8,8 +8,6 @@
 
 #import "SquirrelPanel.h"
 
-static const int kBorderHeight = 10;
-static const int kBorderWidth = 10;
 static const int kOffsetHeight = 5;
 static const int kFontSize = 24;
 static const double kAlpha = 1.0;
@@ -19,6 +17,11 @@ static const double kAlpha = 1.0;
   NSAttributedString* _content;
 }
 
+@property (nonatomic, retain) NSColor *backgroundColor;
+@property (nonatomic, assign) double cornerRadius;
+@property (nonatomic, assign) double borderHeight;
+@property (nonatomic, assign) double borderWidth;
+
 -(NSSize)contentSize;
 -(void)setContent:(NSAttributedString*)content;
 
@@ -26,6 +29,21 @@ static const double kAlpha = 1.0;
 
 
 @implementation SquirrelView
+
+@synthesize backgroundColor = _backgroundColor;
+@synthesize cornerRadius = _cornerRadius;
+@synthesize borderHeight = _borderHeight;
+@synthesize borderWidth = _borderWidth;
+
+-(double)borderHeight
+{
+  return MAX(_borderHeight, _cornerRadius);
+}
+
+-(double)borderWidth
+{
+  return MAX(_borderWidth, _cornerRadius);
+}
 
 -(NSSize)contentSize
 {
@@ -43,12 +61,23 @@ static const double kAlpha = 1.0;
 
 -(void)drawRect:(NSRect)rect
 {
-  if (!_content) return;
-  [[NSColor windowBackgroundColor] set];
-  NSRectFill([self bounds]);
+  if (!_content) {
+    return;
+  }
+
+  if (_backgroundColor != nil) {
+    [_backgroundColor set]; 
+  } else {
+    [[NSColor windowBackgroundColor] set];
+  }
+
+  NSBezierPath * path;
+  path = [NSBezierPath bezierPathWithRoundedRect:rect xRadius:_cornerRadius yRadius:_cornerRadius];
+  [path fill];
+
   NSPoint point = rect.origin;
-  point.x += kBorderWidth;
-  point.y += kBorderHeight;
+  point.x += [self borderWidth];
+  point.y += [self borderHeight];
   [_content drawAtPoint:point];
 }
 
@@ -69,6 +98,7 @@ static const double kAlpha = 1.0;
   [_window setLevel:NSScreenSaverWindowLevel + 1];
   [_window setHasShadow:YES];    
   [_window setOpaque:NO];
+  [_window setBackgroundColor:[NSColor clearColor]];
   _view = [[SquirrelView alloc] initWithFrame:[[_window contentView] frame]];
   [_window setContentView:_view];
   
@@ -85,7 +115,7 @@ static const double kAlpha = 1.0;
   [_commentAttrs setObject:[NSColor disabledControlTextColor] forKey:NSForegroundColorAttributeName];
   [_commentAttrs setObject:[NSFont userFontOfSize:kFontSize] forKey:NSFontAttributeName];
   
-  _horizontal = FALSE;
+  _horizontal = NO;
   return self;
 }
 
@@ -94,8 +124,8 @@ static const double kAlpha = 1.0;
   NSRect window_rect = [_window frame];
   // resize frame
   NSSize content_size = [(SquirrelView*)_view contentSize];
-  window_rect.size.height = content_size.height + kBorderHeight * 2;
-  window_rect.size.width = content_size.width + kBorderWidth * 2;
+  window_rect.size.height = content_size.height + [(SquirrelView*)_view borderHeight] * 2;
+  window_rect.size.width = content_size.width + [(SquirrelView*)_view borderWidth] * 2;
   // reposition window
   window_rect.origin.x = NSMinX(_position);
   window_rect.origin.y = NSMinY(_position) - kOffsetHeight - NSHeight(window_rect);
@@ -177,22 +207,90 @@ static const double kAlpha = 1.0;
   [self show];
 }
 
+-(NSColor *)colorFromString:(NSString *)string
+{
+  if (string == nil) {
+    return nil;
+  }
+  
+  int r = 0, g = 0, b =0, a = 0xff;
+  if ([string length] == 10) {
+    // 0xffccbbaa
+    sscanf([string UTF8String], "0x%02x%02x%02x%02x", &a, &b, &g, &r);
+  }
+  else if ([string length] == 8) {
+    // 0xccbbaa
+    sscanf([string UTF8String], "0x%02x%02x%02x", &b, &g, &r);
+  }
+  
+  return [NSColor colorWithDeviceRed:(CGFloat)r / 255. green:(CGFloat)g / 255. blue:(CGFloat)b / 255. alpha:(CGFloat)a / 255.];
+}
+
 -(void)updateUIStyle:(SquirrelUIStyle *)style
 {
   _horizontal = style->horizontal;
+  
   if (style->fontSize == 0) {  // default size
     style->fontSize = kFontSize;
   }
+  
+  NSFont* font = nil;
   if (style->fontName != nil) {
-    [_attrs setObject:[NSFont fontWithName:style->fontName size:style->fontSize] forKey:NSFontAttributeName];
-    [_highlightedAttrs setObject:[NSFont fontWithName:style->fontName size:style->fontSize] forKey:NSFontAttributeName];
-    [_commentAttrs setObject:[NSFont fontWithName:style->fontName size:style->fontSize] forKey:NSFontAttributeName];
+    font = [NSFont fontWithName:style->fontName size:style->fontSize];
   }
-  else {  // default font
-    [_attrs setObject:[NSFont userFontOfSize:style->fontSize] forKey:NSFontAttributeName];
-    [_highlightedAttrs setObject:[NSFont userFontOfSize:style->fontSize] forKey:NSFontAttributeName];
-    [_commentAttrs setObject:[NSFont userFontOfSize:style->fontSize] forKey:NSFontAttributeName];
+  if (font == nil) {
+    // use default font
+    font = [NSFont userFontOfSize:style->fontSize];
   }
+  [_attrs setObject:font forKey:NSFontAttributeName];
+  [_highlightedAttrs setObject:font forKey:NSFontAttributeName];
+  [_commentAttrs setObject:font forKey:NSFontAttributeName];
+  
+  if (style->backgroundColor != nil) {
+    NSColor *color = [self colorFromString:style->backgroundColor];
+    [(SquirrelView *) _view setBackgroundColor:(color)];
+  }
+  else {
+    // default color
+    [(SquirrelView *) _view setBackgroundColor:nil];
+  }
+  
+  if (style->candidateTextColor != nil) {
+    NSColor *color = [self colorFromString:style->candidateTextColor];
+    [_attrs setObject:color forKey:NSForegroundColorAttributeName];
+  }
+  else {
+    [_attrs setObject:[NSColor controlTextColor] forKey:NSForegroundColorAttributeName];
+  }
+
+  if (style->highlightedCandidateTextColor != nil) {
+    NSColor *color = [self colorFromString:style->highlightedCandidateTextColor];
+    [_highlightedAttrs setObject:color forKey:NSForegroundColorAttributeName];
+  }
+  else {
+    [_highlightedAttrs setObject:[NSColor selectedControlTextColor] forKey:NSForegroundColorAttributeName];
+  }
+
+  if (style->highlightedCandidateBackColor != nil) {
+    NSColor *color = [self colorFromString:style->highlightedCandidateBackColor];
+    [_highlightedAttrs setObject:color forKey:NSBackgroundColorAttributeName];
+  }
+  else {
+    [_highlightedAttrs setObject:[NSColor selectedTextBackgroundColor] forKey:NSBackgroundColorAttributeName];
+  }
+  
+  if (style->commentTextColor != nil) {
+    NSColor *color = [self colorFromString:style->commentTextColor];
+    [_commentAttrs setObject:color forKey:NSForegroundColorAttributeName];
+  }
+  else {
+    [_commentAttrs setObject:[NSColor disabledControlTextColor] forKey:NSForegroundColorAttributeName];
+  }
+  
+  [(SquirrelView *) _view setCornerRadius:style->cornerRadius];
+  [(SquirrelView *) _view setBorderHeight:style->borderHeight];
+  [(SquirrelView *) _view setBorderWidth:style->borderWidth];
+
   [_window setAlphaValue:style->alpha];
 }
 

@@ -9,10 +9,18 @@
 #import <Cocoa/Cocoa.h>
 
 typedef struct {
-  bool horizontal;
+  BOOL horizontal;
   NSString* fontName;
   int fontSize;
   double alpha;
+  double cornerRadius;
+  double borderHeight;
+  double borderWidth;
+  NSString *backgroundColor;
+  NSString *candidateTextColor;
+  NSString *highlightedCandidateTextColor;
+  NSString *highlightedCandidateBackColor;
+  NSString *commentTextColor;
 } SquirrelUIStyle;
 
 @interface SquirrelPanel : NSObject {
@@ -22,7 +30,7 @@ typedef struct {
   NSMutableDictionary* _attrs;
   NSMutableDictionary* _highlightedAttrs;
   NSMutableDictionary* _commentAttrs;
-  bool _horizontal;
+  BOOL _horizontal;
 }
 
 -(void)show;
