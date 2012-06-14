@@ -7,9 +7,9 @@
 
   * [Introduction 認識 La Rime]
   * [Downloads 下載與安裝]
-  * [CustomizationGuide 定製指南]
-  * [RimeWithSchemata 輸入方案設計書]
-  * [RimeWithTheCode 開發者廳]
+  * [CustomizationGuide 定製指南]（初階）
+  * [RimeWithSchemata 輸入方案設計書]（中階）
+  * [RimeWithTheCode 開發者廳]（高階）
 
 == 導航 ==
 
