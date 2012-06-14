@@ -1,5 +1,5 @@
 ﻿#summary La Rime HowTo for Developers
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation
 
 = How to Rime with the Code =
 
