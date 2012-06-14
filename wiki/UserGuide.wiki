@@ -1,5 +1,5 @@
 #summary 說明書
-#labels Phase-Support
+#labels Phase-Support,Featured
 
 = 說明書 =
 
