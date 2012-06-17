@@ -68,6 +68,16 @@ https://gist.github.com/2320943
 
 https://gist.github.com/2015335
 
+== 編碼反查 ==
+
+=== 設定【速成】的反查碼爲粵拼 ===
+
+https://gist.github.com/2944320
+
+=== 設定【倉頡】的反查碼爲雙拼 ===
+
+https://gist.github.com/2944319
+
 = 定製指南 =
 
 Rime 輸入方案，將 Rime 輸入法的設定整理成完善的、可分發的形式。
