@@ -38,6 +38,12 @@ https://gist.github.com/2290714
 
 == 輸入習慣 ==
 
+=== 使用Control鍵切換中西文 ===
+
+https://gist.github.com/2981316
+
+詳見代碼註釋。
+
 === 以方括號鍵換頁 ===
 
 https://gist.github.com/2316704
