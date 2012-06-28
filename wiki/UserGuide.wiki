@@ -291,7 +291,7 @@ Rime 輸入法在使用中會在一定時間自動將用戶詞典備份爲快照
     translator:
       dictionary: my_pinyin
     }}}
-  * 個人修改版的 `my_pinyin.*.yaml` 放置在「用戶資料夾」；下次部署時即可製成固態詞典
+  * 個人修改版的 `my_pinyin.*.yaml` 放置在「用戶資料夾」；參考《[CustomizationGuide#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE 定製指南]》啓用新方案、完成部署
 
 ---
 
