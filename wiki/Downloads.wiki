@@ -8,10 +8,10 @@
     * 另有 csslayer 君幫忙寫的 〔[https://github.com/fcitx/fcitx-rime fctix-rime]〕，技術好的同學來研究下？〔[http://code.google.com/p/rimeime/issues/detail?id=159 ebuilds 分享]〕
 
   * 小狼毫 | Weasel
-    * Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。〔[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.13.0-installer.exe 小狼毫 0.9.13]〕
+    * Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。〔[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.14.0-installer.exe 小狼毫 0.9.14]〕
 
   * 鼠鬚管 | Squirrel
-    * Mac OS 發行版，適用於 Mac OS X 10.6+ 64位。 〔[http://code.google.com/p/rimeime/downloads/detail?name=Squirrel-0.9.7.zip 鼠鬚管 0.9.7]〕
+    * Mac OS 發行版，適用於 Mac OS X 10.6+ (64位)。 〔[http://code.google.com/p/rimeime/downloads/detail?name=Squirrel-0.9.7.zip 鼠鬚管 0.9.7]〕
 
 查看全部下載：[http://code.google.com/p/rimeime/downloads/list]
 
