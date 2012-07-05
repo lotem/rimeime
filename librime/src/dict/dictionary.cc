@@ -73,7 +73,7 @@ DictEntryIterator::DictEntryIterator(const DictEntryIterator &other)
 }
 
 DictEntryIterator& DictEntryIterator::operator= (DictEntryIterator &other) {
-  EZLOGGERPRINT("swapping iterator contents.");
+  EZDBGONLYLOGGERPRINT("swapping iterator contents.");
   swap(other);
   entry_ = other.entry_;
   entry_count_ = other.entry_count_;
@@ -105,11 +105,12 @@ shared_ptr<DictEntry> DictEntryIterator::Peek() {
     EZDBGONLYLOGGERPRINT("Creating temporary dict entry '%s'.", e.text.c_str());
     entry_->code = chunk.code;
     entry_->text = e.text.c_str();
-    if (!chunk.remaining_code.empty()) {
-      entry_->comment = "~" + chunk.remaining_code;
-    }
     const double kS = 100000.0;
     entry_->weight = (e.weight + 1) / kS * chunk.credibility;
+    if (!chunk.remaining_code.empty()) {
+      entry_->comment = "~" + chunk.remaining_code;
+      entry_->remaining_code_length = chunk.remaining_code.length();
+    }
   }
   return entry_;
 }

@@ -6,6 +6,7 @@
 //
 // 2012-04-22 GONG Chen <chen.sst@gmail.com>
 //
+#include <utf8.h>
 #include <rime/config.h>
 #include <rime/impl/translator_commons.h>
 
@@ -34,6 +35,7 @@ void Sentence::Extend(const DictEntry& entry, size_t end_pos) {
   entry_.text.append(entry.text);
   entry_.weight *= (std::max)(entry.weight, kEpsilon) * kPenalty;
   components_.push_back(entry);
+  syllable_lengths_.push_back(end_pos - end());
   set_end(end_pos);
   EZDBGONLYLOGGERPRINT("%d) %s : %g", end_pos,
                        entry_.text.c_str(), entry_.weight);
@@ -82,12 +84,55 @@ shared_ptr<Candidate> TableTranslation::Peek() {
     comment_formatter_->Apply(&comment);
   }
   return boost::make_shared<SimpleCandidate>(
-      "zh",
+      e->remaining_code_length == 0 ? "zh" : "completion",
       start_,
       end_,
       e->text,
       comment,
       preedit_);
+}
+
+CharsetFilter::CharsetFilter(shared_ptr<Translation> translation)
+    : translation_(translation) {
+  LocateNextCandidate();
+}
+
+bool CharsetFilter::Next() {
+  if (exhausted())
+    return false;
+  if (!translation_->Next()) {
+    set_exhausted(true);
+    return false;
+  }
+  return LocateNextCandidate();
+}
+
+shared_ptr<Candidate> CharsetFilter::Peek() {
+  return translation_->Peek();
+}
+
+bool CharsetFilter::LocateNextCandidate() {
+  while (!translation_->exhausted()) {
+    shared_ptr<Candidate> cand = translation_->Peek();
+    if (cand && Passed(cand->text()))
+      return true;
+    translation_->Next();
+  }
+  set_exhausted(true);
+  return false;
+}
+
+bool CharsetFilter::Passed(const std::string& text) {
+  const char* p = text.c_str();
+  utf8::uint32_t c;
+  while ((c = utf8::unchecked::next(p))) {
+    if (c >= 0x3400 && c <= 0x4DBF ||    // CJK Unified Ideographs Extension A
+        c >= 0x20000 && c <= 0x2A6DF ||  // CJK Unified Ideographs Extension B
+        c >= 0x2A700 && c <= 0x2B73F ||  // CJK Unified Ideographs Extension C
+        c >= 0x2B840 && c <= 0x2B81F)    // CJK Unified Ideographs Extension D
+      return false;
+  }
+  return true;
 }
 
 }  // namespace rime
