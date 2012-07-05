@@ -33,12 +33,13 @@ private:
 	bool _DrawText(weasel::Text const& text, CDCHandle dc, CRect const& rc, int& y);
 	bool _DrawCandidates(weasel::CandidateInfo const& cinfo, CDCHandle dc, CRect const& rc, int& y);
 	void _HighlightText(CDCHandle dc, CRect rc, COLORREF color);
+	void _TextOut(CDCHandle dc, int x, int y, CRect const& rc, LPCWSTR psz, int cch);
 
 	weasel::Context &m_ctx;
 	weasel::Status &m_status;
 	weasel::UIStyle &m_style;
 
 	CRect m_inputPos;
-	CIcon m_iconZhung;
+	CIcon m_iconEnabled;
 	CIcon m_iconAlpha;
 };
