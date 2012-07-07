@@ -3,15 +3,15 @@
 # encoding: utf-8
 
 schema:
-  schema_id: cangjie5
-  name: 倉頡五代
-  version: "0.13"
+  schema_id: wubi_pinyin
+  name: "五笔・拼音"
+  version: "0.1"
   author:
-    - 發明人 朱邦復先生
+    - 發明人 王永民先生
   description: |
-    第五代倉頡輸入法
-    碼表源自倉頡之友發佈的《五倉世紀版》
-    www.chinesecj.com
+    五筆字型86版＋漢語拼音混合輸入。
+    碼表源自 ibus-table
+    請安裝【袖珍簡化字拼音】以啓用拼音字庫。
 
 switches:
   - name: ascii_mode
@@ -19,8 +19,6 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
   - name: extended_charset
     states: [ 通用, 增廣 ]
 
@@ -44,35 +42,26 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
-  filters:
-    - simplifier
-    - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " ;'"
-  #max_code_length: 5
+  #max_code_length: 4
 
 translator:
-  dictionary: cangjie5
+  dictionary: wubi86
+  prism: wubi_pinyin
   enable_charset_filter: true
-  preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符・・|"
-  comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
 
 abc_segmentor:
   extra_tags:
     - reverse_lookup
 
 reverse_lookup:
-  dictionary: luna_pinyin
+  dictionary: pinyin_simp
   prefix: "`"
   tips: 〔拼音〕
   preedit_format:
     - xform/([nljqxy])v/$1ü/
-  comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
 
 punctuator:
   import_preset: default

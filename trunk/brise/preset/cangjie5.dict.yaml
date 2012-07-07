@@ -4,7 +4,7 @@
 
 ---
 name: "cangjie5"
-version: "0.10"
+version: "0.11"
 sort: original
 use_preset_vocabulary: true
 max_phrase_length: 1
@@ -21669,6 +21669,7 @@ max_phrase_length: 1
 遧	yytj
 邅	yywm
 逌	yyws
+的	x
 曰	xa
 昍	xaa
 晿	xaaa
@@ -23368,6 +23369,7 @@ max_phrase_length: 1
 。	xr
 〇	xxr
 〇	xxxxx
+我	z
 ‘	za
 ’	za
 “	za
@@ -50462,7 +50464,7 @@ max_phrase_length: 1
 𠢥	lcks
 𢄖	lclb
 𧘒	lcm
-������	lcob
+𧜲	lcob
 𠛸	lcsh
 𧞌	lcwf
 𧙞	ldb

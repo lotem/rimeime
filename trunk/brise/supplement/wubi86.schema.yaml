@@ -5,7 +5,7 @@
 schema:
   schema_id: wubi86
   name: "五笔86"
-  version: "0.9"
+  version: "0.12"
   author:
     - 發明人 王永民先生
   description: |
@@ -19,6 +19,8 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
+  - name: extended_charset
+    states: [ 通用, 增廣 ]
 
 engine:
   processors:
@@ -38,15 +40,16 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator
     - reverse_lookup_translator
+    - table_translator
 
 speller:
-  delimiter: " '"
-  max_code_length: 4
+  delimiter: " ;'"
+  #max_code_length: 4
 
 translator:
   dictionary: wubi86
+  enable_charset_filter: true
 
 reverse_lookup:
   dictionary: pinyin_simp
@@ -64,4 +67,4 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "z[a-z]*$"
+    reverse_lookup: "^z[a-z]*$"
