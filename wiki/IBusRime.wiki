@@ -41,11 +41,15 @@ Voilà !
 {{{
 # 安裝編譯工具
 sudo apt-get install build-essential cmake
+
 # 安裝程序庫
 sudo apt-get install libopencc-dev libz-dev libibus-1.0-dev
 sudo apt-get install libboost-dev libboost-filesystem-dev libboost-regex-dev libboost-signals-dev libboost-system-dev libboost-thread-dev
 # 如果不嫌多，也可以安裝整套Boost開發包（敲字少：）
 # sudo apt-get install libboost-all-dev
+
+# 更新：0.9.2 以上版本需要此庫
+sudo apt-get install libnotify-dev
 
 mkdir ~/rimeime
 cd ~/rimeime
@@ -68,19 +72,21 @@ cmake -DBUILD_SHARED_LIBS=ON ..
 make
 sudo make install
 
-cd ~/rimeime
-
-wget http://rimeime.googlecode.com/files/librime-0.9.1.tar.gz
-wget http://rimeime.googlecode.com/files/ibus-rime-0.9.1.tar.gz
-tar xzf librime-0.9.1.tar.gz
-tar xzf ibus-rime-0.9.1.tar.gz
-cd ibus-rime
-./install.sh
-
-# 不知從啥時候開始 Ubuntu 不去找 /usr/local/lib 裏的共享庫了
-# 要是 rime 報錯說找不到所依賴的 libkyotocabinet，咱就給他添上，然後繼續 insall 即可
+# 【注意】不知從啥時候開始 Ubuntu 不去找 /usr/local/lib 裏的共享庫了
+# 要是 rime 報錯說找不到所依賴的 libkyotocabinet 或 yaml-cpp，
+# 咱就給他添上（此事只需做一次），然後繼續 insall 即可
+#
 #sudo sed -i '$a/usr/local/lib' /etc/ld.so.conf
 #sudo ldconfig
+
+cd ~/rimeime
+
+wget http://rimeime.googlecode.com/files/librime-0.9.2.tar.gz
+wget http://rimeime.googlecode.com/files/ibus-rime-0.9.2.tar.gz
+tar xzf librime-0.9.2.tar.gz
+tar xzf ibus-rime-0.9.2.tar.gz
+cd ibus-rime
+./install.sh
 }}}
 
 = Packages for Linux Distributions =
