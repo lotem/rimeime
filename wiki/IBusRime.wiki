@@ -9,7 +9,7 @@ To build la rime, you need these tools and libraries:
   * cmake
   * boost >= 1.46
   * gtest (optional, recommended for developers)
-  * ibus
+  * ibus 1.4
   * libnotify (new dependency since ibus-rime 0.9.2)
   * kyotocabinet
   * opencc
