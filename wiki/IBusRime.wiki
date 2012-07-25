@@ -74,10 +74,10 @@ sudo make install
 
 # 【注意】不知從啥時候開始 Ubuntu 不去找 /usr/local/lib 裏的共享庫了
 # 要是 rime 報錯說找不到所依賴的 libkyotocabinet 或 yaml-cpp，
-# 咱就給他添上（此事只需做一次），然後繼續 insall 即可
-#
+# 咱就給他添上（此事只需做一次），然後執行 ldconfig
 #sudo sed -i '$a/usr/local/lib' /etc/ld.so.conf
-#sudo ldconfig
+
+sudo ldconfig
 
 cd ~/rimeime
 
