@@ -26,7 +26,7 @@ Alternatively, checkout from our [http://code.google.com/p/rimeime/source/checko
 
 == How to Rime with the Code under Linux ==
 
-See [IBusRime this guide] for instructions on building and installing ibus-rime.
+See [RimeWithIBus this guide] for instructions on building and installing ibus-rime.
 
 == How to Rime with the Code under Mac OS ==
 
