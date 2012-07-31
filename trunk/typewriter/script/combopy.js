@@ -6,17 +6,15 @@ var Combopy = Class.extend(Combo, {
                   'e': '<sub>ch</sub>l<sub>n</sub>', 'w': 'c<sub>ch</sub>',
                   'g': 'k<sup>q</sup>', 'f': '<sub>r</sub>g<sup>j</sup>', 
                   'd': '<sub>sh</sub>h<sup>x</sup><sub>r</sub>', 's': 's<sub>sh</sub>' },
-        green:  { 'n': 'er',
-                  'u': 'u', 'j': 'i', 'm': 'ü',
-                  'i': '\u026a<sub>ei</sub>', 'o': '<sub>ei</sub>o',
+        red:    { 'n': 'er', 'u': 'u', 'j': 'i', 'm': 'ü' },
+        green:  { 'i': '\u026a<sub>ei</sub>', 'o': '<sub>ei</sub>o',
                   'k': 'n<sub>ng</sub>', 'l': '<sub>ng</sub>e',
-                  'comma': ',<sub>ou</sub>', 'period': '<sub>ou</sub>.',
-                  },
+                  'comma': ',<sup>\u028a</sup><sub>ou</sub>', 'period': '<sub>ou</sub>.',
+                  'space': 'a' },
         yellow: { 'q': '-', 'a': '-', 'z': '-', 'y': '-', 'h': '-', 'p': '-',
                   //'1': '1', '2': '2', '3': '3', '4': '4', '5': '5', 
                   //'6': '6', '7': '7', '8': '8', '9': '9', '0': '0', 
-                  'semicolon': ';', 'slash': '/' },
-        red:    { 'space': 'a' }
+                  'semicolon': ';', 'slash': '/' }
     },
 
     key_order: 's w x f r v g t b d e c n j m u space k i comma l o period'.split(' '),
@@ -27,15 +25,14 @@ var Combopy = Class.extend(Combo, {
         'g': 'k', 'f': 'g', 'd': 'h', 's': 's', 
         'space': 'a',
         'n': 'er', 'j': 'i', 'u': 'u', 'm': 'ü', 
-        'i': 'y', 'o': 'o', 'k': 'n', 'l': 'e', 'comma': ',', 'period': '.'
+        'i': 'y', 'o': 'o', 'k': 'n', 'l': 'e', 'comma': 'w', 'period': '.'
     },
 
     pm2py: function (pm) {
         var py = pm
             .replace(/^a$/, "")
-            .replace(/^,$/, "COMMA")
+            .replace(/^w$/, "COMMA")
             .replace(/^\.$/, "PERIOD")
-            .replace(/,/, "w")
             .replace(/\./, "e")
             .replace(/^COMMA$/, ",")
             .replace(/^PERIOD$/, ".")
@@ -43,7 +40,7 @@ var Combopy = Class.extend(Combo, {
             .replace(/ne$/, "eng")
             .replace(/n$/, "en")
             .replace(/([aoeiuü])en$/, "$1n")
-            .replace(/uyo$/, "ung")
+            .replace(/u(a?)yo$/, "u$1ng")
             .replace(/üwe$/, "iung")
             .replace(/ü(a?)w$/, "i$1w")
             .replace(/ay$/, "ai")
@@ -119,6 +116,7 @@ var Combopy = Class.extend(Combo, {
             .replace(/iu$/, "v,")
             .replace(/iong$/, "v,.")
             .replace(/ong$/, "uyo")
+            .replace(/uang$/, "uayo")
             .replace(/ao$/, "a,")
             .replace(/ou$/, ",.")
             .replace(/en/, "n")
