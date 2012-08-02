@@ -113,7 +113,7 @@ var Combopy = Class.extend(Combo, {
             .replace(/([au])i$/, "$1y")
             .replace(/ei$/, "yo")
             .replace(/iao$/, "vaw")
-            .replace(/iu$/, "vw")
+            .replace(/io?u$/, "vw")
             .replace(/iong$/, "vw.")
             .replace(/ong$/, "uyo")
             .replace(/uang$/, "uayo")
