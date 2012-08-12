@@ -273,3 +273,8 @@ http://rimeime.googlecode.com/svn/trunk/doc/manual/combo-pinyin/combopy-practice
 至此，我已將【宮保拼音】這一PC鍵盤上的並擊輸入方案和盤托出。
 
 Rime 輸入法的內置組件 `chord_composer` ，支持對並擊方案的鍵盤佈局、編碼轉換規則作出靈活多樣的定義。【宮保拼音】只是一個新的開端，從此並擊不再只是速錄專家的研究課題，而變成輸入法愛好者又一款強大的玩具。甚至，會不會有一日會成爲大衆化的日用辦公技術？總之，我想象中真正的中文／拼音鍵盤，就是這個模擬。
+
+最後，贈你 [http://rimeime.googlecode.com/svn/trunk/artworks/combo-pinyin-wallpaper.png 【宮保拼音】壁紙]
+
+http://rimeime.googlecode.com/svn/trunk/artworks/combo-pinyin-wallpaper.png
+
