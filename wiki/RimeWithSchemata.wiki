@@ -82,7 +82,7 @@ Rime 輸入方案亦會用到「正則表達式」實現一些高級功能。
 這些數據文件存在於以下位置：
 
 共享資料夾
-  * 【中州韻】  `/usr/share/ibus-rime/`
+  * 【中州韻】  `/usr/share/rime-data/`
   * 【小狼毫】  `"安裝目錄\data"`
   * 【鼠鬚管】  `"/Library/Input Methods/Squirrel.app/Contents/SharedSupport/"`
 
