@@ -103,4 +103,8 @@ Thanks to: 网军总司令
 
 == Gentoo ==
 
-[http://code.google.com/p/rimeime/issues/detail?id=141 ebuilds] shared by `wd@wdicc.com` and by `NorthStar.D`
+Rime 已經被收錄到 gentoo-zh overlay 裏
+{{{
+emerge librime brise
+emerge ibus-rime  # or fcitx-rime
+}}}
