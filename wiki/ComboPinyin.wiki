@@ -112,7 +112,7 @@ http://rimeime.googlecode.com/svn/trunk/doc/manual/combo-pinyin/combo-pinyin-lay
 註：
   * 下文以方括弧表示宮保拼音鍵位及組合碼，如 `[g-u-n-e]`；
   * 以尖角括弧表示漢語拼音，如 `‹gong›`；
-  * 以大寫字母表示物理鍵盤上的按鍵，如 `FUIO`，以示區別。
+  * 以大寫字母表示物理鍵盤上的按鍵，如 `FUKL`，以示區別。
   * 爲指稱方便，主鍵盤區的按鍵分「上排」（`Q`）、「中排」（`A`）、「下排」（`Z`），
   * 又將 `1QAZ` 記爲「第1列」，`2WSX` 記爲「第2列」，依此類推。
 
