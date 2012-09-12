@@ -143,7 +143,7 @@ patch:
 
 Rime 中，默認每頁至多顯示 5 個候選項，而允許的範圍是 1〜9（個別 Rime 發行版可支持10個候選）。
 
-設定每頁候選個數的默認值，在用戶目錄建立文檔 `default.custom.yaml` ：
+設定每頁候選個數的默認值爲 9，在用戶目錄建立文檔 `default.custom.yaml` ：
 {{{
 patch:
   "menu/page_size": 9
