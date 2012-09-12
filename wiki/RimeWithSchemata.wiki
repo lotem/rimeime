@@ -1382,6 +1382,7 @@ recognizer:
   * 【中州韻】 `/tmp/rime.ibus.*`
   * 【小狼毫】 `%TEMP%\rime.weasel.*`
   * 【鼠鬚管】 `$TMPDIR/rime.squirrel.*`
+  * 各發行版的早期版本 `用戶資料夾/rime.log`
 
 按照日誌的級別分爲 INFO / 信息、WARNING / 警告、ERROR / 錯誤。
 後兩類應重點關注，如果新方案部署後不可用或輸出與設計不一致，原因可能在此。
