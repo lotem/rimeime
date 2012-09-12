@@ -69,7 +69,6 @@ https://gist.github.com/2981316
 
 https://gist.github.com/3076166
 
-
 === 以方括號鍵換頁 ===
 
 https://gist.github.com/2316704
@@ -87,6 +86,15 @@ https://gist.github.com/2334409
 https://gist.github.com/2390510
 
 適合一些形碼輸入法（如五筆、鄭碼）的快手。
+
+=== 關閉用戶詞典和字頻調整 ===
+
+以【五笔86】爲例：
+{{{
+#wubi86.custom.yaml
+patch:
+  translator/enable_user_dict: false
+}}}
 
 == 模糊音 ==
 
@@ -109,6 +117,16 @@ https://gist.github.com/2944320
 === 設定【倉頡】的反查碼爲雙拼 ===
 
 https://gist.github.com/2944319
+
+== 在Mac系統上輸入emoji表情 ==
+
+切換到 `emoji` 輸入方案，即可通過拼音縮寫輸入表情符號。
+輸入 `all` 可以列出全部符號，符號後面的括弧裏標記其拼音縮寫。
+
+若要直接在【朙月拼音】裏輸入表情符號，請按此文設定：
+
+http://gist.github.com/3705586
+
 
 = 定製指南 =
 
