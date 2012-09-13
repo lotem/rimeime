@@ -10,7 +10,7 @@
       <sparkle:releaseNotesLink>http://rimeime.googlecode.com/svn/trunk/weasel/update/release-notes-0.9.15.html</sparkle:releaseNotesLink>
       <pubDate>Wed, 12 Sep 2012 18:00:00 +0800</pubDate>
       <enclosure url="http://rimeime.googlecode.com/files/weasel-0.9.15.0-installer.exe"
-                 sparkle:version="0.9.15.0"
+                 sparkle:version="0.0.15.0"
                  type="application/octet-stream"/>
     </item>
   </channel>
