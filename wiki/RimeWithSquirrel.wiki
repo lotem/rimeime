@@ -13,7 +13,7 @@ brew install opencc
 brew install yaml-cpp
 
 # NOTE: 
-# kyoto-cabinet 1.2.76 formula fails to be built with clang.
+# formula kyoto-cabinet 1.2.76 fails to be built with clang.
 # if we are running Xcode 4.4, we have to:
 brew edit kyoto-cabinet
 # and add configure option "--disable-atomic", to this line:
