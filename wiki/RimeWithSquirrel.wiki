@@ -14,7 +14,7 @@ brew install yaml-cpp
 
 # NOTE: 
 # kyoto-cabinet 1.2.76 formula fails to be built with clang.
-# so we are running Xcode 4.4, we have to:
+# if we are running Xcode 4.4, we have to:
 brew edit kyoto-cabinet
 # and add configure option "--disable-atomic", to this line:
 #   system "./configure", "--disable-debug", "--disable-atomic", "--prefix=#{prefix}"
