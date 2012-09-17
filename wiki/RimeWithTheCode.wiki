@@ -5,7 +5,7 @@
 
 == Get the Code ==
 
-Fork me on [http://github.com/lotem GitHub]:
+Fork Rime on [http://github.com/lotem GitHub]:
 
   * La rime - the core library
     [http://github.com/lotem/librime]
@@ -22,7 +22,7 @@ Fork me on [http://github.com/lotem GitHub]:
   * Squirrel - Mac OS client
     [http://github.com/lotem/squirrel]
 
-Alternatively, checkout from our [http://code.google.com/p/rimeime/source/checkout SVN repository] at Google Code, which is expected to be ... stable, but may not contain the most recent changes.
+Alternatively, checkout our [http://code.google.com/p/rimeime/source/checkout SVN repository] at Google Code, which is expected to be ... stable, but may not contain the most recent changes.
 
 == How to Rime with the Code under Linux ==
 
