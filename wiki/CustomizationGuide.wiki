@@ -366,6 +366,28 @@ https://gist.github.com/2290714
 
 〔注意〕鼠鬚管從 0.9.6 版本開始支持選擇配色方案，並改用`squirrel.custom.yaml` 保存用戶的設定。
 
+=== 針對特定程序禁用漢字輸入 ===
+
+【鼠鬚管】0.9.9 開始支持這項設定：
+
+在指定的應用程序中，改變輸入法的初始轉換狀態。如在
+  * 終端 `Terminal / iTerm`
+  * 代碼編輯器 `Emacs / MacVim / Sublime Text / Xcode`
+  * 快速啓動工具 `QuickSilver / Alfred`
+等程序裏很少需要輸入中文，於是鼠鬚管在這些程序裏默認不開啓中文輸入。
+
+自定義 Mac 應用程序的初始轉換狀態，首先查看應用的 `Info.plist` 文件得到 該應用的 `Bundle Identifier`，通常是形如 `com.apple.Xcode` 的字符串，然後如此設定：
+{{{
+# squirrel.custom.yaml example
+patch:
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
+  app_options/com.alfredapp.Alfred:
+    ascii_mode: true
+  app_options/com.apple.Xcode:
+    ascii_mode: true
+}}}
+
 == 輸入習慣 ==
 
 === 使用Control鍵切換中西文 ===
