@@ -17,7 +17,7 @@
 
 == 查閱 DIY 處方集 ==
 
-已將一些定製 Rime 的常見問題、解法及定製檔鏈接收錄於[CustomizationGuide#DIY_%E8%99%95%E6%96%B9%E9%9B%86 此〔↓〕]
+已將一些定製 Rime 的常見問題、解法及定製檔鏈接收錄於[CustomizationGuide#DIY_%E8%99%95%E6%96%B9%E9%9B%86 此〔DIY 處方集〕]
 
 
 = 定製指南 =
