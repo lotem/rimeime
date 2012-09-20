@@ -199,6 +199,7 @@ http://rimeime.googlecode.com/svn/trunk/doc/manual/combo-pinyin/combo-pinyin-lay
 延續這一優化佈局的思路，再增設幾組活用組合鍵：
 {{{
 ‹ong› = [u-n-e] = [u-i-o]
+‹uang› = [u-a-n-e] = [u-a-i-o]
 ‹iong› = [ü-n-e] = [ü-u-.]
 ‹iou› = [i-u] = [ü-u]
 }}}
