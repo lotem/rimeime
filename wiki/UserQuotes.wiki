@@ -1,4 +1,4 @@
-#summary 用家如是說.
+#summary 用家如是說
 #labels Phase-Support
 
 == 囧丁乙 ==
