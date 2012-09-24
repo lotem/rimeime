@@ -429,7 +429,7 @@ https://gist.github.com/2390510
 
 以【五笔86】爲例：
 {{{
-#wubi86.custom.yaml
+# wubi86.custom.yaml
 patch:
   translator/enable_user_dict: false
 }}}
@@ -457,6 +457,8 @@ https://gist.github.com/2944320
 https://gist.github.com/2944319
 
 == 在Mac系統上輸入emoji表情 ==
+
+參考 https://gist.github.com/2309739 把 `emoji` 加入輸入方案選單；
 
 切換到 `emoji` 輸入方案，即可通過拼音代碼輸入表情符號。[http://rimeime.googlecode.com/svn/trunk/artworks/schema/emoji-chart.png 查看符號表]
 
