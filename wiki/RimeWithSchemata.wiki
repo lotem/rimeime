@@ -1,5 +1,5 @@
 #summary Rime 輸入方案設計書
-#labels Phase-Support
+#labels Phase-Support,Featured
 
 = Rime with Schemata =
 
