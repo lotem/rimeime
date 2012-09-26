@@ -13,7 +13,7 @@ Linux 發行版，基於 IBus 輸入法框架。
 
 === 小狼毫 | Weasel ===
 Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。
-  * 下載頁：[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.15.0-build-20120914.exe 小狼毫 0.9.15]，[http://code.google.com/p/rimeime/downloads/detail?name=weasel-expansion-0.9.15.0.exe 小狼毫擴展方案集]
+  * 下載頁：[http://code.google.com/p/rimeime/downloads/detail?name=weasel-0.9.15.1-installer.exe 小狼毫 0.9.15.1]，[http://code.google.com/p/rimeime/downloads/detail?name=weasel-expansion-0.9.15.0.exe 小狼毫擴展方案集]
 
 === 鼠鬚管 | Squirrel ===
 Mac OS 發行版，適用於 Mac OS X 10.6以上（64位）。
