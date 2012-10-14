@@ -10,8 +10,6 @@ AUR packages:
   * [http://aur.archlinux.org/packages.php?ID=59036 librime]
   * [http://aur.archlinux.org/packages.php?ID=59037 ibus-rime]
 
-Thanks to: 网军总司令
-
 == Debian ==
 
 Rime 已收錄於 [http://wiki.debian.org/DebianUnstable Debian unstable (Sid)]
