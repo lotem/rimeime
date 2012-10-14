@@ -1,6 +1,39 @@
 #summary Building and installing ibus-rime.
 #labels Phase-Deploy
 
+= Packages for Linux Distributions =
+
+== Archlinux ==
+
+AUR packages: 
+  * [http://aur.archlinux.org/packages.php?ID=63144 brise]
+  * [http://aur.archlinux.org/packages.php?ID=59036 librime]
+  * [http://aur.archlinux.org/packages.php?ID=59037 ibus-rime]
+
+Thanks to: 网军总司令
+
+== Debian ==
+
+Rime 已收錄於 [http://wiki.debian.org/DebianUnstable Debian unstable (Sid)]
+{{{
+sudo apt-get install ibus-rime
+}}}
+
+== Gentoo ==
+
+{{{
+emerge ibus-rime  # or fcitx-rime
+}}}
+
+== Ubuntu ==
+
+Rime 已收錄於 [http://releases.ubuntu.com/12.10/ Ubuntu 12.10 (Quantal Quetzal)]
+{{{
+sudo apt-get install ibus-rime
+}}}
+
+有手藝、有時間、熱心腸的Linux技術高手！ 請幫我把Rime打包到你喜愛的Linux發行版，分享給其他同學吧。 
+
 = Manual Installation =
 
 == Prerequisites ==
@@ -98,25 +131,4 @@ tar xzf librime-0.9.4.tar.gz
 tar xzf ibus-rime-0.9.4.tar.gz
 cd ibus-rime
 ./install.sh
-}}}
-
-= Packages for Linux Distributions =
-
-有手藝、有時間、熱心腸的Linux技術高手！ 請幫我把Rime打包到你喜愛的Linux發行版，分享給其他同學吧。 
-
-== Archlinux ==
-
-AUR packages: 
-  * [http://aur.archlinux.org/packages.php?ID=63144 brise]
-  * [http://aur.archlinux.org/packages.php?ID=59036 librime]
-  * [http://aur.archlinux.org/packages.php?ID=59037 ibus-rime]
-
-Thanks to: 网军总司令
-
-== Gentoo ==
-
-Rime 已經被收錄到 gentoo-zh overlay 裏
-{{{
-emerge librime brise
-emerge ibus-rime  # or fcitx-rime
 }}}
