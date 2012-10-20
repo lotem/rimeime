@@ -1,5 +1,5 @@
-﻿#summary Rime 定製指南
-#labels Phase-Support,Featured
+﻿#labels Phase-Support,Featured
+ #summary Rime 定製指南
 
 = 必知必會 =
 
@@ -356,11 +356,12 @@ https://gist.github.com/2309739
 
 === 【小狼毫】外觀設定 ===
 
-使用橫向候選欄：
+使用橫向候選欄、嵌入式編碼行：
 {{{
 # weasel.custom.yaml
 patch:
-  style/horizontal: true
+  style/horizontal: true      # 候選橫排
+  style/inline_preedit: true  # 內嵌編碼（僅支持TSF）
 }}}
 
 [#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E3%80%90%E5%B0%8F%E7%8B%BC%E6%AF%AB%E3%80%91%E5%AD%97%E9%AB%94%E5%AD%97%E8%99%9F 設定字體字號]
@@ -372,7 +373,7 @@ https://gist.github.com/2290714
 
 〔注意〕鼠鬚管從 0.9.6 版本開始支持選擇配色方案，並改用`squirrel.custom.yaml` 保存用戶的設定。
 
-=== 針對特定程序禁用漢字輸入 ===
+=== 在特定程序裏關閉中文輸入 ===
 
 【鼠鬚管】0.9.9 開始支持這項設定：
 
