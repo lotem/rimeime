@@ -108,9 +108,9 @@ punctuator:
 欲令 `/` 鍵直接輸出「、」，可如此定製 `luna_pinyin.custom.yaml`:
 {{{
 patch:
-  "punctuator/full_shape":
+  punctuator/full_shape:
     "/" : "、"
-  "punctuator/half_shape":
+  punctuator/half_shape:
     "/" : "、"
 }}}
 
