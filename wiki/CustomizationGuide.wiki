@@ -1,5 +1,5 @@
-﻿#labels Phase-Support,Featured
- #summary Rime 定製指南
+﻿#summary Rime 定製指南
+#labels Phase-Support,Featured
 
 = 必知必會 =
 
