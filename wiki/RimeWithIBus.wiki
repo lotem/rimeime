@@ -30,6 +30,11 @@ Rime 已收錄於 [http://releases.ubuntu.com/12.10/ Ubuntu 12.10 (Quantal Quetz
 sudo apt-get install ibus-rime
 }}}
 
+安裝[https://launchpad.net/ubuntu/+source/brise 更多輸入方案]：
+{{{
+sudo apt-get install brise
+}}}
+
 有手藝、有時間、熱心腸的Linux技術高手！ 請幫我把Rime打包到你喜愛的Linux發行版，分享給其他同學吧。 
 
 = Manual Installation =
