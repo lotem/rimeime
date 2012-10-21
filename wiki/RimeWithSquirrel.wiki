@@ -48,7 +48,7 @@ cd squirrel
 make
 
 ### or as developer:
-# make debug | grep -v setenv
+# make debug
 }}}
 
 == Test it on your Mac ==
