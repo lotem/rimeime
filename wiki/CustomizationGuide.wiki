@@ -385,14 +385,23 @@ https://gist.github.com/2290714
 
 自定義 Mac 應用程序的初始轉換狀態，首先查看應用的 `Info.plist` 文件得到 該應用的 `Bundle Identifier`，通常是形如 `com.apple.Xcode` 的字符串。
 
-例如，要在 `Xcode` 裏面默認不開啓中文輸入，又要在 `Alfred` 裏面恢復開啓中文輸入，可如此設定：
+例如，要在 `Xcode` 裏面默認關閉中文輸入，又要在 `Alfred` 裏面恢復開啓中文輸入，可如此設定：
 {{{
 # example squirrel.custom.yaml
-
 patch:
   app_options/com.apple.Xcode:
     ascii_mode: true
   app_options/com.alfredapp.Alfred: {}
+}}}
+
+【小狼毫】 0.9.16 亦開始支持這項設定。
+
+例如，要在 `gVim` 裏面默認關閉中文輸入，可如此設定：
+{{{
+# example weasel.custom.yaml
+patch:
+  app_options/gvim.exe:  # 程序名字全用小寫字母
+    ascii_mode: true
 }}}
 
 == 輸入習慣 ==
