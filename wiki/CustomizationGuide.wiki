@@ -458,7 +458,13 @@ patch:
 
 https://gist.github.com/2320943
 
-類似方案如雙拼、粵拼等可參考這裏演示的方法。
+【明月拼音・简化字／臺灣正體／語句流】也適用，
+只須將模板保存到 `luna_pinyin_simp.custom.yaml` 、 `luna_pinyin_tw.custom.yaml` 或 `luna_pinyin_fluency.custom.yaml` 。
+
+对比模糊音定製模板與[https://github.com/lotem/brise/blob/master/preset/luna_pinyin.schema.yaml 【朙月拼音】方案原件]，
+可見模板的做法是，在 `speller/algebra` 原有的規則中插入了一些定義模糊音的代碼行。
+
+類似方案如雙拼、粵拼等可參考模板演示的方法改寫 `speller/algebra` 。
 
 === 【吳語】模糊音定製模板 ===
 
@@ -480,7 +486,7 @@ https://gist.github.com/2944319
 
 切換到 `emoji` 輸入方案，即可通過拼音代碼輸入表情符號。[http://rimeime.googlecode.com/svn/trunk/artworks/schema/emoji-chart.png 查看符號表]
 
-輸入 `all` 可以列出全部符號，符號後面的括弧裏標記其拼音代碼。
+輸入 `all` 可以列出全部符號，符號後面的括弧裏標記其拼音代碼。
 
 若要直接在【朙月拼音】裏輸入表情符號，請按此文設定：
 
