@@ -518,3 +518,38 @@ https://gist.github.com/3467172
 比如這一例，「乾」字是一繁對多簡的典型。由它組成的常用詞組，opencc 都做了仔細分辨。但是遇到較生僻的詞組、專名，就比較頭疼：
 
 http://tieba.baidu.com/p/1909252328
+
+== 活用 ==
+
+在【朙月拼音】裏添加一些自定義文字。可以按照上文添加「emoji表情」的方式爲自定義文字創建一個專門的詞典。
+
+可是建立詞典稍顯繁瑣，而活用自定義標點，不失爲一個便捷的方法：
+
+{{{
+# luna_pinyin.custom.yaml
+# 如果不需要 ` 鍵的倉頡反查拼音功能，則可利用 ` 鍵輸入自定義文字
+patch:
+  recognizer/patterns/reverse_lookup:
+  'punctuator/half_shape/`':
+    - '佛振 <chen.sst@gmail.com>'
+    - 'http://code.google.com/p/rimeime/'
+    - 上天赋予你高的智商，教你用到有用的地方。
+}}}
+
+上例 `recognizer/patterns/reverse_lookup:` 作用是關閉{{{`}}}鍵的反查功能。若選用其他符號則不需要這行。又一例：
+
+{{{
+patch:
+  'punctuator/half_shape/+': '+_+'
+}}}
+
+`'punctuator/half_shape/+'` 因爲字符串包含符號，最好用 *單引號* 括起來，避免符號的轉義問題。
+
+重定義「{{{/}}}」這個符號，無法用上面演示的路徑連寫方式，那就分開寫：
+
+{{{
+patch:
+  punctuator/half_shape:
+   '/': [ '/', '/hello', '/bye', '/* TODO */' ]
+   '+': '+_+'
+}}}
