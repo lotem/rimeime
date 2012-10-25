@@ -11,6 +11,10 @@
   * [RimeWithSchemata 輸入方案設計書]（中階）
   * [RimeWithTheCode 程序開發]（高階）
 
+== 第三方文檔 ==
+
+  * [http://blog.gosin.me/projects/SquirrelManual/MissingManualForSquirrel.html 《遗失的鼠须管用户手册》]／Gosin
+
 == 導航 ==
 
   # 使用方案選單
