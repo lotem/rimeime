@@ -13,6 +13,7 @@
 
 == 第三方文檔 ==
 
+  * [http://bbs.weiphone.com/read-htm-tid-5108521.html 鼠鬚管試玩心得]／lionhoho
   * [http://blog.gosin.me/projects/SquirrelManual/MissingManualForSquirrel.html 《遗失的鼠须管用户手册》]／Gosin
 
 == 導航 ==
