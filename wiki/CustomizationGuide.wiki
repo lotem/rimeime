@@ -433,7 +433,7 @@ https://gist.github.com/2316704
 
 https://gist.github.com/2334409
 
-詳見上文 [CustomizationGuide#TODO] 一節。
+詳見上文 [CustomizationGuide#%E4%BD%BF%E7%94%A8%E5%85%A8%E5%A5%97%E8%A5%BF%E6%96%87%E6%A8%99%E9%BB%9E 使用全套西文標點] 一節。
 
 === 以回車鍵清除編碼兼以分號、單引號選字 ===
 
