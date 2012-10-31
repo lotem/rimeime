@@ -138,7 +138,7 @@ punctuator:
 [http://gist.github.com/2334409 Rime 別樣設定，使用西文標點]
 在用戶資料夾保存爲 `alternative.yaml` ；
 
-再將輸入方案中的「繼承自 `default` 」通過打 patch 替換爲「繼承自 `alternative` 」
+再將輸入方案中的「導入 `default` 設定」通過打 patch 替換爲「導入 `alternative` 設定」
 
 {{{
 # luna_pinyin.custom.yaml
