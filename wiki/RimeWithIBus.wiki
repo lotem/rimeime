@@ -43,7 +43,7 @@ Ubuntu 12.04 以下版本，參考下文的安裝手記。
 
 == Fedora 17 ==
 
-轉自swordswift同學的空間：
+轉自 swordswift 同學的空間：
 http://hi.baidu.com/swordswift/item/68e8584728dc900cc1161393
 
 因为fedora下没有打包好的安装包，所以我就做了一个安装源，也算是对作者的支持和感谢吧。
