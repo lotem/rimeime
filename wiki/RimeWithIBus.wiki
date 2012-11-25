@@ -35,31 +35,31 @@ sudo apt-get install ibus-rime
 # 朙月拼音（預裝）
 sudo make install librime-data-luna-pinyin
 # 雙拼
-sudo make install librime-data-double-pinyin
+sudo apt-get install librime-data-double-pinyin
 # 宮保拼音
-sudo make install librime-data-combo-pinyin
+sudo apt-get install librime-data-combo-pinyin
 # 速記打字法
-sudo make install librime-data-stenotype
+sudo apt-get install librime-data-stenotype
 # 注音、地球拼音
-sudo make install librime-data-terra-pinyin librime-data-bopomofo
+sudo apt-get install librime-data-terra-pinyin librime-data-bopomofo
 # 倉頡五代（預裝）
-sudo make install librime-data-cangjie5
+sudo apt-get install librime-data-cangjie5
 # 速成五代
-sudo make install librime-data-quick5
+sudo apt-get install librime-data-quick5
 # 五筆86、袖珍簡化字拼音、五筆畫
-sudo make install librime-data-wubi librime-data-pinyin-simp librime-data-stroke-simp
+sudo apt-get install librime-data-wubi librime-data-pinyin-simp librime-data-stroke-simp
 # IPA (X-SAMPA)
-sudo make install librime-data-ipa-xsampa
+sudo apt-get install librime-data-ipa-xsampa
 # 上海吳語
-sudo make install librime-data-wugniu
+sudo apt-get install librime-data-wugniu
 # 粵拼
-sudo make install librime-data-jyutping
+sudo apt-get install librime-data-jyutping
 # 中古漢語拼音
-sudo make install librime-data-zyenpheng librime-data-triungkox3p
+sudo apt-get install librime-data-zyenpheng librime-data-triungkox3p
 # 快速倉頡
-sudo make install librime-data-scj6
+sudo apt-get install librime-data-scj6
 # 筆順五碼
-sudo make install librime-data-stroke5
+sudo apt-get install librime-data-stroke5
 }}}
 
 Ubuntu 12.04 以下版本，參考下文的安裝手記。
