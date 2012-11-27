@@ -22,7 +22,7 @@ Fork Rime on [http://github.com/lotem GitHub]:
   * Squirrel - Mac OS client
     [http://github.com/lotem/squirrel]
 
-Alternatively, checkout our [http://code.google.com/p/rimeime/source/checkout SVN repository] at Google Code, which is expected to be ... stable, but may not contain the most recent changes.
+Code in the [http://code.google.com/p/rimeime/source/checkout SVN repository] at Google Code is not always up-to-date.
 
 == How to Rime with the Code under Linux ==
 
@@ -30,11 +30,8 @@ See [RimeWithIBus this guide] for instructions on building and installing ibus-r
 
 == How to Rime with the Code under Mac OS ==
 
-See [RimeWithSquirrel this guilde] for instructions.
+See [RimeWithSquirrel this guilde] for instructions on building Squirrel.
 
 == How to Rime with the Code under Windows ==
 
-用MSVC编译【小狼毫】，需要Visual Studio 2010、cmake、svn等工具。
-具体请按照代码库里的这份说明来做！
-
-http://code.google.com/p/rimeime/source/browse/trunk/weasel/BuildInstructions.txt
+[RimeWithWeasel Instructions] on building Weasel in Visual Studio 2010.
