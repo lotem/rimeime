@@ -3,52 +3,44 @@
 
 == Build Squirrel from Scratch ==
 
-You should already have installed Xcode; of course.
+0. You should already have installed cmake, git and Xcode.
 
-Install dependencies with [http://mxcl.github.com/homebrew/ Homebrew].
+1. Install dependencies with [http://mxcl.github.com/homebrew/ Homebrew].
 {{{
 brew install boost
+}}}
+
+also:
+{{{
 brew install glog
 brew install opencc
-brew install yaml-cpp
-
-# NOTE: 
-# formula kyoto-cabinet 1.2.76 fails to build with clang.
-# if we are running Xcode 4.4, we have to:
-brew edit kyoto-cabinet
-# and add configure option "--disable-atomic", to this line:
-#   system "./configure", "--disable-debug", "--disable-atomic", "--prefix=#{prefix}"
-# save the formula and go on:
-
 brew install kyoto-cabinet
+brew install yaml-cpp
 }}}
 
-If you don't have `git` or `cmake`, "`brew install`" them.
-
-Checkout these code into the same directory.
+  Alternatively, you can build these libraries without installing them (except for *boost*), after checking out the code.
 {{{
-mkdir code
-cd code
-git clone git@github.com:lotem/librime.git
-git clone git@github.com:lotem/brise.git
+# after step 2.
+cd librime
+git submodule update --init
+make -f Makefile.xcode thirdparty
+}}}
+
+2. Checkout the code.
+{{{
 git clone git@github.com:lotem/squirrel.git
-}}}
 
-cmake version 2.8.4 doesn't work well with Xcode 4.4.
-It complains about the missing MacOSX 10.8 SDK in the next step.
-
-In case you run into the same problem, apply this work-around to make it happy:
-{{{
-sudo ln -s /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk /Developer/SDKs/MacOSX10.8.sdk
-}}}
-
-Build Squirrel.
-{{{
+# for brise & librime
 cd squirrel
+git submodule udpate --init
+}}}
+
+3. Build Squirrel.
+{{{
 make
 
-### or as developer:
-# make debug
+# or as developer:
+#make debug
 }}}
 
 == Test it on your Mac ==
@@ -56,8 +48,8 @@ make
 {{{
 sudo make install
 
-### or as developer:
-# sudo make install-debug
+# or as developer:
+#sudo make install-debug
 }}}
 
 That's it. Thanks for reading.
