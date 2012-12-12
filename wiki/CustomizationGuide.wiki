@@ -373,6 +373,20 @@ https://gist.github.com/2290714
 
 〔注意〕鼠鬚管從 0.9.6 版本開始支持選擇配色方案，並改用`squirrel.custom.yaml` 保存用戶的設定。
 
+[http://lixiaolai.com/blog/2012/10/22/rime-mac-shang-de-shen-ji-shu-ru-fa/ 更换图标]
+
+    鼠须管的图标比较难看，我随便在网上找了一个适合放在菜单条上的黑白图标，用来替换显示在状态栏的输入法图标。
+
+网友帮忙制作了几款不同式样的图标，有模仿系统自带输入法图标样式的，有换成其他图案的，有对原图标加工美化的，收集于此：
+
+  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime-user-icon.icns]
+
+  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime-user-icon-pencil.icns]
+
+  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime-user-icon-bold.icns]
+
+用法是，将图标重名名为 `rime.icns`，替换 {{{/Library/Input\ Methods/Squirrel.app/Contents/Resources/rime.icns}}} 
+
 === 在特定程序裏關閉中文輸入 ===
 
 【鼠鬚管】0.9.9 開始支持這項設定：
