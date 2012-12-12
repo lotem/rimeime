@@ -385,6 +385,8 @@ https://gist.github.com/2290714
 
   * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime-user-icon-bold.icns]
 
+  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/zhung-original-16x16.tiff] （旧版鼠须管图标，也命名为 `rime.icns`）
+
 用法是，将图标重名名为 `rime.icns`，替换 {{{/Library/Input\ Methods/Squirrel.app/Contents/Resources/rime.icns}}} 
 
 === 在特定程序裏關閉中文輸入 ===
