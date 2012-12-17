@@ -410,6 +410,8 @@ patch:
   app_options/com.alfredapp.Alfred: {}
 }}}
 
+注：一些版本的 `Xcode` 標識爲 `com.apple.dt.Xcode`，請注意查看 `Info.plist`。
+
 【小狼毫】 0.9.16 亦開始支持這項設定。
 
 例如，要在 `gVim` 裏面默認關閉中文輸入，可如此設定：
