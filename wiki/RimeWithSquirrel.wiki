@@ -32,7 +32,7 @@ git clone git@github.com:lotem/squirrel.git
 
 # for brise & librime
 cd squirrel
-git submodule udpate --init
+git submodule update --init
 }}}
 
 3. Build Squirrel.
