@@ -1,0 +1,79 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  #schema_id: tuwe_pinyin
+  schema_id: sample
+  #name: 土話拼音
+  name: 樣例
+  version: "1.0"
+  author:
+    - 寒意 <hanyilfg@gmail.com>
+  description: |
+    Rime 第三方輸入方案樣例。
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - 'abbrev/^([a-z]).+$/$1/'
+
+translator:
+  #dictionary: tuwe_pinyin
+  dictionary: sample
+  preedit_format:
+    - xform/([dtnljqxywh])v/$1ü/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
