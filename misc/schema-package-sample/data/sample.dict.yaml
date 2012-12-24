@@ -1,0 +1,12836 @@
+﻿# Rime dictionary
+# encoding: utf-8
+#
+# Tuwe Pinyin - 土話拼音
+#
+---
+#name: tuwe_pinyin
+name: sample
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+壘	lai
+卜	bu
+嗞	zh
+阪	bea
+鴨	a
+啊	a
+阿	a
+押	a
+丫	a
+錒	a
+嗄	hhou
+鵪	a
+㕽	yh
+氬	a
+哎	ai
+唉	ai
+噯	ai
+靉	ai
+磑	ai
+娭	ai
+毐	ai
+藹	ea
+矮	ea
+癌	ea
+捱	ea
+額	nhea
+誒	ea
+俺	ea
+嘔	ao
+歐	ao
+歐	ou
+毆	ao
+甌	ao
+謳	ao
+噢	ao
+鷗	ao
+藕	nhao
+凹	ao
+嗷	ao
+嗥	ao
+坳	ao
+聱	ao
+偶	ao
+螯	ao
+鏖	ao
+襖	ao
+驁	ao
+鏊	ao
+拗	ao
+耦	ao
+慪	ao
+隅	ao
+隅	nhou
+巴	ba
+爸	ba
+叭	ba
+不	ba
+芭	ba
+靶	ba
+弝	ba
+吥	ba
+捭	bai
+杯	bai
+盃	bai
+卑	bai
+悲	bai
+碑	bai
+輩	bai
+北	bai
+貝	bai
+背	bai
+拝	bai
+抔	bai
+箄	bai
+椑	bai
+邶	bai
+本	bang
+奔	bang
+畚	bang
+倴	bang
+苯	bang
+鏰	bang
+簸	bang
+寶	be
+保	be
+報	be
+表	be
+錶	be
+標	be
+堡	be
+葆	be
+飆	be
+彪	be
+鏢	be
+婊	be
+褓	be
+鴇	be
+髟	be
+俵	be
+飆	be
+鑣	be
+嫑	be
+裱	be
+皰	be
+杓	be
+扮	bea
+伯	bea
+百	bea
+柏	bea
+擺	bea
+襬	bea
+拜	bea
+扳	bea
+班	bea
+攽	bea
+頒	bea
+斑	bea
+稗	bea
+粺	bea
+板	bea
+昄	bea
+版	bea
+闆	bea
+阪	bea
+佰	bea
+迫	bea
+伴	bea
+拌	bea
+絆	bea
+掰	bea
+瓣	bea
+坢	bea
+餑	bea
+斒	bea
+癍	bea
+鈑	bea
+舨	bea
+蝂	bea
+鵯	bea
+鞞	bea
+擘	bea
+柈	bea
+鋬	bea
+搒	bea
+皤	bea
+餅	beng
+斌	beng
+賓	beng
+冰	beng
+兵	beng
+丙	beng
+秉	beng
+柄	beng
+炳	beng
+稟	beng
+摒	beng
+嬪	beng
+弁	beng
+邠	beng
+彬	beng
+儐	beng
+濱	beng
+繽	beng
+檳	beng
+鑌	beng
+擯	beng
+殯	beng
+臏	beng
+髕	beng
+鬢	beng
+栟	beng
+邴	beng
+抦	beng
+昺	beng
+椪	beng
+豳	beng
+狽	bhai
+背	bhai
+賠	bhai
+倍	bhai
+悖	bhai
+焙	bhai
+蓓	bhai
+陪	bhai
+培	bhai
+憊	bhai
+裴	bhai
+稖	bhai
+孛	bhai
+鋇	bhai
+醅	bhai
+錇	bhai
+掊	bhai
+棓	bhai
+褙	bhai
+梖	bhai
+笨	bhang
+龐	bhang
+坌	bhang
+芃	bhang
+暴	bhe
+雹	bhe
+剽	bhe
+瓢	bhe
+咆	bhe
+麅	bhe
+襮	bhe
+匏	bhe
+罷	bhea
+白	bhea
+辦	bhea
+敗	bhea
+牌	bhea
+唄	bhea
+皈	bhea
+排	bhea
+徘	bhea
+俳	bhea
+鮊	bhea
+棑	bhea
+碚	bhea
+鞛	bhea
+簰	bhea
+蹣	bhea
+轡	bhea
+並	bheng
+併	beng
+病	bheng
+頻	bheng
+平	bheng
+評	bheng
+蘋	bheng
+憑	bheng
+屏	bheng
+瓶	bheng
+坪	bheng
+萍	bheng
+秤	bheng
+鮃	bheng
+顰	bheng
+伻	bheng
+嚬	bheng
+栟	bheng
+備	bhi
+被	bhi
+皮	bhi
+鼻	bhi
+脾	bhi
+啤	bhi
+臂	bhi
+幣	bhi
+琵	bhi
+跛	bhi
+濞	bhi
+鈹	bhi
+蜱	bhi
+睥	bhi
+甓	bhi
+韝	bhi
+鉍	bhi
+萆	bhi
+裨	bhi
+鞁	bhi
+榜	bo
+棒	bho
+暴	bho
+袍	bho
+庖	bho
+鎊	bho
+塝	bho
+徬	bho
+踣	bho
+滂	bho
+嗙	bho
+牓	bho
+艕	bho
+鰟	bho
+髈	bho
+耪	bho
+彭	bhong
+棚	bhong
+篷	bhong
+膨	bhong
+嘭	bhong
+堋	bhong
+硼	bhong
+淜	bhong
+湓	bhong
+蟛	bhong
+弸	bhong
+鬅	bhong
+搬	bhoo
+蚌	bo
+憋	boo
+辮	boo
+遍	boo
+卞	boo
+變	boo
+便	bhoo
+辨	bhoo
+辯	bhoo
+別	bhoo
+盤	bhoo
+旁	bho
+般	bhoo
+般	bea
+磐	bhoo
+盆	bhoo
+搒	bhoo
+緶	bhoo
+杷	bhoo
+螃	bhoo
+畔	bhoo
+傍	bhoo
+鮁	bhoo
+槃	bhoo
+灞	bhoo
+蒡	bhoo
+箯	bhoo
+苄	bhoo
+鈀	bhoo
+薄	bhou
+鵓	bhou
+礴	bhou
+欂	bhou
+簿	bhu
+蔔	bhu
+哺	bhu
+孵	bhu
+葡	bhu
+步	bhu
+部	bhu
+婆	bhu
+怖	bhu
+卟	bhu
+醭	bhu
+扒	bhwe
+拔	bhwe
+爬	bhwe
+齙	bhwe
+霸	bhwe
+耙	bhwe
+琶	bhwe
+茇	bhwe
+跋	bhwe
+潖	bhwe
+魃	bhwe
+糒	bhi
+匕	bi
+辟	bi
+比	bi
+碧	bi
+蔽	bi
+痹	bi
+筆	bi
+壁	bi
+斃	bi
+必	bi
+避	bi
+屄	bi
+逼	bi
+畢	bi
+弊	bi
+閉	bi
+庇	bi
+彼	bi
+陛	bi
+嗶	bi
+襞	bi
+璧	bi
+弼	bi
+佊	bi
+妣	bi
+秕	bi
+俾	bi
+鄙	bi
+苾	bi
+畀	bi
+蓽	bi
+毖	bi
+狴	bi
+梐	bi
+庳	bi
+敝	bi
+婢	bi
+皕	bi
+贔	bi
+篳	bi
+湢	bi
+愊	bi
+愎	bi
+蓖	bi
+閟	bi
+蹕	bi
+腷	bi
+煏	bi
+潷	bi
+馝	bi
+箅	bi
+髲	bi
+駜	bi
+獘	bi
+篦	bi
+嬖	bi
+髀	bi
+奰	bi
+饆	bi
+韠	bi
+躃	bi
+躄	bi
+芘	bi
+庀	bi
+譬	bi
+鈚	bi
+鰏	bi
+柲	bi
+荸	bi
+沘	bi
+舭	bi
+邲	bi
+詖	bi
+珌	bi
+忭	bie
+邦	bo
+幫	bo
+梆	bo
+綁	bo
+謗	bo
+磅	bo
+包	bo
+孢	bo
+胞	bo
+煲	bo
+搏	bo
+膊	bo
+褒	bo
+飽	bo
+豹	bo
+鮑	bo
+剝	bou
+粕	bo
+帛	bo
+勃	bou
+鈸	bo
+脖	bou
+啵	pu
+膀	bho
+膀	bo
+刨	bo
+苞	bo
+珀	bo
+枹	bo
+浜	bo
+抱	bo
+蜯	bo
+趵	bo
+颮	bo
+繃	bong
+崩	bong
+泵	bong
+蹦	bong
+迸	bong
+嘣	bong
+錛	bong
+瘢	boo
+半	boo
+邊	boo
+砭	boo
+籩	boo
+萹	boo
+編	boo
+蝙	boo
+鯿	boo
+鞭	boo
+貶	boo
+窆	boo
+鱉	boo
+扁	boo
+匾	boo
+惼	boo
+碥	boo
+稨	boo
+褊	boo
+藊	boo
+抃	boo
+汴	boo
+艑	boo
+蹩	boo
+癟	boo
+襏	boo
+楩	boo
+菠	bu
+駁	bou
+博	bou
+泊	bou
+渤	bou
+鉑	bou
+箔	bou
+亳	bou
+舶	bou
+缽	bou
+葧	bou
+餺	bou
+鎛	bou
+馞	bou
+髆	bou
+檗	bou
+布	bu
+佈	bu
+撥	bu
+補	bu
+捕	bu
+波	bu
+玻	bu
+播	bu
+逋	bu
+鈽	bu
+晡	bu
+鈈	bu
+埗	bu
+蔀	bu
+八	bwe
+罷	bwe
+吧	bwe
+把	bwe
+巴	bwe
+壩	bwe
+笆	bwe
+朳	bwe
+夿	bwe
+岜	bwe
+疤	bwe
+捌	bwe
+粑	bwe
+鲃	bwe
+胈	bwe
+菝	bwe
+鼥	bwe
+鈀	bwe
+刺	c
+次	c
+此	c
+眙	c
+恥	c
+侈	c
+癡	c
+弛	chi
+尺	qi
+齒	c
+賜	c
+伺	c
+斥	c
+呲	c
+赤	c
+翅	c
+熾	c
+叱	c
+叱	za
+嗤	c
+眵	c
+笞	c
+魑	c
+篪	c
+呎	qi
+敕	c
+啻	c
+疵	c
+茈	c
+茨	c
+泚	c
+跐	c
+貲	c
+粢	c
+髭	c
+觜	c
+哧	c
+鴟	c
+蚩	c
+癡	cai
+媸	c
+螭	c
+茌	c
+墀	c
+豉	c
+褫	c
+彳	c
+飭	c
+插	ca
+察	ca
+岔	ca
+刹	ca
+差	ca
+擦	ca
+叉	ca
+詫	ca
+扠	ca
+杈	ca
+臿	ca
+鍤	ca
+嚓	ca
+槎	ca
+檫	ca
+衩	ca
+鑔	ca
+汊	ca
+姹	ca
+吃	cai
+促	cou
+七	cai
+漆	cai
+柒	cai
+輕	cang
+傾	cang
+親	cang
+親	ceng
+慶	cang
+慶	ceng
+襯	cang
+襯	ceng
+頃	cang
+寸	cong
+侵	cang
+氫	cang
+寢	cang
+蹭	cang
+乘	cang
+卿	cang
+磬	cang
+瞠	cang
+氰	cang
+昌	qye
+塍	cang
+澄	cang
+衾	cang
+唚	cang
+鯖	cang
+湊	cao
+籌	chao
+儔	cao
+鈔	ce
+鈔	qo
+撤	cea
+差	cea
+產	cea
+餐	cea
+償	cea
+摻	cea
+燦	cea
+冊	cea
+策	cea
+拆	cea
+鏟	cea
+闡	cea
+攙	cea
+釵	cea
+鍘	cea
+驂	cea
+滻	cea
+黲	cea
+粲	cea
+璨	cea
+蠆	cea
+巉	cea
+剗	cea
+請	ceng
+蜻	ceng
+清	ceng
+青	ceng
+趁	ceng
+稱	ceng
+懲	ceng
+逞	ceng
+逞	cang
+秤	ceng
+蹭	ceng
+菁	ceng
+欽	ceng
+箐	ceng
+罄	ceng
+岑	ceng
+齔	ceng
+偁	ceng
+撐	ceng
+牚	ceng
+摛	ceng
+婧	ceng
+綮	ceng
+駸	ceng
+嶔	ceng
+捦	ceng
+琹	ceng
+懃	ceng
+梫	ceng
+撳	ceng
+圊	ceng
+廎	ceng
+勍	ceng
+凊	ceng
+曾	cheng
+丞	cheng
+辭	chi
+持	chi
+池	chi
+宬	cheng
+郕	cheng
+酲	cheng
+溱	cheng
+螓	cheng
+馳	chi
+慈	chi
+遲	chi
+瓷	chi
+磁	chi
+雌	chi
+埴	chi
+祠	chi
+蛭	chi
+摾	cha
+繈	cha
+茬	cha
+嬙	cha
+檣	cha
+圾	chai
+侄	chai
+殛	chai
+裙	chang
+陳	chang
+近	chang
+芹	chang
+琴	chang
+禽	chang
+擒	chang
+涔	chang
+梣	chang
+鬯	chang
+諶	chang
+棖	chang
+埕	chang
+裎	chang
+睛	chang
+郴	chang
+麇	chang
+芩	chang
+溱	chang
+噙	chang
+鋟	chang
+檾	chang
+謦	chang
+晟	chang
+湛	chang
+讖	chang
+宸	chang
+舅	chao
+囚	chao
+躊	chao
+逑	chao
+裘	chao
+賕	chao
+毬	chao
+巰	chao
+站	chea
+擇	chea
+暫	chea
+慚	chea
+纏	chea
+禪	chea
+讒	chea
+蟬	chea
+潺	chea
+豺	chea
+嬋	chea
+孱	chea
+廛	chea
+澶	chea
+躔	chea
+蕆	chea
+驏	chea
+羼	chea
+櫬	cheng
+鐔	chea
+韂	chea
+蟲	chong
+叢	chong
+摐	chong
+藑	chong
+茶	chou
+查	chou
+局	chou
+侷	jv
+楂	chou
+帚	chou
+絀	chou
+惆	chou
+蹅	chou
+嵖	chou
+躕	chu
+重	chwe
+猜	ci
+采	ci
+採	ci
+彩	ci
+綵	ci
+蔡	ci
+睬	ci
+踩	ci
+菜	ci
+廁	ci
+側	ci
+測	ci
+惻	ci
+瘥	c
+齰	ci
+鰂	ci
+礤	ci
+寀	ci
+創	co
+炒	co
+抄	co
+吵	co
+倉	co
+蒼	co
+滄	co
+艙	co
+愴	co
+瘡	co
+傖	co
+鶬	co
+凔	co
+耖	co
+村	coa
+參	coa
+慘	coa
+躥	coa
+篡	coa
+纂	coa
+攛	coa
+攥	coa
+遄	coa
+寵	cong
+串	cong
+春	cong
+蔥	cong
+囪	cong
+忡	cong
+憧	cong
+淙	zong
+沖	cong
+衝	cong
+充	cong
+堾	cong
+椿	cong
+蝽	cong
+踳	cong
+蠢	cong
+吋	cong
+匆	cong
+驄	cong
+璁	cong
+熜	cong
+鑹	coa
+竄	coa
+皴	cong
+傯	cong
+銃	cong
+茺	cong
+瑲	co
+車	cou
+初	cou
+搓	cou
+礎	cou
+儲	cou
+綽	cou
+措	cou
+挫	cou
+觸	cou
+戳	cou
+齪	cou
+捽	cou
+磋	cou
+蹉	cou
+剉	cou
+銼	cou
+瘳	cou
+楚	cou
+楚	qv
+娖	cou
+嘬	cou
+撮	cou
+嵯	cou
+矬	cou
+脞	cou
+綹	cou
+痤	cou
+鹺	cou
+厝	cou
+籀	cou
+怵	cou
+讎	cou
+搋	cou
+硨	cou
+艖	cou
+簇	cu
+樗	cu
+亍	cu
+搐	cu
+殂	cu
+踧	cu
+櫧	cu
+酢	cu
+踹	cuea
+翠	cuea
+脆	qv
+粹	qv
+萃	qv
+窗	cwe
+悵	jye
+打	da
+耷	da
+搭	da
+靼	da
+咑	da
+噠	da
+褡	da
+薘	da
+炟	da
+瘩	da
+鐽	da
+汏	da
+對	dai
+堆	dai
+懟	dai
+碓	dai
+憝	dai
+唾	tai
+凳	dang
+等	dang
+燉	dang
+燈	dang
+登	dang
+蹬	dang
+瞪	dang
+噸	dang
+敦	dang
+墩	dang
+礅	dang
+蹾	dang
+蹲	dang
+沌	dang
+鈍	dang
+遁	dang
+屯	dang
+噔	dang
+澄	dang
+邨	dang
+簦	dang
+嶝	dang
+磴	dang
+鐙	dang
+惇	dang
+撴	dang
+鐓	dang
+砘	dang
+忳	dang
+魨	dang
+坉	dang
+逗	dao
+鬥	dao
+斗	dao
+抖	dao
+兜	dao
+陡	dao
+蚪	dao
+阧	dao
+竇	dao
+枓	dao
+鈄	dao
+蔸	dao
+篼	dao
+刀	de
+到	de
+搗	de
+禱	de
+導	de
+倒	de
+島	de
+蹈	de
+忉	de
+魛	de
+捯	de
+纛	de
+燾	de
+韜	de
+膽	dea
+丹	dea
+誕	dea
+撣	dea
+帶	dea
+單	dea
+但	dea
+但	dhea
+擔	dea
+乨	dhai
+耽	dea
+歹	dea
+戴	dea
+怠	dea
+簞	dea
+呆	dea
+憚	dea
+坍	dea
+嘽	dea
+傣	dea
+甙	dea
+岱	dea
+迨	dea
+黛	dea
+黱	dea
+逮	dea
+眈	dea
+鄲	dea
+聃	dea
+殫	dea
+癉	dea
+儋	dea
+亶	dea
+萏	dea
+氮	dea
+澹	dhea
+讜	dea
+爹	dhea
+盯	deng
+釘	deng
+丁	deng
+叮	deng
+頂	deng
+鼎	deng
+酊	deng
+錠	deng
+汀	deng
+仃	deng
+玎	deng
+町	deng
+疔	deng
+耵	deng
+靪	deng
+飣	deng
+啶	deng
+碇	deng
+蹋	dha
+踏	dha
+達	dha
+妲	dha
+躂	dha
+韃	dha
+撻	dha
+闥	dha
+隊	dhai
+囼	dhai
+頹	dhai
+穨	dhai
+掉	dhang
+斷	dhang
+鄧	dhang
+藤	dhang
+盾	dhang
+騰	dhang
+頓	dhang
+飩	dhang
+屯	dhang
+臀	dhang
+籪	dhang
+躉	dhang
+疼	dhang
+謄	dhang
+滕	dhang
+暾	dhang
+囤	dhang
+豚	dhang
+頭	dhiu
+豆	dhiu
+投	dhao
+痘	dhao
+叨	dhe
+逃	dhe
+桃	dhe
+道	dhe
+稻	dhe
+悼	dhe
+淘	dhe
+陶	dhe
+掏	dhe
+盜	dhe
+萄	dhe
+糶	dhe
+氘	dhe
+邰	dhe
+絛	dhe
+咷	dhe
+洮	dhe
+啕	dhe
+綯	dhe
+醄	dhe
+鞀	dhe
+祧	dhe
+髫	dhe
+大	dhea
+痰	dhea
+談	dhea
+彈	dhea
+淡	dhea
+旦	dhea
+壇	dhea
+罈	dhea
+蛋	dhea
+宕	dhea
+曇	dhea
+笪	dhea
+殆	dhea
+疸	dhea
+啖	dhea
+菪	dhea
+圪	dhea
+郯	dhea
+埮	dhea
+覃	dhea
+榃	dhea
+檀	dhea
+鐔	dhea
+醰	dhea
+坦	tea
+賧	dhea
+燂	dhea
+婷	dheng
+訂	dheng
+訂	deng
+定	dheng
+停	dheng
+亭	dheng
+庭	dheng
+蜓	dheng
+霆	dheng
+掟	dheng
+腚	dheng
+渟	dheng
+葶	dheng
+侹	dheng
+珽	dheng
+梃	dheng
+脡	dheng
+頲	dheng
+替	dhi
+特	dhi
+題	dhi
+第	dhi
+代	dhi
+待	dhi
+蹄	dhi
+袋	dhi
+敵	dhi
+弟	dhi
+遞	dhi
+笛	dhi
+抬	dhi
+苔	dhi
+跆	dhi
+提	dhi
+緹	dhi
+貸	dhi
+埭	dhi
+棣	dhi
+荻	dhi
+滌	dhi
+娣	dhi
+踶	dhi
+締	dhi
+咍	dhi
+駘	dhi
+炱	dhi
+鮐	dhi
+儓	dhi
+薹	dhi
+遆	dhi
+鵜	dhi
+醍	dhi
+逖	dhi
+悌	dhi
+翟	dhi
+甜	dhie
+填	dhie
+電	dhie
+墊	dhie
+田	dhie
+鈿	dhie
+奠	dhie
+佃	dhie
+甸	dhie
+靛	dhie
+揲	dhie
+鰈	dhie
+沺	dhie
+恬	dhie
+畠	dhie
+剅	dhiu
+脰	dhiu
+唐	dho
+逛	dho
+扛	do
+堂	dho
+嘡	dho
+螳	dho
+羰	dho
+蹚	dho
+棠	dho
+鄌	dho
+搪	dho
+溏	dho
+瑭	dho
+樘	dho
+膛	dho
+螗	dho
+鏜	dho
+赯	dho
+餹	dho
+團	dhoa
+糰	dhoa
+段	dhoa
+頓	dhoa
+摶	dhoa
+疃	dhoa
+彖	dhoa
+緞	dhoa
+椴	dhoa
+棟	dhong
+動	dhong
+洞	dhong
+胴	dhong
+同	dhong
+彤	dhong
+銅	dhong
+童	dhong
+瞳	dhong
+慟	dhong
+侗	dhong
+峒	dhong
+恫	dhong
+硐	dhong
+茼	dhong
+桐	dhong
+僮	dhong
+鮦	dhong
+潼	dhong
+橦	dhong
+曈	dhong
+朣	dhong
+酮	dhong
+烔	dhong
+仝	dhong
+垌	dhong
+氡	dhong
+惰	dhou
+駝	dhou
+坨	dhou
+鴕	dhou
+馱	dhou
+佗	dhou
+陀	dhou
+柁	dhou
+砣	dhou
+堶	dhou
+酡	dhou
+鮀	dhou
+鼧	dhou
+讀	dhu
+大	dhu
+杜	dhu
+途	dhu
+毒	dhu
+瀆	dhu
+櫝	dhu
+牘	dhu
+黷	dhu
+荼	dhu
+釷	dhu
+塗	dhv
+屠	dhv
+圖	dhv
+肚	dhv
+妒	dhv
+度	dhv
+渡	dhv
+鍍	dhv
+篤	dhv
+徒	dhv
+犢	dhv
+蠹	du
+都	dv
+堵	dv
+踱	dv
+睹	dv
+酴	dhv
+調	dhye
+條	dhye
+迢	dhye
+笤	dhye
+窕	dhye
+鰷	dhye
+銚	dhye
+鯛	dhye
+蓨	dhye
+齠	dhye
+詆	di
+得	di
+德	di
+地	di
+骶	di
+靆	dhi
+紿	dhi
+低	di
+的	di
+嫡	di
+鏑	di
+氐	di
+邸	di
+坻	di
+抵	di
+柢	di
+砥	di
+俤	di
+菂	di
+諦	di
+蒂	di
+啲	di
+嘚	di
+哋	di
+謫	di
+樀	di
+蹢	di
+羝	di
+堤	di
+嘀	di
+滴	di
+狄	di
+迪	di
+底	di
+帝	di
+玳	dhi
+碲	dhi
+禘	di
+騠	di
+擿	di
+糴	dhi
+鍀	di
+鶗	di
+奪	dou
+跺	dou
+賭	dv
+闍	dv
+嘟	du
+督	du
+柮	dou
+飿	dou
+嚲	dou
+癜	die
+鐸	dv
+嗲	dye
+刁	dye
+叼	dye
+凋	dye
+貂	dye
+碉	dye
+屌	dye
+釣	dye
+蝶	dye
+梟	dye
+弔	dye
+吊	dye
+澱	die
+淀	die
+店	die
+碘	die
+攧	die
+疊	die
+顛	die
+蹎	die
+癲	die
+點	die
+佃	dhie
+玷	die
+跌	die
+惦	die
+喋	die
+迭	die
+諜	die
+碟	die
+淟	die
+掂	doa
+滇	die
+巔	die
+典	die
+踮	die
+阽	die
+坫	die
+殿	die
+簟	die
+雕	dye
+鵰	dye
+垤	die
+瓞	die
+耋	die
+牒	die
+蹀	die
+塹	die
+湉	die
+闐	die
+覥	die
+丟	dai
+銩	dhiu
+當	do
+噹	do
+擋	do
+黨	do
+壋	do
+蕩	do
+盪	do
+蕩	dho
+檔	do
+璫	do
+鐺	do
+襠	do
+簹	do
+蟷	do
+氹	do
+碭	do
+裰	do
+钂	do
+答	doa
+端	doa
+短	doa
+煆	doa
+鍛	doa
+鱒	doa
+東	dong
+咚	dong
+冬	dong
+董	dong
+懂	dong
+凍	dong
+佟	dong
+幢	dong
+艟	dong
+崠	dong
+鶇	dong
+腖	dong
+峂	dong
+剁	dou
+躲	dou
+多	dou
+咄	dou
+哆	dou
+墮	dou
+惰	dou
+朵	dou
+垛	dou
+哚	dou
+舵	dou
+都	dou
+綞	dou
+獨	dhu
+髑	du
+讟	du
+汈	dye
+窎	dye
+銱	dye
+堞	dye
+惵	dye
+蜩	dye
+懊	e
+扼	e
+奧	e
+敖	e
+婀	e
+蛾	ea
+厄	e
+軛	e
+呃	e
+鱷	e
+阿	e
+隞	e
+嶅	e
+遨	e
+廒	e
+璈	e
+熬	e
+翱	e
+謷	e
+鼇	e
+慠	e
+澳	e
+屙	e
+訛	e
+囮	e
+莪	e
+峨	e
+娥	e
+鋨	e
+苊	e
+堊	e
+鄂	e
+諤	e
+萼	e
+遏	e
+愕	e
+齶	e
+鶚	e
+鍔	e
+顎	e
+墺	e
+埃	ea
+欸	ea
+鎄	ea
+靄	ea
+噩	ea
+琊	ea
+暍	ea
+摁	ng
+喤	hho
+黃	hho
+望	hho
+皇	hho
+賀	hho
+荷	hhou
+航	hho
+杭	hho
+房	hho
+防	hho
+效	hho
+哮	hho
+校	hho
+孝	hho
+夏	hho
+峽	hhou
+旺	hho
+妄	hho
+枉	hho
+亡	hho
+滉	hho
+晃	hho
+蝗	hho
+璜	hho
+潢	hho
+煌	hho
+湟	hho
+發	fa
+髮	fa
+法	fa
+垡	fa
+砝	fa
+琺	fa
+非	fai
+灰	fai
+揮	fai
+悔	fai
+徽	fai
+誨	fai
+詼	fai
+噅	fai
+琿	fai
+諢	fai
+分	fang
+吩	fang
+粉	fang
+奮	fang
+憤	fang
+糞	fang
+玢	fang
+棻	fang
+雰	fang
+蚡	fang
+鼢	fang
+坋	fang
+瀵	fang
+缶	fu
+翻	fea
+返	fea
+反	fea
+販	fea
+帆	fea
+番	fea
+幡	fea
+藩	fea
+蕃	fea
+梵	fea
+蹯	fea
+飛	fi
+沸	fi
+肺	fi
+廢	fi
+腓	fi
+匪	fi
+誹	fi
+斐	fi
+翡	fi
+吠	fi
+狒	fi
+費	fi
+妃	fi
+非	fi
+鯡	fi
+菲	fi
+啡	fi
+緋	fi
+扉	fi
+蜚	fi
+霏	fi
+騑	fi
+悱	fi
+棐	fi
+榧	fi
+篚	fi
+芾	fi
+剕	fi
+痱	fi
+鐨	fi
+否	fo
+放	fo
+方	fo
+芳	fo
+仿	fo
+妨	fo
+訪	fo
+芬	fo
+邡	fo
+坊	fo
+枋	fo
+鈁	fo
+蚄	fo
+魴	fo
+紡	fo
+昉	fo
+舫	fo
+髣	fo
+彷	fo
+風	fong
+丰	fong
+豐	fong
+紛	fong
+鳳	fong
+封	fong
+鋒	fong
+峰	fong
+瘋	fong
+忿	fong
+楓	fong
+烽	fong
+蜂	fong
+馮	fong
+諷	fong
+俸	fong
+菶	fong
+琫	fong
+酚	fong
+汾	fong
+棼	fong
+僨	fong
+鱝	fong
+灃	fong
+渢	fong
+碸	fong
+葑	fong
+酆	fong
+浲	fong
+唪	fong
+婚	foo
+歡	foo
+昏	foo
+閽	foo
+惛	foo
+棔	foo
+貨	fu
+禍	fu
+伙	fu
+夥	fu
+火	fu
+豁	fu
+虎	fu
+呼	fu
+乎	fu
+縛	fu
+富	fu
+賦	fu
+副	fu
+複	fu
+駙	fu
+咐	fu
+付	fu
+腐	wu
+腐	fu
+夫	fu
+呋	fu
+膚	fu
+跗	fu
+孵	fu
+敷	fu
+弗	fu
+伏	fu
+鳧	fu
+拂	fu
+苻	fu
+韍	fu
+氟	fu
+俘	fu
+祓	fu
+匐	fu
+幅	fu
+滸	fu
+輻	fu
+福	fu
+榑	fu
+阜	fu
+蝠	fu
+撫	fu
+府	fu
+俯	fu
+釜	fu
+滏	fu
+訃	fu
+柎	fu
+祔	fu
+鮒	fu
+賻	fu
+蝮	fu
+蝜	fu
+鰒	fu
+復	we
+復	fu
+覆	fu
+馥	fu
+軤	fu
+烀	fu
+鈥	fu
+攉	fu
+俛	fu
+嫵	fu
+花	fwe
+吪	fwe
+砆	fu
+麩	fu
+趺	fu
+鈇	fu
+芣	fu
+刜	fu
+茀	fu
+怫	fu
+紱	fu
+紼	fu
+茯	fu
+罘	fu
+郛	fu
+栿	fu
+砩	fu
+蚨	fu
+菔	fu
+涪	fu
+艴	fu
+罦	fu
+箙	fu
+髴	fu
+襆	fu
+鮄	fu
+黻	fu
+襆	fu
+鵩	fu
+拊	fu
+腑	fu
+黼	fu
+夾	ga
+裌	ga
+呷	ga
+莢	ga
+鉀	ga
+挾	ga
+咖	ga
+狎	ga
+閘	ga
+伽	ga
+尕	ga
+虼	ga
+珈	ga
+枷	ga
+浹	ga
+痂	ga
+笳	ga
+葭	ga
+跏	ga
+郟	ga
+戛	ga
+鋏	ga
+袷	ga
+蛺	ga
+岬	ga
+胛	ga
+硤	ga
+該	gai
+個	gai
+各	gai
+陔	gai
+嗰	gai
+鑒	gea
+鑑	gea
+鑑	jie
+嘅	gai
+跟	gang
+梗	gang
+耿	gang
+羹	gang
+更	gang
+亙	gang
+庚	gang
+筻	gang
+哏	gang
+艮	gang
+茛	gang
+耕	gang
+浭	gang
+鶊	gang
+埂	gang
+哽	nha
+綆	gang
+鯁	gang
+暅	gang
+坸	gao
+狗	gao
+夠	gao
+勾	gao
+溝	gao
+鉤	gao
+苟	gao
+構	gao
+購	gao
+詬	gao
+佝	gao
+冓	gao
+篝	gao
+鞲	gao
+岣	gao
+耇	gao
+枸	gao
+笱	gao
+圠	ghou
+垢	gao
+姤	gao
+遘	gao
+搆	gao
+雊	gao
+媾	gao
+覯	gao
+搞	ge
+糕	ge
+稿	ge
+告	ge
+高	ge
+羔	ge
+膏	ge
+篙	ge
+鎬	ge
+戈	ge
+皋	ge
+槔	ge
+睾	ge
+櫜	ge
+杲	ge
+縞	ge
+槁	ge
+槁	ge
+郜	ge
+誥	ge
+鋯	ge
+暠	ge
+哿	ge
+蒿	ge
+嚆	ge
+屆	gea
+革	gea
+誡	gea
+戒	gea
+介	gea
+解	gea
+街	gea
+揭	gea
+皆	gea
+繭	gea
+繭	jie
+階	gea
+簡	gea
+肩	gea
+奸	gea
+姦	gea
+減	gea
+撿	gea
+揀	gea
+監	gea
+艱	gea
+嗝	goa
+嗝	gea
+隔	gea
+閣	gea
+格	gea
+界	gea
+尬	gea
+垓	gea
+賅	gea
+敢	gea
+澉	gea
+疙	gea
+胳	gea
+袼	gea
+擱	gea
+茖	gea
+鬲	gea
+滆	gea
+槅	gea
+閤	gea
+膈	gea
+骼	gea
+鎘	gea
+轕	gea
+蛤	gea
+盍	gea
+頜	gea
+鞨	gea
+鶡	gea
+襇	gea
+譾	gea
+喈	gea
+湝	gea
+檞	gea
+玠	gea
+蚧	gea
+骱	gea
+緙	gea
+溘	gea
+餎	gea
+猲	gea
+齘	gea
+仡	gea
+嘎	gha
+噶	gha
+茄	gha
+厚	ghao
+共	cho
+共	gho
+狂	gho
+曠	gho
+几	ji
+幾	gi
+根	gi
+改	gi
+鈣	gi
+塥	gi
+敢	gi
+感	gi
+鴿	gi
+格	gi
+丐	gi
+蓋	gi
+溉	gi
+概	gi
+戤	gi
+苷	gi
+橄	gi
+鱤	gi
+葛	gi
+硌	gi
+鉻	gi
+甲	go
+加	go
+校	go
+教	go
+較	go
+覺	go
+繳	go
+攪	go
+交	go
+降	go
+講	go
+賈	go
+岡	go
+冮	go
+胱	go
+剛	go
+肛	go
+綱	go
+矼	go
+鋼	go
+缸	go
+釭	go
+崗	go
+港	go
+杠	go
+槓	go
+哥	gou
+歌	gou
+光	go
+咣	go
+洸	go
+珖	go
+廣	go
+桄	go
+猓	go
+訌	go
+假	gou
+茳	go
+江	go
+洚	go
+茭	go
+筊	go
+儌	go
+皦	go
+漖	go
+堽	go
+泔	goa
+坩	goa
+甘	goa
+肝	goa
+竿	goa
+尷	goa
+感	goa
+咁	goa
+犴	goa
+柑	goa
+酐	goa
+杆	goo
+桿	goo
+稈	goa
+旰	goa
+骭	goa
+贛	goa
+瞰	goa
+貢	gong
+功	gong
+攻	gong
+供	gong
+工	gong
+弓	gong
+公	gong
+躬	hao
+宮	gong
+鞏	gong
+汞	gong
+恭	gong
+蚣	gong
+龔	gong
+塨	gong
+觥	gong
+篢	gong
+拱	gong
+珙	gong
+嗊	gong
+芎	gong
+肱	gong
+莞	goo
+管	goo
+貫	goo
+趕	goo
+幹	goo
+割	goo
+骨	goo
+觀	goo
+官	goo
+棺	goo
+館	goo
+擀	goo
+玕	goo
+矸	goo
+疳	goo
+漧	goo
+紺	goo
+淦	goo
+倌	goo
+痯	goo
+輨	goo
+鳤	goo
+摜	goo
+鸛	goo
+罐	goo
+虢	goo
+架	gou
+價	gou
+角	gou
+覺	gou
+佳	gou
+嘉	gou
+迦	gou
+家	gou
+袈	gou
+玨	gou
+傢	gou
+鎵	gou
+豭	gou
+頰	gou
+檟	gou
+瘕	gou
+桷	gou
+柙	gou
+泇	gou
+彀	gou
+謌	gou
+顧	gu
+鍋	gu
+過	gu
+谷	gu
+穀	gu
+郭	gu
+呱	gu
+鼓	gu
+蠱	gu
+股	gu
+詁	gu
+古	gu
+辜	gu
+果	gu
+堌	gu
+故	gu
+固	gu
+估	gu
+咕	gu
+沽	gu
+孤	gu
+姑	gu
+軲	gu
+鴣	gu
+菰	gu
+菇	gu
+蛄	gu
+酤	gu
+觚	gu
+轂	gu
+箍	gu
+汩	gu
+牯	gu
+罟	gu
+鈷	gu
+羖	gu
+餶	gu
+榾	gu
+榖	gu
+嘏	gu
+鶻	gu
+臌	gu
+瞽	gu
+瀔	gu
+梏	gu
+崮	gu
+牿	gu
+雇	gu
+僱	gu
+錮	gu
+痼	gu
+鯝	gu
+咼	gu
+堝	gu
+崞	gu
+蜾	gu
+裹	gu
+粿	gu
+鵠	gu
+祜	gu
+鵒	gu
+括	gua
+呱	gua
+刮	gua
+颳	gua
+緺	gua
+寡	gua
+褂	gua
+栝	gua
+絓	gua
+剮	gua
+劀	gua
+鴰	gua
+胍	gua
+國	guai
+歸	guai
+皈	guai
+閨	guai
+瑰	guai
+跬	guai
+匭	guai
+啯	guai
+槨	guai
+巋	guai
+奎	guai
+滾	guang
+棍	guang
+袞	guang
+緄	guang
+滾	guang
+獾	guea
+拐	guea
+怪	guea
+關	guea
+冠	guea
+慣	guea
+琯	guea
+摑	guea
+乖	guea
+罡	guea
+掛	gwe
+摔	gwe
+卦	gwe
+毌	guea
+丱	guea
+涫	guea
+盥	guea
+灌	guea
+瓘	guea
+蟈	guea
+幗	guai
+餜	guea
+驩	guea
+顴	guea
+瓜	gwe
+坬	gwe
+詿	gwe
+哈	ha
+呷	ha
+鉿	ha
+喝	ha
+脝	ha
+罅	ha
+嗐	hai
+嗨	hai
+骸	hai
+駭	hai
+氦	hai
+很	hang
+狠	hang
+亨	hang
+恒	hang
+姮	hang
+洹	hang
+㘪	hao
+好	he
+郝	he
+耗	he
+浩	he
+呵	he
+禾	he
+赫	he
+壕	he
+嚎	he
+皓	he
+皞	he
+澔	he
+顥	he
+灝	he
+曷	he
+餄	he
+翮	he
+褐	he
+壑	he
+郃	he
+薅	he
+孩	hea
+胲	hea
+濠	hhe
+閒	hhea
+鹹	hhea
+咸	hhea
+嫻	ye
+嫺	ye
+懈	hhea
+鞋	hhea
+槜	hhea
+哼	heng
+瀕	heng
+哘	hha
+行	hha
+挾	hha
+匣	hha
+窄	hha
+瑕	hha
+轄	hha
+荇	hha
+衡	hhang
+垣	hhang
+痕	hhang
+恨	hhang
+珩	hhang
+桁	hhang
+鴴	hhang
+蘅	hhang
+烜	hhang
+桓	hhang
+後	hhao
+后	hhao
+候	hhao
+厚	hhao
+喉	hhao
+猴	hhao
+睺	hhao
+瘊	hhao
+骺	hhao
+篌	hhao
+餱	hhao
+郈	hhao
+緱	hhao
+垕	hhao
+逅	hhao
+堠	hhao
+鮜	hhao
+豪	hhe
+號	hhe
+毫	hhe
+蠔	hhe
+鴞	hhe
+劾	hhea
+閡	hhea
+貉	hhea
+鷳	hhea
+夜	hhi
+害	hhi
+搳	hhi
+腋	hhi
+肪	hho
+迒	hho
+絎	hho
+沆	hho
+鍠	hho
+艎	hho
+磺	hho
+癀	hho
+餭	hho
+榥	hho
+皝	hho
+皩	hho
+藿	hho
+魍	hho
+寒	hhoa
+盒	hha
+盒	hhoa
+含	hhoa
+函	hhoa
+涵	hhoa
+韓	hhoa
+汗	hhoa
+捍	hhoa
+焊	hhoa
+合	hhoa
+和	hhoa
+核	hhoa
+蚶	hhoa
+邯	hhoa
+晗	hhoa
+焓	hhoa
+喊	hea
+菡	hhoa
+頷	hhoa
+撼	hhoa
+翰	hhoa
+瀚	hhoa
+闞	hhoa
+虹	hhong
+鴻	hhong
+馮	hhong
+逢	hhong
+縫	hhong
+奉	hhong
+紅	hhong
+泓	hhong
+薨	hhong
+閎	hhong
+葒	hhong
+黌	hhong
+凰	hho
+徨	hhoo
+篁	hhoo
+蟥	hhoo
+鰉	hhoo
+何	hhou
+河	hhou
+廈	hhou
+下	hhou
+學	hhou
+呵	hhou
+菏	hhou
+戶	whu
+枑	whu
+鱯	whu
+萑	wea
+嫿	we
+嬅	we
+黑	hi
+嘿	hi
+海	hi
+亥	hi
+慌	ho
+恍	ho
+謊	ho
+荒	ho
+塃	ho
+遑	ho
+幌	ho
+嚇	hou
+浛	hoa
+罕	hoa
+漢	hoa
+旱	hoa
+悍	hoa
+憾	hoa
+夯	hoa
+酣	hoa
+憨	hoa
+鼾	hoa
+邗	hoa
+琀	hoa
+蔊	hoa
+垾	hoa
+睅	hoa
+撖	hoa
+暵	hoa
+熯	hoa
+淏	hoa
+齁	hoa
+斡	hoa
+哄	hong
+嗅	hong
+聞	hong
+轟	hong
+烘	hong
+弘	hong
+宏	hong
+洪	hong
+竑	hong
+吰	hong
+紘	hong
+翃	hong
+訇	hong
+葓	hong
+鈜	hong
+鉷	hong
+蕻	hong
+頏	hong
+昏	hoo
+宦	hoo
+肓	hoo
+隍	hho
+惶	hho
+簧	hho
+閽	hoo
+惛	hoo
+棔	hoo
+蝦	hou
+吼	hou
+犼	hou
+鍃	hou
+胡	whu
+鬍	whu
+忽	hu
+淴	hu
+惚	hu
+鵠	hu
+嘝	hu
+槲	hu
+唬	hu
+琥	hu
+岵	hu
+瓠	hu
+謔	hu
+嘩	we
+譁	we
+穢	huai
+繪	huai
+晦	huai
+諢	huai
+奐	huea
+喚	huea
+瘓	huea
+渙	huea
+煥	huea
+鹮	huea
+郇	huea
+恢	fai
+恢	huai
+麾	fai
+豁	huo
+霍	huo
+啫	je
+間	jea
+期	jh
+其	jh
+植	jh
+儕	jhi
+芨	jhi
+笄	jhi
+踦	jhi
+錤	jhi
+岌	jhi
+笈	jhi
+蒺	jhi
+掎	jhi
+技	jhi
+嚌	jhi
+惎	jhi
+霽	jhi
+鱭	jhi
+齊	jhi
+祁	jhi
+圻	jhi
+岐	jhi
+其	jhi
+奇	jhi
+歧	jhi
+祈	jhi
+祇	jhi
+薺	jhi
+臍	jhi
+萁	jhi
+畦	jhi
+跂	jhi
+崎	jhi
+淇	jhi
+騎	jhi
+琪	jhi
+棋	jhi
+蠐	jhi
+祺	jhi
+錡	jhi
+蜞	jhi
+旗	jhi
+蘄	jhi
+鯕	jhi
+麒	jhi
+屺	jhi
+玘	jhi
+茄	jhi
+欹	jhi
+齮	jhi
+直	jhi
+值	jhi
+職	jhi
+殖	jhi
+箸	jhi
+件	jhie
+健	jhie
+捷	jhie
+截	jhie
+搴	jhie
+虔	jhie
+乾	goo
+乾	zhie
+憔	jhie
+窮	jhiong
+煢	jhiong
+穹	jhiong
+瓊	jhiong
+銎	jhiong
+仇	jhiu
+綢	jhiu
+疇	jhiu
+酬	jhiu
+稠	jhiu
+僽	jhiu
+曹	jho
+嘈	jho
+漕	jho
+槽	jho
+螬	jho
+艚	jho
+巢	jho
+朝	jho
+嘲	jho
+潮	jho
+嶕	jho
+撟	jho
+醮	jho
+磽	jho
+墝	jho
+繰	jho
+蹻	jho
+喬	jho
+僑	jho
+蕎	jho
+橋	jho
+礄	jho
+譙	jho
+鞽	jho
+趙	jho
+賙	jhou
+伷	jhou
+傳	jhue
+權	jhue
+詮	jhue
+泉	jhue
+拳	jhue
+醛	jhue
+鰁	jhue
+犬	jhue
+瘸	jhue
+除	jhv
+廚	jhv
+鋤	jhv
+滁	jhv
+蜍	jhv
+篨	jhv
+櫥	jhv
+楮	jhv
+陲	jhv
+捶	jhv
+棰	jhv
+槌	jhv
+錘	jhv
+櫃	jhv
+跪	jhv
+巨	jhv
+距	jhv
+筇	jhv
+瞿	jhv
+拄	jhv
+住	jhv
+柱	jhv
+炷	jhv
+砫	jhv
+疰	jhv
+蛀	jhv
+強	jhye
+着	jio
+長	jhye
+倀	jhye
+萇	jhye
+腸	jhye
+嘗	jhye
+嚐	zhye
+常	jhye
+償	jhye
+場	jhye
+扯	jhye
+嶠	jhye
+瑒	jhye
+祭	ji
+繼	ji
+覬	ji
+既	ji
+濟	ji
+跡	ji
+蹟	ji
+劑	ji
+季	ji
+妓	ji
+際	ji
+忌	ji
+紀	ji
+伎	ji
+記	ji
+計	ji
+脊	ji
+擠	ji
+己	ji
+籍	ji
+瘠	ji
+嫉	ji
+楫	ji
+棘	ji
+即	ji
+汲	ji
+嘬	ji
+最	ji
+已	yh
+煮	ji
+肢	ji
+肢	zh
+蔗	ji
+再	ji
+借	ji
+稷	ji
+績	ji
+寂	ji
+寄	ji
+紙	ji
+給	ji
+譏	ji
+擊	ji
+嘰	ji
+飢	ji
+饑	ji
+璣	ji
+機	ji
+乩	ji
+肌	ji
+磯	ji
+雞	ji
+咭	ji
+唧	ji
+積	ji
+屐	ji
+姬	ji
+基	ji
+犄	ji
+緝	ji
+畸	ji
+躋	ji
+箕	ji
+稽	ji
+觭	ji
+畿	ji
+墼	ji
+羈	ji
+伋	ji
+忣	ji
+佶	ji
+姞	ji
+戢	ji
+脊	ji
+耤	ji
+蕺	ji
+踖	ji
+鶺	ji
+藉	ji
+臟	zho
+蹐	ji
+蟣	ji
+魢	ji
+戟	ji
+芰	ji
+洎	ji
+偈	ji
+徛	ji
+悸	ji
+塈	ji
+勣	ji
+薊	ji
+跽	ji
+穊	ji
+漈	ji
+暨	ji
+鯽	ji
+髻	ji
+冀	ji
+穄	ji
+襀	ji
+罽	ji
+檵	ji
+驥	ji
+鱀	ji
+鰶	ji
+綦	ji
+磜	ji
+蕞	ji
+縩	ji
+憯	ji
+丌	ji
+齎	ji
+嵇	ji
+齏	ji
+駕	jia
+偈	jie
+戔	jie
+尖	jie
+殲	jie
+堅	jie
+肩	jie
+艱	jie
+監	jie
+兼	jie
+菅	jie
+箋	jie
+犍	jie
+湔	jie
+緘	jie
+瑊	jie
+搛	jie
+蒹	jie
+椾	jie
+煎	jie
+縑	jie
+鰹	jie
+鶼	jie
+熸	jie
+韉	jie
+鰜	jie
+櫼	jie
+梘	jie
+柬	jie
+儉	jie
+筧	jie
+檢	jie
+趼	jie
+剪	jie
+鹼	jie
+瞼	jie
+騫	jie
+戩	jie
+堿	jie
+翦	jie
+蹇	jie
+謇	jie
+見	jie
+餞	jie
+建	jie
+薦	jie
+賤	jie
+牮	jie
+劍	jie
+艦	jie
+澗	jie
+漸	jie
+諫	jie
+楗	jie
+踐	jie
+鐧	jie
+毽	jie
+腱	jie
+濺	jie
+鍵	jie
+僭	jie
+踺	jie
+箭	jie
+鞬	jie
+姜	jye
+薑	za
+僵	jie
+蔣	jie
+焦	jie
+癤	jie
+接	jie
+秸	jie
+痎	jie
+嗟	jie
+孑	jie
+節	jie
+訐	jie
+劫	jie
+劼	jie
+傑	jie
+疌	jie
+詰	jie
+拮	jie
+潔	jie
+結	jie
+桀	jie
+婕	jie
+絜	jie
+頡	jie
+楬	jie
+睫	jie
+蜐	jie
+榤	jie
+碣	jie
+鮚	jie
+竭	jie
+羯	jie
+芥	jie
+疥	jie
+殮	jie
+掮	jie
+倢	jie
+朅	jie
+擷	jie
+簪	jie
+仄	jie
+昃	jie
+展	jie
+脹	jie
+折	jie
+晢	jie
+喆	jie
+蟄	jie
+摺	jie
+鍺	jie
+赭	jie
+褶	jie
+這	jie
+浙	jie
+瞅	jiu
+糾	jiu
+鳩	jiu
+赳	jiu
+鬮	jiu
+啾	jiu
+鬏	jiu
+灸	jiu
+韭	jiu
+酒	jiu
+咎	jiu
+疚	jiu
+舟	jiu
+州	jiu
+謅	jiu
+侜	jiu
+周	jiu
+週	jiu
+洲	jiu
+輈	jiu
+鵃	jiu
+喌	jiu
+粥	jiu
+肘	jiu
+宙	jiu
+縐	jiu
+晝	jiu
+皺	jiu
+驟	jiu
+鄒	jiu
+怊	jo
+焯	jo
+晁	jo
+朝	jo
+郊	jo
+峧	jo
+澆	jo
+嬌	jo
+姣	jo
+驕	jo
+膠	jo
+蛟	jo
+跤	jo
+僬	jo
+鮫	jo
+蕉	jo
+礁	jo
+鷦	jo
+轇	jo
+嚼	jo
+佼	jo
+狡	jo
+餃	jo
+絞	jo
+鉸	jo
+矯	jo
+皎	jo
+敫	jo
+剿	jo
+徼	jo
+繳	jo
+叫	jo
+珓	jo
+轎	jo
+窖	jo
+噭	jo
+藠	jo
+坰	jo
+駉	jo
+泂	jo
+煚	jo
+幧	jo
+嶠	jo
+撽	jo
+躈	jo
+懆	jo
+檄	jo
+洨	jo
+僥	jo
+遭	jo
+早	jo
+棗	jo
+澡	jo
+璪	jo
+藻	jo
+灶	jo
+噪	jo
+譟	jo
+躁	jo
+釗	jo
+招	jo
+昭	jo
+沼	jo
+召	jo
+兆	jo
+詔	jo
+炤	jo
+旐	jo
+照	jo
+罩	jo
+曌	jo
+鮡	jo
+冏	jong
+迥	jong
+炯	jong
+窘	jong
+盅	jong
+芻	jou
+捐	jue
+涓	jue
+娟	jue
+鵑	jue
+鐫	jue
+卷	jue
+捲	jue
+錈	jue
+帣	jue
+弮	jue
+倦	jue
+狷	jue
+絹	jue
+鄄	jue
+眷	jue
+睊	jue
+罥	jue
+撅	jue
+噘	jue
+孓	jue
+決	jue
+抉	jue
+玦	jue
+砄	jue
+掘	jue
+崛	jue
+觖	jue
+厥	jue
+傕	jue
+劂	jue
+蕨	jue
+獗	jue
+鴂	jue
+橛	jue
+钁	jue
+爵	jue
+蹶	jue
+矍	jue
+爝	jue
+攫	jue
+倔	jue
+雋	jue
+棬	jue
+惓	jue
+蜷	jue
+鬈	jue
+蜎	jue
+拽	jue
+專	jue
+磚	jue
+顓	jue
+轉	jue
+囀	jue
+撰	jue
+篆	jue
+饌	jue
+篹	jue
+鑽	jue
+朘	jue
+車	jv
+鶵	jv
+黜	jv
+輟	jv
+泃	jv
+枸	jv
+圭	jv
+龜	jv
+規	jv
+珪	jv
+矽	jv
+鮭	jv
+詭	jv
+鬼	jv
+晷	jv
+炅	jv
+貴	jv
+桂	jv
+筀	jv
+鱖	jv
+拘	jv
+苴	jv
+狙	jv
+居	jv
+駒	jv
+罝	jv
+疽	jv
+掬	jv
+琚	jv
+椐	jv
+跔	jv
+鋦	jv
+腒	jv
+雎	jv
+裾	jv
+鮈	jv
+鞠	jv
+鞫	jv
+菊	jv
+焗	jv
+咀	jv
+沮	jv
+莒	jv
+矩	jv
+舉	jv
+椇	jv
+筥	jv
+櫸	jv
+齟	jv
+踽	jv
+句	jv
+詎	jv
+拒	jv
+苣	jv
+具	jv
+炬	jv
+钜	jv
+秬	jv
+俱	jv
+倨	jv
+粔	jv
+劇	jv
+據	jv
+据	jv
+懼	jv
+犋	jv
+颶	jv
+鋸	jv
+踞	jv
+屨	jv
+遽	jv
+澽	jv
+醵	jv
+鐻	jv
+蕢	jv
+趄	jv
+蛆	jv
+麹	jv
+麴	jv
+佢	jv
+蘧	jv
+廆	jv
+彘	jv
+朱	jv
+硃	jv
+邾	jv
+侏	jv
+誅	jv
+洙	jv
+珠	jv
+株	jv
+諸	jv
+銖	jv
+豬	jv
+蛛	jv
+瀦	jv
+櫫	jv
+主	jv
+囑	jv
+矚	jv
+佇	jv
+紵	jv
+貯	jv
+注	jv
+註	zou
+駐	jv
+柷	jv
+著	jv
+隹	jv
+追	jv
+騅	jv
+椎	jv
+錐	jv
+綴	jv
+縋	jv
+膇	jv
+醊	jv
+錣	jv
+租	jv
+鉏	jv
+詛	jv
+阻	jv
+俎	jv
+祖	jv
+嘴	jv
+醉	jv
+覘	jye
+猖	jye
+閶	jye
+鯧	jye
+嫦	jye
+敞	jye
+氅	jye
+穿	jye
+將	jye
+漿	jye
+韁	jye
+礓	jye
+獎	jye
+槳	jye
+匠	jye
+絳	jye
+醬	jye
+強	jye
+糨	jye
+贓	jye
+臧	jye
+葬	jye
+詹	jye
+斬	jye
+戰	jye
+張	jye
+章	jye
+鄣	jye
+獐	jye
+彰	jye
+漳	jye
+嫜	jye
+璋	jye
+樟	jye
+蟑	jye
+仉	jye
+漲	jye
+掌	jye
+丈	jye
+仗	jye
+杖	jye
+帳	jye
+賬	jye
+障	jye
+嶂	jye
+幛	jye
+瘴	jye
+蜇	jye
+轍	jye
+者	jye
+這	jye
+摭	jye
+嫁	ka
+哢	ka
+咖	ka
+卡	ka
+佧	ka
+胩	ka
+掐	ka
+拤	ka
+肯	kang
+墾	kang
+懇	kang
+啃	kang
+掯	kang
+硍	kang
+坑	kang
+吭	kang
+硜	kang
+鏗	kang
+銬	kao
+摳	kao
+彄	kao
+口	kao
+叩	kao
+扣	kao
+釦	kao
+寇	kao
+筘	kao
+蔻	kao
+尻	ke
+考	ke
+拷	ke
+栲	ke
+烤	ke
+犒	ke
+靠	ke
+錁	ke
+焅	ke
+闔	kea
+喀	kea
+楷	kea
+戡	kea
+冚	kea
+莰	kea
+檻	kea
+苛	kea
+匼	kea
+珂	kea
+軻	kea
+牁	kea
+頦	kea
+搕	kea
+嗑	kea
+稞	kea
+榼	kea
+蝌	kea
+髁	kea
+咳	kea
+揢	kea
+坷	kea
+岢	kea
+恪	kea
+客	kea
+氪	kea
+騍	kea
+愙	kea
+砢	kea
+髂	kea
+忑	kea
+皚	ki
+覬	ki
+開	ki
+揩	ki
+鉲	ki
+剴	ki
+凱	ki
+塏	ki
+闓	ki
+愷	ki
+鎧	ki
+蒈	ki
+慨	ki
+鍇	ki
+欬	ki
+克	ki
+刻	ki
+舸	ko
+獷	ko
+愾	ko
+閌	ko
+康	ko
+慷	ko
+槺	ko
+糠	ko
+亢	ko
+伉	ko
+抗	ko
+囥	ko
+炕	ko
+鈧	ko
+柯	ko
+殼	ko
+瞘	ko
+匡	ko
+誆	ko
+哐	ko
+洭	ko
+恇	ko
+鵟	ko
+夼	ko
+壙	ko
+纊	ko
+曠	ko
+況	ko
+礦	ko
+貺	ko
+框	ko
+眶	ko
+絖	ko
+擴	ko
+栝	ko
+蛞	ko
+敲	ko
+冗	ko
+楷	koa
+刊	koa
+勘	koa
+堪	koa
+坎	koa
+侃	koa
+砍	koa
+檻	koa
+看	koa
+崁	koa
+墈	koa
+磕	koa
+空	kong
+倥	kong
+崆	kong
+悾	kong
+箜	kong
+孔	kong
+恐	kong
+控	kong
+鞚	kong
+蓇	koo
+渴	koo
+髖	koo
+款	koo
+鄺	koo
+睏	koo
+屙	kou
+蝌	kou
+殼	kou
+可	kou
+芤	kou
+確	kou
+确	kou
+榷	kou
+涸	ku
+科	ku
+棵	ku
+顆	ku
+課	ku
+矻	ku
+刳	ku
+枯	ku
+哭	ku
+堀	ku
+圐	ku
+窟	ku
+骷	ku
+苦	ku
+楛	ku
+庫	ku
+絝	ku
+袴	ku
+嚳	ku
+褲	ku
+酷	ku
+聒	kua
+夸	kua
+誇	kua
+姱	kua
+侉	kua
+垮	kua
+挎	kua
+胯	kua
+跨	kua
+括	kua
+闊	kua
+廓	kua
+拓	kua
+癸	kuai
+檜	kuai
+瞌	kuai
+虧	kuai
+刲	kuai
+悝	kuai
+盔	kuai
+逵	kuai
+馗	kuai
+葵	kuai
+騤	kuai
+魁	kuai
+戣	kuai
+睽	kuai
+蝰	kuai
+櫆	kuai
+傀	kuai
+磈	kuai
+匱	kuai
+饋	kuai
+潰	kuai
+憒	kuai
+愧	kuai
+聵	kuai
+隗	kuai
+輥	kuang
+筐	kuang
+坤	kuang
+昆	kuang
+崑	kuang
+褌	kuang
+琨	kuang
+焜	kuang
+髡	kuang
+鶤	kuang
+錕	kuang
+醌	kuang
+鯤	kuang
+捆	kuang
+閫	kuang
+悃	kuang
+困	kuang
+劊	kuea
+蒯	kuea
+凷	kuea
+塊	kuea
+快	kuea
+儈	kuea
+鄶	kuea
+噲	kuea
+獪	kuea
+膾	kuea
+筷	kuea
+鱠	kuea
+寬	kuea
+窾	kuea
+窺	kuea
+揆	kuea
+喹	kuea
+暌	kuea
+簣	kuea
+炔	kuea
+劻	kuo
+誑	kuo
+貳	la
+垃	la
+拉	la
+啦	la
+邋	la
+旯	la
+剌	la
+揦	la
+喇	la
+臘	la
+腊	la
+蠟	la
+蜡	la
+瘌	la
+辣	la
+蝲	la
+鬎	la
+鑞	la
+鯻	la
+癩	la
+冷	la
+倆	la
+萊	li
+賴	lea
+勒	lai
+雷	lai
+蔂	lai
+嫘	lai
+縲	lai
+檑	lai
+鐳	lai
+羸	lai
+罍	lai
+欙	lai
+耒	lai
+壘	lai
+磊	lai
+蕾	lai
+儡	lai
+藟	lai
+癗	lai
+儽	lai
+肋	lai
+淚	lai
+類	lai
+累	lai
+纍	lai
+礌	lai
+躐	lai
+餒	lai
+塄	lang
+楞	lang
+愣	lang
+卵	lang
+掄	lang
+侖	lang
+倫	lang
+圇	lang
+淪	lang
+綸	lang
+輪	lang
+崙	lang
+埨	lang
+窶	lao
+撈	lao
+烙	lao
+婁	lao
+蔞	lao
+漊	lao
+樓	lao
+耬	lao
+螻	lao
+髏	lao
+摟	lao
+嶁	lao
+簍	lao
+陋	lao
+鏤	lao
+瘺	lao
+漏	lao
+蠃	lao
+勞	le
+牢	le
+哰	le
+嶗	le
+鐒	le
+癆	le
+簩	le
+老	le
+佬	le
+姥	le
+栳	le
+銠	le
+嘮	le
+澇	le
+耮	le
+酪	le
+泐	le
+勒	le
+犖	le
+瀨	lea
+癩	lea
+籟	lea
+蘭	lea
+嵐	lea
+攔	lea
+㳕	lea
+欄	lea
+婪	lea
+闌	lea
+藍	lea
+讕	lea
+瀾	lea
+襤	lea
+籃	lea
+斕	lea
+鑭	lea
+襴	lea
+籣	lea
+覽	lea
+攬	lea
+纜	lea
+欖	lea
+濫	lea
+懶	lea
+爛	lea
+濫	lea
+鰳	lea
+酹	lea
+嘞	lea
+擂	lei
+綝	leng
+棱	leng
+薐	leng
+堎	leng
+睖	leng
+蒞	leng
+拎	leng
+鄰	leng
+林	leng
+臨	leng
+啉	leng
+淋	leng
+琳	leng
+粼	leng
+嶙	leng
+遴	leng
+潾	leng
+璘	leng
+霖	leng
+轔	leng
+磷	leng
+瞵	leng
+鱗	leng
+麟	leng
+菻	leng
+凜	leng
+廩	leng
+懍	leng
+檁	leng
+吝	leng
+賃	leng
+藺	leng
+膦	leng
+躪	leng
+〇	leng
+伶	leng
+靈	leng
+苓	leng
+囹	leng
+泠	leng
+玲	leng
+柃	leng
+瓴	leng
+鈴	leng
+鴒	leng
+淩	leng
+陵	leng
+聆	leng
+菱	leng
+欞	leng
+蛉	leng
+崚	leng
+笭	leng
+舲	leng
+翎	leng
+羚	leng
+綾	leng
+祾	leng
+零	leng
+齡	leng
+鯪	leng
+酃	leng
+嶺	leng
+領	leng
+另	leng
+令	leng
+呤	leng
+冧	leng
+酩	leng
+鬲	li
+悝	li
+砬	li
+來	li
+崍	li
+徠	li
+淶	li
+棶	li
+唻	li
+錸	li
+鶆	li
+賚	li
+睞	li
+仂	li
+艻	li
+叻	li
+玏	li
+簕	li
+類	li
+厘	li
+釐	li
+狸	li
+離	li
+驪	li
+梨	li
+犁	li
+鸝	li
+喱	li
+剺	li
+蘺	li
+蜊	li
+漓	li
+灕	li
+縭	li
+璃	li
+嫠	li
+犛	li
+蔾	li
+黎	li
+鱺	li
+罹	li
+籬	li
+醨	li
+藜	li
+嚟	li
+鵹	li
+黧	li
+蠡	li
+劙	li
+纚	li
+禮	li
+李	li
+裡	li
+里	li
+峛	li
+俚	li
+邐	li
+哩	li
+浬	li
+娌	li
+理	li
+鋰	li
+鯉	li
+澧	li
+醴	li
+鱧	li
+欐	li
+力	li
+歷	li
+曆	li
+厲	li
+立	li
+吏	li
+壢	li
+藶	li
+麗	li
+勵	li
+嚦	li
+利	li
+瀝	li
+櫪	li
+例	li
+癘	li
+沴	li
+戾	li
+隸	li
+荔	li
+櫟	li
+酈	li
+轢	li
+儷	li
+俐	li
+鬁	li
+莉	li
+栗	li
+慄	li
+礪	li
+礫	li
+猁	li
+蠣	li
+唳	li
+笠	li
+糲	li
+粒	li
+靂	li
+躒	li
+詈	li
+傈	li
+凓	li
+痢	li
+溧	li
+綟	li
+篥	li
+鬁	li
+瓅	li
+盭	li
+浰	li
+梩	li
+奩	lie
+連	lie
+憐	lie
+簾	lie
+蓮	lie
+漣	lie
+梿	lie
+聯	lie
+褳	lie
+廉	lie
+磏	lie
+鰱	lie
+濂	lie
+臁	lie
+鐮	lie
+蠊	lie
+鬑	lie
+璉	lie
+斂	lie
+臉	lie
+襝	lie
+蘞	lie
+練	lie
+煉	lie
+鍊	lie
+戀	lie
+鏈	lie
+楝	lie
+瀲	lie
+鰊	lie
+良	lye
+莨	lye
+涼	lye
+梁	lye
+樑	lye
+糧	lye
+亮	lye
+輛	lye
+遼	lye
+療	lye
+聊	lye
+料	lye
+廖	lye
+咧	lie
+列	lie
+劣	lie
+冽	lie
+洌	lie
+埒	lie
+烈	lie
+獵	lie
+裂	lie
+趔	lie
+鬣	lie
+薟	lie
+溜	liu
+溜	liu
+劉	liu
+瀏	liu
+留	liu
+流	liu
+琉	liu
+硫	liu
+餾	liu
+旒	liu
+騮	liu
+榴	liu
+飀	liu
+鎦	liu
+鶹	liu
+瘤	liu
+鏐	liu
+鎏	liu
+柳	liu
+鋶	liu
+罶	liu
+遛	liu
+磟	liu
+鷚	liu
+蹓	liu
+啷	lo
+郎	lo
+狼	lo
+琅	lo
+廊	lo
+嫏	lo
+榔	lo
+鋃	lo
+稂	lo
+螂	lo
+鎯	lo
+朗	lo
+烺	lo
+蓢	lo
+塱	lo
+埌	lo
+崀	lo
+浪	lo
+蒗	lo
+魎	lo
+晾	lo
+孌	loa
+攣	loa
+亂	loa
+論	loa
+篢	long
+龕	long
+嚨	long
+瓏	long
+櫳	long
+曨	long
+朧	long
+礱	long
+矓	long
+竜	long
+聾	long
+籠	long
+隆	long
+漋	long
+癃	long
+窿	long
+隴	long
+壟	long
+攏	long
+壟	long
+儱	long
+咯	lou
+硌	lou
+烙	lou
+樂	lou
+嘍	lou
+鱸	lou
+錄	lou
+菉	lou
+淥	lou
+逯	lou
+琭	lou
+睩	lou
+籙	lou
+醁	lou
+騄	lou
+囉	lou
+羅	lou
+蘿	lou
+邏	lou
+玀	lou
+欏	lou
+鑼	lou
+籮	lou
+騾	lou
+鏍	lou
+螺	lou
+饠	lou
+倮	lou
+裸	lou
+瘰	lou
+攞	lou
+濼	lou
+洛	lou
+絡	lou
+駱	lou
+珞	lou
+落	lou
+漯	lou
+綠	lou
+箬	lou
+六	lu
+嚕	lu
+櫨	lu
+鸕	lu
+鹵	lv
+滷	lv
+陸	lu
+戮	lu
+麓	lu
+圞	lue
+略	lue
+巒	luea
+孿	luea
+鸞	luea
+鑾	luea
+蓼	lv
+僂	lv
+擼	lv
+氌	lv
+盧	lv
+蘆	lv
+廬	lv
+壚	lv
+爐	lv
+瀘	lv
+轤	lv
+臚	lv
+顱	lv
+艫	lv
+矑	lv
+纑	lv
+鑪	lv
+虜	lv
+擄	lv
+魯	lv
+澛	lv
+櫓	lv
+鑥	lv
+甪	lv
+輅	lv
+賂	lv
+鹿	lv
+祿	lv
+碌	lv
+路	lv
+僇	lv
+漉	lv
+轆	lv
+蕗	lv
+潞	lv
+璐	lv
+簏	lv
+鷺	lv
+露	lv
+驢	lv
+閭	lv
+櫚	lv
+呂	lv
+侶	lv
+旅	lv
+鋁	lv
+穭	lv
+屢	lv
+縷	lv
+膂	lv
+褸	lv
+履	lv
+律	lv
+慮	lv
+葎	lv
+氯	lv
+濾	lv
+龍	lwe
+蘢	lwe
+瀧	lwe
+臠	lwe
+倞	lye
+閬	lye
+桹	lye
+硠	lye
+悢	lye
+醪	lye
+嫪	lye
+了	lye
+椋	lye
+輬	lye
+粱	lye
+墚	lye
+両	lye
+兩	la
+啢	lye
+裲	lye
+蜽	lye
+緉	lye
+諒	lye
+靚	lye
+量	lye
+喨	lye
+踉	lye
+蹽	lye
+僚	lye
+漻	lye
+寥	lye
+撩	lye
+嘹	lye
+獠	lye
+潦	lye
+憭	lye
+寮	lye
+嫽	lye
+繚	lye
+暸	lye
+燎	lye
+鷯	lye
+簝	lye
+髎	lye
+釕	lye
+蓼	lye
+撂	lye
+瞭	lye
+鐐	lye
+繆	lye
+媽	ma
+祃	ma
+罵	ma
+蜢	ma
+孖	ma
+勱	mai
+麥	mai
+霡	mai
+玫	mai
+莓	mai
+梅	mai
+楳	mai
+郿	mai
+嵋	mai
+猸	mai
+湄	mai
+媒	mai
+楣	mai
+酶	mai
+鋂	mai
+鶥	mai
+黴	mai
+霉	mai
+每	mai
+鎂	mai
+妹	mai
+袂	mai
+媚	mai
+魅	mai
+墨	mai
+門	mang
+捫	mang
+鍆	mang
+悶	mang
+燜	mang
+們	mang
+虻	mang
+萌	mang
+猛	mang
+錳	mang
+艋	mang
+忘	mang
+蚊	mang
+問	mang
+冇	mao
+沒	mao
+侔	mao
+蛑	mao
+貓	me
+毛	me
+茆	me
+茅	me
+犛	me
+旄	me
+酕	me
+錨	me
+髦	me
+髳	me
+蟊	me
+卯	me
+峁	me
+泖	me
+昴	me
+鉚	me
+芼	me
+茂	me
+眊	me
+冒	me
+貿	me
+耄	me
+袤	me
+帽	me
+媢	me
+瑁	me
+毷	me
+瞀	me
+苗	me
+描	me
+鶓	me
+瞄	me
+杪	me
+眇	me
+秒	me
+淼	me
+渺	me
+緲	me
+藐	me
+邈	me
+妙	me
+廟	me
+玅	me
+眸	me
+鍪	me
+牡	me
+埋	mea
+霾	mea
+買	mea
+蕒	mea
+邁	mea
+賣	mea
+脈	mea
+嘜	mea
+顢	mea
+鰻	mea
+鬘	mea
+蟎	mea
+蔓	mea
+曼	mea
+謾	mea
+墁	mea
+蔄	mea
+幔	mea
+漫	mea
+慢	mea
+嫚	mea
+縵	mea
+熳	mea
+澫	mea
+鏝	mea
+枚	mea
+眉	mea
+煤	mea
+萬	mea
+卐	mea
+卍	mea
+蝥	meng
+掹	meng
+幎	meng
+民	meng
+苠	meng
+旻	meng
+岷	meng
+瑉	meng
+緡	meng
+暋	meng
+皿	meng
+閔	meng
+抿	meng
+呡	meng
+泯	meng
+閩	meng
+憫	meng
+笢	meng
+敏	meng
+湣	meng
+湣	meng
+慜	meng
+僶	meng
+鰵	meng
+名	meng
+明	meng
+鳴	meng
+茗	meng
+洺	meng
+冥	meng
+銘	meng
+蓂	meng
+溟	meng
+榠	meng
+暝	meng
+瞑	meng
+螟	meng
+命	meng
+忞	meng
+姥	mg
+嚜	mg
+謨	mg
+饃	mg
+模	mg
+膜	mg
+蘑	mg
+魔	mg
+茉	mg
+秣	mg
+驀	mg
+寞	mg
+礳	mg
+某	mg
+呣	mg
+坶	mg
+拇	mg
+鉧	mg
+目	mg
+沐	mg
+牧	mg
+募	mg
+睦	mg
+慕	mg
+暮	mg
+霂	mg
+穆	mg
+乸	mg
+美	mi
+昧	mi
+寐	mi
+魅	mi
+咪	mi
+眯	mi
+彌	mi
+瀰	mi
+迷	mi
+禰	mi
+獼	mi
+謎	mi
+醚	mi
+糜	mi
+縻	mi
+麋	mi
+靡	mi
+蘼	mi
+醾	mi
+米	mi
+羋	mi
+濔	mi
+洣	mi
+弭	mi
+脒	mi
+敉	mi
+糸	mi
+汨	mi
+覓	mi
+泌	mi
+宓	mi
+秘	mi
+密	mi
+冪	mi
+謐	mi
+嘧	mi
+蜜	mi
+尾	mi
+未	mi
+味	mi
+咩	mia
+喵	miao
+牤	mo
+邙	mo
+芒	mo
+忙	mo
+盲	mo
+氓	mo
+茫	mo
+硭	mo
+莽	mo
+漭	mo
+蟒	mo
+矛	mo
+貌	mo
+麼	mou
+摸	mo
+靺	mo
+默	mo
+嬤	mo
+罔	mo
+往	mo
+惘	mo
+蝄	mo
+蒙	mong
+盟	mong
+甍	mong
+瞢	mong
+幪	mong
+獴	mong
+濛	mong
+懞	mong
+檬	mong
+曚	mong
+朦	mong
+鸏	mong
+礞	mong
+矇	mong
+艨	mong
+猛	mong
+懵	mong
+蠓	mong
+孟	mong
+夢	mong
+痳	moo
+蠻	moo
+饅	moo
+瞞	moo
+鞔	moo
+滿	moo
+杧	moo
+鋩	moo
+浼	moo
+璊	moo
+懣	moo
+眠	moo
+綿	moo
+棉	moo
+丏	moo
+免	moo
+沔	moo
+黽	moo
+眄	moo
+俛	moo
+勉	moo
+娩	moo
+勔	moo
+冕	moo
+偭	moo
+澠	moo
+湎	moo
+愐	moo
+緬	moo
+靦	moo
+面	moo
+麵	moo
+滅	moo
+蔑	moo
+衊	moo
+篾	moo
+蠛	moo
+乜	moo
+網	moo
+輞	moo
+嫫	mou
+末	mou
+歿	mou
+莫	mou
+眜	mou
+眽	mou
+貊	mou
+鏌	mou
+瘼	mou
+貘	mou
+藦	mou
+纆	mou
+耱	mou
+哞	mou
+牟	mou
+謀	mou
+麰	mou
+摹	mu
+模	mu
+摩	mu
+磨	mu
+沫	mu
+陌	mu
+漠	mu
+牟	mu
+毪	mu
+母	mu
+畝	mu
+拇	mu
+姆	mu
+木	mu
+仫	mu
+苜	mu
+鉬	mu
+墓	mu
+幕	mu
+呶	mu
+麻	mwe
+痲	mwe
+蟆	mwe
+馬	mwe
+獁	mwe
+瑪	mwe
+碼	mwe
+螞	mwe
+榪	mwe
+嗎	mwe
+嘛	ma
+抹	mwe
+襪	mwe
+拿	na
+錼	na
+那	na
+呐	na
+納	na
+肭	na
+鈉	na
+衲	na
+娜	na
+捺	na
+訥	na
+內	nai
+揉	nai
+行	nang
+囔	nang
+囊	nang
+曩	nang
+攮	nang
+齉	nang
+能	nang
+恁	nang
+凝	nang
+暖	nang
+人	nang
+牛	nnao
+孬	ne
+撓	ne
+硇	ne
+鐃	ne
+蟯	ne
+猱	ne
+堖	ne
+惱	ne
+腦	ne
+瑙	ne
+鬧	ne
+嬲	ne
+蕘	ne
+譊	ne
+佴	nea
+那	nea
+乃	nea
+艿	nea
+奶	nea
+氖	nea
+迺	nea
+倷	nea
+奈	nea
+柰	nea
+耐	nea
+萘	nea
+褦	nea
+囡	nea
+難	nea
+赧	nea
+蝻	nea
+儺	nea
+嚀	neng
+鬡	neng
+苧	neng
+俄	ng
+蒽	ng
+嗯	ng
+兒	ng
+咡	ng
+洏	ng
+栭	ng
+胹	ng
+鴯	ng
+輀	ng
+鮞	ng
+耳	ng
+餌	ng
+洱	ng
+珥	ng
+鉺	ng
+駬	ng
+二	ng
+弍	ng
+刵	ng
+樲	ng
+囝	ng
+吾	ng
+五	ng
+伍	ng
+硬	nha
+吽	nhao
+傲	nhe
+碾	nhea
+岩	nhea
+顏	nhea
+簷	nhea
+眼	nhea
+雁	nhea
+奀	nhi
+慝	nhi
+魚	nhi
+瓦	nho
+牙	nhou
+芽	nho
+崖	nho
+涯	nho
+咬	nho
+樂	nhou
+櫟	nhou
+伢	nhou
+玡	nhou
+蚜	nhou
+睚	nhou
+訝	nhou
+掗	nhou
+砑	nhou
+猰	nhou
+刖	nhou
+呢	ni
+妮	ni
+尼	ni
+坭	ni
+泥	ni
+怩	ni
+鈮	ni
+倪	ni
+猊	ni
+霓	ni
+鯢	ni
+擬	ni
+你	ni
+妳	ni
+旎	ni
+伲	ni
+昵	ni
+逆	ni
+匿	ni
+睨	ni
+膩	ni
+溺	ni
+疑	ni
+義	ni
+議	ni
+儗	ni
+魚	ni
+媼	nia
+俍	nye
+捻	nie
+撚	nia
+捏	nie
+臬	nia
+鎳	nia
+孽	nia
+禳	nia
+穰	nia
+攘	nia
+嚷	nia
+讓	nia
+儴	nia
+仰	nia
+業	nia
+輾	nian
+寧	niang
+獰	niang
+檸	niang
+聹	niang
+甯	niang
+擰	niang
+忍	niang
+認	niang
+紉	niang
+韌	niang
+軔	niang
+飪	niang
+妊	niang
+衽	niang
+礽	niang
+銀	niang
+迎	niang
+妞	niao
+扭	niao
+忸	niao
+紐	niao
+鈕	niao
+拗	niao
+拈	nie
+年	nie
+鯰	nie
+黏	nie
+輦	nie
+攆	nie
+廿	nie
+念	nie
+唸	nie
+墊	nie
+苶	nie
+隉	nie
+聶	nie
+涅	nie
+菍	nie
+齧	nie
+惗	nie
+囁	nie
+嵲	nie
+槷	nie
+鑷	nie
+顳	nie
+臲	nie
+躡	nie
+蘖	nie
+糵	nie
+蚺	nie
+然	nie
+染	nie
+惹	nie
+熱	nie
+涊	nie
+稔	nie
+嚴	nie
+妍	nie
+研	nie
+筵	nie
+驗	nie
+靨	nie
+粘	nie
+蹍	nie
+您	nin
+狃	niu
+杻	niu
+肉	niu
+玉	niu
+獄	niu
+鈺	niu
+哴	nye
+哪	no
+囊	no
+鳥	nio
+蔦	nio
+嫋	no
+尿	nio
+脲	nio
+挪	no
+男	noa
+南	noa
+喃	noa
+楠	noa
+腩	noa
+嫩	noa
+農	nong
+儂	nong
+噥	nong
+濃	nong
+膿	nong
+穠	nong
+弄	nong
+饢	noo
+耨	nou
+諾	nou
+喏	nou
+搦	nou
+鍩	nou
+懦	nou
+糯	nou
+孥	nu
+駑	nu
+砮	nu
+努	nu
+弩	nu
+胬	nu
+怒	nu
+兌	nue
+瘧	nue
+虐	nue
+阮	nue
+軟	nue
+朊	nue
+危	nue
+侮	nue
+鳶	nue
+元	nue
+原	nue
+援	nue
+媛	nue
+嫄	nue
+羱	nue
+怨	nue
+願	nue
+愿	nue
+月	nue
+抈	nue
+奴	nv
+傉	nv
+女	nv
+釹	nv
+籹	nv
+恧	nv
+衄	nv
+語	nv
+齬	nv
+娘	nye
+釀	nye
+燃	nye
+昂	o
+盎	o
+獒	o
+嚄	o
+哦	o
+喔	o
+粵	o
+恩	oa
+安	oa
+桉	oa
+氨	oa
+庵	oa
+諳	oa
+媕	oa
+腤	oa
+鞍	oa
+鞌	oa
+盦	oa
+闇	oa
+垵	oa
+唵	oa
+銨	oa
+揞	oa
+晻	oa
+岸	oa
+按	oa
+胺	oa
+案	oa
+暗	oa
+黯	oa
+肮	oa
+骯	oa
+鵝	oa
+咹	oa
+罨	oa
+嗡	ong
+惡	ou
+噁	oa
+蛤	ou
+漚	ou
+塸	ou
+熰	ou
+齷	ou
+啞	ou
+瘂	ou
+亞	ou
+埡	ou
+婭	ou
+喁	ou
+帊	pa
+趴	pa
+啪	pa
+沛	pai
+配	pai
+霈	pai
+噴	pang
+摽	pe
+驃	pe
+膘	pe
+瘭	pe
+褾	pe
+鰾	pe
+莩	pe
+脬	pe
+漂	pe
+縹	pe
+飄	pe
+螵	pe
+嫖	pe
+薸	pe
+殍	pe
+瞟	pe
+票	pe
+僄	pe
+嘌	pe
+慓	pe
+磻	pea
+燔	pea
+拍	pea
+呱	pea
+派	pea
+蒎	pea
+湃	pea
+潘	pea
+攀	pea
+蟠	pea
+泮	pea
+盼	pea
+袢	pea
+襻	pea
+逄	pea
+呸	pei
+佩	pei
+騁	peng
+匉	peng
+怦	peng
+駢	peng
+拚	peng
+拼	peng
+姘	peng
+玭	peng
+貧	peng
+品	peng
+榀	peng
+牝	peng
+聘	peng
+乒	peng
+俜	peng
+娉	peng
+枰	peng
+帡	peng
+洴	peng
+幈	peng
+陂	pi
+賁	pi
+悂	pi
+鎞	pi
+吡	pi
+裨	pi
+薜	pi
+胚	pi
+淠	pi
+丕	pi
+批	pi
+邳	pi
+伾	pi
+紕	pi
+坯	pi
+披	pi
+狉	pi
+狓	pi
+砒	pi
+鮍	pi
+劈	pi
+劈	pi
+霹	pi
+枇	pi
+毗	pi
+蚍	pi
+郫	pi
+疲	pi
+陴	pi
+埤	pi
+椑	pi
+羆	pi
+膍	pi
+貔	pi
+匹	pi
+圮	pi
+仳	pi
+痞	pi
+擗	pi
+癖	pi
+嚭	pi
+屁	pi
+闢	pi
+媲	pi
+僻	pi
+澼	pi
+苤	pi
+釽	pi
+跰	pie
+乓	po
+胖	po
+拋	po
+跑	po
+泡	po
+炮	po
+砲	po
+撇	po
+釙	po
+叵	po
+鉕	po
+魄	po
+抨	pong
+砰	pong
+烹	pong
+朋	pong
+蓬	pong
+鵬	pong
+澎	pong
+捧	pong
+碰	pong
+鞶	poo
+判	poo
+判	bhea
+叛	poo
+偏	poo
+犏	poo
+篇	poo
+翩	poo
+胼	poo
+蹁	poo
+諞	poo
+片	poo
+騙	poo
+氕	poo
+瞥	poo
+鄱	poo
+醱	pou
+笸	pou
+裒	pou
+爆	pu
+峬	pu
+庯	pu
+鵏	pu
+餔	pu
+甫	pu
+鬴	pu
+訃	pu
+赴	pu
+坡	pu
+潑	pu
+頗	pu
+破	pu
+破	pea
+剖	pu
+撲	pu
+鋪	pu
+痡	pu
+噗	pu
+仆	pu
+僕	pu
+匍	pu
+莆	pu
+菩	pu
+脯	pu
+蒲	pu
+酺	pu
+璞	pu
+鏷	pu
+濮	pu
+朴	pu
+樸	pu
+埔	pu
+圃	pu
+浦	pu
+普	pu
+溥	pu
+譜	pu
+潽	pu
+氆	pu
+鐠	pu
+蹼	pu
+瀑	pu
+曝	pu
+葩	pwe
+帕	pwe
+怕	pwe
+卻	qa
+沁	qang
+噍	jho
+啐	qi
+紇	qi
+丌	qi
+剞	qi
+攲	qi
+亟	qi
+沏	qi
+妻	qi
+榿	qi
+郪	qi
+淒	qi
+悽	qi
+萋	qi
+桼	qi
+戚	qi
+慼	qi
+期	qi
+欺	qi
+嘁	qi
+蹊	qi
+亓	qi
+芪	qi
+疧	qi
+耆	qi
+頎	qi
+旂	qi
+埼	qi
+騏	qi
+琦	qi
+鰭	qi
+鬐	qi
+乞	qi
+芑	qi
+豈	qi
+企	qi
+杞	qi
+啟	qi
+起	qi
+綺	qi
+棨	qi
+綮	qi
+氣	qi
+訖	qi
+迄	qi
+汔	qi
+棄	qi
+汽	qi
+炁	qi
+盵	qi
+泣	qi
+契	qi
+砌	qi
+葺	qi
+愒	qi
+碶	qi
+槭	qi
+器	qi
+鍥	qi
+去	qi
+鼠	qi
+膝	qi
+餼	qi
+葜	qia
+洽	qia
+恰	qia
+斨	qia
+蹡	qia
+羥	qia
+挈	qia
+愜	qia
+篋	qia
+雀	qia
+懺	qie
+顫	qie
+暢	qie
+倡	qie
+徹	qie
+靬	qie
+千	qie
+仟	qie
+阡	qie
+扡	qie
+芊	qie
+遷	qie
+岍	qie
+僉	qie
+汧	qie
+釺	qie
+牽	qie
+鉛	qie
+慳	qie
+謙	qie
+簽	qie
+籤	qie
+愆	qie
+褰	qie
+鈐	qie
+鉗	qie
+墘	qie
+潛	qie
+黔	qie
+膁	qie
+淺	qie
+遣	qie
+譴	qie
+繾	qie
+欠	qie
+芡	qie
+茜	qie
+倩	qie
+槧	qie
+嵌	qie
+慊	qie
+歉	qie
+槍	qie
+戕	qie
+切	qie
+且	qie
+妾	qie
+竊	qie
+綪	qie
+殄	qie
+纖	qie
+縴	qie
+躚	qie
+嗛	qie
+蕁	qie
+跫	qiong
+抽	qiu
+丑	qiu
+醜	qiu
+侴	qiu
+偢	qiu
+臭	qiu
+殠	qiu
+揪	qiu
+杻	qiu
+鍬	qiu
+愀	qiu
+丘	qiu
+邱	qiu
+秋	qiu
+韆	qie
+鞦	qiu
+蚯	qiu
+萩	qiu
+湫	qiu
+楸	qiu
+鶖	qiu
+鰍	qiu
+鞧	qiu
+龝	qiu
+犰	qiu
+虯	qiu
+訄	qiu
+遒	qiu
+璆	qiu
+蝤	qiu
+鼽	qiu
+糗	qiu
+操	qo
+糙	qo
+草	qo
+綽	qo
+超	qo
+悄	qo
+蹺	qo
+劁	qo
+橇	qo
+瞧	qo
+巧	qo
+俏	qo
+峭	qo
+竅	qo
+翹	qo
+撬	qo
+岞	qou
+咗	qou
+胠	qu
+出	que
+揣	que
+川	que
+氚	que
+椽	que
+喘	que
+釧	que
+闖	que
+磏	que
+怯	que
+祛	que
+悛	que
+圈	que
+佺	que
+筌	que
+畎	que
+綣	que
+勸	que
+券	que
+炔	que
+缺	que
+雀	que
+闋	que
+鵲	que
+闕	que
+囷	que
+雛	qv
+躇	qv
+杵	qv
+齼	qv
+處	qv
+怵	qv
+畜	qv
+滀	qv
+矗	qv
+吹	qv
+炊	qv
+粗	qv
+徂	qv
+猝	qv
+醋	qv
+蹙	qv
+蹴	qv
+崔	qv
+催	qv
+摧	qv
+璀	qv
+啐	qv
+淬	qv
+悴	qv
+毳	qv
+瘁	qv
+焌	qv
+區	qv
+嶇	qv
+佉	qv
+詘	qv
+驅	qv
+屈	qv
+袪	qv
+軀	qv
+趨	qv
+蛐	qv
+朐	qv
+鴝	qv
+渠	qv
+蕖	qv
+磲	qv
+璩	qv
+鼩	qv
+欋	qv
+籧	qv
+臞	qv
+臒	qv
+蠷	qv
+衢	qv
+蠼	qv
+鸜	qv
+曲	qv
+取	qv
+娶	qv
+齲	qv
+趣	qv
+麈	qv
+晬	qv
+倅	qv
+崒	qv
+諂	qye
+菖	qye
+娼	qye
+徜	qye
+廠	qye
+唱	qye
+戧	qye
+腔	qye
+蜣	qye
+錆	qye
+搶	qye
+嗆	qye
+熗	qye
+蹌	qye
+誚	qye
+冉	ran
+扔	rang
+尸	s
+師	s
+詩	s
+鳲	s
+獅	s
+施	s
+溮	s
+絁	s
+葹	s
+濕	s
+蓍	s
+鯴	s
+鰤	s
+寔	s
+史	s
+矢	s
+豕	s
+使	s
+始	s
+駛	s
+屎	s
+氏	s
+試	s
+昰	s
+適	s
+逝	s
+栻	s
+軾	s
+鈰	s
+舐	s
+弑	s
+諡	s
+嗜	s
+筮	s
+誓	s
+奭	s
+澨	s
+螫	s
+厶	s
+司	s
+絲	s
+私	s
+噝	s
+思	s
+俬	s
+鷥	s
+斯	s
+螄	s
+廝	s
+鍶	s
+撕	s
+嘶	s
+澌	s
+死	s
+巳	s
+四	s
+寺	s
+汜	s
+兕	s
+佀	s
+祀	s
+姒	s
+飼	s
+駟	s
+俟	s
+飤	s
+耜	s
+笥	s
+肆	s
+嗣	s
+隰	s
+狾	s
+刹	sa
+灑	sa
+撒	sa
+潵	sa
+卅	sa
+颯	sa
+脎	sa
+薩	sa
+殺	sa
+鎩	sa
+痧	sa
+傻	sa
+唼	sa
+煞	sa
+霎	sa
+甡	sa
+生	sa
+狌	sa
+牲	sa
+甥	sa
+鼪	sa
+省	sa
+失	sai
+虱	sai
+室	sai
+縗	sai
+骰	sai
+小	sai
+杏	sang
+參	sang
+諶	sang
+森	sang
+僧	sang
+申	sang
+屾	sang
+伸	sang
+身	sang
+罙	sang
+紳	sang
+莘	sang
+砷	sang
+娠	sang
+深	sang
+矧	sang
+嬸	sang
+滲	sang
+葚	sang
+椹	sang
+蜃	sang
+瘮	sang
+笙	sang
+狻	sang
+芯	sang
+辛	sang
+忻	sang
+昕	sang
+欣	sang
+鋅	sang
+薪	sang
+馨	sang
+鑫	sang
+伈	sang
+囟	sang
+信	sang
+舋	sang
+星	seng
+惺	sang
+擤	sang
+幸	xiang
+性	seng
+姓	sang
+迅	sang
+蕈	sang
+搜	sao
+艘	sao
+擻	sao
+帩	se
+鞘	se
+搔	se
+繅	se
+掃	se
+嫂	se
+埽	se
+瘙	se
+瑟	se
+閃	se
+捎	se
+燒	se
+梢	se
+稍	se
+蛸	se
+筲	se
+艄	se
+勺	se
+芍	se
+少	se
+卲	se
+哨	se
+睄	se
+潲	se
+佘	se
+懾	se
+睃	se
+肖	se
+枵	se
+逍	se
+消	se
+宵	se
+綃	se
+蕭	se
+硝	se
+銷	se
+簫	se
+瀟	se
+霄	se
+魈	se
+蠨	se
+囂	se
+笑	se
+削	se
+撣	sea
+莞	sea
+仨	sea
+揌	sea
+嗮	sea
+三	sea
+弎	sea
+三	sea
+傘	sea
+糝	sea
+饊	sea
+散	sea
+穡	sea
+篩	sea
+釃	sea
+曬	sea
+山	sea
+芟	sea
+杉	sea
+刪	sea
+苫	sea
+釤	sea
+姍	sea
+珊	sea
+跚	sea
+煽	sea
+潸	sea
+膻	sea
+陝	sea
+訕	sea
+汕	sea
+疝	sea
+善	sea
+騸	sea
+鄯	sea
+墠	sea
+墡	sea
+繕	sea
+膳	sea
+贍	sea
+蟮	sea
+熵	sea
+猞	sea
+舍	sea
+捨	si
+灄	sea
+哂	sea
+帥	sea
+霰	sea
+絏	sea
+柵	sea
+斟	sea
+磣	seng
+糝	seng
+呻	seng
+侁	seng
+詵	seng
+珅	seng
+駪	seng
+鯵	seng
+燊	seng
+沈	seng
+瀋	seng
+審	seng
+諗	seng
+谉	seng
+瞫	seng
+甚	seng
+胂	seng
+葚	seng
+椹	seng
+昇	seng
+升	seng
+聲	seng
+眚	seng
+聖	seng
+勝	seng
+晟	seng
+盛	seng
+嵊	seng
+鐔	seng
+餳	seng
+芯	seng
+鋅	seng
+歆	seng
+馨	seng
+炘	seng
+焮	seng
+猩	seng
+腥	seng
+醒	seng
+設	sie
+恓	si
+棲	si
+蹊	si
+憩	si
+腮	si
+塞	si
+噻	si
+鰓	si
+賽	si
+色	si
+嗇	si
+銫	si
+射	si
+赦	si
+識	si
+蝕	si
+世	si
+式	si
+似	si
+飾	si
+貰	si
+釋	si
+虒	si
+緦	si
+楒	si
+颸	si
+罳	si
+凘	si
+偲	si
+泗	si
+涘	si
+覗	si
+西	si
+昔	si
+析	si
+穸	si
+息	si
+奚	si
+悉	si
+淅	si
+晰	si
+傒	si
+徯	si
+溪	si
+熙	si
+熄	si
+樨	si
+窸	si
+谿	si
+曦	si
+爔	si
+洗	si
+璽	si
+銑	si
+禧	si
+細	si
+隙	si
+寫	si
+扇	sie
+佘	sie
+先	sie
+秈	sie
+鍁	sie
+冼	sie
+莧	sie
+線	sie
+湘	sie
+些	sie
+褻	sie
+榍	sie
+畬	sie
+收	siu
+手	siu
+守	siu
+首	siu
+艏	siu
+售	siu
+咻	siu
+修	siu
+脩	siu
+饈	siu
+岫	siu
+袖	siu
+繡	siu
+鏽	siu
+溴	siu
+桑	so
+搡	so
+磉	so
+顙	so
+喪	so
+臊	so
+莎	so
+鯊	so
+溲	so
+颼	so
+簌	so
+逍	so
+刷	soa
+閂	soa
+涮	soa
+酸	soa
+痠	soa
+蒜	soa
+算	soa
+孫	soa
+蓀	soa
+猻	soa
+損	soa
+筍	soa
+忪	song
+松	song
+鬆	song
+凇	song
+菘	song
+崧	song
+淞	song
+嵩	song
+慫	song
+聳	song
+竦	song
+訟	song
+宋	song
+送	song
+誦	song
+頌	song
+隼	song
+榫	song
+塤	song
+騷	sou
+沙	sou
+紗	sou
+砂	sou
+莎	sou
+裟	sou
+屬	sou
+束	sou
+數	sou
+唰	sou
+爍	sou
+鑠	sou
+碩	sou
+嗖	sou
+餿	sou
+廋	sou
+鎪	sou
+螋	sou
+叟	sou
+瞍	sou
+藪	sou
+涑	sou
+蹜	sou
+唆	sou
+娑	sou
+桫	sou
+梭	sou
+挲	sou
+蓑	sou
+嗦	sou
+羧	sou
+縮	sou
+所	sou
+索	sou
+嗩	sou
+瑣	sou
+鎖	sou
+叔	su
+姝	su
+倏	su
+秫	su
+搠	su
+蒴	su
+酥	su
+窣	su
+夙	su
+肅	su
+素	su
+速	su
+驌	su
+粟	su
+謖	su
+嗉	su
+溯	su
+愫	su
+鷫	su
+僳	su
+觫	su
+愬	su
+餗	su
+宿	su
+蓿	su
+衰	suai
+輇	sue
+雙	swe
+霜	swe
+孀	swe
+驦	swe
+騻	swe
+礵	swe
+鷞	swe
+鸘	swe
+爽	swe
+塽	swe
+傷	sye
+殤	sye
+商	sye
+觴	sye
+墒	sye
+賞	sye
+緔	sye
+相	sye
+葙	sye
+緗	sye
+箱	sye
+項	sye
+嗒	ta
+溚	ta
+趿	ta
+塌	ta
+遢	ta
+溻	ta
+褟	ta
+塔	ta
+獺	ta
+遝	ta
+闒	ta
+榻	ta
+泰	tai
+推	tai
+蓷	tai
+腿	tai
+退	tai
+蛻	tai
+退	tai
+褪	tai
+脫	tai
+吞	tang
+偷	tao
+透	tao
+幬	te
+弢	te
+濤	te
+滔	te
+饕	te
+匋	te
+檮	te
+討	te
+套	te
+鰨	tea
+呔	tea
+太	tea
+汰	tea
+肽	tea
+鈦	tea
+酞	tea
+坍	tea
+攤	tea
+灘	tea
+癱	tea
+譚	tea
+潭	tea
+忐	tea
+鉭	tea
+袒	tea
+毯	tea
+嘆	tea
+歎	tea
+炭	tea
+探	tea
+碳	tea
+忒	tea
+鋱	tea
+𡛕	tea
+鋌	teng
+廳	teng
+聽	teng
+烴	teng
+廷	teng
+莛	teng
+挺	teng
+艇	teng
+桯	teng
+砵	ti
+睇	ti
+胎	ti
+台	dhi
+臺	dhi
+颱	dhi
+態	ti
+剔	ti
+梯	ti
+銻	ti
+踢	ti
+綈	ti
+提	ti
+啼	ti
+鯷	ti
+體	ti
+屜	ti
+剃	ti
+倜	ti
+涕	ti
+惕	ti
+嚏	ti
+荑	ti
+禵	ti
+薙	ti
+天	tie
+添	tie
+黇	tie
+畋	tie
+菾	tie
+忝	tie
+腆	tie
+舔	tie
+餂	tie
+掭	tie
+挑	tie
+帖	tie
+怗	tie
+貼	tie
+萜	tie
+鐵	tie
+餮	tie
+惝	to
+埫	to
+他	to
+它	to
+她	to
+祂	to
+太	to
+湯	to
+鐋	to
+耥	to
+餳	to
+塘	to
+糖	to
+帑	to
+倘	to
+淌	to
+儻	to
+躺	to
+燙	to
+趟	to
+忒	to
+妥	to
+貪	toa
+湍	toa
+通	tong
+嗵	tong
+熥	tong
+砼	tong
+統	tong
+捅	tong
+桶	tong
+筒	tong
+痛	tong
+跅	tou
+捝	tou
+鉈	tou
+乇	tou
+托	tou
+託	tou
+飥	tou
+拖	tou
+拕	tou
+侂	tou
+陁	tou
+沱	tou
+跎	tou
+駞	tou
+橐	tou
+橢	tou
+柝	tou
+籜	tou
+凸	tu
+突	tu
+葖	tu
+吐	tu
+芏	tv
+禿	tv
+腯	tv
+瘏	tv
+土	tv
+兔	tv
+堍	tv
+菟	tv
+佻	tye
+眺	tye
+跳	tye
+瓿	wa
+伐	wa
+罰	wa
+閥	wa
+橫	wa
+划	wa
+划	we
+劃	we
+鏵	wa
+猾	wa
+滑	wa
+活	wa
+挖	wa
+哇	wa
+窪	wa
+畖	wa
+媧	wa
+蛙	wa
+娃	wa
+佤	wa
+膃	wa
+渦	wa
+餓	wai
+佛	wai
+彿	fu
+虺	wai
+回	wai
+迴	wai
+茴	wai
+洄	wai
+鮰	wai
+卉	wai
+匯	wai
+彙	wai
+會	wai
+諱	wai
+薈	wai
+澮	wai
+恚	wai
+賄	wai
+彗	wai
+惠	wai
+喙	wai
+繢	wai
+蔧	wai
+嘒	wai
+僡	wai
+慧	wai
+蕙	wai
+槥	wai
+潓	wai
+憓	wai
+蠖	wai
+鮪	wai
+物	wai
+墳	wang
+焚	wang
+豶	wang
+份	wang
+囫	wang
+渾	wang
+餛	wang
+混	wang
+溷	wang
+玟	wang
+文	wang
+紋	wang
+炆	wang
+閿	wang
+雯	wang
+馼	wang
+刎	wang
+抆	wang
+吻	wang
+紊	wang
+穩	wang
+問	wang
+汶	wang
+蕹	wang
+華	we
+驊	we
+化	we
+畫	we
+話	we
+樺	we
+凡	wea
+礬	wea
+釩	wea
+煩	wea
+樊	wea
+膰	fea
+繁	wea
+蘩	wea
+犯	wea
+氾	wea
+飯	wea
+泛	wea
+范	fea
+範	wea
+畈	wea
+還	wea
+還	ea
+懷	wea
+徊	wea
+淮	wea
+槐	wea
+踝	wea
+壞	wea
+環	wea
+鍰	wea
+圜	wea
+闤	wea
+澴	wea
+寰	wea
+繯	wea
+轘	wea
+鬟	wea
+睆	wea
+緩	wea
+幻	wea
+換	wea
+浣	wea
+患	wea
+豢	wea
+漶	wea
+鯇	wea
+擐	wea
+蛔	wea
+蟪	wea
+或	wea
+屲	wea
+歪	wea
+外	wea
+彎	wea
+剜	wea
+帵	wea
+壪	wea
+灣	wea
+蜿	wea
+箢	wea
+豌	wea
+丸	wea
+刓	wea
+芄	wea
+汍	wea
+紈	wea
+抏	wea
+玩	wea
+頑	wea
+烷	wea
+宛	wea
+挽	wea
+輓	wea
+菀	wea
+脘	wea
+涴	wea
+惋	wea
+婉	wea
+綰	wea
+琬	wea
+皖	wea
+畹	wea
+忨	wea
+腕	wea
+違	wea
+隗	wea
+喂	wea
+儇	wea
+嬛	wea
+鵷	wea
+巍	wei
+乏	wha
+筏	wha
+氛	whang
+璺	whang
+洑	whu
+蜉	whu
+斧	whu
+呼	whu
+滹	whu
+斛	whu
+葫	whu
+猢	whu
+瑚	whu
+糊	whu
+餬	whu
+蝴	whu
+醐	whu
+冱	whu
+戽	whu
+扈	whu
+鸌	whu
+浯	whu
+淝	wi
+崴	wi
+偎	wi
+椳	wi
+微	wi
+溦	wi
+薇	wi
+鰃	wi
+偉	wi
+謂	wi
+汪	wo
+王	yo
+撾	wu
+魂	woo
+完	wea
+晚	woo
+碗	woo
+魍	woo
+塭	woo
+溫	woo
+榅	woo
+瘟	woo
+鰮	woo
+揾	woo
+眢	woo
+淵	woo
+芫	woo
+園	woo
+員	woo
+沅	woo
+爰	woo
+袁	woo
+圓	woo
+黿	woo
+湲	woo
+緣	woo
+猿	woo
+源	woo
+螈	woo
+遠	woo
+苑	woo
+院	woo
+垸	woo
+衏	woo
+瑗	woo
+鉞	woo
+越	woo
+轀	woo
+蕰	woo
+埠	wu
+惡	wu
+稃	wu
+扶	wu
+芙	wu
+孚	wu
+服	wu
+浮	wu
+桴	wu
+符	wu
+輔	wu
+芾	fu
+玞	fu
+父	wu
+負	wu
+婦	wu
+附	wu
+傅	wu
+腹	wu
+袱	wu
+幠	wu
+狐	wu
+弧	wu
+壺	wu
+湖	wu
+鶘	wu
+互	wu
+護	wu
+滬	wu
+笏	wu
+惑	wu
+雘	wu
+萵	wu
+窩	wu
+蝸	wu
+肟	wu
+偓	wu
+握	wu
+幄	wu
+渥	wu
+烏	wu
+圬	wu
+鄔	wu
+汙	wu
+巫	wu
+嗚	wu
+鎢	wu
+誣	wu
+屋	wu
+無	wu
+毋	wu
+蕪	wu
+吳	wu
+唔	wu
+梧	wu
+鵐	wu
+蜈	wu
+鼯	wu
+午	wu
+仵	wu
+迕	wu
+廡	wu
+憮	wu
+忤	wu
+武	wu
+捂	wu
+牾	wu
+鵡	wu
+舞	wu
+兀	wu
+勿	wu
+戊	wu
+務	wu
+阢	wu
+塢	wu
+芴	wu
+杌	wu
+誤	wu
+粅	wu
+悟	wu
+晤	wu
+焐	wu
+靰	wu
+痦	wu
+婺	wu
+騖	wu
+霧	wu
+寤	wu
+鶩	wu
+鋈	wu
+滀	wv
+欻	wv
+維	wv
+煒	wv
+姁	wv
+頊	wv
+訏	wv
+諝	wv
+盨	wv
+湑	wv
+吸	xai
+噱	xai
+心	sang
+新	xang
+興	xang
+屣	xhi
+諧	xhie
+玄	xhue
+聚	xhv
+如	xhv
+茹	xhv
+銣	xhv
+儒	xhv
+薷	xhv
+嚅	xhv
+孺	xhv
+襦	xhv
+顬	xhv
+蠕	xhv
+汝	xhv
+乳	xhv
+辱	xhv
+擩	xhv
+洳	xhv
+蓐	xhv
+溽	xhv
+縟	xhv
+褥	xhv
+芮	xhv
+銳	xhv
+瑞	xhv
+殊	xhv
+塾	xhv
+术	xhv
+術	xhv
+樹	xhv
+腧	xhv
+墅	xhv
+澍	xhv
+誰	xhv
+槊	xhv
+嶲	xi
+鯀	xi
+棲	xi
+茜	xi
+裼	xi
+夕	xi
+汐	xi
+希	xi
+矽	xi
+郗	xi
+唏	xi
+犧	xi
+浠	xi
+悕	xi
+娭	xi
+硒	xi
+晞	xi
+欷	xi
+烯	xi
+惜	xi
+睎	xi
+稀	xi
+舾	xi
+翕	xi
+粞	xi
+犀	xi
+皙	xi
+錫	xi
+豨	xi
+蜥	xi
+僖	xi
+磎	xi
+嘻	xi
+噏	xi
+嬉	xi
+熹	xi
+螅	xi
+歙	xi
+羲	xi
+熺	xi
+蟋	xi
+豀	xi
+醯	xi
+譆	xi
+鼷	xi
+覡	xi
+襲	xi
+媳	xi
+檄	xi
+喜	xi
+葸	xi
+蓰	xi
+憙	xi
+蟢	xi
+鱚	xi
+戲	xi
+系	xi
+係	yh
+繫	ji
+盻	xi
+鬩	xi
+舄	xi
+禊	xi
+鞵	xi
+衖	xia
+坰	xia
+晌	xia
+瞎	xia
+鰕	xia
+遐	xia
+暇	xia
+霞	xia
+黠	xia
+鄉	xia
+薌	xia
+香	xia
+廂	xia
+襄	xia
+驤	xia
+瓖	xia
+鑲	xia
+庠	xia
+享	xia
+響	xia
+餉	xia
+巷	xia
+驍	xia
+淆	xia
+曉	xia
+筱	xia
+歇	xia
+肴	xia
+葷	xiang
+狌	xiang
+釁	xiang
+騂	xiang
+箵	xiang
+鈃	xiang
+鉶	xiang
+倖	sang
+悻	xiang
+婞	xiang
+兇	xiang
+酗	xiang
+熏	xiang
+燻	xiang
+薰	xiang
+獯	xiang
+曛	xiang
+纁	xiang
+醺	xiang
+旬	xiang
+紃	xiang
+訓	xiang
+訊	xiang
+汛	xiang
+馴	xiang
+遜	xiang
+殉	xiang
+巽	xiang
+休	xiao
+庥	xiao
+鵂	xiao
+貅	xiao
+髹	xiao
+契	xie
+賒	xie
+設	xie
+錟	xie
+兮	xie
+銑	xie
+仙	xie
+先	xie
+氙	xie
+祆	xie
+掀	xie
+醯	xie
+鮮	xie
+賢	xie
+銜	xie
+啣	hhea
+嫌	xie
+獮	xie
+顯	xie
+險	xie
+蜆	xie
+獫	xie
+筅	xie
+跣	xie
+蘚	xie
+燹	xie
+縣	xie
+峴	xie
+限	xie
+憲	xie
+陷	xie
+餡	xie
+獻	xie
+腺	xie
+些	xie
+楔	xie
+脅	xie
+猲	xie
+纈	xie
+灺	xie
+泄	xie
+瀉	xie
+械	xie
+渫	xie
+屟	xie
+媟	xie
+薤	xie
+薢	xie
+嶰	xie
+獬	xie
+邂	xie
+廨	xie
+澥	xie
+燮	xie
+蟹	xie
+癬	xie
+猇	xio
+翛	xio
+殽	xio
+兄	xiong
+勳	xiong
+羞	xiu
+朽	xiu
+琇	xiu
+褎	xiu
+酵	xo
+嘵	xo
+簫	xo
+囂	xo
+崤	xo
+淆	xo
+凶	xo
+匈	xo
+訩	xo
+洶	xo
+恟	xo
+胸	xo
+詗	xo
+敻	xo
+塑	xu
+昫	xu
+垿	xu
+鱮	xu
+拴	xue
+栓	soa
+說	xue
+雖	xue
+軒	xue
+宣	xue
+晅	xue
+揎	xue
+萱	xue
+喧	xue
+瑄	xue
+暄	xue
+煊	xue
+懸	xue
+璿	xue
+選	xue
+昡	xue
+炫	xue
+眩	xue
+渲	xue
+楦	xue
+镟	xue
+靴	xue
+薛	xue
+穴	xue
+澩	xue
+噱	xue
+雪	xue
+鱈	xue
+血	xue
+詢	xun
+荀	xun
+畜	xv
+諔	xv
+暉	xv
+輝	xv
+噦	xv
+椒	xv
+蕤	xv
+殳	xv
+書	xv
+抒	xv
+紓	xv
+樞	xv
+菽	xv
+梳	xv
+淑	xv
+舒	xv
+疏	xv
+攄	xv
+輸	xv
+毹	xv
+蔬	xv
+孰	xv
+暑	xv
+黍	xv
+署	xv
+蜀	xv
+薯	xv
+曙	xv
+癙	xv
+戍	xv
+述	xv
+沭	xv
+恕	xv
+庶	xv
+數	xv
+漱	xv
+水	xv
+稅	xv
+朔	xv
+嗽	xv
+蘇	su
+甦	su
+酥	su
+穌	xv
+訴	xv
+素	sou
+蔌	xv
+眭	xv
+濉	xv
+綏	xv
+隋	xv
+歲	xv
+誶	xv
+祟	xv
+遂	xv
+碎	xv
+隧	xv
+燧	xv
+穗	xv
+邃	xv
+嗍	xv
+圩	xv
+宿	xv
+戌	xv
+須	xv
+鬚	xv
+胥	xv
+虛	xv
+媭	xv
+墟	xv
+需	xv
+噓	xv
+魆	xv
+歔	xv
+許	xv
+詡	xv
+栩	xv
+糈	xv
+醑	xv
+旭	su
+旭	xv
+序	xv
+敘	xv
+洫	xv
+恤	xv
+勖	xv
+緒	xv
+漵	xv
+絮	xv
+婿	xv
+蓄	xv
+煦	xv
+杼	xv
+耍	xwe
+想	xye
+嘯	xye
+疋	ya
+壓	ya
+鴉	ya
+衙	ya
+雅	ya
+亞	ya
+迓	ya
+揠	ya
+呀	ya
+央	ya
+泱	ya
+殃	ya
+鴦	ya
+秧	ya
+鞅	ya
+揚	ya
+羊	ya
+陽	ya
+瑒	ya
+楊	ya
+暘	ya
+颺	ya
+煬	ya
+鍚	ya
+瘍	ya
+垟	ya
+徉	ya
+洋	ya
+蛘	ya
+養	ya
+氧	ya
+癢	ya
+怏	ya
+樣	ya
+恙	ya
+烊	ya
+漾	ya
+葯	ya
+藥	ya
+也	ya
+吔	ya
+匜	ya
+曰	ya
+約	ya
+岳	ya
+嶽	ya
+閱	ya
+躍	ya
+牂	ya
+一	yai
+伊	yai
+壹	yai
+譯	yai
+奕	yai
+逸	yai
+翼	yai
+筠	yang
+硍	yang
+仞	yang
+吮	yang
+刑	yang
+邢	yang
+形	yang
+型	yang
+硎	yang
+窨	yang
+峋	yang
+恂	yang
+珣	yang
+鱘	yang
+徇	yang
+佯	yang
+因	yang
+陰	yang
+茵	yang
+蔭	yang
+音	yang
+洇	yang
+姻	yang
+駰	yang
+氤	yang
+殷	yang
+喑	yang
+愔	yang
+絪	yang
+溵	yang
+慇	yang
+吟	yang
+垠	yang
+狺	yang
+淫	yang
+齗	yang
+鄞	yang
+齦	yang
+蟫	yang
+嚚	yang
+霪	yang
+引	yang
+吲	yang
+飲	yang
+蚓	yang
+隱	yang
+靷	yang
+癮	yang
+櫽	yang
+讔	yang
+印	yang
+茚	yang
+胤	yang
+英	yang
+鶯	yang
+嬰	yang
+媖	yang
+瑛	yang
+鍈	yang
+攖	yang
+嚶	yang
+罌	yang
+纓	yang
+瓔	yang
+櫻	yang
+霙	yang
+鸚	yang
+膺	yang
+鷹	yang
+蘡	yang
+譍	yang
+塋	yang
+滎	yang
+熒	yang
+盈	yang
+瑩	yang
+螢	yang
+營	yang
+縈	yang
+溁	yang
+鎣	yang
+楹	yang
+瀅	yang
+蠅	yang
+瀠	yang
+嬴	yang
+贏	yang
+瀛	yang
+籝	yang
+郢	yang
+潁	yang
+穎	yang
+影	yang
+癭	yang
+應	yang
+映	yang
+暎	yang
+媵	yang
+氳	yang
+煴	yang
+云	yang
+雲	yang
+勻	yang
+芸	yang
+沄	yang
+妘	yang
+紜	yang
+昀	yang
+畇	yang
+耘	yang
+溳	yang
+筼	yang
+鋆	yang
+狁	yang
+隕	yang
+殞	yang
+孕	yang
+運	yang
+鄆	yang
+惲	yang
+醞	yang
+慍	yang
+縕	yang
+韞	yang
+韻	yang
+熨	yang
+紖	yang
+蝤	yao
+爻	yao
+袎	yao
+靿	yao
+優	yao
+攸	yao
+憂	yao
+呦	yao
+幽	yao
+悠	yao
+鄾	yao
+耰	yao
+尤	yao
+由	yao
+郵	yao
+猶	yao
+油	yao
+疣	yao
+蓧	yao
+蕕	yao
+鈾	yao
+蚰	yao
+魷	yao
+遊	yao
+游	yao
+楢	yao
+鮋	yao
+蝣	yao
+輶	yao
+友	yao
+有	yao
+卣	yao
+羑	yao
+莠	yao
+銪	yao
+牖	yao
+黝	yao
+又	yao
+右	yao
+幼	yao
+佑	yao
+侑	yao
+柚	yao
+祐	yao
+誘	yao
+蚴	yao
+釉	yao
+鼬	yao
+阽	ye
+蔫	ye
+埏	ye
+涎	ye
+現	ye
+咽	ye
+懨	ye
+胭	ye
+煙	ye
+焉	ye
+菸	ye
+崦	ye
+閹	ye
+淹	ye
+醃	ye
+湮	ye
+鄢	ye
+嫣	ye
+延	ye
+閆	ye
+言	ye
+妍	ye
+炎	ye
+沿	ye
+鹽	ye
+閻	ye
+蜒	ye
+筵	ye
+奄	ye
+儼	ye
+衍	ye
+剡	ye
+掩	ye
+郾	ye
+厴	ye
+偃	ye
+琰	ye
+棪	ye
+演	ye
+魘	ye
+蝘	ye
+縯	ye
+鼴	ye
+厭	ye
+硯	ye
+彥	ye
+豔	ye
+晏	ye
+唁	ye
+宴	ye
+諺	ye
+堰	ye
+雁	ye
+喭	ye
+焰	ye
+焱	ye
+灩	ye
+墕	ye
+釅	ye
+饜	ye
+讞	ye
+燕	ye
+贗	ye
+嬿	ye
+爓	ye
+耶	ye
+倻	ye
+掖	ye
+椰	ye
+揶	ye
+鋣	ye
+冶	ye
+野	ye
+嘢	ye
+葉	ye
+頁	ye
+鄴	ye
+曄	ye
+液	ye
+謁	ye
+饁	ye
+擖	ye
+銦	ye
+堙	ye
+歅	ye
+禋	ye
+闉	ye
+訚	ye
+寅	ye
+螾	ye
+冀	yai
+耶	yh
+爺	yh
+燁	yh
+儀	yh
+夷	yh
+飴	yh
+怡	yh
+宜	yh
+荑	yh
+栘	yh
+移	yh
+痍	yh
+遺	yh
+乙	yh
+苡	yh
+議	yh
+亦	yh
+役	yh
+拽	yh
+暈	yhang
+芋	yhv
+預	yv
+哀	yi
+挨	ea
+艾	yi
+砹	yi
+愛	yi
+隘	yi
+礙	yi
+嗌	yi
+嬡	yi
+璦	yi
+曖	yi
+僾	yi
+薆	yi
+鮨	yi
+餏	yi
+曳	yi
+一	yi
+伊	yi
+衣	yi
+醫	yi
+依	yi
+禕	yi
+咿	yi
+洢	yi
+銥	yi
+猗	yi
+揖	yi
+壹	yi
+嫛	yi
+漪	yi
+鷖	yi
+噫	yi
+繄	yi
+黟	yi
+圯	yi
+杝	yi
+沂	yi
+詒	yi
+咦	yi
+貽	yi
+迻	yi
+姨	yi
+眙	yi
+胰	yi
+宧	yi
+扅	yi
+頤	yi
+椸	yi
+嶷	yi
+簃	yi
+彝	yi
+觺	yi
+釔	yi
+矣	yi
+苢	yi
+迤	yi
+蟻	yi
+艤	yi
+倚	yi
+扆	yi
+椅	yi
+旖	yi
+顗	yi
+乂	yi
+弋	yi
+億	yi
+藝	yi
+藝	nhi
+刈	yi
+憶	yi
+屹	yi
+異	yi
+抑	yi
+苅	yi
+杙	yi
+囈	yi
+邑	yi
+佚	yi
+易	yi
+嶧	yi
+佾	yi
+泆	yi
+懌	yi
+詣	yi
+繹	yi
+驛	yi
+枻	yi
+軼	yi
+昳	yi
+弈	yi
+奕	yi
+疫	yi
+羿	yi
+挹	yi
+貤	yi
+唈	yi
+益	yi
+浥	yi
+悒	yi
+誼	yi
+埸	yi
+勩	yi
+逸	yi
+翊	yi
+翌	yi
+晹	yi
+肄	yi
+裔	yi
+意	yi
+溢	yi
+縊	yi
+蜴	yi
+廙	yi
+瘞	yi
+潩	yi
+嫕	yi
+鷊	yi
+鎰	yi
+毅	yi
+鷁	yi
+熠	yi
+薏	yi
+瞖	yi
+殪	yi
+曀	yi
+螠	yi
+劓	yi
+燚	yi
+翳	yi
+斁	yi
+臆	yi
+寱	yi
+鐿	yi
+癔	yi
+鶂	yi
+饐	yi
+懿	yi
+尹	yi
+嶴	yo
+銚	yo
+夭	yo
+吆	yo
+妖	yo
+喓	yo
+腰	yo
+邀	yo
+堯	yo
+垚	yo
+軺	yo
+嶢	yo
+姚	yo
+珧	yo
+窯	yo
+謠	yo
+搖	yo
+徭	yo
+遙	yo
+猺	yo
+瑤	yo
+颻	yo
+繇	yo
+鰩	yo
+杳	yo
+舀	yo
+窈	yo
+崾	yo
+要	yo
+曜	yo
+燿	yo
+耀	yo
+喲	yo
+唷	yo
+佣	yong
+傭	yo
+癰	yo
+鄘	yo
+慵	yo
+鏞	yo
+臃	yo
+俑	yo
+勇	yo
+埇	yo
+涌	yo
+湧	yo
+踴	yo
+鯒	yo
+用	yo
+戎	yong
+榮	yong
+容	yong
+嶸	yong
+蓉	yong
+溶	yong
+瑢	yong
+榕	yong
+熔	yong
+蠑	yong
+鎔	yong
+融	yong
+翁	ong
+滃	yong
+鶲	yong
+塕	yong
+蓊	yong
+甕	yong
+雄	yong
+熊	yong
+擁	yong
+邕	yong
+庸	yong
+雍	yong
+墉	yong
+壅	yong
+鱅	yong
+饔	yong
+永	yong
+甬	yong
+詠	yong
+泳	yong
+恿	yong
+蛹	yong
+顒	yong
+允	yong
+繇	yoo
+鑰	yoo
+鷂	yoo
+宥	yoo
+原	yoo
+櫞	yoo
+掾	yoo
+鄖	yoo
+椏	ya
+酉	you
+育	you
+餘	yu
+崳	yu
+蜮	yu
+鴛	yue
+冤	yue
+媛	yue
+轅	yue
+玥	yue
+悅	yue
+樾	yue
+閼	yv
+褘	yv
+慧	yv
+睿	yv
+菀	yv
+威	yv
+逶	yv
+隈	yv
+揻	yv
+葳	yv
+煨	yv
+韋	yv
+為	yv
+圩	yv
+圍	yv
+幃	yv
+闈	yv
+溈	yv
+洈	yv
+桅	yv
+潿	yv
+唯	yv
+帷	yv
+惟	yv
+嵬	yv
+濰	yv
+鮠	yv
+偽	yv
+葦	yv
+尾	yv
+緯	yv
+瑋	yv
+委	yv
+洧	yv
+諉	yv
+娓	yv
+萎	yv
+硊	yv
+猥	yv
+韙	yv
+暐	yv
+艉	yv
+痿	yv
+蜼	yv
+蔿	yv
+衛	yv
+位	yv
+畏	yv
+胃	yv
+尉	yv
+蝟	yv
+渭	yv
+蔚	yv
+碨	yv
+慰	yv
+罻	yv
+魏	yv
+霨	yv
+鳚	yv
+吁	yv
+籲	yv
+盱	yv
+囿	yv
+痏	yv
+迂	yv
+紆	yv
+於	yv
+淤	yv
+瘀	yv
+邘	yv
+伃	yv
+璵	yv
+歟	yv
+妤	yv
+盂	yv
+臾	yv
+禺	yv
+竽	yv
+舁	yv
+俞	yv
+狳	yv
+余	yv
+餘	yv
+諛	yv
+娛	yv
+萸	yv
+漁	yv
+揄	yv
+嵎	yv
+崳	yv
+畬	yv
+逾	yv
+腴	yv
+渝	yv
+愉	yv
+瑜	yv
+榆	yv
+虞	yv
+愚	yv
+艅	yv
+覦	yv
+歈	yv
+輿	yv
+窬	yv
+褕	yv
+蝓	yv
+髃	yv
+旟	yv
+與	yv
+予	yv
+嶼	yv
+傴	yv
+宇	yv
+羽	yv
+雨	yv
+俁	yv
+禹	yv
+圄	yv
+敔	yv
+圉	yv
+偊	yv
+鄅	yv
+庾	yv
+鋙	yv
+瑀	yv
+瘐	yv
+馭	yv
+芋	yv
+聿	yv
+飫	yv
+嫗	yv
+鬱	yv
+郁	yv
+昱	yv
+彧	yv
+峪	yv
+浴	yv
+域	yv
+堉	yv
+欲	yv
+慾	yv
+閾	yv
+淯	yv
+諭	yv
+棫	yv
+遇	yv
+喻	yv
+禦	yv
+御	yv
+寓	yv
+裕	yv
+矞	yv
+蕷	yv
+愈	yv
+瘉	yv
+煜	yv
+澦	yv
+譽	yv
+毓	yv
+隩	yv
+遹	yv
+豫	yv
+燠	yv
+燏	yv
+鷸	yv
+鬻	yv
+蘊	yv
+熨	yv
+芧	yv
+鵄	z
+踟	z
+茈	z
+鶿	z
+糍	z
+磧	z
+咥	z
+咋	z
+菑	z
+笮	z
+支	z
+卮	z
+汁	z
+芝	z
+吱	z
+知	z
+梔	z
+胝	z
+祗	z
+脂	z
+椥	z
+榰	z
+蜘	z
+縶	z
+稙	z
+躑	z
+蹠	z
+止	z
+旨	z
+址	z
+扺	z
+芷	z
+沚	z
+泜	z
+祉	z
+枳	z
+軹	z
+咫	z
+趾	z
+酯	z
+志	z
+誌	z
+忮	z
+厔	z
+郅	z
+幟	z
+帙	z
+炙	z
+治	z
+櫛	z
+峙	z
+庤	z
+陟	z
+贄	z
+摯	z
+桎	z
+輊	z
+致	z
+緻	zai
+秩	z
+鷙	z
+擲	z
+梽	z
+銍	z
+袠	z
+痔	z
+窒	z
+痣	z
+滯	z
+鑕	z
+雉	z
+稚	z
+滍	z
+躓	z
+膣	z
+觶	z
+螲	z
+礩	z
+孜	z
+諮	z
+姿	z
+茲	z
+淄	z
+諮	z
+緇	z
+輜	z
+嵫	z
+孳	z
+滋	z
+趑	z
+錙	z
+齜	z
+鎡	z
+鼒	z
+鯔	z
+姊	z
+耔	z
+呰	z
+虸	z
+秭	z
+籽	z
+笫	z
+啙	z
+紫	z
+訾	z
+滓	z
+牸	z
+恣	z
+眥	z
+漬	z
+胾	z
+胔	z
+觜	z
+碴	za
+釓	za
+疆	za
+腳	za
+姐	za
+匝	za
+咂	za
+砸	za
+咋	za
+舴	za
+扎	za
+札	za
+紮	za
+吒	za
+挓	za
+喳	za
+渣	za
+劄	za
+齇	za
+軋	za
+苲	za
+眨	za
+砟	za
+乍	za
+詐	za
+柞	za
+奓	za
+吒	za
+炸	za
+痄	za
+蚱	za
+鮓	za
+榨	za
+拃	za
+爭	za
+急	zai
+輯	zai
+激	zai
+桔	zai
+橘	zai
+及	zai
+質	zai
+卒	zai
+級	zai
+極	zai
+即	zai
+亟	zai
+麂	zai
+鐍	zai
+日	ni
+日	zai
+咱	zan
+噌	zang
+瞋	zang
+龜	zang
+巾	zang
+斤	zang
+今	zang
+金	zang
+津	zang
+衿	zang
+矜	zang
+璡	zang
+筋	zang
+襟	zang
+僅	zang
+緊	zang
+錦	zang
+謹	zang
+盡	zang
+進	zang
+妗	zang
+勁	zang
+藎	zang
+濜	zang
+晉	zang
+燼	zang
+浸	zang
+祲	zang
+禁	zang
+溍	zang
+縉	zang
+覲	zang
+莖	zang
+京	zang
+涇	zang
+經	zang
+荊	zang
+猄	zang
+旌	zang
+驚	zang
+腈	zang
+粳	zang
+兢	zang
+精	zang
+鯨	zang
+鼱	zang
+頸	zang
+景	zang
+儆	zang
+警	zang
+陘	zang
+脛	zang
+倞	zang
+痙	zang
+競	zang
+竟	zang
+敬	zang
+靖	zang
+境	zang
+鏡	zang
+軍	zang
+均	zang
+君	zang
+鈞	zang
+莙	zang
+菌	zang
+皸	zang
+筠	zang
+鮶	zang
+俊	zang
+郡	zang
+峻	zang
+餕	zang
+浚	zang
+駿	zang
+珺	zang
+竣	zang
+檠	zang
+擎	zang
+逡	zang
+沂	zang
+唫	zang
+增	zang
+憎	zang
+矰	zang
+贈	zang
+甑	zang
+貞	zang
+針	zang
+偵	zang
+珍	zang
+幀	zang
+真	zang
+楨	zang
+禎	zang
+甄	zang
+榛	zang
+禛	zang
+箴	zang
+臻	zang
+鱵	zang
+枕	zang
+袗	zang
+紾	zang
+縝	zang
+稹	zang
+鴆	zang
+揕	zang
+震	zang
+鎮	zang
+征	zang
+怔	zang
+徑	zang
+逕	zang
+崢	zang
+猙	zang
+睜	zang
+錚	zang
+蒸	zang
+拯	zang
+諍	zang
+肫	zang
+窀	zang
+諄	zang
+埻	zang
+輳	zao
+腠	zao
+氿	zao
+宄	zao
+艽	zao
+勼	zao
+究	zao
+九	zao
+久	zao
+玖	zao
+柩	zao
+桕	zao
+救	zao
+廄	zao
+咒	zao
+走	zao
+揍	zao
+糟	ze
+鑿	ze
+迮	ze
+嘖	ze
+幘	ze
+遮	ze
+拶	zea
+臢	zea
+載	zea
+宰	zea
+傤	zea
+糌	zea
+昝	zea
+噆	zea
+攢	zea
+趲	zea
+鏨	zea
+贊	zea
+讚	zea
+蹔	zea
+酂	zea
+瓚	zea
+灒	zea
+責	zea
+澤	zea
+簀	zea
+賾	zea
+齋	zea
+宅	zea
+債	zea
+寨	zea
+沾	zea
+氈	zea
+栴	zea
+旃	zea
+譫	zea
+霑	zea
+邅	zea
+瞻	zea
+鸇	zea
+饘	zea
+鱣	zea
+颭	zea
+盞	zea
+展	zea
+嶄	zea
+琖	zea
+搌	zea
+輾	zea
+黵	zea
+占	zea
+佔	zea
+蘸	zea
+哲	zea
+跩	zea
+纘	zea
+劗	zea
+曾	zeng
+嗔	zeng
+忱	zeng
+琤	zeng
+巹	zeng
+堇	zeng
+饉	zeng
+廑	zeng
+瑾	zeng
+槿	zeng
+贐	zeng
+搢	zeng
+靳	zeng
+瑨	zeng
+墐	zeng
+殣	zeng
+噤	zeng
+晶	zeng
+精	zeng
+麖	zeng
+井	zeng
+阱	zeng
+汫	zeng
+剄	zeng
+肼	zeng
+儆	zeng
+憬	zeng
+璟	zeng
+弳	zeng
+敬	zeng
+獍	zeng
+鯖	zeng
+瑱	zeng
+罾	zeng
+鋥	zeng
+繒	zeng
+胗	zeng
+湞	zeng
+楨	zeng
+禎	zeng
+蓁	zeng
+獉	zeng
+診	zeng
+枕	zeng
+軫	zeng
+畛	zeng
+疹	zeng
+鬒	zeng
+圳	zeng
+陣	zeng
+振	zeng
+朕	zeng
+賑	zeng
+爭	zeng
+鉦	zeng
+烝	zeng
+箏	zeng
+整	zeng
+正	zeng
+證	zeng
+証	zeng
+政	zeng
+症	zeng
+徵	zeng
+詞	zh
+垍	zh
+時	zh
+塒	zh
+蒔	zh
+湜	zh
+鰣	zh
+士	zh
+氏	zh
+示	zh
+仕	zh
+市	zh
+勢	zh
+事	zh
+侍	zh
+視	zh
+拭	zh
+柿	zh
+是	zh
+噬	zh
+匙	zh
+伺	zh
+咱	zh
+峙	zh
+畤	zh
+自	zh
+字	zh
+剚	zh
+鏘	zha
+強	zha
+鏹	zha
+吉	zhai
+疾	zhai
+集	zhai
+入	zhai
+什	zhai
+十	zhai
+實	zhai
+拾	zhai
+食	zhai
+習	zhai
+罪	zhai
+拰	zhang
+層	zhang
+抻	zhang
+臣	zhang
+塵	zhang
+橙	cheng
+儘	zhang
+秦	zhang
+勤	zhang
+嗪	zhang
+群	zhang
+壬	zhang
+仁	zhang
+荏	zhang
+仍	zhang
+神	zhang
+腎	zhang
+尋	zhang
+巡	zhang
+蕁	zhang
+洵	zhang
+潯	zhang
+循	zhang
+找	zhang
+掙	zhang
+賺	zhang
+愁	zhao
+舊	zhao
+求	zhao
+俅	zhao
+酋	zhao
+球	zhao
+蹂	zhao
+饒	zhe
+嬈	zhe
+橈	zhe
+擾	zhe
+韶	zhe
+邵	zhe
+劭	zhe
+紹	zhe
+麝	zhe
+苕	zhe
+皂	zhe
+唕	zhe
+造	zhe
+慥	zhe
+簉	zhe
+燥	zhe
+輒	zhe
+讋	zhe
+殘	zhea
+饞	zhea
+孱	zhea
+錯	zhea
+舢	zhea
+擅	zhea
+鱔	zhea
+瘦	zhea
+擇	zhea
+棧	zhea
+曾	zheng
+嶒	zheng
+辰	zheng
+沉	zheng
+晨	zheng
+檉	zheng
+成	zheng
+呈	zheng
+誠	zheng
+承	zheng
+城	zheng
+乘	zheng
+鋮	zheng
+程	zheng
+淨	zheng
+靜	zheng
+檎	zheng
+情	zheng
+晴	zheng
+慎	zheng
+繩	zheng
+剩	zheng
+鄭	zheng
+才	zhi
+材	zhi
+財	zhi
+裁	zhi
+柴	zhi
+舌	zhi
+蛇	zhi
+社	zhi
+攝	zhi
+石	zhi
+食	zhi
+炻	zhi
+鼫	zhi
+席	zhi
+蓆	zhi
+謝	zhi
+嶼	zhi
+在	zhi
+賊	zhi
+前	zhie
+錢	zhie
+羨	zhie
+羡	zhie
+邪	zhie
+斜	zhie
+攜	zhie
+勰	zhie
+就	zhiu
+僦	zhiu
+柔	zhiu
+壽	zhiu
+受	zhiu
+狩	zhiu
+授	zhiu
+獸	zhiu
+綬	zhiu
+秀	zhiu
+藏	zho
+嘲	zho
+處	zho
+髒	zo
+坐	zho
+座	zho
+蠶	zhoa
+存	zhoa
+雜	zhoa
+僢	zhong
+純	zhong
+蓴	zhong
+鶉	zhong
+蓯	zhong
+絨	zhong
+潤	zhong
+順	zhong
+螽	zhong
+重	zhong
+查	zhou
+搽	zhou
+猹	zhou
+鞣	zhou
+偌	zhou
+屬	zhou
+續	zhou
+摣	zhou
+楂	zhou
+助	zhou
+濡	zhu
+贖	zhu
+熟	zhu
+嗾	zhu
+俗	zhu
+嗻	zhu
+族	zhu
+舡	zhue
+船	zhue
+絕	zhue
+全	zhue
+荃	zhue
+痊	zhue
+隨	zhue
+諼	zhue
+煖	zhue
+痃	zhue
+旋	zhue
+鏇	zhue
+漩	zhue
+泫	zhue
+茓	zhue
+踅	zhue
+贅	zhui
+崇	zhwe
+床	zhwe
+從	zhwe
+泅	zhwe
+狀	zhwe
+撞	zhwe
+常	zhye
+牆	zhye
+薔	zhye
+瓤	zhye
+弱	zhye
+上	zhye
+尚	zhye
+裳	zhye
+食	zhye
+詳	zhye
+翔	zhye
+嚮	zhye
+向	zhye
+向	xia
+象	zhye
+像	zhye
+橡	zhye
+災	zi
+甾	z
+哉	zi
+栽	zi
+烖	zi
+仔	zi
+崽	zi
+則	zi
+怎	z
+摘	zi
+翟	zi
+砦	zi
+瘵	zi
+之	z
+只	z
+隻	ji
+枝	z
+織	z
+蹠	z
+指	z
+至	z
+制	z
+製	z
+智	z
+置	z
+資	z
+子	z
+梓	sang
+囅	zie
+駔	zo
+奘	zo
+遭	zo
+爪	zo
+召	zo
+笊	zo
+肇	zo
+抓	zo
+妝	zo
+莊	zo
+樁	zo
+裝	zo
+壯	zo
+作	zo
+躦	zoa
+尊	zoa
+遵	zoa
+舂	zong
+唇	zong
+淳	zong
+醇	zong
+樅	zong
+聰	zong
+琮	zong
+炅	zong
+邛	zong
+茸	zong
+狨	zong
+舜	zong
+瞬	zong
+中	zong
+忠	zong
+終	zong
+鍾	zong
+响	xia
+鐘	zong
+舯	zong
+衷	zong
+腫	zong
+塚	zong
+踵	zong
+仲	zong
+眾	zong
+蚛	zong
+准	zong
+準	zong
+宗	zong
+綜	zong
+棕	zong
+腙	zong
+蹤	zong
+鬃	zong
+總	zong
+縱	zong
+粽	zong
+樽	zong
+撙	zong
+捘	zong
+餷	zou
+焯	zou
+踔	zou
+婥	zou
+淖	zou
+妁	zou
+溠	zou
+柞	zou
+醡	zou
+棹	zou
+啁	zou
+妯	zou
+軸	zou
+碡	zou
+葤	zou
+酎	zou
+祝	zou
+築	zou
+筑	zou
+拙	zou
+捉	zou
+桌	zou
+倬	zou
+灼	zou
+茁	zou
+卓	zou
+斫	zou
+濁	zou
+酌	zou
+浞	zou
+諑	zou
+啄	zou
+琢	zou
+椓	zou
+擢	zou
+濯	zou
+鐲	zou
+騶	zou
+諏	zou
+陬	zou
+掫	zou
+鄹	zou
+鯫	zou
+奏	zou
+組	zou
+昨	zou
+左	zou
+佐	zou
+阼	zou
+怍	zou
+胙	zou
+祚	zou
+唑	zou
+做	zou
+酢	zou
+蔟	zu
+鷓	zu
+粥	zu
+茱	zu
+竹	zu
+竹	jv
+竺	zu
+逐	zu
+燭	zu
+舳	zu
+瘃	zu
+蠋	zu
+躅	zu
+渚	zu
+苧	zu
+鑄	zu
+翥	zu
+菹	zu
+足	zu
+卒	zu
+鏃	zu
+哢	zwe
+種	zwe
+戇	zwe
+枊	me
+爊
+奡
+韛
+覂
+湴
+靽
+虣
+骳
+鐾
+犇
+甏
+觱
+昪
+驫
+猋
+幖
+滮
+熛
+藨
+瀌
+穮
+盋
+嶓
+鱍
+瓝
+浡
+桲
+僰
+肏
+箣
+垞
+詧
+侘
+梴
+幨
+襜
+辿
+僝
+鋋
+襌
+瀍
+蟾
+鑱
+燀
+顫
+昶
+鋹
+韔
+弨
+伡	zeng
+唓
+奲
+坼
+掣
+澈
+棽
+綝
+趻
+墋
+踸
+疢
+蟶
+赬
+椉
+瓻
+絺
+漦
+抶
+傺
+憏
+瘛
+鶒
+翀
+憃
+罿
+搊
+犨
+譸
+裯
+褚
+俶
+斶
+欻
+膗
+膪
+圌
+篅
+舛
+噇
+垂
+輴
+漘
+錞
+逴
+辵
+啜	cou
+惙	cou
+歠
+骴
+薋
+佽
+瑽
+鏦
+賨
+藂
+瘄
+憱
+顣
+汆
+爨
+榱
+獕
+漼
+皠
+膵
+踆
+刌	zhou
+忖	zou
+剒	cou
+莝
+怛	dhea
+軑
+襶
+黕
+疍
+髧
+禫
+甔
+贉
+嚪
+氹
+璗
+扽
+戥
+覿
+髢
+頔
+玓
+杕
+墬
+傎
+磹
+蛁
+絰
+啑
+嵽
+哋
+蝀
+唗
+餖
+酘
+厾
+塅
+碫
+驐
+盹
+楯
+剟
+掇
+敚
+凙
+埵
+鬌
+媠
+鞥
+而	ng
+兒	ng
+爾	ng
+邇	ng
+灋
+墦	pea
+颿
+飜
+璠
+繙
+鷭
+嬎
+祊
+肥	whi
+朏
+瞓
+賵
+鄜
+簠
+旮
+尜
+玍
+荄
+隑
+匄
+忓	goa
+扞
+笴
+搿
+給	zai
+畊
+賡
+縆
+堩
+栱
+贑
+韝
+罛
+軱
+抇
+嘏
+盬
+苽
+罣
+瘝
+鰥
+筦
+祼
+媯
+邽
+鬶
+瓌
+氿
+軌
+庋
+佹
+垝
+姽
+簋
+劌
+鱥
+膕
+漍
+馘
+醢
+頇
+閈
+昊
+鄗
+滈
+翯
+訶
+蠚
+盉
+齕
+訸
+龢
+佫
+鶴
+啈
+魟
+澒
+鱟
+嘑
+搰	gwe
+縠
+觳
+怙
+鄠
+砉
+耲
+懁
+讙
+荁
+貆
+圂
+逭
+怳	xio
+豗
+翬
+隳
+毀	fai
+毀	huai
+噦	xv
+燴	whea
+翽
+闠
+靧
+慁
+耠
+劐
+騞
+佸
+漷
+獲	wa
+穫	wa
+嚄
+鑊
+臛
+鮆
+恝
+跲
+斝
+榎
+稼
+揃
+篯
+暕
+絸
+鬋
+瀽
+諓
+豇
+螿
+鱂
+耩
+膙
+弶
+窌
+滘
+斠
+皭
+袺
+絜
+蛣
+毑
+岕
+褯
+紟
+扃
+宭
+熲
+樛
+臼
+鷲
+挶	jv
+梮	jv
+湨
+弆
+蒟
+虡
+蠲
+棬
+屩
+夬
+訣
+駃
+譎
+鴃
+潏
+捃
+焌
+畯
+寯
+欿
+顑
+轗
+衎
+磡
+窠
+剋	ki
+峇
+硍
+裉
+鷇
+楛
+夔
+卼
+喟
+堃
+壼
+筈
+鞟
+彍
+罱
+誄
+纇
+纚
+尥
+捩
+鱲
+醽
+欒
+灤
+掠
+腡
+覼
+蓏
+摞
+雒
+捋
+率	lv
+鑢
+鋝
+圙
+尨
+牻
+皃
+鄚
+鄮
+懋
+脢
+禖
+渼
+沬
+痗
+劘
+謬
+娒
+鼐
+峱
+夒
+巎
+婗
+蜺
+輗
+麑
+齯
+鉨
+薿
+堄
+惄
+褭
+佞	ea
+濘	neng
+黁
+堧
+朒
+掱
+筢
+爿
+雱
+奅
+衃
+毰
+帔
+旆
+浿
+鼙
+嫳
+醱
+哱	bou
+奤
+愒
+鵮
+諐
+灊
+羌
+蹻
+荍
+樵
+鞘
+郤
+黥
+蛩
+黢
+劬
+氍
+闃
+覷	jie
+銓	xue
+埆	gou
+愨
+碏
+礐
+髯
+苒
+瀼	nia
+壤	nia
+繞	zhe
+刃	niang
+訒	niang
+任	zhang
+牣
+紝
+馹
+肜
+煣
+糅
+輮
+鰇
+臑
+鄏
+耎
+緌
+桵
+蕊
+橤
+汭
+枘
+蚋
+閏	zhong
+若	xhv
+鄀
+婼
+蒻
+爇
+靸
+毸
+毿
+嗓
+鰠
+氉
+澀
+濇
+鬙
+歃
+箑
+痁
+膻
+羴
+睒
+赸
+嬗
+奢	sie
+輋
+厙
+涉
+昚
+湦
+辻
+旹
+祏
+恃	chi
+襫
+鄃
+豎	jhi
+裋
+甩	xai
+蟀	sea
+帨
+睡
+瞤
+矟
+禩
+娀
+悚
+謏
+筭
+挼
+荽
+睢
+髓
+睟
+穟
+飧
+鏁
+遝
+嚃
+怹
+倓
+菼
+咷	jio
+脦
+蟘
+鼟
+螣
+縢
+洟
+趯
+銛
+岧
+儵
+頫	fu
+跕
+鞓
+穜
+斢
+漙
+隤
+尵
+侻
+氽
+沲
+鼉
+庹
+穵
+窊
+崴
+骫
+尪
+硊
+廆
+頠
+亹
+磑
+讆
+蟁
+齆
+倭	ea
+踒	ea
+硪
+洿
+郚
+珷	wu
+碔
+扤
+屼
+肸
+菥
+瘜
+觿
+郋
+喺
+嶍
+霫
+鰼
+枲
+徙	yh
+卌
+郤
+綌
+赩
+隟
+潟
+虩
+俠	ya
+狹	hha
+祫
+陿
+忺
+暹
+鶱
+弦	sie
+絃	sie
+撏
+蚿
+舷
+癇
+瞷
+嶮
+毨
+幰
+晛
+線
+粯
+勷
+蘘
+祥	zhye
+饗
+鯗
+缿
+虓
+蠍	xie
+協	xvie
+偕	ki
+揳
+屭
+卸	xie
+屑	sie
+塮	zhi
+榭	zhi
+瀣
+躞
+滫
+徐	xhv
+呴	go
+禤
+翾
+譞
+絢	xhv
+鉉
+嶨
+謔	nue
+郇
+栒
+鄩
+璕
+噀
+岈
+揅
+兗
+弇
+剡
+扊
+黶
+甗
+巘
+覎
+掞	dhea
+卬	me
+窅
+噎	ye
+擖
+柂
+昳
+酏
+蓺
+斁
+虉
+崟
+夤
+垽	zeng
+憖
+嗈
+雝
+麀
+斿
+猷
+槱
+狖
+雩
+鋙
+窳
+圫	ghou
+罭
+薁
+鴥
+矱
+彠
+軏
+龠
+黦
+瀹
+爚
+籰
+贇
+拶
+酂
+蚤
+璅
+蘀
+譖
+哳	jie
+霅
+鮺
+綻	zea
+餦
+礃
+磔
+柘
+砧
+鬇
+執	jhi
+茝
+黹
+豸
+胵
+紩
+騭
+寘
+疐
+瘈
+螲	z
+柊	dong
+盩
+紂	zou
+胄	yv
+甃
+咮	jv
+髽
+耑
+瑑	zou
+篹
+簨
+籑
+墜	jv
+惴	qv
+迍	dhang
+衠
+棁
+涿
+斮
+禚
+騣
+捴
+疭
+
+阿孃
+阿爺
+阿媼
+阿丈
+阿公
+阿婆
+阿太
+阿克
+阿政
+阿爸
+阿房宮
+哀傷
+埃及
+塵埃
+挨過去
+挨你打
+捱嘗
+白皚皚
+癌症
+得癌症
+矮子
+矮人
+矮㕽
+矮兮矮
+和藹
+暮靄
+白靄
+艾未未
+吾愛你
+愛你
+愛人
+愛情
+博愛
+慈愛
+狹隘
+妨礙
+阻礙
+曖昧
+安全
+安心
+保安
+天安門
+桉樹
+氨基酸
+尼姑庵
+尼姑
+死姑娘
+鵪鶉卵
+鵪鶉
+上岸
+岸邊
+岸上
+靠岸
+按理
+按落去
+拰一拰
+拰個位子
+拰落
+拰出
+胺樹
+胺氣
+案子
+教案
+方案
+企劃案
+破案
+太暗
+啊罷
+黑暗
+暗落
+黯然
+骯髒
+昂首
+昂首挺胸
+昂然
+盎司
+盎然
+春意盎然
+凹落起
+凹啊
+李敖
+熬到頭
+硬熬
+翱翔
+鼇拜
+棉襖
+傲氣
+驕傲
+傲骨
+奧巴馬
+奧利奧
+奧特曼
+澳洲
+懊悔
+八個
+八十
+八日
+八十八
+十八
+巴蜀
+乾巴
+巴山
+鄉巴佬
+扒開
+喇叭
+芭樂
+刀疤
+傷疤
+疤痕
+粑粑
+拔出
+挺拔
+拔落
+把手
+把吾
+把你
+拚哰
+水壩
+爸爸
+霸道
+霸氣
+掰開
+掰斷
+掰落
+掰起
+白㕽
+白色
+白喜事
+白白
+弗白
+一百
+一百日
+一百個
+百日維新
+伍佰
+柏樹
+捭來
+捭開
+捭哪去
+捭㕽去
+㕽是哪
+捭坸來
+捭來捭去
+捭哢
+失敗
+完敗
+敗哢你
+敗家子
+敗家
+敗哢你啊罷
+拜年
+拜拜
+就囊講罷
+先囊
+稗子
+扳來轉
+來轉
+走來轉
+攽布
+上班
+落班
+開班
+班級
+幾班
+班門弄斧
+一般
+頒發
+頒佈
+石斑魚
+斑魚
+斑紋
+斑點
+黑斑
+搬出
+搬家
+木板
+昄依
+版權
+版面
+排版
+辦事幹
+辦事處
+辦事
+事幹
+辦公
+用品
+辦弗落
+辦落罷
+一半
+半坸
+老伴
+伴娘
+拌面
+拌一拌
+絆腳
+絆倒
+花瓣
+打扮
+扮裝
+友邦
+邦交
+聯邦
+幫派
+幫一幫
+弗幫
+意幫
+硬梆梆
+綁落
+綁起
+捆綁
+上榜
+棒籪
+誹謗
+一磅
+兩磅
+幾磅
+包哢吾
+包哢
+包哰
+麵包
+包子
+包包
+書包
+挎包
+包裹
+承包
+開苞
+孢子
+同胞
+胞胎
+齙牙
+煲湯
+煲一煲
+褒獎
+褒貶
+褒貶弗一
+冰雹
+薄餅
+薄兮薄
+薄荷
+薄紙
+單薄
+薄㕽
+弗薄
+飽噔噔
+吃飽
+吃飽罷
+飽兮飽
+寶㕽似
+㕽似
+寶貝
+珍寶
+阿寶
+保護
+保哰
+保弗哰
+永葆
+永葆青春
+城堡
+繈褓
+報復
+報答
+上報
+報紙
+報告
+摾一摾
+哢吾摾
+摾麥
+豹子
+山豹
+鮑魚
+強暴
+暴力
+暴吃
+暴走
+火爆
+爆發
+腳跛
+跛腳
+一杯
+紙杯
+玻璃杯
+玻璃
+杯子
+自卑
+卑微
+悲傷
+悲鳴
+解放碑
+紀念碑
+碑文
+北方
+北坸
+貝殼
+為奸
+悖逆
+倍數
+幾倍
+準備
+備貨
+防備
+預備
+背書
+背落
+背人
+背你
+背吾
+背其
+被庫
+長輩
+輩份
+一輩子
+一輩人
+烘焙
+蓓蓓
+人本
+本鈿
+本金
+本來
+山崩
+崩裂
+駕崩
+繃帶
+繃緊
+蹦蹦跳跳
+水泵
+泵雷
+迸發
+屄底
+該坻
+嗐坻
+嗐個
+嗐類
+該類
+類囊
+非囊
+就囊
+囊憨
+鼾起
+打鼾
+含義
+含哰
+邀請函
+大韓民國
+韓語
+韓國
+嚷個
+嚷類
+逼你
+逼迫
+鼻頭
+匕首
+比劃
+比賽
+比你
+比來比去
+吡牙
+彼此
+毛筆
+筆頭
+鋼筆
+鉛筆
+圓珠筆
+水筆
+黑筆
+藍筆
+紅筆
+婢女
+奴婢
+鄙視
+人民幣
+法幣
+台幣
+新臺幣
+美元
+日元
+必須
+必定
+畢業
+完畢
+閉門弗出
+關閉
+閉路
+電視
+封閉
+庇護
+嗶哩嗶哩
+嗶嗶
+陛下
+擊斃
+暴斃
+敝人
+碧玉
+蓬碧生輝
+碧綠
+蔽人
+遮罩
+做弊
+弊端
+壁畫
+牆壁
+手臂
+臂膀
+避開
+逃避
+避雨
+邊些
+一邊
+編書
+編故事
+押寶
+押落
+押落去
+童謳
+毆打
+海鷗
+嘔吐
+謳歌
+甌江
+畚鬥
+奔向
+報到
+表兄
+表兄弟
+飆車
+林彪
+保鏢
+酒杯
+杯中酒
+本身
+薄冊本
+該本
+嗐本
+嚷本
+八寶粥
+寶寶粥
+投保
+保存
+保管
+表示
+手錶
+戴表
+掛表
+鐘錶
+表親
+表弟
+表妹
+表姊妹
+表姊
+表姐
+阿姐
+報答
+表㕽
+弗是
+親㕽
+真㕽
+非囊
+堡壘
+松柏
+擺攤
+擺落
+擺坸
+囊擺
+搖擺
+擺開
+跟班
+版稅
+銅板紙
+銅板
+玩伴
+涼拌
+涼拌面
+拌醬
+阿伯
+伯伯
+大伯
+扳倒
+斌斌
+阿斌
+冰條
+冰激淩
+冰塊
+冰凍
+冰雪
+冰箱
+冰㕽
+弗冰
+當兵
+秉乘
+把柄
+千層餅
+大餅
+芝麻餅
+月餅
+阿炳
+嬪妃
+彬彬有禮
+彬彬
+海濱
+賓客
+來賓
+兵營
+狼狽
+備課
+賠鈔票
+賠弗起
+賠起㕽
+陪客
+三陪
+陪襯
+培養
+栽陪
+旭培
+笨蛋
+笨兮笨
+囊笨
+弗笨
+暴風雨
+暴風
+影音
+冰雹
+剽竊
+瓢蟲
+七星瓢蟲
+俳句
+徘徊
+打牌
+排隊
+排練
+排場
+白吃
+白癡
+白喝
+出差
+出產
+生產
+產出
+產量
+產品
+產能
+產權
+產業
+用餐
+餐點
+餐卷
+點餐
+燦爛
+點名冊
+簿冊
+第幾冊
+第一冊
+第兩冊
+政策
+策略
+拆屋堂
+拆遷
+寶釵
+摻水
+摻沙
+摻水泥
+水泥
+攙扶
+鏟開
+闡明
+闡述
+黲淡
+並且
+並弗是
+弗是
+並列
+生病
+病哘罷
+病痛
+頻率
+視頻
+平㕽
+平坦
+平凡
+平淡
+平靜
+平平
+反應
+評價
+評論
+評判
+萍萍
+蘋果
+萍水相逢
+螢幕
+花瓶
+水瓶
+天秤座
+憑什麼
+文憑
+憑證
+憑據
+準備
+備胎
+預備
+曬被
+鼻涕
+皮膚
+皮下
+臉皮
+豆腐皮
+皮蛋
+皮帶
+皮鞭
+皮衣
+毛皮
+脾氣
+臭脾氣
+好脾氣
+啤酒
+青啤
+黑啤
+琵琶
+棒棒
+英鎊
+庖丁解牛
+白袍
+大袍
+睏袍
+龐大
+彭德懷
+牛棚
+搭棚
+篷萊
+斗篷
+膨化食品
+一般
+般配
+便利
+方便
+速食麵
+分辨
+辯論
+別人
+別嘎呣
+嘧嗞
+盤中餐
+蘿蔔
+占卜
+卜卦
+八卦
+哺乳
+腳步
+步伐
+步子
+部份
+婆娘
+老婆娘舅
+娘舅
+葡萄
+恐怖
+孵卵
+拔河
+拔蘿蔔
+爬山
+爬上去
+攀爬
+丁耙
+筆記
+畢業
+完畢
+延畢
+國王
+弼馬翁
+躲避
+麻痹
+榜樣
+放榜
+細胞
+小組
+雙胞胎
+三胞胎
+脈膊
+膀胱
+鷸蚌相爭
+漁翁得利
+憋氣
+憋哰
+憋紅哘
+辮子
+紮辮子
+紮㕽紮
+幾遍
+一遍
+兩遍
+三遍
+四遍
+五遍
+六遍
+七遍
+八遍
+九遍
+十遍
+扁㕽
+扁擔
+陳水扁
+打扁
+蹩腳
+剝開
+剝蔓蔓
+剝蔓蔓吃
+剝桔桔
+勃起
+起勃器
+心臟
+鴨脖
+圍脖
+駁回
+接駁車
+博士
+博學
+博大
+精深
+阿博
+停泊
+鉑金
+渤海
+渤海灣
+鋁箔
+鋁箔紙
+鳳梨
+粗布
+布料
+棉布
+塑膠布
+塑膠
+布藝
+紅布
+紅㕽布
+撥電話
+撥打
+波拉
+波浪
+波動
+電波
+播放
+廣播
+播音
+主持
+補血
+補身體
+添補
+補充
+補足
+給補
+捕魚
+抓捕
+捕快
+捕頭
+逮捕
+八點鐘
+點鐘
+幾點鐘
+一點鐘
+兩點鐘
+三點鐘
+四點鐘
+五點鐘
+六點鐘
+七點鐘
+八點鐘
+九點鐘
+十點鐘
+十一點鐘
+十兩點鐘
+八日
+八神
+內八
+作罷
+籬笆
+眙嘗
+眙你
+眙吾
+眙其
+眙來眙去
+眙嗐坸
+眙該坸
+眙哪啊
+往上眙
+往落眙
+羞恥
+無恥
+廉恥
+奢侈
+癡心
+癡情
+癡呆
+牙齒
+賜哢
+賜給
+恩賜
+天賜
+賜福
+伺候
+伺機
+排斥
+充斥
+斥責
+呲牙
+赤化
+赤匪
+赤黨
+赤旗
+翅膀
+熾熱
+敕令
+刺刀
+尖刺
+尖銳
+刺嘗
+刺破
+一次
+兩次
+次數
+次郎
+此次
+磐石
+樂清
+樂成
+樂成鎮
+雙雁路
+北城
+沐簫
+銀潭
+樂湖
+丹霞
+民豐
+東城
+樂怡
+西城
+南城
+雲浦
+鹽盆
+西塔
+東塔
+東塔公園
+八金田
+上敖
+林場
+水塘山
+北門
+金溪
+中心
+銀溪
+倉橋
+東門
+西門
+南門
+黃村
+岩前
+湖上嶴
+潘家垟
+孔坦
+萬嶴
+水深
+馬車河
+縣浦
+宋湖
+蓋竹
+石馬北
+石馬捕撈隊
+南岸捕撈隊
+捕撈隊
+石馬南
+南岸
+前山
+界岱
+支嶴
+市嶺
+上米嶴
+後所
+蠣灰窯
+半沙
+東山南
+南草垟
+壩頭
+百岱
+白沙
+牛鼻洞
+珠垟
+黃良
+上葉
+梅灣
+包山
+天場
+北沙角
+土墩塘
+龍山頭
+新塘
+石龍
+雲嶺
+新下塘
+東山
+上段
+樟北
+後埭頭
+柏樹巷
+鹽盆捕撈隊
+樟南
+山根
+吳嶴
+田垟
+楊嶴
+盛嶴
+柳市
+柳市鎮
+方鬥岩
+朝陽
+垟心
+後西垟
+前西垟
+呂莊
+後街
+翔金垟
+上園
+東風
+前街
+長虹
+上峰
+長豐
+象山
+西潭頭
+上池
+木山后
+浹西
+浹東
+長春
+社頭
+西凰嶼
+東凰嶼
+東仁宕
+峽門
+西西
+新光
+劉宅
+張瞿
+西東
+上游
+蘇嶴
+蘇呂
+南呂嶴
+橫帶橋西岸
+橫帶橋東岸
+橫帶橋
+黃七甲
+上來橋
+林宅
+三裡
+塘沿周
+馬仁橋
+後西
+新民
+前西
+東村
+西仁宕
+薛宅
+捕撈新村
+尚宅
+長道坦
+前垟洞
+店後
+山弄
+沙後
+戴西
+戴東
+隔籬
+沙東
+沙西
+前窯
+前州
+嶴底
+嶴外
+旭光
+荷嶴
+上五宅
+西宋
+湖東
+湖西
+丁橋
+智廣
+楊宅
+蟾東
+仙垟
+蟾西
+磐石
+河北
+磐南
+河南
+磐西
+磐東
+重石
+油車
+西新城
+東社
+西社
+芝灣
+西橫河
+東橫河
+沿河
+陡門
+北白象
+白象
+嶺門
+塘下
+鶴浹
+旺林
+西漳
+前西漳
+後西漳
+西劉宅
+賴宅
+後岸
+中西漳
+白塔王
+東巉頭
+巉頭
+西巉頭
+南巉頭
+沙門樟灣
+沙門樟
+前岸
+前程
+河深
+車頭
+商量橋
+萬南
+東斜
+西斜
+趙家硐
+下庠
+塗嶴
+萬茗
+車嶴
+水塔頭
+西垟
+張家灣
+塘上
+馬路角
+橋下
+前星
+南嶴
+金爐
+蔣家橋
+洪渡橋
+黃莊
+樂東
+城田
+項嶴
+印嶼
+爐嶴
+阪塘
+下安
+高西
+瑞裡
+陳家橋
+新皇嶴
+新橋
+高中
+高東
+趙嶴
+嶺西
+白鷺嶼
+樓橋
+雙廟
+沈嶴
+後潘垟
+硐橋
+前黃
+前潘垟
+琯頭
+後西岑
+前西岑
+王家店
+水潭
+四房
+三重爐
+前五宅
+大新
+三房
+大星捕撈隊
+大港
+七宅
+山東
+中方
+山下
+小方
+前方
+小港
+泮珠垟
+蓮池頭
+東河
+萬倉
+上垟田
+東垟田
+中垟田
+盈倉捕撈隊
+豹嶼捕撈隊
+七裡港
+七前
+七西
+七東
+排岩頭
+排岩頭東村
+樓下
+金光嶴
+金東
+金西
+上屋
+裡隆
+馬道底
+曹田前
+曹田後
+曹田
+西埭
+項浦埭
+馬道
+馬道西
+馬道頭
+七裡港捕撈隊
+黃華
+黃華堡
+黃華關
+華西
+北山
+南山
+前京
+南山前
+殿后
+滬嶼後
+滬嶼前
+滬嶼
+南陳嶴
+金棚頭
+華山
+胡家垟
+三宅
+長林西
+長林東
+長林
+華東
+南鹽
+上岩後
+上岩前
+上岩
+岐頭一
+岐頭二
+岐頭三
+岐頭四
+岐頭
+黃浦
+白石
+上陳
+岐元
+街口
+新村
+大嶴
+甩稻岩
+東浹
+密川
+北新
+上升
+下阮
+新河浹
+坭嶴
+合湖
+鳳凰
+下印
+中雁
+嶴上
+赤水垟
+上坭
+中石門
+中湖
+下坭
+下馬嶺
+鐘前
+象陽
+荷盛
+象山
+象山東嶴
+象山橋前
+象山橋後
+深河
+高前
+高後
+上池頭
+高四
+大河沿
+大謨
+彭橋
+泮垟
+泮垟後橫
+泮垟前橫
+莊垟
+柳南
+龍根
+下瀆朱
+寺前田垟
+井虹寺
+井虹寺前
+晚斜陽
+四板橋
+荷堡
+湯東
+湯西
+圓木社
+山前馬
+路頭石
+誼山
+坭山
+湯嶴餘
+大茅嶺
+萬里橋
+坭後
+坭前
+花浹
+翁垟
+九房前
+翁鹽
+九房後
+北街
+後西門
+前西門
+西門
+南街
+後橋
+後鹽
+曙光
+前進
+河西
+前橋
+三嶼
+三鹽
+高橋
+東塘下
+東鹽
+東方
+橋頭
+地鹽
+華新
+前湖埭
+雪灣
+北山前
+河嶴
+樟樹下
+沙頭
+沙鹽
+南山根
+山根
+新河
+雙望
+門前
+沙角
+下垟
+後湖埭
+湖埭
+高陽
+山外
+虹橋
+連橋
+八村
+七村
+三村
+四村
+東垟
+東街
+西街
+上陶
+一村
+龍坦
+鄔家橋
+界嶼
+東館
+蔣宅
+上滕
+嚴宅
+溪東
+溪西
+瑤北
+瑤南
+上沿
+下沿
+上仙垟
+塔東
+下仙垟
+仙垟
+仙垟趙
+仙垟陳
+邵東呂
+北村
+興寶坦
+大烏石
+橋北
+橋南
+龍澤
+南村
+錢家垟
+下村
+小烏石
+烏石
+下橋
+信嶴
+河深橋
+建強
+黎明
+周宅
+田垟季
+吳宅
+潘宅
+武宅
+長山
+長山后
+塔橋
+長山前
+凰嶴
+西塘
+里弄巷
+港沿
+埭下
+水坑
+灣底
+蒲岐
+東門街
+雙嶼
+北門街
+西門街
+東外
+漁業捕撈隊
+南門街
+上侯宅
+下侯宅
+華一
+華二
+寨橋
+華嶴
+倉下
+下堡
+婁川
+婁浦
+南嶽
+杏灣
+杏灣一
+大嵩
+大嵩上嶽
+大嵩下嶽
+平盤山
+後塘
+前塘
+裡三
+裡嶴漁業隊
+裡二
+裡一
+岩坑
+上莊
+垟步橋
+沙港頭
+杏灣二
+杏灣三
+杏灣四
+杏灣漁業隊
+裡嶴
+清江
+渡頭
+方江嶼
+上埠頭
+珠上
+珠下
+江沿
+棉花塘
+靖江
+清江底
+三塘
+泗塘
+清南
+謝屏
+北塘
+鄴嶴
+清北
+石陣
+福山
+麻車
+西沿
+礁頭
+石古墩
+坎頭下
+田壟
+蔡嶴
+建新
+清江
+沙埠頭
+富岩頭
+芙蓉
+海口
+山外灣
+良園
+上街
+下街
+山外
+後垟
+前垟
+石碧
+蘭嶼浦
+小芙
+麥西
+包宅
+東嶴
+茶塘
+下灣
+筋竹
+前橫
+西嶴
+南塘
+小橫床
+小東塘
+東塘
+鯉魚山
+外塘
+裡紅
+裡塘
+楊洲
+東山埠
+龍珠塘
+朝霞
+江宅
+永光
+南浦
+三江
+山馬
+珠北
+珠南
+雁蕩
+松垟
+白溪街
+田東
+上黃
+上阮
+跳頭
+上詹
+上林
+江邊
+澤前
+樓村
+石件頭
+陳家莊
+響嶺頭
+選坑
+下靈岩
+上靈岩
+靈岩
+能仁
+下塘
+下塘漁業捕撈隊
+富嶴
+環山
+陡門頭
+小嶴
+靖底施
+樸頭
+樟下
+西門島
+白沙島
+南嶴山
+山后
+嶴裡
+大荊
+東瓜嶺
+仙垟謝
+嶼後
+珠山
+馮村
+蔗湖
+幹嶺
+下幹
+荊東
+下山頭
+山頭
+高地
+肖包周
+三官廟
+石門
+西一
+西二
+東裡
+荊南
+仙垟方
+李宅基
+疊石
+鬧水坑
+蔡界山
+溪坦
+小洪坑
+前溪
+仰天湖
+桐陽
+隱處嶴
+大園
+西下
+久防
+龍灘
+田嶴
+黃家嶴
+泗洲堂
+油嶴
+中莊
+嶺腳
+穀嶴
+南園
+白箬嶴
+盛宅下
+鐵場
+山外蔡
+舟山頭
+小橫浦
+大橫浦
+橫浦
+中花坦
+後垟門
+小花坦
+盛家塘
+蒲灣
+上花坦
+阿富汗
+阿根廷
+阿拉伯聯合酋長國
+阿拉伯
+阿曼
+埃及
+埃塞俄比亞
+愛爾蘭
+愛沙尼亞
+奧地利
+澳大利亞
+巴哈馬
+巴基斯坦
+巴拉圭
+巴勒斯坦
+巴林
+巴拿馬
+巴西
+白俄羅斯
+百慕大
+保加利亞
+比利時
+冰島
+玻利維亞
+波蘭
+不丹
+朝鮮
+赤道幾內亞
+丹麥
+德國
+俄羅斯
+厄瓜多爾
+法國
+菲律賓
+芬蘭
+佛得角
+岡比亞
+剛果
+哥倫比亞
+格陵蘭
+古巴
+關島
+哈薩克斯坦
+海地
+韓國
+荷蘭
+幾內亞
+加拿大
+柬埔寨
+捷克
+津巴布維
+開曼群島
+科威特
+肯雅
+老撾
+黎巴嫩
+利比理亞
+利比亞
+立陶宛
+盧森堡
+羅馬尼亞
+馬達加斯加
+馬爾他
+馬爾代夫
+馬來西亞
+馬其頓
+毛里求斯
+美國
+蒙古
+孟加拉
+秘魯
+緬甸
+民主剛果
+摩洛哥
+墨西哥
+南非
+尼泊爾
+挪威
+葡萄牙
+日本
+瑞典
+瑞士
+賽普勒斯
+沙烏地阿拉伯
+斯里蘭卡
+斯洛伐克
+斯洛文尼亞
+蘇丹
+索馬里
+所羅門群島
+塔吉克斯坦
+泰國
+湯加
+突尼斯
+圖瓦盧
+土耳其
+瓜地馬拉
+委內瑞拉
+汶萊
+烏干達
+烏克蘭
+烏拉圭
+烏茲別克斯坦
+西班牙
+錫金
+希臘
+新加坡
+新西蘭
+匈牙利
+敘利亞
+牙買加
+亞美尼亞
+葉門
+伊拉克
+伊朗
+以色列
+義大利
+印度
+印尼
+英國
+約旦
+越南
+直布羅陀
+智利
+中非
+中國
+梵蒂岡
+斐濟
+喀什米爾
+中華人民共和國
+中華民國
+阿聯酋
+阿姆斯特丹
+愛爾蘭
+安哥拉
+安曼
+奧蘭
+奧斯陸
+巴哈馬
+巴基斯坦
+巴林
+巴拿馬
+巴拿馬運河
+巴賽隆納
+巴西
+百慕大群島
+班加西
+保加利亞
+北美
+北歐
+貝倫
+比利時
+冰島
+波蘭
+波士頓
+波斯灣
+不萊梅
+布希爾
+布宜諾賽勒斯
+長崎
+川崎
+達爾文
+大阪
+迪拜
+底特律
+地中海
+東非
+東京
+倫敦
+東南亞
+東亞
+都柏林
+多佛爾
+杜哈
+多倫多
+俄羅斯
+法蘭克福
+法蘭西堡
+非洲
+斐濟群島
+費城
+芬蘭
+佛得角
+福岡
+釜山
+岡比亞
+哥本哈根
+哥倫比亞
+哥倫布
+廣島
+廣州
+漢堡
+河內
+紅海
+洪都拉斯
+胡志明市
+惠靈頓
+基隆
+吉隆玻
+金邊
+金斯頓
+卡宴
+開普頓
+可倫坡
+肯雅
+魁北克
+黎巴嫩
+里斯本
+里約熱內盧
+利比亞
+利物浦
+連雲港
+鹿特丹
+洛杉磯
+馬達加斯加
+馬德里
+馬爾他
+麻六甲
+邁阿密
+曼徹斯特
+曼谷
+毛里求斯島
+美國
+蒙特利爾
+孟買
+名古屋
+摩洛哥
+莫斯科
+墨爾本
+墨西哥城
+那不勒斯
+南韓
+南美
+南斯拉夫
+紐約
+歐洲
+珀斯
+喬治城
+清水
+仁川
+神戶
+聖地牙哥
+聖勞倫斯
+聖路易斯
+聖喬治
+聖約翰
+斯德哥爾摩
+斯里蘭卡
+蘇丹
+蘇伊士
+所羅門群島
+所屬地區
+所屬國家
+臺北
+太子港
+泰晤士港
+檀香山
+突尼斯
+圖瓦盧
+土耳其
+威尼斯
+維多利亞
+維多利亞港
+汶萊
+澳洲
+西北歐
+西非
+西太平洋
+西雅圖
+希臘
+悉尼
+暹羅灣
+新奧爾良
+新加坡
+新西蘭
+休士頓
+牙買加
+雅典
+雅爾達
+雅加達
+亞歷山大
+亞特蘭大
+亞洲
+仰光
+伊斯坦布爾
+以色列
+印尼
+約旦
+越南
+湛江
+芝加哥
+直布羅陀
+智利
+中東
+中美
+中南美
+美利堅合眾國
+加利福尼亞州
+科羅拉多州
+佛羅里達州
+歐盟
+夏威夷
+愛達荷州
+印第安那州
+堪薩斯州
+路易斯安那州
+麻省
+密西西比州
+內華達州
+新澤西州
+紐約州
+俄亥俄州
+奧克拉荷馬州
+田納西州
+德克薩斯州
+猶他州
+弗吉尼亞州
+華盛頓
+西佛吉尼亞州
+臺灣
+釣魚島
+黑瞎子島
+南沙群島
+北京
+上海
+天津
+重慶
+河北
+山西
+河南
+遼寧
+香港
+吉林
+黑龍江
+內蒙古
+江蘇
+山東
+安徽
+浙江
+福建
+澳門
+湖北
+湖南
+廣東
+廣西
+江西
+四川
+海南
+貴州
+雲南
+西藏
+陝西
+甘肅
+青海
+寧夏
+新疆
+東城區
+西城區
+崇文區
+宣武區
+朝陽區
+海澱區
+豐台區
+房山區
+通州區
+順義區
+昌平區
+大興區
+懷柔區
+平谷區
+密雲縣
+延慶縣
+門頭溝區
+石景山區
+天津市
+和平區
+河東區
+河西區
+南開區
+河北區
+紅橋區
+塘沽區
+漢沽區
+大港區
+東麗區
+西青區
+北辰區
+津南區
+武清區
+寶坻區
+靜海縣
+寧河縣
+薊縣
+河北省
+辛集市
+行唐縣
+遵化市
+盧龍縣
+成安縣
+邢臺市
+隆堯縣
+保定市
+定興縣
+蠡縣
+沽源縣
+承德縣
+河間市
+吳橋縣
+衡水市
+景縣
+青龍滿族自治縣
+圍場滿族蒙古族自治縣
+槁城市
+靈壽縣
+遷安市
+撫寧縣
+大名縣
+南宮市
+臨城縣
+涿州市
+唐縣
+順平縣
+懷安縣
+興隆縣
+滄縣
+廊坊市
+冀州市
+武強縣
+豐寧滿族自治縣
+晉州市
+高邑縣
+遷西縣
+邯鄲市
+涉縣
+沙河市
+廣宗縣
+定州市
+高陽縣
+博野縣
+懷來縣
+隆化縣
+青縣
+霸州市
+深州市
+石家莊市
+寬城滿族自治縣
+新樂市
+趙縣
+灤南縣
+武安市
+雞澤縣
+邢臺縣
+臨西縣
+安國市
+容城縣
+雄縣
+崇禮縣
+平泉縣
+獻縣
+三河市
+饒陽縣
+張家口市
+孟村回族自治縣
+鹿泉市
+贊皇縣
+玉田縣
+邯鄲縣
+邱縣
+柏鄉縣
+內丘縣
+滿城縣
+淶源縣
+宣化縣
+尚義縣
+灤平縣
+東光縣
+固安縣
+棗強縣
+高碑店市
+平山縣
+深澤縣
+唐海縣
+永年縣
+廣平縣
+任縣
+平鄉縣
+清苑縣
+望都縣
+康保縣
+蔚縣
+滄州市
+海興縣
+永清縣
+故城縣
+秦皇島市
+井陘縣
+無極縣
+樂亭縣
+曲周縣
+肥鄉縣
+清河縣
+巨鹿縣
+淶水縣
+安新縣
+張北縣
+涿鹿縣
+泊頭市
+鹽山縣
+香河縣
+阜城縣
+大廠回族自治縣
+欒城縣
+元氏縣
+灤縣館
+陶縣
+臨漳縣
+甯晉縣
+新河縣
+阜平縣
+易縣
+陽原縣
+萬全縣
+任丘市
+肅寧縣
+大城縣
+安平縣
+正定縣
+唐山市
+昌黎縣
+魏縣
+磁縣
+威縣
+南和縣
+徐水縣
+曲陽縣
+赤城縣
+承德市
+黃驊市
+南皮縣
+文安縣
+武邑縣
+山西省
+太原市
+陽高縣
+長治縣
+壺關縣
+右玉縣
+壽陽縣
+新絳縣
+忻州市
+繁峙縣
+吉縣
+鄉寧縣
+興縣
+武川縣
+通遼市
+豐鎮市
+興安盟
+托克托縣
+准格爾旗
+四子王旗
+額濟納旗
+呼和浩特市
+鄂爾多斯市
+巴彥淖爾市
+二連浩特市
+阿拉善右旗
+阿魯科爾沁旗
+東烏珠穆沁旗
+察哈爾右翼前旗
+科爾沁右翼中旗
+瀋陽市
+海城市
+淩海市
+燈塔市
+西豐縣
+大石橋市
+岫岩滿族自治縣
+寬甸滿族自治縣
+吉林省
+長春市
+磐石市
+集安市
+松原市
+延吉市
+公主嶺市
+前郭爾羅斯蒙古族自治縣
+黑龍江省
+阿城市
+木蘭縣
+克東縣
+雞西市
+伊春市
+富錦市
+嫩江縣
+青岡縣
+七台河市
+五大連池市
+上海市
+黃浦區
+寶山區
+江蘇省
+南京市
+銅山縣
+太倉市
+如東縣
+盱眙縣
+揚州市
+泰州市
+連雲港市
+浙江省
+杭州市
+奉化市
+蒼南縣
+湖州市
+新昌縣
+衢州市
+臨海市
+雲和縣
+安徽省
+合肥市
+懷遠縣
+安慶市
+黃山市
+來安縣
+宿州市
+和縣
+渦陽縣
+郎溪縣
+福建省
+福州市
+廈門市
+建寧縣
+惠安縣
+詔安縣
+建陽市
+武平縣
+柘榮縣
+江西省
+南昌市
+上栗縣
+修水縣
+贛州市
+定南縣
+吉安市
+吉水縣
+奉新縣
+資溪縣
+鄱陽縣
+井岡山市
+山東省
+濟南市
+萊西市
+廣饒縣
+海陽市
+昌樂縣
+微山縣
+威海市
+沂南縣
+德州市
+夏津縣
+冠縣
+鄄城縣
+河南省
+鄭州市
+尉氏縣
+洛寧縣
+郟縣
+浚縣
+封丘縣
+濮陽市
+許昌縣
+盧氏縣
+南召縣
+民權縣
+商城縣
+鹿邑縣
+泌陽縣
+三門峽市
+湖北省
+武漢市
+竹溪縣
+宜都市
+南漳縣
+應城市
+紅安縣
+嘉魚縣
+恩施市
+丹江口市
+湖南省
+長沙市
+茶陵縣
+衡陽縣
+新邵縣
+汨羅市
+桃源縣
+南縣
+桂東縣
+江永縣
+中方縣
+鳳凰縣
+江華瑤族自治縣
+靖州苗族侗族自治縣
+廣東省
+廣州市
+南雄市
+鶴山市
+高州市
+封開縣
+蕉嶺縣
+河源市
+陽東縣
+潮州市
+羅定市
+乳源瑤族自治縣
+廣西壯族自治區
+南寧市
+桂林市
+資源縣
+東興市
+北流市
+樂業縣
+昭平縣
+象州縣
+天等縣
+三江侗族自治縣
+金秀瑤族自治縣
+都安瑤族自治縣
+海南省
+海口市
+臨高縣
+白沙黎族自治縣
+保亭黎族苗族自治縣
+重慶市
+渝中區
+涪陵區
+永川市
+銅梁縣
+忠縣
+石柱土家族自治縣
+彭水苗族土家族自治縣
+四川省
+成都市
+大邑縣
+敘永縣
+江油市
+劍閣縣
+威遠縣
+蓬安縣
+青神縣
+筠連縣
+達縣
+天全縣
+簡陽市
+金川縣
+雅江縣
+色達縣
+布拖縣
+德昌縣
+瑪律康縣
+北川羌族自治縣
+甘孜藏族自治州
+貴州省
+貴陽市
+仁懷市
+安順市
+織金縣
+晴隆縣
+台江縣
+丹寨縣
+平塘縣
+三都水族自治縣
+道真仡佬族苗族自治縣
+紫雲苗族布依族自治縣
+黔東南苗族侗族自治州
+黔南布依族苗族自治州
+雲南省
+昆明市
+陸良縣
+澄江縣
+昭通市
+水富縣
+雲縣
+蒙自縣
+石屏縣
+雙柏縣
+鶴慶縣
+瀘水縣
+寧蒗彝族自治縣
+漾濞彝族自治縣
+峨山彝族自治縣
+石林彝族自治縣
+景東彝族自治縣
+南澗彝族自治縣
+孟連傣族拉祜族佤族自治縣
+元江哈尼族彝族傣族自治縣
+西藏自治區
+拉薩市
+巴青縣
+貢覺縣
+瓊結縣
+隆子縣
+昂仁縣
+革吉縣
+波密縣
+工布江達縣
+陝西省
+西安市
+鳳翔縣
+禮泉縣
+淳化縣
+合陽縣
+富縣
+鎮巴縣
+榆林市
+米脂縣
+石泉縣
+丹鳳縣
+甘肅省
+蘭州市
+會寧縣
+張掖市
+華亭縣
+慶城縣
+渭源縣
+文縣
+廣河縣
+夏河縣
+張家川回族自治縣
+青海省
+西寧市
+澤庫縣
+甘德縣
+烏蘭縣
+門源回族自治縣
+互助土族自治縣
+寧夏回族自治區
+銀川市
+西吉縣
+石嘴山市
+新疆維吾爾自治區
+鄯善縣
+于田縣
+喀什市
+和靜縣
+米泉市
+新源縣
+青河縣
+石河子市
+嶽普湖縣
+瑪納斯縣
+阿勒泰市
+巴里坤哈薩克自治縣
+察布查爾錫伯自治縣
+香港特別行政區
+中西區
+沙田區
+黃大仙區
+澳門特別行政區
+臺灣
+臺北市
+宜蘭縣
+豐原市
+台南縣
+花蓮市
+古交市
+左雲縣
+長子縣
+晉城市
+應縣
+太谷縣
+平陸縣
+原平市
+河曲縣
+安澤縣
+曲沃縣
+臨縣
+包頭市
+庫倫旗
+興和縣
+突泉縣
+清水河縣
+鄂托克旗
+阿巴嘎旗
+和林格爾縣
+伊金霍洛旗
+烏拉特中旗
+蘇尼特左旗
+新巴爾虎左旗
+科爾沁左翼中旗
+察哈爾右翼中旗
+達爾罕茂明安聯合旗
+新民市
+台安縣
+北寧市
+遼陽縣
+朝陽市
+瓦房店市
+清原滿族自治縣
+桓仁滿族自治縣
+九台市
+永吉縣
+通化縣
+乾安縣
+圖們市
+梅河口市
+尚志市
+延壽縣
+龍江縣
+密山市
+鐵力市
+樺川縣
+孫吳縣
+慶安縣
+雙鴨山市
+杜爾伯特蒙古族自治縣
+盧灣區
+閔行區
+溧水縣
+睢寧縣
+昆山市
+東海縣
+鹽城市
+高郵市
+泰興市
+張家港市
+德市
+寧海縣
+文成縣
+長興縣
+金華市
+江山市
+玉環縣
+遂昌縣
+長豐縣
+固鎮縣
+桐城市
+休寧縣
+定遠縣
+蕭縣
+六安市
+蒙城縣
+涇縣
+福清市
+莆田市
+沙縣
+永春縣
+漳浦縣
+松溪縣
+上杭縣
+屏南縣
+新建縣
+蘆溪縣
+湖口縣
+瑞金市
+上猶縣
+吉安縣
+萬安縣
+萬載縣
+宜黃縣
+婺源縣
+景德鎮市
+章丘市
+即墨市
+利津縣
+長島縣
+臨朐縣
+汶上縣
+乳山市
+郯城縣
+樂陵市
+臨邑縣
+濱州市
+單縣
+鞏義市
+蘭考縣
+嵩縣
+魯山縣
+淇縣
+延津縣
+濮陽縣
+鄢陵縣
+陝縣
+內鄉縣
+夏邑縣
+固始縣
+西華縣
+平輿縣
+平頂山市
+黃石市
+荊州市
+當陽市
+穀城縣
+安陸市
+羅田縣
+通山縣
+利川市
+老河口市
+瀏陽市
+攸縣
+衡東縣
+綏寧縣
+岳陽縣
+漢壽縣
+安化縣
+永興縣
+道縣
+婁底市
+瀘溪縣
+芷江侗族自治縣
+麻陽苗族自治縣
+從化市
+仁化縣
+恩平市
+化州市
+懷集縣
+大埔縣
+和平縣
+清遠市
+潮安縣
+雲安縣
+連山壯族瑤族自治縣
+武鳴縣
+陽朔縣
+永福縣
+上思縣
+容縣
+德保縣
+河池市
+武宣縣
+防城港市
+大化瑤族自治縣
+融水苗族自治縣
+富川瑤族自治縣
+瓊海市
+三亞市
+昌江黎族自治縣
+瓊中黎族苗族自治縣
+江北區
+黔江區
+合川市
+梁平縣
+巫溪縣
+秀山土家族苗族自治縣
+彭州市
+自貢市
+古藺縣
+鹽亭縣
+蒼溪縣
+樂山市
+儀隴縣
+宜賓市
+屏山縣
+渠縣
+滎經縣
+安嶽縣
+松潘縣
+新龍縣
+巴塘縣
+雷波縣
+冕寧縣
+九寨溝縣
+木裡藏族自治縣
+涼山彝族自治州
+清鎮市
+遵義縣
+普定縣
+金沙縣
+貞豐縣
+天柱縣
+都勻市
+長順縣
+松桃苗族自治縣
+務川仡佬族苗族自治縣平壩縣
+關嶺布依族苗族自治縣銅仁市
+黔西南布依族苗族自治州
+安寧市
+會澤縣
+易門縣
+永善縣
+魯甸縣
+永德縣
+個舊市
+景洪市
+祿豐縣
+祥雲縣
+福貢縣
+河口瑤族自治縣
+尋甸回族自治縣
+屏邊苗族自治縣
+西盟佤族自治縣
+滄源佤族自治縣
+新平彝族傣族自治縣
+金平苗族瑤族傣族自治縣
+鎮沅彝族哈尼族拉祜族自治縣
+耿馬傣族佤族自治縣
+林周縣
+聶榮縣
+八宿縣
+措美縣
+定結縣
+崗巴縣
+日土縣
+日喀則市
+墨竹工卡縣
+高陵縣
+隴縣
+涇陽縣
+渭南市
+富平縣
+延長縣
+城固縣
+清澗縣
+吳堡縣
+寧陝縣
+柞水縣
+永登縣
+天水市
+民樂縣
+涇川縣
+鎮原縣
+隴西縣
+兩當縣
+和政縣
+嘉峪關市
+天祝藏族自治縣
+湟源縣
+尖紮縣
+達日縣
+天峻縣
+大通回族土族自治縣
+民和回族土族自治縣
+靈武市
+隆德縣
+青銅峽市
+哈密市
+墨玉縣
+巴楚縣
+尉犁縣
+奇台縣
+霍城縣
+富蘊縣
+阿拉爾市
+麥蓋提縣
+呼圖壁縣
+烏魯木齊市
+塔什庫爾幹塔吉克自治縣
+木壘哈薩克自治縣
+東區
+屯門區
+高雄市
+宜蘭市
+彰化縣
+新營市
+澎湖縣
+陽曲縣
+廣靈縣
+平順縣
+高平市
+懷仁縣
+和順縣
+垣曲縣
+代縣
+保德縣
+大寧縣
+洪洞縣
+方山縣
+固陽縣
+奈曼旗
+卓資縣
+喀喇沁旗
+達拉特旗
+太僕寺旗
+土默特左旗
+鄂托克前旗
+烏拉特前旗
+蘇尼特右旗
+新巴爾虎右旗
+科爾沁左翼後旗
+察哈爾右翼後旗
+莫力達瓦達斡爾族自治旗
+法庫縣
+撫順市
+黑山縣
+盤錦市
+淩源市
+普蘭店市
+新賓滿族自治縣
+本溪滿族自治縣
+榆樹市
+四平市
+輝南縣
+長嶺縣
+敦化市
+伊通滿族自治縣
+雙城市
+訥河市
+鶴崗市
+虎林市
+嘉蔭縣
+撫遠縣
+綏化市
+望奎縣
+牡丹江市
+徐匯區
+嘉定區
+高淳縣
+沛縣
+吳江市
+灌雲縣
+東台市
+江都市
+薑堰市
+富陽市
+象山縣
+泰順縣
+德清縣
+蘭溪市
+龍遊縣
+天臺縣
+松陽縣
+肥東縣
+五河縣
+宿松縣
+歙縣
+鳳陽縣
+泗縣
+壽縣
+池州市
+旌德縣
+長樂市
+仙遊縣
+尤溪縣
+安溪縣
+華安縣
+光澤縣
+永定縣
+古田縣
+南昌縣
+九江市
+德安縣
+南康市
+於都縣
+永豐縣
+宜春市
+上高縣
+廣昌縣
+鉛山縣
+平陰縣
+淄博市
+煙臺市
+濰坊市
+濟寧市
+泗水縣
+文登市
+沂水縣
+禹城市
+聊城市
+鄒平縣
+鄆城縣
+新鄭市
+杞縣
+宜陽縣
+安陽市
+新鄉市
+焦作市
+南樂縣
+襄城縣
+南陽市
+新野縣
+柘城縣
+羅山縣
+扶溝縣
+汝南縣
+駐馬店市
+大冶市
+洪湖市
+枝江市
+保康縣
+漢川市
+浠水縣
+崇陽縣
+建始縣
+神農架林區
+長沙縣
+湘潭市
+衡山縣
+新寧縣
+湘陰縣
+安鄉縣
+郴州市
+桂陽縣
+雙牌縣
+漣源市
+保靖縣
+新晃侗族自治縣
+湘西土家族苗族自治州
+增城市
+始興縣
+湛江市
+信宜市
+惠州市
+豐順縣
+龍川縣
+英德市
+饒平縣
+新興縣
+連南瑤族自治縣
+隆安縣
+臨桂縣
+梧州市
+欽州市
+陸川縣
+田林縣
+宜州市
+忻城縣
+巴馬瑤族自治縣
+隆林各族自治縣
+環江毛南族自治縣
+儋州市
+五指山市
+樂東黎族自治縣
+南岸區
+長壽區
+江津市
+城口縣
+巫山縣
+酉陽土家族苗族自治縣
+邛崍市
+榮縣
+德陽市
+三台縣
+遂寧市
+夾江縣
+南部縣
+宜賓縣
+廣安市
+宣漢縣
+寶興縣
+樂至縣
+壤塘縣
+道孚縣
+瀘定縣
+普格縣
+峨眉山市
+馬邊彝族自治縣
+阿壩藏族羌族自治州
+開陽縣
+綏陽縣
+德江縣
+赫章縣
+安龍縣
+黃平縣
+福泉市
+獨山縣
+玉屏侗族自治縣
+鎮寧布依族苗族自治縣
+印江土家族苗族自治縣
+威寧彝族回族苗族自治縣
+富民縣
+富源縣
+通海縣
+綏江縣
+麗江市
+文山縣
+開遠市
+猛海縣
+永仁縣
+賓川縣
+德欽縣
+玉龍納西族自治縣
+墨江哈尼族自治縣
+瀾滄拉祜族自治縣
+維西傈僳族自治縣
+巍山彝族回族自治縣
+祿勸彝族苗族自治縣
+達孜縣
+尼瑪縣
+左貢縣
+加查縣
+薩迦縣
+仲巴縣
+劄達縣
+類烏齊縣
+堆龍德慶縣
+藍田縣
+太白縣
+永壽縣
+韓城市
+大荔縣
+甘泉縣
+南鄭縣
+綏德縣
+定邊縣
+白河縣
+榆中縣
+武山縣
+山丹縣
+莊浪縣
+合水縣
+通渭縣
+徽縣
+合作市
+東鄉族自治縣
+肅南裕固族自治縣
+湟中縣
+共和縣
+久治縣
+都蘭縣
+河南蒙古族自治縣
+循化撒拉族自治縣
+永寧縣
+涇源縣
+伊吾縣
+溫宿縣
+澤普縣
+和碩縣
+博樂市
+鞏留縣
+福海縣
+五家渠市
+英吉沙縣
+特克斯縣
+烏魯木齊縣
+焉耆回族自治縣
+和布克賽爾蒙古自治縣
+觀塘區
+大埔區
+基隆市
+新竹縣
+彰化市
+高雄縣
+馬公市
+清徐縣
+渾源縣
+襄垣縣
+澤州縣
+晉中市
+平遙縣
+絳縣
+神池縣
+定襄縣
+浮山縣
+蒲縣
+柳林縣
+烏海市
+烏審旗
+商都縣
+巴林左旗
+滿洲里市
+正鑲白旗
+土默特右旗
+呼倫貝爾市
+烏拉特後旗
+錫林郭勒盟
+鄂倫春自治旗
+鄂溫克族自治旗
+科爾沁右翼前旗
+遼中縣
+撫順縣
+義縣
+盤山縣
+北票市
+調兵山市
+阜新蒙古族自治縣
+喀喇沁左翼蒙古族自治縣
+德惠市
+雙遼市
+柳河縣
+扶餘縣
+龍井市
+長白朝鮮族自治縣
+五常市
+富裕縣
+蘿北縣
+雞東縣
+甯安市
+樺南縣
+安達市
+呼瑪縣
+佳木斯市
+長寧區
+松江區
+無錫市
+豐縣
+南通市
+贛榆縣
+大豐市
+儀征市
+靖江市
+臨安市
+溫州市
+嘉興市
+安吉縣
+義烏市
+常山縣
+仙居縣
+慶元縣
+肥西縣
+淮南市
+樅陽縣
+祁門縣
+阜陽市
+碭山縣
+霍山縣
+東至縣
+績溪縣
+閩侯縣
+三明市
+清流縣
+德化縣
+東山縣
+順昌縣
+連城縣
+周寧縣
+進賢縣
+瑞昌市
+都昌縣
+石城縣
+龍南縣
+永新縣
+豐城市
+撫州市
+黎川縣
+餘幹縣
+濟陽縣
+桓台縣
+龍口市
+青州市
+曲阜市
+梁山縣
+榮成市
+蒼山縣
+陵縣
+臨清市
+沾化縣
+曹縣
+新密市
+通許縣
+新安縣
+林州市
+衛輝市
+沁陽市
+台前縣
+漯河市
+鄧州市
+社旗縣
+睢縣
+光山縣
+沈丘縣
+遂平縣
+陽新縣
+石首市
+秭歸縣
+鄂州市
+雲夢縣
+蘄春縣
+通城縣
+來鳳縣
+五峰土家族自治縣
+望城縣
+湘鄉市
+衡南縣
+邵陽縣
+平江縣
+石門縣
+資興市
+永州市
+懷化市
+新化縣
+花垣縣
+通道侗族自治縣
+深圳市
+翁源縣
+廉江市
+電白縣
+惠東縣
+五華縣
+紫金縣
+連州市
+揭陽市
+郁南縣
+馬山縣
+靈川縣
+岑溪市
+靈山縣
+博白縣
+田陽縣
+天峨縣
+崇左市
+龍勝各族自治縣
+恭城瑤族自治縣
+羅城仫佬族自治縣
+文昌市
+陵水黎族自治縣
+北碚區
+九龍坡區
+南川市
+墊江縣
+崇州市
+富順縣
+廣漢市
+平武縣
+射洪縣
+井研縣
+西充縣
+興文縣
+華鎣市
+開江縣
+漢源縣
+紅原縣
+茂縣
+白玉縣
+得榮縣
+甯南縣
+都江堰市
+峨邊彝族自治縣
+修文縣
+桐梓縣
+江口縣
+納雍縣
+凱裡市
+榕江縣
+貴定縣
+六盤水市
+沿河土家族自治縣
+嵩明縣
+羅平縣
+江川縣
+鎮雄縣
+華坪縣
+硯山縣
+彌勒縣
+楚雄市
+姚安縣
+永平縣
+麻栗坡縣
+普洱哈尼族彝族自治縣
+江城哈尼族彝族自治縣
+蘭坪白族普米族自治縣
+貢山獨龍族怒族自治縣
+景穀彝族傣族自治縣
+尼木縣
+比如縣
+邊壩縣
+貢嘎縣
+江孜縣
+薩嘎縣
+改則縣
+浪卡子縣
+戶縣
+麟遊縣
+三原縣
+華陰市
+延安市
+宜川縣
+洋縣
+神木縣
+安康市
+漢陰縣
+皋蘭縣
+甘穀縣
+臨澤縣
+酒泉市
+華池縣
+漳縣
+宕昌縣
+臨潭縣
+阿克塞哈薩克族自治縣
+平安縣
+同德縣
+瑪多縣
+曲麻萊縣
+化隆回族自治縣
+賀蘭縣
+彭陽縣
+和田市
+沙雅縣
+伽師縣
+且末縣
+精河縣
+塔城市
+吐魯番市
+阿圖什市
+尼勒克縣
+克拉瑪依市
+南區
+荃灣區
+台中市
+竹北市
+南投縣
+鳳山市
+婁煩縣
+陽泉市
+沁源縣
+陵川縣
+介休市
+榆社縣
+稷山縣
+五寨縣
+岢嵐縣
+古縣
+呂梁市
+嵐縣
+赤峰市
+杭錦旗
+涼城縣
+翁牛特旗
+牙克石市
+阿爾山市
+克什克騰旗
+額爾古納市
+烏蘭察布市
+烏蘭浩特市
+西烏珠穆沁旗
+康平縣
+本溪市
+營口市
+大窪縣
+朝陽縣
+葫蘆島市
+農安縣
+梨樹縣
+白山市
+白城市
+琿春市
+延邊朝鮮族自治州
+方正縣
+拜泉縣
+綏濱縣
+大慶市
+海林市
+湯原縣
+肇東市
+塔河縣
+綏芬河市
+靜安區
+金山區
+江陰市
+常州市
+如皋市
+灌南縣
+建湖縣
+寶應縣
+興化市
+桐廬縣
+里安市
+海寧市
+紹興市
+東陽市
+開化縣
+三門縣
+景寧佘族自治縣
+蕪湖市
+鳳台縣
+太湖縣
+黟縣
+界首市
+靈璧縣
+霍邱縣
+石台縣
+馬鞍山市
+閩清縣
+永安市
+泰寧縣
+金門縣
+長泰縣
+浦城縣
+寧德市
+武夷山市
+安義縣
+九江縣
+新餘市
+安遠縣
+崇義縣
+新幹縣
+樟樹市
+南豐縣
+崇仁縣
+橫峰縣
+商河縣
+高青縣
+萊陽市
+諸城市
+兗州市
+泰安市
+日照市
+費縣
+寧津縣
+高唐縣
+惠民縣
+定陶縣
+登封市
+洛陽市
+欒川縣
+安陽縣
+輝縣市
+孟州市
+清豐縣
+臨潁縣
+桐柏縣
+西峽縣
+信陽市
+周口市
+鄲城縣
+正陽縣
+十堰市
+松滋市
+遠安縣
+荊門市
+大悟縣
+黃梅縣
+隨州市
+巴東縣
+長陽土家族自治縣
+寧鄉縣
+韶山市
+祁東縣
+隆回縣
+華容縣
+慈利縣
+宜章縣
+祁陽縣
+洪江市
+雙峰縣
+冷水江市
+珠海市
+新豐縣
+雷州市
+肇慶市
+博羅縣
+平遠縣
+連平縣
+佛岡縣
+普寧市
+上林縣
+全州縣
+蒼梧縣
+浦北縣
+興業縣
+靖西縣
+鳳山縣
+憑祥市
+萬寧市
+萬盛區
+大渡口區
+綦江縣
+武隆縣
+金堂縣
+米易縣
+什邡市
+安縣
+蓬溪縣
+犍為縣
+眉山市
+南溪縣
+岳池縣
+大竹縣
+巴中市
+汶川縣
+康定縣
+理塘縣
+西昌市
+喜德縣
+攀枝花市
+息烽縣
+習水縣
+思南縣
+興義市
+施秉縣
+劍河縣
+惠水縣
+六枝特區
+呈貢縣
+馬龍縣
+保山市
+大關縣
+永勝縣
+廣南縣
+紅河縣
+元謀縣
+大理市
+潞西市
+香格里拉縣
+當雄縣
+索縣
+隆縣
+紮縣
+拉孜縣
+仁布縣
+林芝縣
+聶拉木縣
+周至縣
+扶風縣
+彬縣
+蒲城縣
+安塞縣
+志丹縣
+甯強縣
+佳縣
+紫陽縣
+商洛市
+金昌市
+清水縣
+高臺縣
+玉門市
+環縣
+臨洮縣
+西和縣
+卓尼縣
+肅北蒙古族自治縣
+樂都縣
+貴德縣
+玉樹縣
+德令哈市
+平羅縣
+中衛市
+和田縣
+拜城縣
+葉城縣
+博湖縣
+溫泉縣
+烏蘇市
+托克遜縣
+阿合奇縣
+吉木乃縣
+圖木舒克市
+灣仔區
+元朗區
+台南市
+桃園縣
+南投市
+屏東縣
+大同市
+平定縣
+屯留縣
+陽城縣
+昔陽縣
+運城市
+芮城縣
+五台縣
+臨汾市
+隰縣
+孝義市
+交口縣
+寧城縣
+根河市
+化德縣
+巴林右旗
+紮蘭屯市
+紮賚特旗
+霍林郭勒市
+陳巴爾虎旗
+錫林浩特市
+阿拉善左旗
+連市
+丹東市
+蓋州市
+鐵嶺市
+建平縣
+吉林市
+遼源市
+臨江市
+大安市
+和龍市
+賓縣
+甘南縣
+集賢縣
+林甸縣
+穆棱市
+勃利縣
+海倫市
+哈爾濱市
+普陀區
+青浦區
+宜興市
+金壇市
+通州市
+淮安市
+響水縣
+鎮江市
+宿遷市
+淳安縣
+樂清市
+平湖市
+諸暨市
+永康市
+舟山市
+麗水市
+蕪湖縣
+當塗縣
+懷寧縣
+滁州市
+臨泉縣
+巢湖市
+舒城縣
+青陽縣
+永泰縣
+明溪縣
+泉州市
+漳州市
+雲霄縣
+政和縣
+福安市
+樂平市
+星子縣
+分宜縣
+贛縣
+信豐縣
+泰和縣
+高安市
+樂安縣
+上饒市
+弋陽縣
+青島市
+沂源縣
+萊州市
+壽光市
+鄒城市
+新泰市
+五蓮縣
+平邑縣
+齊河縣
+陽穀縣
+博興縣
+巨野縣
+滎陽市
+偃師市
+汝州市
+滑縣
+新鄉縣
+修武縣
+範縣
+舞陽縣
+方城縣
+商丘市
+潢川縣
+項城市
+確山縣
+濟源市
+鄖縣
+監利縣
+興山縣
+鐘祥市
+孝昌縣
+英山縣
+廣水市
+鶴峰縣
+株洲市
+湘潭縣
+邵陽市
+城步苗族自治縣
+常德市
+桑植縣
+汝城縣
+藍山縣
+會同縣
+吉首市
+張家界市
+汕頭市
+佛山市
+吳川市
+高要市
+龍門縣
+汕尾市
+東源縣
+陽山縣
+揭東縣
+賓陽縣
+平樂縣
+藤縣
+貴港市
+百色市
+田東縣
+南丹縣
+寧明縣
+東方市
+雙橋區
+沙坪壩區
+潼南縣
+豐都縣
+郫縣
+鹽邊縣
+綿竹市
+梓潼縣
+大英縣
+沐川縣
+仁壽縣
+珙縣
+鄰水縣
+雅安市
+南江縣
+阿壩縣
+丹巴縣
+德格縣
+美姑縣
+會東縣
+若爾蓋縣
+水城縣
+鳳岡縣
+石阡縣
+望謨縣
+從江縣
+三穗縣
+羅甸縣
+萬山特區
+晉寧縣
+師宗縣
+施甸縣
+鹽津縣
+思茅市
+馬關縣
+綠春縣
+南華縣
+劍川縣
+瑞麗市
+曲水縣
+班戈縣
+江達縣
+曲松縣
+定日縣
+白朗縣
+墨脫縣
+謝通門縣
+銅川市
+千陽縣
+旬邑縣
+潼關縣
+洛川縣
+黃龍縣
+佛坪縣
+府穀縣
+嵐皋縣
+鎮安縣
+永昌縣
+秦安縣
+平涼市
+敦煌市
+寧縣
+隴南市
+臨夏市
+舟曲縣
+海晏縣
+興海縣
+雜多縣
+格爾木市
+吳忠市
+中寧縣
+洛浦縣
+庫車縣
+疏勒縣
+輪台縣
+伊寧市
+額敏縣
+阿克蘇市
+阿克陶縣
+布林津縣
+吉木薩爾縣
+離島區
+九龍城區
+新竹市
+桃園市
+嘉義縣
+屏東市
+大同縣
+盂縣
+黎城縣
+沁水縣
+靈石縣
+河津市
+夏縣
+偏關縣
+侯馬市
+襄汾縣
+汾陽市
+交城縣
+林西縣
+阿榮旗
+多倫縣
+紮魯特旗
+杭錦後旗
+阿拉善盟
+莊河市
+東港市
+阜新市
+開原市
+興城市
+舒蘭市
+東遼縣
+靖宇縣
+洮南市
+安圖縣
+依蘭縣
+依安縣
+寶清縣
+肇州縣
+林口縣
+黑河市
+綏棱縣
+齊齊哈爾市
+閘北區
+南匯區
+徐州市
+溧陽市
+海門市
+漣水縣
+阜寧縣
+丹陽市
+沭陽縣
+寧波市
+永嘉縣
+桐鄉市
+上虞市
+武義縣
+岱山縣
+龍泉市
+南陵縣
+淮北市
+嶽西縣
+天長市
+潁上縣
+含山縣
+金寨縣
+宣城市
+連江縣
+將樂縣
+石獅市
+龍海市
+南平市
+龍岩市
+福鼎市
+浮梁縣
+武寧縣
+鷹潭市
+寧都縣
+全南縣
+峽江縣
+銅鼓縣
+金溪縣
+德興市
+玉山縣
+膠南市
+棗莊市
+招遠市
+安丘市
+魚台縣
+肥城市
+莒縣
+莒南縣
+武城縣
+茌平縣
+陽信縣
+東明縣
+中牟縣
+孟津縣
+舞鋼市
+內黃縣
+獲嘉縣
+溫縣
+許昌市
+義馬市
+淅川縣
+永城市
+淮濱縣
+商水縣
+新蔡縣
+竹山縣
+公安縣
+襄樊市
+京山縣
+黃岡市
+團風縣
+仙桃市
+宣恩縣
+醴陵市
+衡陽市
+武岡市
+岳陽市
+津市市
+麵條
+下面
+下麵
+仲頗
