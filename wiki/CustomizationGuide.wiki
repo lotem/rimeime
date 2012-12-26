@@ -362,6 +362,7 @@ https://gist.github.com/2309739
 patch:
   style/horizontal: true      # 候選橫排
   style/inline_preedit: true  # 內嵌編碼（僅支持TSF）
+  style/display_tray_icon: true  # 顯示托盤圖標
 }}}
 
 [#%E4%B8%80%E4%BE%8B%E3%80%81%E5%AE%9A%E8%A3%BD%E3%80%90%E5%B0%8F%E7%8B%BC%E6%AF%AB%E3%80%91%E5%AD%97%E9%AB%94%E5%AD%97%E8%99%9F 設定字體字號]
