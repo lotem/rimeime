@@ -50,6 +50,7 @@ sudo make install
 
 # or as developer:
 #sudo make install-debug
+#killall Squirrel
 }}}
 
 That's it. Thanks for reading.
