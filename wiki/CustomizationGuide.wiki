@@ -480,6 +480,17 @@ patch:
   translator/enable_sentence: false
 }}}
 
+=== 關閉倉頡與拼音混打 ===
+
+默認，給出倉頡與拼音候選的混合列表。
+
+如此設定，直接敲字母只認作倉頡碼，但仍可在敲{{{ ` }}}之後輸入拼音：
+{{{
+# cangjie5.custom.yaml
+patch:
+  abc_segmentor/extra_tags: {}
+}}}
+
 == 模糊音 ==
 
 === 【朙月拼音】模糊音定製模板 ===
