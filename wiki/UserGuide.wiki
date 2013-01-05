@@ -341,6 +341,32 @@ Rime 輸入法在使用中會在一定時間自動將用戶詞典備份爲快照
 
 === 同步用戶資料 ===
 
-TODO 本功能尚未完成開發
-
 藉助移動存儲設備，或在線存儲服務如Dropbox，在多臺電腦及不同系統之間同步用戶詞典和用戶設定。
+
+==== 設定同步位置 ====
+
+默認地，詞典快照備份到 RIME用戶文件夾\sync\UUID 這個地方。如果你要用 Dropbox 或 U盤在不同機器/系統之間同步用戶詞典，則需要設定要同步到的文件夾，如 `D:\Dropbox\RimeSync` 。
+
+直接編輯用戶文件夾下的 `installation.yaml` ，添加：
+{{{
+sync_dir: 'D:\Dropbox\RimeSync'
+}}}
+
+默認地，每套 Rime 會隨機生成一個 UUID 作爲標識。不同 installation ID 可區分來自不同機器/系統的用戶詞典。
+
+與安裝在其他系統上的 Rime 同步後，同步文件夾呈如下佈局：
+{{{
+D:\Dropbox\RimeSync\id-xxx\luna_pinyin.userdb.kct.snapshot
+D:\Dropbox\RimeSync\id-xxx\terra_pinyin.userdb.kct.snapshot
+
+D:\Dropbox\RimeSync\id-yyy\terra_pinyin.userdb.kct.snapshot
+
+D:\Dropbox\RimeSync\id-zzz\luna_pinyin.userdb.kct.snapshot
+}}}
+
+有些特別講究命名的用家，不喜隨機生成的 UUID，可編輯 `installation.yaml` ，取一個有意義的 ID，如：
+{{{
+installation_id: 'fred-win7-desktop'
+}}}
+
+當心！因爲 Rime 要以這個 ID 爲名創建文件夾，因此 ID 不得包含（所有涉及同步的文件系統）文件名中非法的字符；建議不要用中文，只用小寫字母、數字、橫線和下劃線。
