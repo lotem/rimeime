@@ -18,8 +18,7 @@
 == 導航 ==
 
   # [UserGuide#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE 使用方案選單]
-  # [UserGuide#%E8%BC%B8%E5%85%A5%E6%B3%95%E8%A8%AD%E5%AE%9A
- 輸入法設定]
+  # [UserGuide#%E8%BC%B8%E5%85%A5%E6%B3%95%E8%A8%AD%E5%AE%9A 輸入法設定]
   # [UserGuide#%E6%89%93%E5%AD%97%E5%85%A5%E9%96%80 打字入門]
     * 選字與換頁
     * 令輸入碼直接上屏
