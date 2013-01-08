@@ -355,7 +355,7 @@ sync_dir: 'D:\Dropbox\RimeSync'
 {{{
 sync_dir: '/Users/fred/Dropbox/RimeSync'
 }}}
-又如使用 USB 存儲來同步：
+又如使用 USB 存儲來同步：（[https://gist.github.com/4483504 真實案例]）
 {{{
 sync_dir: '/Volumes/USBDRIVE/RimeSync'
 }}}
