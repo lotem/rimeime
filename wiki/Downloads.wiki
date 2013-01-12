@@ -7,7 +7,7 @@
 
 === 中州韻 | ibus-rime ===
 Linux 發行版，基於 IBus 輸入法框架。 
-  * [http://code.google.com/p/rimeime/downloads/detail?name=brise-0.13.tar.gz brise-0.13]，[http://code.google.com/p/rimeime/downloads/detail?name=librime-0.9.4.tar.gz librime-0.9.4]，[http://code.google.com/p/rimeime/downloads/detail?name=ibus-rime-0.9.4.tar.gz ibus-rime-0.9.4]，[RimeWithIBus 安裝說明]
+  * [http://code.google.com/p/rimeime/downloads/detail?name=brise-0.16.tar.gz brise-0.16]，[http://code.google.com/p/rimeime/downloads/detail?name=librime-0.9.6.tar.gz librime-0.9.6]，[http://code.google.com/p/rimeime/downloads/detail?name=ibus-rime-0.9.6.tar.gz ibus-rime-0.9.6]，[RimeWithIBus 安裝說明]
 
 另有 csslayer 君幫忙寫的  [https://github.com/fcitx/fcitx-rime fctix-rime]
 
