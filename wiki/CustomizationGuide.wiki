@@ -14,7 +14,7 @@
   * 【中州韻】點擊輸入法狀態欄上的 ⟲ (Deploy) 按鈕
     或：如果找不到狀態欄，在終端輸入以下命令，可觸發自動部署：
     {{{
-    rm ~/.config/ibus/default.yaml; ibus-daemon -drx
+    rm ~/.config/ibus/rime/default.yaml; ibus-daemon -drx
     }}}
   * 【小狼毫】開始菜單→小狼毫輸入法→重新佈署；當開啓托盤圖標時，右鍵點選「重新佈署」
   * 【鼠鬚管】在系統語言文字選單中選擇「重新佈署」
