@@ -437,7 +437,7 @@ patch:
 
 https://gist.github.com/2981316
 
-以及修改左、右Shift、Control鍵的行爲，提供三種切換方式。
+以及修改Caps Lock、左右Shift、左右Control鍵的行爲，提供三種切換方式。
 詳見代碼註釋。
 
 === 方便地輸入含數字的西文用戶名 ===
