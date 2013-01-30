@@ -381,7 +381,7 @@ D:\Dropbox\RimeSync\id-yyy\alternative.yaml
 D:\Dropbox\RimeSync\id-yyy\luna_pinyin.custom.yaml
 }}}
 同步時，依次將各子文件夾中的詞典快照合併到用戶詞典，最後爲合併後的用戶詞典生成一份新的快照文件。
-另外，還會把用戶文件夾中除 `*.schema.yaml`、`*.dict.yaml` 以外的 YAML 文件單向 *備份* 到同步文件夾。
+另外，還會把用戶文件夾中非自動生成的 YAML 文件單向 *備份* 到同步文件夾。
 
 有些特別講究命名的用家，不喜隨機生成的 UUID，可編輯 `installation.yaml` ，取一個有意義的 ID，如：
 {{{
