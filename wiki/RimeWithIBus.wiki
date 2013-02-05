@@ -133,6 +133,7 @@ sudo apt-get install libboost-dev libboost-filesystem-dev libboost-regex-dev lib
 # 如果不嫌多，也可以安裝整套Boost開發包（敲字少：）
 # sudo apt-get install libboost-all-dev
 
+
 mkdir ~/rimeime
 cd ~/rimeime
 
@@ -163,12 +164,9 @@ cmake -DBUILD_SHARED_LIBS=ON ..
 make
 sudo make install
 
-# 【注意】不知從啥時候開始 Ubuntu 不去找 /usr/local/lib 裏的共享庫了
-# 要是 rime 報錯說找不到所依賴的 libkyotocabinet 或 yaml-cpp，
-# 咱就給他添上（此事只需做一次），然後執行 ldconfig
-#sudo sed -i '$a/usr/local/lib' /etc/ld.so.conf
 
 sudo ldconfig
+
 
 cd ~/rimeime
 
