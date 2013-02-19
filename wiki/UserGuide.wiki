@@ -103,7 +103,7 @@ Rime 預設輸入方案有：朙月拼音★、語句流★、倉頡★、速成
 
 === Emacs 風格的編輯鍵 ===
 
-註：這組編輯鍵僅在 Linux 版本可用；Windows 版本 Alt 組合鍵不可用；Mac 版本皆不可用。
+註：Windows 版本 Alt 組合鍵不可用。
 
   * ↑：Control+p
   * ↓：Control+n
