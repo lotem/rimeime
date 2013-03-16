@@ -68,12 +68,23 @@ Ubuntu 12.04 以下版本，參考下文的安裝手記。
 
 謝謝你們！
 
+== Fedora 18 ==
+
+轉自 http://tieba.baidu.com/p/2110249923
+
+easior: 为了方便大家在Fedora 18中安装 ibus-rime，
+我也制作了一个YUM源，
+使用方法非常简单，打开终端，执行
+{{{
+rpm -ivh http://fedorapeople.org/~easior/fedora/18/x86_64/doremi-release-18-1.noarch.rpm
+}}}
+之后，便可用yum安装了。
+
 == Fedora 17 ==
 
-轉自 swordswift 同學的空間：
-http://hi.baidu.com/swordswift/item/68e8584728dc900cc1161393
+轉自 http://hi.baidu.com/swordswift/item/68e8584728dc900cc1161393
 
-因为fedora下没有打包好的安装包，所以我就做了一个安装源，也算是对作者的支持和感谢吧。
+swordswift: 因为fedora下没有打包好的安装包，所以我就做了一个安装源，也算是对作者的支持和感谢吧。
 
 安装办法:
 {{{
