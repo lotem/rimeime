@@ -10,7 +10,7 @@
       <sparkle:releaseNotesLink>http://rimeime.googlecode.com/svn/trunk/squirrel/update/release-notes.html</sparkle:releaseNotesLink>
       <pubDate>Thu, 26 Apr 2013 10:00:00 +0800</pubDate>
       <enclosure url="http://rimeime.googlecode.com/files/Squirrel-0.9.18.zip"
-                 sparkle:version="0.9.18"
+                 sparkle:version="0.9.17"
                  sparkle:dsaSignature="MCwCFHzVsSvDIEDPqqU2lW2yh1d3xf6hAhQ74d92OSKrp+scDKa3ztP0tKACyw=="
                  length="7404444"
                  type="application/octet-stream"/>
