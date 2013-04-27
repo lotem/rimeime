@@ -8,11 +8,11 @@
     <item>
       <title>鼠鬚管 0.9.18</title>
       <sparkle:releaseNotesLink>http://rimeime.googlecode.com/svn/trunk/squirrel/update/release-notes.html</sparkle:releaseNotesLink>
-      <pubDate>Thu, 26 Apr 2013 10:00:00 +0800</pubDate>
-      <enclosure url="http://rimeime.googlecode.com/files/Squirrel-0.9.18.zip"
+      <pubDate>Sun, 28 Apr 2013 00:00:00 +0800</pubDate>
+      <enclosure url="http://rimeime.googlecode.com/files/Squirrel-0.9.18.1.zip"
                  sparkle:version="0.9.17"
-                 sparkle:dsaSignature="MCwCFHzVsSvDIEDPqqU2lW2yh1d3xf6hAhQ74d92OSKrp+scDKa3ztP0tKACyw=="
-                 length="7404444"
+                 sparkle:dsaSignature="MC4CFQC8qSLXVz0GvI5JVsfKWP46Zz4adQIVAKHQzezxfF2WvBlnM8KzNt14J0Js"
+                 length="7404963"
                  type="application/octet-stream"/>
     </item>
   </channel>
