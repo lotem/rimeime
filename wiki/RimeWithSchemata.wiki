@@ -112,7 +112,7 @@ Rime 輸入方案亦會用到「正則表達式」實現一些高級功能。
 
 記錄用戶寫作習慣的文件：
   * ※〔用戶詞典〕 `<詞典名>.userdb.kct`
-  * ※〔用戶詞典備份〕 `<詞典名>.userdb.kct.snapshot`
+  * ※〔用戶詞典快照〕 `<詞典名>.userdb.txt`、`<詞典名>.userdb.kct.snapshot` 見於同步文件夾
 
 以及用戶自己設定的：
   * ※〔用戶對全局設定的定製信息〕 `default.custom.yaml`
