@@ -107,7 +107,7 @@ To build la rime, you need these tools and libraries:
   * libnotify (new dependency for ibus-rime>=0.9.2)
   * kyotocabinet
   * opencc
-  * yaml-cpp 0.3
+  * yaml-cpp >= 0.5
 
 == Build and install ibus-rime ==
 
