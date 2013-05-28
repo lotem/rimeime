@@ -499,6 +499,21 @@ patch:
   abc_segmentor/extra_tags: {}
 }}}
 
+=== 空碼時按空格鍵清空輸入碼 ===
+
+首先需要關閉碼表輸入法連打（參見上文），這樣才可以在打空時不出候選詞。
+
+然後設定（以五筆86爲例）：
+
+{{{
+# wubi86.custom.yaml
+patch:
+  translator/enable_sentence: false
+  key_binder/bindings:
+    - {when: has_menu, accept: space, send: space}
+    - {when: composing, accept: space, send: Escape}
+}}}
+
 == 模糊音 ==
 
 === 【朙月拼音】模糊音定製模板 ===
