@@ -468,6 +468,17 @@ https://gist.github.com/2390510
 
 適合一些形碼輸入法（如五筆、鄭碼）的快手。
 
+=== 關閉逐鍵提示 ===
+
+table_translator 默認開啓逐鍵提示。若要只出精確匹配輸入碼的候選字，可關閉這一選項。
+
+以【倉頡五代】爲例：
+{{{
+# cangjie5.custom.yaml
+patch:
+  translator/enable_completion: false
+}}}
+
 === 關閉用戶詞典和字頻調整 ===
 
 以【五笔86】爲例：
