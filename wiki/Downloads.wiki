@@ -3,8 +3,6 @@
 
 == 發行版 | Distributions ==
 
-查看下載列表：[http://code.google.com/p/rimeime/downloads/list]
-
 === 中州韻 | ibus-rime ===
 Linux 發行版，基於 IBus 輸入法框架。 
   * [http://code.google.com/p/rimeime/downloads/detail?name=brise-0.22.tar.gz brise-0.22]，[http://code.google.com/p/rimeime/downloads/detail?name=librime-0.9.9.tar.gz librime-0.9.9]，[http://code.google.com/p/rimeime/downloads/detail?name=ibus-rime-0.9.9.tar.gz ibus-rime-0.9.9]，[RimeWithIBus 安裝說明]
@@ -20,6 +18,11 @@ Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。
 Mac OS 發行版，適用於64位 Mac OS X 10.6+。
   * [https://bintray.com/lotem/rime/Squirrel 鼠鬚管 0.9.19]〔[http://dl.bintray.com/lotem/rime/Squirrel-0.9.19.zip?direct 下載]〕〔[http://rimeime.github.io/squirrel-update/ 更新日誌]〕
   * 第三方的圖形化配置工具：[https://github.com/neolee/SCU SCU]
+
+=== 其他 ===
+
+[http://code.google.com/p/rimeime/downloads/list 本站歷史下載列表]
+（註：由於 Google Code 將停止下載服務，以上軟件的最新版本並不在列）
 
 <hr/>
 
