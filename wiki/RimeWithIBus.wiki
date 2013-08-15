@@ -67,6 +67,7 @@ sudo apt-get install librime-data-stroke5
 Ubuntu 12.04 "Precise"
 
 {{{
+sudo add-apt-repository ppa:fcitx-team/nightly
 sudo add-apt-repository ppa:lotem/rime
 sudo apt-get update
 sudo apt-get install ibus-rime
