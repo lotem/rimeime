@@ -62,11 +62,17 @@ sudo apt-get install librime-data-scj6
 sudo apt-get install librime-data-stroke5
 }}}
 
+== Ubuntu PPA ==
+
+Ubuntu 12.04 "Precise"
+
+{{{
+sudo add-apt-repository ppa:lotem/rime
+sudo apt-get update
+sudo apt-get install ibus-rime
+}}}
+
 Ubuntu 12.04 以下版本，參考下文的安裝手記。
-
-有手藝、有時間、熱心腸的Linux技術高手！ 請幫我把Rime打包到你喜愛的Linux發行版，分享給其他同學吧。 
-
-謝謝你們！
 
 == Fedora 18/19 ==
 
@@ -85,6 +91,9 @@ sudo wget http://heimu-packages.stor.sinaapp.com/fedora/heimu.repo
 sudo yum install ibus-rime
 }}}
 
+有手藝、有時間、熱心腸的Linux技術高手！ 請幫我把Rime打包到你喜愛的Linux發行版，分享給其他同學吧。 
+
+謝謝你們！
 
 = Manual Installation =
 
@@ -122,6 +131,8 @@ cd ibus-rime
 Voilà !
 
 == ibus-rime on Ubuntu 12.04 安裝手記 ==
+
+註：Ubuntu 12.04 可直接使用上文給出的 PPA 安裝最新版本。
 
 今天天氣不錯，我更新了一把Ubuntu，記錄下安裝 ibus-rime 的步驟。
 
