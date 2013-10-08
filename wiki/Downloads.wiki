@@ -11,7 +11,7 @@ Linux 發行版，基於 IBus 輸入法框架。
 
 === 小狼毫 | Weasel ===
 Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。
-  * [https://bintray.com/lotem/rime/Weasel 小狼毫 0.9.25]〔[http://dl.bintray.com/lotem/rime/weasel-0.9.25.2-installer.exe?direct 下載]〕〔[http://rimeime.github.io/weasel-update/ 更新日誌]〕
+  * [https://bintray.com/lotem/rime/Weasel 小狼毫 0.9.26]〔[http://dl.bintray.com/lotem/rime/weasel-0.9.26.1-installer.exe?direct 下載]〕〔[http://rimeime.github.io/weasel-update/ 更新日誌]〕
   * [https://bintray.com/lotem/rime/weasel-expansion 小狼毫擴展方案集]〔[http://dl.bintray.com/lotem/rime/weasel-expansion-0.9.18.0.exe?direct 下載]〕
 
 === 鼠鬚管 | Squirrel ===
