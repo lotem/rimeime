@@ -384,21 +384,11 @@ https://gist.github.com/2290714
 
 网友帮忙制作了几款不同式样的图标，有模仿系统自带输入法图标样式的，有换成其他图案的，有对原图标加工美化的，收集于此：
 
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime_superoutman_1.icns]
+  * [https://github.com/lotem/rime-artworks/tree/master/user-contributed-icons]
 
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime_superoutman_2.icns]
+  * [https://github.com/lotem/rime-artworks/blob/master/rime-logo-2010/zhung-original-16x16.tiff] （旧版鼠须管图标，重命名为 `rime.icns`）
 
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime-user-icon.icns]
-
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime-user-icon-pencil.icns]
-
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/rime-user-icon-bold.icns]
-
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/zhung-original-16x16.tiff] （旧版鼠须管图标，也命名为 `rime.icns`）
-
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/squirrel-icon-v2-retina.icns] （第二版鼠须管图标）
-
-  * [http://rimeime.googlecode.com/svn/trunk/artworks/draft/squirrel-icon-v3.icns] （第三版鼠须管图标）
+  * [https://github.com/lotem/rime-artworks/blob/master/rime-logo-2012/squirrel-icon-retina.icns] （2012版鼠须管图标）
 
 用法是，将图标重名名为 `rime.icns`，替换 {{{/Library/Input\ Methods/Squirrel.app/Contents/Resources/rime.icns}}} 
 
