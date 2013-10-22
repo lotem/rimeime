@@ -5,10 +5,9 @@
 
 == Archlinux ==
 
-AUR packages: 
-  * [http://aur.archlinux.org/packages.php?ID=63144 brise]
-  * [http://aur.archlinux.org/packages.php?ID=59036 librime]
-  * [http://aur.archlinux.org/packages.php?ID=59037 ibus-rime]
+{{{
+pacman -S ibus-rime
+}}}
 
 == Debian ==
 
