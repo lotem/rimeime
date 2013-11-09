@@ -16,7 +16,7 @@ Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。
 
 === 鼠鬚管 | Squirrel ===
 Mac OS 發行版，適用於64位 Mac OS X 10.6+。
-  * [https://bintray.com/lotem/rime/Squirrel 鼠鬚管 0.9.21]〔[http://dl.bintray.com/lotem/rime/Squirrel-0.9.21.1.zip?direct 下載]〕〔[http://rimeime.github.io/squirrel-update/ 更新日誌]〕
+  * [https://bintray.com/lotem/rime/Squirrel 鼠鬚管 0.9.22]〔[http://dl.bintray.com/lotem/rime/Squirrel-0.9.22.zip?direct 下載]〕〔[http://rimeime.github.io/squirrel-update/ 更新日誌]〕
   * 第三方圖形化配置工具：[https://github.com/neolee/SCU SCU]
 
 === 其他 ===
