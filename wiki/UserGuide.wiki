@@ -282,12 +282,12 @@ Rime 的後續版本將不斷改進算法，在輸入碼未命中碼表時，推
 
 === 備份及合併詞典快照 ===
 
-Rime 輸入法在使用中會在一定時間自動將用戶詞典備份爲快照文件 `*.snapshot` 。
+Rime 輸入法在使用中會在一定時間自動將用戶詞典備份爲快照文件 `*.userdb.txt` 。
 也可使用管理工具，備份指定的用戶詞典到快照文件。
 
 備份到快照中的打字習慣，可回復到新建立的或其他系統上的用戶詞典。
 
-執行合併詞典快照操作，只須選定要合併的 `.snapshot` 文件，因爲快照中已記錄了所屬詞典的名稱。
+執行合併詞典快照操作，只須選定要合併的 `.userdb.txt` 文件，因爲快照中已記錄了所屬詞典的名稱。
 
 你不必擔心來自快照的詞條已存在於用戶詞典的情況；詞頻更新爲二者的較大值，其他參數亦會按照合理的算法疊加。
 
@@ -364,18 +364,18 @@ sync_dir: '/Volumes/USBDRIVE/RimeSync'
 
 與安裝在其他系統上的 Rime 同步後，同步文件夾呈如下佈局：
 {{{
-D:\Dropbox\RimeSync\id-xxx\luna_pinyin.userdb.kct.snapshot
-D:\Dropbox\RimeSync\id-xxx\terra_pinyin.userdb.kct.snapshot
+D:\Dropbox\RimeSync\id-xxx\luna_pinyin.userdb.txt
+D:\Dropbox\RimeSync\id-xxx\terra_pinyin.userdb.txt
 D:\Dropbox\RimeSync\id-xxx\installation.yaml
 D:\Dropbox\RimeSync\id-xxx\default.custom.yaml
 D:\Dropbox\RimeSync\id-xxx\weasel.custom.yaml
 
-D:\Dropbox\RimeSync\id-yyy\terra_pinyin.userdb.kct.snapshot
+D:\Dropbox\RimeSync\id-yyy\terra_pinyin.userdb.txt
 D:\Dropbox\RimeSync\id-yyy\installation.yaml
 D:\Dropbox\RimeSync\id-yyy\default.custom.yaml
 D:\Dropbox\RimeSync\id-yyy\squirrel.custom.yaml
 
-D:\Dropbox\RimeSync\id-zzz\luna_pinyin.userdb.kct.snapshot
+D:\Dropbox\RimeSync\id-zzz\luna_pinyin.userdb.txt
 D:\Dropbox\RimeSync\id-zzz\installation.yaml
 D:\Dropbox\RimeSync\id-zzz\alternative.yaml
 D:\Dropbox\RimeSync\id-zzz\luna_pinyin.custom.yaml
