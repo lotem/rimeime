@@ -42,10 +42,6 @@ Rime 是跨平臺的輸入法軟件，Rime 輸入方案可通用於以下發行�
 
 取得適合你系統的最新版 Rime 輸入法，印一份《指南書》，準備開工了！
 
-== 設定項速查手冊 ==
-
-[https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_discription.md 雪齋的文檔] 全面而詳細解釋了輸入方案及詞典中各設定項的含義及用法。
-
 == Rime with Text Files ==
 
 文本爲王。
@@ -410,6 +406,11 @@ use_preset_vocabulary: true
 當含有多音字的詞組缺少編碼字段時，自動註音程序會利用權重百分比高於5%的讀音進行組合、生成全部可能的註音，如：
 
   「好好地」在編譯時自動註音爲「`hao hao de`」、「`hao hao di`」
+
+
+== 設定項速查手冊 ==
+
+[https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_discription.md 雪齋的文檔] 全面而詳細解釋了輸入方案及詞典中各設定項的含義及用法。
 
 
 == 八股文 ==
