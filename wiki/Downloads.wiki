@@ -15,8 +15,8 @@ Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。
   * [https://bintray.com/lotem/rime/weasel-expansion 小狼毫擴展方案集]〔[http://dl.bintray.com/lotem/rime/weasel-expansion-0.9.18.0.exe?direct 下載]〕
 
 === 鼠鬚管 | Squirrel ===
-Mac OS 發行版，適用於64位 Mac OS X 10.6+。
-  * [https://bintray.com/lotem/rime/Squirrel 鼠鬚管 0.9.23]〔[http://dl.bintray.com/lotem/rime/Squirrel-0.9.23.zip?direct 下載]〕〔[http://rimeime.github.io/squirrel-update/ 更新日誌]〕
+Mac OS 發行版，適用於64位 Mac OS X 10.7+。
+  * [https://bintray.com/lotem/rime/Squirrel 鼠鬚管 0.9.24]〔[http://dl.bintray.com/lotem/rime/Squirrel-0.9.24.zip?direct 下載]〕〔[http://rimeime.github.io/squirrel-update/ 更新日誌]〕
   * 第三方圖形化配置工具：[https://github.com/neolee/SCU SCU]
 
 === 其他 ===
