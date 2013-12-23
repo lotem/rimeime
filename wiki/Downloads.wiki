@@ -10,7 +10,7 @@ Linux 發行版，基於 IBus 輸入法框架。
 另有 csslayer 君幫忙寫的  [https://github.com/fcitx/fcitx-rime fcitx-rime]
 
 === 小狼毫 | Weasel ===
-Windows 發行版，適用於 Windows XP, 32/64位 Windows 7。
+Windows 發行版，適用於 Windows XP SP3, 32/64位 Windows 7。
   * [https://bintray.com/lotem/rime/Weasel 小狼毫 0.9.29.1]〔[http://dl.bintray.com/lotem/rime/weasel-0.9.29.1-installer.exe?direct 下載]〕〔[http://rimeime.github.io/weasel-update/ 更新日誌]〕
   * [https://bintray.com/lotem/rime/weasel-expansion 小狼毫擴展方案集]〔[http://dl.bintray.com/lotem/rime/weasel-expansion-0.9.18.0.exe?direct 下載]〕
 
