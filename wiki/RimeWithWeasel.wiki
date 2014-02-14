@@ -14,7 +14,7 @@ Download third-party libraries: boost(>=1.47.0).
 1. Checkout source code
 
 {{{
-git clone -b msvc10 git@github.com:lotem/weasel.git
+git clone git@github.com:lotem/weasel.git
 cd weasel
 git submodule update --init
 }}}
