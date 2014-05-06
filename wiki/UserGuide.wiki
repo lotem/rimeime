@@ -113,6 +113,7 @@ Rime 預設輸入方案有：朙月拼音★、語句流★、倉頡★、速成
   * 下頁：Control+v
   * 句首：Control+a
   * 句末：Control+e
+  * 回退：Control+h
   * 刪除：Control+d
   * 清空：Control+g
   * 刪詞：Control+k
