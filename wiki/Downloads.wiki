@@ -22,7 +22,7 @@
 === 其他 ===
 
 [http://code.google.com/p/rimeime/downloads/list 本站歷史下載列表]
-（註：由於 Google Code 將停止下載服務，以上軟件的最新版本並不在列）
+（註：由於 Google Code 已停止下載服務，以上軟件的最新版本並不在列）
 
 <hr/>
 
