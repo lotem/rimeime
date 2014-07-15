@@ -107,13 +107,18 @@ sudo yum install ibus-rime
 To build la rime, you need these tools and libraries:
   * cmake
   * boost >= 1.46
-  * glog (new dependency for librime>=0.9.3)
+  * glog (for librime>=0.9.3)
   * gtest (optional, recommended for developers)
   * libibus-1.0
-  * libnotify (new dependency for ibus-rime>=0.9.2)
+  * libnotify (for ibus-rime>=0.9.2)
   * kyotocabinet
-  * opencc
+  * libmarisa (for librime>=1.2)
+  * opencc 0.x
   * yaml-cpp >= 0.5
+
+Note:
+
+    If your compiler doesn't fully support C++11, please checkout `oldschool` branch from https://github.com/lotem/librime .
 
 == Build and install ibus-rime ==
 
