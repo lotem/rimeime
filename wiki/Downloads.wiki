@@ -7,6 +7,9 @@
 適用於 Linux，基於 IBus 輸入法框架
   * [http://code.google.com/p/rimeime/downloads/detail?name=brise-0.30.tar.gz brise-0.30]，[http://code.google.com/p/rimeime/downloads/detail?name=librime-1.0.tar.gz librime-1.0]，[http://code.google.com/p/rimeime/downloads/detail?name=ibus-rime-1.0.tar.gz ibus-rime-1.0]，[RimeWithIBus 安裝說明]
 
+更新：需要支持 C++11 的編譯器（gcc>=4.8）
+  * [http://dl.bintray.com/lotem/rime/brise-0.35.tar.gz brise-0.35]，[http://dl.bintray.com/lotem/rime/librime-1.2.tar.gz librime-1.2]，[http://dl.bintray.com/lotem/rime/ibus-rime-1.2.tar.gz ibus-rime-1.2]
+
 另有 csslayer 君開發、基於 fcitx 輸入法框架的  [https://github.com/fcitx/fcitx-rime fcitx-rime]
 
 === 小狼毫 | Weasel ===
