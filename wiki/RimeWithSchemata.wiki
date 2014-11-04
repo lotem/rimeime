@@ -410,7 +410,7 @@ use_preset_vocabulary: true
 
 == 設定項速查手冊 ==
 
-[https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_discription.md 雪齋的文檔] 全面而詳細解釋了輸入方案及詞典中各設定項的含義及用法。
+[https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md 雪齋的文檔] 全面而詳細解釋了輸入方案及詞典中各設定項的含義及用法。
 
 
 == 八股文 ==
